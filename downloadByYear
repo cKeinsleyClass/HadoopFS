@@ -1,7 +1,7 @@
 #!/bin/bash
 
-year="$1"
 urlFirst="http://www.retrosheet.org/events/"
-urlSecond="eve.zip"
+urlFirst+="$1"
+urlFirst+="eve.zip"
 
-wget $urlFirst + $year + $urlSecond
+wget $urlFirst
