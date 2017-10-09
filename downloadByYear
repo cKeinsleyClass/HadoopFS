@@ -1,7 +1,0 @@
-#!/bin/bash
-
-urlFirst="http://www.retrosheet.org/events/"
-urlFirst+="$1"
-urlFirst+="eve.zip"
-
-wget $urlFirst
