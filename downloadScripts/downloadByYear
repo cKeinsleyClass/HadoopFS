@@ -12,11 +12,11 @@ gamelogs+="$1"
 gamelogs+=".zip"
 
 wget $gamelogs
-gamelogs="$1"
-gamelogs+=".zip"
-hadoop fs -put $gamelogs /PlayBall/GameLogs
-hadoop fs -unzip $gamelogs -d /PlayBall/GameLogs
-hadoop fs -rm /PlayBall/GameLogs/$gamelogs
+gamelogs="gl$1.zip"
+unzip $gamelogs
+rm $gamelogs
+unzipped="GL$1.TXT"
+hadoop fs -put $unzipped /PlayBall/GameLogs
 
 
 schedule="http://www.retrosheet.org/schedule/"
