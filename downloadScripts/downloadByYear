@@ -3,7 +3,6 @@
 playByPlay="http://www.retrosheet.org/events/"
 playByPlay+="$1"
 playByPlay+="eve.zip"
-
 wget $playByPlay
 playByPlay="$1eve.zip"
 unzip $playByPlay
@@ -16,6 +15,9 @@ unzipped="*$1.ROS"
 hadoop fs -put $unzipped PlayBall/Roster/$1
 unzipped="TEAM$1"
 hadoop fs -put $unzipped PlayBall/Teams
+rm -f $1*
+rm -f *$1.ROS
+rm -f TEAM$1
 
 
 gamelogs="http://www.retrosheet.org/gamelogs/gl"
@@ -27,6 +29,7 @@ unzip $gamelogs
 rm $gamelogs
 unzipped="GL$1.TXT"
 hadoop fs -put $unzipped PlayBall/GameLogs
+rm -f $unzipped
 
 
 schedule="http://www.retrosheet.org/schedule/"
@@ -38,3 +41,4 @@ unzip $schedule
 rm $schedule
 unzipped="$1SKED.TXT"
 hadoop fs -put $unzipped PlayBall/Schedules
+rm -f $unzipped
