@@ -29,6 +29,7 @@ unzip $gamelogs
 rm $gamelogs
 unzipped="GL$1.TXT"
 hadoop fs -put $unzipped PlayBall/GameLogs
+rm -f $unzipped
 
 
 schedule="http://www.retrosheet.org/schedule/"
@@ -40,3 +41,4 @@ unzip $schedule
 rm $schedule
 unzipped="$1SKED.TXT"
 hadoop fs -put $unzipped PlayBall/Schedules
+rm -f $unzipped
