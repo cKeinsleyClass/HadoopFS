@@ -10,17 +10,20 @@ wget $playByPlay
 gamelogs="http://www.retrosheet.org/gamelogs/gl"
 gamelogs+="$1"
 gamelogs+=".zip"
-
 wget $gamelogs
 gamelogs="gl$1.zip"
 unzip $gamelogs
 rm $gamelogs
 unzipped="GL$1.TXT"
-hadoop fs -put $unzipped /PlayBall/GameLogs
+hadoop fs -put $unzipped PlayBall/GameLogs
 
 
 schedule="http://www.retrosheet.org/schedule/"
 schedule+="$1"
 schedule+="SKED.ZIP"
-
 wget $schedule
+schedule="$1SKED.ZIP"
+unzip $schedule
+rm $schedule
+unzipped="$1SKED.TXT"
+hadoop fs -put $unzipped PlayBall/Schedules
