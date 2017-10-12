@@ -6,5 +6,5 @@ words = FOREACH tokenizedRecords GENERATE FLATTEN(wordBag) as Word;
 filteredWords = FOREACH words GENERATE REPLACE(Word,'[.]','') as Word;
 upperCasedWords = FOREACH filteredWords GENERATE upper(Word) as Word;
 groupedWords = GROUP upperCasedWords by Word;
-sizes = FOREACH groupedWords GENERATE group, SIZE(group);
+sizes = FOREACH groupedWords GENERATE group, SIZE(upperCasedWords);
 STORE sizes into '$file_out' using PigStorage(',');
