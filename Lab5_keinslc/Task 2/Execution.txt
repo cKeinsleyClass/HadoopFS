@@ -1,1 +1,3 @@
-Task pig -param "file_in=/tmp/lab5/input/testFile.txt" -param "file_out=/tmp/lab5/output" WordCount.pig
+
+Hadoop fs -put keinslc_Lab5.jar /tmp/input/
+pig -param "file_in=<FILE INPUT>" -param "file_out=<FILE OUTPUT>" WordCount.pig
