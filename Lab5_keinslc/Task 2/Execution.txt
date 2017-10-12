@@ -1,0 +1,1 @@
+Task pig -param "file_in=/tmp/lab5/input/testFile.txt" -param "file_out=/tmp/lab5/output" WordCount.pig
