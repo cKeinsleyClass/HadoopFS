@@ -1,0 +1,10 @@
+REGISTER 'hdfs:///tmp/input/keinslc_Lab5.jar';
+DEFINE upper edu.rosehulman.keinslc.Upper();
+records = LOAD '$file_in' using PigStorage('\n') AS (line:chararray);
+tokenizedRecords = FOREACH records GENERATE TOKENIZE(line) as wordBag;
+words = FOREACH tokenizedRecords GENERATE FLATTEN(wordBag) as Word;
+filteredWords = FOREACH words GENERATE REPLACE(Word,'[.]','') as Word;
+upperCasedWords = FOREACH words GENERATE upper(Word) as Word;
+groupedWords = GROUP upperCasedWords by Word;
+sizes = FOREACH groupedWords GENERATE group, SIZE(group);
+STORE temp into '$file_out' using PigStorage(',');

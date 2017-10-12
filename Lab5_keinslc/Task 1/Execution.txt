@@ -1,0 +1,1 @@
+pig -param "file_in = <INPUT FILE>" -param "file_out = <OUTPUT FILE>" MinMaxAvg.pig
