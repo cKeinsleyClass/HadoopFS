@@ -1,4 +1,4 @@
-%default current_date'date+%s'
+%default current_date 'date +%Y-%m-%h'
 
 %declare file_out '$dir_out/$current_date'
 
