@@ -1,8 +1,6 @@
-%declare date = CurrentTime();
-%declare year = GetYear(date);
-%declare month = GetMonth(date);
-%declare day = GetDay(date);
-%declare file_out '$dir_out/$year-$month-$day'
+%default current_date 'date+%Y-%m-%d'
+
+%declare file_out '$dir_out/$current_date'
 
 REGISTER 'hdfs:///tmp/input/keinslc_Lab5.jar';
 
