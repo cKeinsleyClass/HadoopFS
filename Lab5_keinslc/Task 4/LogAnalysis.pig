@@ -1,4 +1,4 @@
-%default current_date date;
+%default current_date `date +%y-%m-%h`;
 %declare file_out '$dir_out/$current_date'
 
 REGISTER 'hdfs:///tmp/input/keinslc_Lab5.jar';
