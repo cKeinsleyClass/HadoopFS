@@ -1,0 +1,2 @@
+hadoop fs -put keinslc_Lab5.jar /tmp/input/
+pig -param "file_in=<FILE INPUT>" -param "dir_out=<OUTPUT DIRECTORY>" LogAnalysis.pig
