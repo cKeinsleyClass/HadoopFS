@@ -14,6 +14,4 @@ STORED AS TEXTFILE;
 
 LOAD DATA INPATH '${hiveconf:inputLocation}' overwrite INTO table ${hiveconf:tableName};
 
-select * from ${hiveconf:tableName};
-
 select year, max(temp), min(temp), avg(temp) from ${hiveconf:tableName} group by year;
