@@ -1,2 +1,2 @@
 hadoop fs -put Lab5_Task2-0.0.1-SNAPSHOT.jar tmp/input/laeschjs
-pig -param input='/tmp/lab5/input/testFile.txt' output='/tmp/lab5/output/laeschjs/t2' -f lab5_wordcount.pig
+pig -param input='/tmp/lab5/input/testFile.txt' -param output='/tmp/lab5/output/laeschjs/t2' -f lab5_wordcount.pig
