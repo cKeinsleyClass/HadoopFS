@@ -1,2 +1,2 @@
-hadoop fs -put Lab5_Task3-0.0.1-SNAPSHOT tmp/input
-pig -param input='/pig/input/lab5/tempInput.txt' output='/pig/output/lab5'-f lab5_tempUDF.pig
+hadoop fs -put Lab5_Task3-0.0.1-SNAPSHOT.jar tmp/input/laeschjs
+pig -param input='/tmp/lab5/input/tempInput.txt' output='/tmp/lab5/output/laeschjs/t3' -f lab5_tempUDF.pig

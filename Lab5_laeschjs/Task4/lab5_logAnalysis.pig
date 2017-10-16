@@ -1,9 +1,9 @@
-REGISTER 'hdfs:///tmp/input/Lab5_task4-0.0.1-SNAPSHOT.jar';
+REGISTER 'hdfs:///tmp/input/laeschjs/Lab5_task4-0.0.1-SNAPSHOT.jar';
 DEFINE ratio edu.rosehulman.laeschjs.Ratio();
 DEFINE getBlogName edu.rosehulman.laeschjs.BlogName();
 DEFINE hits edu.rosehulman.laeschjs.Hits();
 DEFINE errors edu.rosehulman.laeschjs.Errors();
-records = LOAD $input using PigStorage('\t');
+records = LOAD '$input' using PigStorage('\t');
 smallrecords = foreach records generate (chararray) $7 as blogs, (chararray) $13 as results, (chararray) $0 as dates, (chararray) $1 as times;
 grouped = GROUP smallrecords BY getBlogName(blogs);
 all_hits = FILTER grouped by hits(smallrecords.results);
@@ -12,4 +12,4 @@ all_errors = FILTER grouped by errors(smallrecords.results);
 num_errors = FOREACH all_errors GENERATE group, COUNT(smallrecords.results) as err_count;
 combined = JOIN grouped by group, num_hits by group, num_errors by group;
 outp = FOREACH combined GENERATE grouped::group, num_hits::hit_count, num_errors::err_count, GetYear(grouped::smallrecords.dates), GetMonth(grouped::smallrecords.dates), GetDay(grouped::smallrecords.dates), GetHour(grouped::smallrecords.dates);
-STORE wordcount into $output using PigStorage(',');
+STORE wordcount into '$output' using PigStorage(',');

@@ -1,1 +1,1 @@
-pig -param input='/pig/input/lab5/tempInput.txt' output='/pig/output/lab5'-f lab5_temp.pig
+pig -param input='/tmp/lab5/input/tempInput.txt' output='/tmp/lab5/output/laeschjs/t1' -f lab5_temp.pig
