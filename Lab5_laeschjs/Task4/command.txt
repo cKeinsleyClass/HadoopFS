@@ -1,0 +1,2 @@
+hadoop fs -put Lab5_Task2-0.0.1-SNAPSHOT tmp/input
+pig -param input='/pig/input/lab5/testFile.txt' output='/pig/output/lab5'-f lab5_wordcount.pig
