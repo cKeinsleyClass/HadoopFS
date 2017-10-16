@@ -1,3 +1,0 @@
-
-Hadoop fs -put keinslc_Lab5.jar /tmp/input/
-pig -param "file_in=<FILE INPUT>" -param "file_out=<FILE OUTPUT>" WordCount.pig
