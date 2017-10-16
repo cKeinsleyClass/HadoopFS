@@ -1,0 +1,1 @@
+hive -hiveconf databaseName=<DBName> -hiveconf tableName=<TName> -hiveconf inputLocation=<Input> -f MinMaxAvg.hql;
