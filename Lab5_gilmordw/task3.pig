@@ -1,4 +1,4 @@
-REGISTER gilmordwlab5-0.0.1-SNAPSHOT.jar;
+REGISTER /tmp/lab5/jar/gilmordwlab5-0.0.1-SNAPSHOT.jar;
 records = LOAD '$input' using PigStorage('\t') AS (year:chararray, temperature:int, quality:int);
 frecords = FILTER records by edu.rosehulman.gilmordw.Task3Filter(quality);
 grecords = GROUP frecords by year;
