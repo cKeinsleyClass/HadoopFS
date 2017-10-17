@@ -1,0 +1,1 @@
+hive -hiveconf databaseName=<Name of Database> -hiveconf tableName=<Name Of Table> -hiveconf inputLocation='<InputLocation>' my_hive.hql;
