@@ -13,5 +13,5 @@ counthits = FOREACH ghits GENERATE group AS blog, COUNT(hitblogrecords) AS hits;
 counterrors = FOREACH gerrors GENERATE group AS blog, COUNT(errorblogreocrds) AS errors;
 joinhits = JOIN countblogs BY blog FULL OUTER, counthits BY blog;
 joinRes = JOIN joinhits BY countblogs::blog FULL OUTER, counterrors BY blog;
-temp = FOREACH joinRes GENERATE countblogs::blog, edu.rosehulman.gilmordw.Task4Ratio(hits, blogs), edu.rosehulman.gilmordw.Task4Ratio(errors, blogs);
-STORE temp into '$output' using PigStorage(',');  
+temp = FOREACH joinRes GENERATE countblogs::blog, edu.rosehulman.gilmordw.Task4Ratio(hits, blogs), edu.rosehulman.gilmordw.Task4Ratio(errors, blogs), GetYear(CurrentTime()), GetMonth(CurrentTime()), GetDay(CurrentTime()), GetHour(CurrentTime());
+STORE temp into '$output' using PigStorage('\t');  
