@@ -19,4 +19,4 @@ mytotal = FOREACH groupall GENERATE group, COUNT(filtered.results) as total_coun
 combined = JOIN mytotal by group FULL OUTER, num_hits by group;
 all_combined = JOIN combined by mytotal::group FULL OUTER, num_errors by group;
 outp = FOREACH all_combined GENERATE combined::mytotal::group, ratio(combined::num_hits::hit_count, combined::mytotal::total_count), ratio(num_errors::err_count, combined::mytotal::total_count), GetYear(CurrentTime()), GetMonth(CurrentTime()), GetDay(CurrentTime()), GetHour(CurrentTime());
-STORE outp into '$output/$MYDATE' using PigStorage(',');
+STORE outp into '$output/$MYDATE' using PigStorage('\t');
