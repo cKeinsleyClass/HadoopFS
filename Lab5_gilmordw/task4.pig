@@ -1,4 +1,5 @@
 REGISTER gilmordwlab5-0.0.1-SNAPSHOT.jar;
+%declare date `date +%F`;
 records = LOAD '$input' using PigStorage('\t') AS (date, time, location, bytes, ip, method, csHost, uriStem:chararray, scstatus, csReferer, csUserAgent, csuriquery, csCookie, resType:chararray, xedgerequestid);
 rrecords = FOREACH records GENERATE uriStem, resType;
 frecords = FILTER rrecords BY STARTSWITH(uriStem, '/blogs');
@@ -14,4 +15,4 @@ counterrors = FOREACH gerrors GENERATE group AS blog, COUNT(errorblogreocrds) AS
 joinhits = JOIN countblogs BY blog FULL OUTER, counthits BY blog;
 joinRes = JOIN joinhits BY countblogs::blog FULL OUTER, counterrors BY blog;
 temp = FOREACH joinRes GENERATE countblogs::blog, edu.rosehulman.gilmordw.Task4Ratio(hits, blogs), edu.rosehulman.gilmordw.Task4Ratio(errors, blogs), GetYear(CurrentTime()), GetMonth(CurrentTime()), GetDay(CurrentTime()), GetHour(CurrentTime());
-STORE temp into '$output' using PigStorage('\t');  
+STORE temp into '$output/$date' using PigStorage('\t');  
