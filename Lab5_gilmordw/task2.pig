@@ -1,6 +1,6 @@
 REGISTER gilmordwlab5-0.0.1-SNAPSHOT.jar;
 records = LOAD '$input' AS (line:chararray);
-words = FOREACH records GENERATE edu.rosehulman.gilmordw.Upper(FLATTEN(TOKENIZE(line,' '))) AS word; 
-gwords = GROUP words BY word; 
-temp = FOREACH gwords GENERATE group, COUNT(words);
+frecords = FOREACH records GENERATE FLATTEN(TOKENIZE(REPLACE(line, '([^a-zA-Z\'\\s]+)', ''),' ')) AS word;
+grecords = GROUP frecords BY word; 
+temp = FOREACH grecords GENERATE edu.rosehulman.gilmordw.Upper(group), COUNT(frecords);
 STORE temp into '$output' using PigStorage(',');  

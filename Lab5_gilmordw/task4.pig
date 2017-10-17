@@ -1,1 +1,15 @@
-records = LOAD '$input' using PigStorage('\t');
+records = LOAD '$input' using PigStorage('\t') AS (date, time, location, bytes, ip, method, csHost, uriStem:chararray, scstatus, csReferer, csUserAgent, csuriquery, csCookie, resType:chararray, xedgerequestid);
+rrecords = FOREACH records GENERATE uriStem, resType;
+frecords = FILTER rrecords BY STARTSWITH(uriStem, '/blogs');
+blogrecords = FOREACH frecords GENERATE SUBSTRING(uriStem, 7, INDEXOF(uriStem, '/', 7)) AS blog, resType;
+hitblogrecords = FILTER blogrecords BY resType == 'Hit';
+errorblogreocrds = FILTER blogrecords BY resType == 'Error';
+gblogs = GROUP blogrecords BY blog;
+ghits = GROUP hitblogrecords BY blog;
+gerrors = GROUP errorblogreocrds BY blog;
+countblogs = FOREACH gblogs GENERATE group, COUNT(blogrecords) AS blogs;
+counthits = FOREACH ghits GENERATE group, COUNT(hitblogrecords) AS hits;
+counterrors = FOREACH gerrors GENERATE group, COUNT(errorblogreocrds) AS errors;
+joinRes = JOIN countblogs BY blog, counthits BY blog, count errors BY blog;
+temp = FOREACH joinRes GENERATE blog, edu.rosehulman.gilmordw.task4Ratio(hits, blogs), edu.roshulman.gilmordw.task4Ratio(errors, blogs);
+STORE temp into '$output' using PigStorage(',');  
