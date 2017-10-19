@@ -1,4 +1,4 @@
-REGISTER gilmordwlab5-0.0.1-SNAPSHOT.jar;
+REGISTER 'hdfs:///tmp/lab5/jar/gilmordwlab5-0.0.1-SNAPSHOT.jar';
 %declare date `date +%F`;
 records = LOAD '$input' using PigStorage('\t') AS (date, time, location, bytes, ip, method, csHost, uriStem:chararray, scstatus, csReferer, csUserAgent, csuriquery, csCookie, resType:chararray, xedgerequestid);
 rrecords = FOREACH records GENERATE uriStem, resType;
