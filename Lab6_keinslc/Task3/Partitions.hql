@@ -58,9 +58,9 @@ Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS orc;
 
-insert into table RoseStaticEmployeesORC partition(dept='csse') select * from RoseEmployees where dept='csse';
-insert into table RoseStaticEmployeesORC partition(dept='ece') select * from RoseEmployees where dept='ece';
-insert into table RoseStaticEmployeesORC partition(dept='admin') select * from RoseEmployees where dept='admin';
+insert into table RoseStaticEmployeesORC partition(dept='csse') select firstName, lastName, speciality, employeeNumber from RoseEmployees where dept='csse';
+insert into table RoseStaticEmployeesORC partition(dept='ece') select firstName, lastName, speciality, employeeNumber from RoseEmployees where dept='ece';
+insert into table RoseStaticEmployeesORC partition(dept='admin') select firstName, lastName, speciality, employeeNumber from RoseEmployees where dept='admin';
 
 select Count(*) from RoseEmployees;
 select Count(*) from RoseStaticEmployees;
