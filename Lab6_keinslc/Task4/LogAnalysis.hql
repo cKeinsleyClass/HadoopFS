@@ -4,8 +4,8 @@ create database if not exists logAnalysisusername;
 create Table if not exists archiveLogData
 (
     blog string,
-    hitRatio float,
-    errorRatio float,
+    hitRatio double,
+    errorRatio double,
     year int, 
     month int, 
     day int, 
