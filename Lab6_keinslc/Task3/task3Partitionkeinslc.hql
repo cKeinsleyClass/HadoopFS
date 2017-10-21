@@ -1,2 +1,2 @@
 use lab6keinslc;
-msck reparir table RoseDynamicEmployeesManualAdd;
+msck repair table RoseDynamicEmployeesManualAdd;
