@@ -10,7 +10,7 @@ quality int
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
 STORED AS TEXTFILE
 
-LOAD DATA INPATH '/tmp/hiveInput/tempinput.txt' overwrite INTO table temperature;
+LOAD DATA INPATH '/tmp/input/laeschjs/lab6/tempInput.txt' overwrite INTO table temperatureTable;
 
-select year, max(temperature) from temperatureTable where quality where quality=1 or quality=0 group by year;
+select year, max(temperature) from temperatureTable where quality=1 or quality=0 group by year;
 
