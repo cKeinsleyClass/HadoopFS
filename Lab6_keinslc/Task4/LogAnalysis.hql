@@ -14,7 +14,7 @@ create Table if not exists archiveLogData
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
 STORED AS orc; 
 
-LOAD DATA INPATH '${hiveconf:pigOutputDir}/${hiveconf:jobDate}' INTO table archiveLogData;
+LOAD DATA INPATH '${hiveconf:pigOutputDir}/${hiveconf:jobDate}/p*' INTO table archiveLogData;
 
 set hive.exec.dynamic.partition.mode=nonstrict;
 
