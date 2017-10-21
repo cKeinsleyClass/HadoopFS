@@ -12,8 +12,8 @@ LOAD DATA INPATH '${hiveconf:inputLocation}' overwrite INTO table ${hiveconf:tab
 
 DROP FUNCTION IF EXISTS udfUpper;
 DROP FUNCTION IF EXISTS udfStrip;
-CREATE FUNCTION udfUpper AS 'edu.rosehulman.laeschjs.Upper' USING JAR 'hdfs:///tmp/input/laeschjs/Lab6T2-0.0.1-SNAPSHOT.jar';
-CREATE FUNCTION udfStrip AS 'edu.rosehulman.laeschjs.Strip' USING JAR 'hdfs:///tmp/input/laeschjs/Lab6T2-0.0.1-SNAPSHOT.jar';
+CREATE FUNCTION udfUpper AS 'edu.rosehulman.laeschjs.Upper' USING JAR 'hdfs:///tmp/input/laeschjs/lab6/Lab6T2-0.0.1-SNAPSHOT.jar';
+CREATE FUNCTION udfStrip AS 'edu.rosehulman.laeschjs.Strip' USING JAR 'hdfs:///tmp/input/laeschjs/lab6/Lab6T2-0.0.1-SNAPSHOT.jar';
 
 select udfUpper(udfStrip(word)) from ${hiveconf:tableName}
 lateral view explode(split(line, ' ')) temp as word
