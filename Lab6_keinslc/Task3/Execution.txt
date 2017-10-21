@@ -1,0 +1,2 @@
+hive -hiveconf databaseName=lab6keinslc -hiveconf allEmployeesLocation=/tmp/hiveInput/allEmployees.txt -hiveconf csseEmployeesLocation=/tmp/hiveInput/csseEmployees.txt -hiveconf eceEmployeesLocation=/tmp/hiveInput/eceEmployees.txt -hiveconf adminEmployeesLocation=/tmp/hiveInput/adminEmployees.txt -f Partitions.hql
+hive -f task3Paritionkeinslc.hql
