@@ -15,6 +15,10 @@ DROP FUNCTION IF EXISTS udfStrip;
 CREATE FUNCTION udfUpper AS 'edu.rosehulman.laeschjs.Upper' USING JAR 'hdfs:///tmp/input/laeschjs/lab6/Lab6T2-0.0.1-SNAPSHOT.jar';
 CREATE FUNCTION udfStrip AS 'edu.rosehulman.laeschjs.Strip' USING JAR 'hdfs:///tmp/input/laeschjs/lab6/Lab6T2-0.0.1-SNAPSHOT.jar';
 
-select udfUpper(udfStrip(word)) from ${hiveconf:tableName}
+drop table if exists strip_table;
+create table strip_table as
+select udfStrip(word) as strip_word from ${hiveconf:tableName}
 lateral view explode(split(line, ' ')) temp as word
-group by udfUpper(udfStrip(word))
+
+select udfUpper(strip_word), count(strip_word) from strip_table
+group by udfUpper(strip_word)
