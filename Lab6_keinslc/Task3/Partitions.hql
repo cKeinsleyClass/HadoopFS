@@ -5,7 +5,7 @@ create database if not exists ${hiveconf:databaseName};
 
 use ${hiveconf:databaseName};
 
-create TABLE if not exits RoseEmployees
+create TABLE if not exists RoseEmployees
 (
     firstName string,
     lastName string,
@@ -19,7 +19,7 @@ STORED AS TEXTFILE;
 LOAD DATA INPATH '${hiveconf:allEmployeesLocation}' overwrite INTO table RoseEmployees;
 
 --Partitioned by dept string
-create Table if not exits RoseStaticEmployees
+create Table if not exists RoseStaticEmployees
 (
     firstName string,
     lastName string,
@@ -47,7 +47,7 @@ STORED AS orc;
 
 insert into table RoseDynamicEmployees partition(dept) select * from RoseStaticEmployees;
 
-create TABLE if not exits RoseStaticEmployeesORC
+create TABLE if not exists RoseStaticEmployeesORC
 (
     firstName string,
     lastName string,
@@ -71,7 +71,7 @@ show partitions RoseStaticEmployees;
 show partitions RoseDynamicEmployees;
 show partitions RoseStaticEmployeesORC;
 
-create TABLE if not exits RoseDynamicEmployeesManualAdd 
+create TABLE if not exists RoseDynamicEmployeesManualAdd 
 (
     firstName string,
     lastName string,
