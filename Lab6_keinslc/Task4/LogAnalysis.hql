@@ -1,5 +1,5 @@
 
-create database if not exists logAnalysisusername;
+create database if not exists ${hiveconf:databaseName};
 
 create Table if not exists archiveLogData
 (
