@@ -13,7 +13,7 @@ line string
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\n'
 STORED AS TEXTFILE; 
 
-LOAD DATA INPATH ${hiveconf:inputLocation} overwrite INTO table ${hiveconf:tableName};
+LOAD DATA INPATH '${hiveconf:inputLocation}' overwrite INTO table ${hiveconf:tableName};
 
 Select word, count(*) FROM ${hiveconf:tableName}
  
