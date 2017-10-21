@@ -1,6 +1,5 @@
 set hive.exec.dynamic.partition.mode=nonstrict;
 
-
 create database if not exists ${hiveconf:databaseName};
 
 use ${hiveconf:databaseName};
