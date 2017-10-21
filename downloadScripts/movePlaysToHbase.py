@@ -20,6 +20,6 @@ for file in files:
 				tempFile.write(line + "\n");
 	games = os.listdir(folder + "/temp")
 	for game in games:
-		os.system("pig -param input='{}' -f goThroughEachGame.pig".format(folder + "/temp/" + game))
+		os.system("pig -D tez.counters.max=1000 -x tez_local -param input='{}' -f goThroughEachGame.pig".format(folder + "/temp/" + game))
 		break
 	break
