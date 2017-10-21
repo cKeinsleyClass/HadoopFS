@@ -1,16 +1,18 @@
-create database IF NOT EXISTS lab6laeschjs;
-use lab6laeschjs;
+create database IF NOT EXISTS ${hiveconf:databaseName};
+use ${hiveconf:databaseName};
 
-CREATE TABLE IF NOT EXISTS temperatureTable
+CREATE TABLE IF NOT EXISTS ${hiveconf:tableName}
 (
 year int,
 temperature float,
 quality int
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
-STORED AS TEXTFILE
+STORED AS TEXTFILE;
 
-LOAD DATA INPATH '/tmp/input/laeschjs/lab6/tempInput.txt' overwrite INTO table temperatureTable;
+LOAD DATA INPATH '${hiveconf:inputLocation}' overwrite INTO table ${hiveconf:tableName};
 
-select year, max(temperature) from temperatureTable where quality=1 or quality=0 group by year;
+select year, max(temperature) from ${hiveconf:tableName} where quality=1 or quality=0 group by year;
+select year, min(temperature) from ${hiveconf:tableName} where quality=1 or quality=0 group by year;
+select year, avg(temperature) from ${hiveconf:tableName} where quality=1 or quality=0 group by year;
 
