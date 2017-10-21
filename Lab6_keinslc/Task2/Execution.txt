@@ -1,2 +1,2 @@
 hadoop fs -put keinslc_lab6.jar /tmp/input/
-hive -hiveconf databaseName=<DBName> -hiveconf tableName=<TableName> -hiveconf inputLocation='<INLocation' -f WordCount.hql
+hive -hiveconf databaseName=<DBName> -hiveconf tableName=<TableName> -hiveconf inputLocation=<INLocation> -f WordCount.hql
