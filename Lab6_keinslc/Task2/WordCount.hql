@@ -1,9 +1,3 @@
-
-
-set databaseName=lab6keinslc;
-set tableName=WordCount;
-set inputLocation='/tmp/hiveInput/testFile.txt';
-
 create TEMPORARY function myUpper as 'edu.rosehulman.keinslc.Upper' using Jar 'hdfs:///tmp/input/keinslc_lab6.jar';
 create TEMPORARY function myTrim as 'edu.rosehulman.keinslc.Trim' using Jar 'hdfs:///tmp/input/keinslc_lab6.jar';
 
