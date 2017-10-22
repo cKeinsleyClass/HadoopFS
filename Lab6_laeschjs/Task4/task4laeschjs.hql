@@ -14,7 +14,7 @@ hour int
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
-LOAD DATA INPATH '${hiveconf:pigOutputDir}/${hiveconf:pigOutputDir}/part*' overwrite INTO table archiveLogData;
+LOAD DATA INPATH '${hiveconf:pigOutputDir}/${hiveconf:jobDate}/part*' overwrite INTO table archiveLogData;
 
 CREATE TABLE IF NOT EXISTS logData
 (
