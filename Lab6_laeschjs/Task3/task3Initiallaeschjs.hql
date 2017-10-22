@@ -25,9 +25,9 @@ Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
-LOAD DATA INPATH '${hiveconf:csseEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'csse')
-LOAD DATA INPATH '${hiveconf:eceEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'ece')
-LOAD DATA INPATH '${hiveconf:adminEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'admin')
+LOAD DATA INPATH '${hiveconf:csseEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'csse');
+LOAD DATA INPATH '${hiveconf:eceEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'ece');
+LOAD DATA INPATH '${hiveconf:adminEmployeesLocation}' INTO Table RoseStaticEmployees Partition(dept = 'admin');
 
 Create TABLE RoseDynamicEmployees
 (
