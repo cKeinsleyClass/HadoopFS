@@ -1,0 +1,3 @@
+hive --hiveconf allEmployeesLocation='allEmployees.txt' --hiveconf csseEmployeesLocation='csseEmployees.txt' --hiveconf eceEmployeesLocation='eceEmployees.txt' --hiveconf adminEmployeesLocation='adminEmployees.txt' --hiveconf databaseName='lab6laeschjs' -f task3Initiallaeschjs.hql
+
+hive --hiveconf databaseName='lab6laeschjs' -f task3Partitionlaeschjs.hql

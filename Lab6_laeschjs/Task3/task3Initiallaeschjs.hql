@@ -9,7 +9,6 @@ speciality string,
 dept string,
 eNum int
 )
-Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
@@ -22,6 +21,7 @@ lname string,
 speciality string,
 eNum int
 )
+Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
@@ -38,10 +38,10 @@ eNum int
 )
 Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS orc
+STORED AS orc;
 
 Set hive.exec.dynamic.partition.mode=nonstrict;
-insert into table RoseDynamicEmployees partition(dept) select fname,lname,speciality,eNum from RoseStaticEmployees;
+insert into table RoseDynamicEmployees partition(dept) select fname,lname,speciality,eNum,dept from RoseStaticEmployees;
 
 Create TABLE RoseStaticEmployeesORC
 (
@@ -52,11 +52,11 @@ eNum int
 )
 Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS orc
+STORED AS orc;
 
-insert into table RoseStaticEmployeesORC partition(dept='csse') select fname,lname,speciality,eNum from RoseEmployees where dept='csse'
-insert into table RoseStaticEmployeesORC partition(dept='ece') select fname,lname,speciality,eNum from RoseEmployees where dept='ece'
-insert into table RoseStaticEmployeesORC partition(dept='admin') select fname,lname,speciality,eNum from RoseEmployees where dept='admin'
+insert into table RoseStaticEmployeesORC partition(dept='csse') select fname,lname,speciality,eNum from RoseEmployees where dept='csse';
+insert into table RoseStaticEmployeesORC partition(dept='ece') select fname,lname,speciality,eNum from RoseEmployees where dept='ece';
+insert into table RoseStaticEmployeesORC partition(dept='admin') select fname,lname,speciality,eNum from RoseEmployees where dept='admin';
 
 select count(*) from RoseEmployees;
 select count(*) from RoseStaticEmployees;
@@ -76,5 +76,5 @@ eNum int
 )
 Partitioned by (dept string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS orc
+STORED AS orc;
 
