@@ -1,1 +1,1 @@
-hive --hiveconf inputLocation='tempInput.txt' --hiveconf databaseName='lab6laeschjs' tableName='tempTable' -f temperature.hql
+hive --hiveconf inputLocation='tempInput.txt' --hiveconf databaseName='lab6laeschjs' --hiveconf tableName='tempTable' -f temperature.hql
