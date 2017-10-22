@@ -1,0 +1,1 @@
+hive --hiveconf databaseName='lab6laeschjs' --hiveconf pigOutputDir='/tmp/lab5/output/laeschjs/t4' --hiveconf jobDate='2017-10-17'
