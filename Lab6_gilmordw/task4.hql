@@ -17,7 +17,7 @@ STORED AS TEXTFILE;
 
 LOAD DATA INPATH '${hiveconf:pigOutputDir}/${hiveconf:jobDate}' INTO table archiveLogData;
 
-CREATE TABLE IF NOT EXISTS archiveLogData
+CREATE TABLE IF NOT EXISTS logData
 (
     blog string,
     hitRatio double,
