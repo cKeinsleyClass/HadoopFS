@@ -14,5 +14,5 @@ LOAD DATA INPATH '${hiveconf:inputLocation}' OVERWRITE INTO TABLE ${hiveconf:tab
 
 SELECT word, COUNT(*) 
 FROM ${hiveconf:tableName}
-LATERAL VIEW EXPLODE(SPLIT(myUpper(myStrip(data)), '\\s+')) ${hiveconf:tableName} AS word
+LATERAL VIEW EXPLODE(SPLIT(myUpper(myStrip(line)), '\\s+')) ${hiveconf:tableName} AS word
 GROUP BY word;
