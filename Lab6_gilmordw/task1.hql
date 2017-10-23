@@ -8,7 +8,10 @@ CREATE TABLE IF NOT EXISTS ${hiveconf:tableName}
     quality int
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
-STORED AS TEXTFILE
+STORED AS TEXTFILE;
 
 LOAD DATA INPATH '${hiveconf:inputLocation}' OVERWRITE INTO TABLE ${hiveconf:tableName};
-SELECT year, min(temp), max(temp), avg(temp) FROM ${hiveconf:tableName} GROUP BY year;
+SELECT year, min(temp), max(temp), avg(temp) 
+FROM ${hiveconf:tableName} 
+WHERE quality = 1
+GROUP BY year;
