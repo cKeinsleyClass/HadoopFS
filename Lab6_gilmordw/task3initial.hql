@@ -44,7 +44,6 @@ STORED AS ORC;
 
 INSERT INTO TABLE RoseDynamicEmployees PARTITION(dept) SELECT * FROM RoseStaticEmployees;
 
-RoseStaticEmployeesORC
 CREATE TABLE IF NOT EXISTS RoseStaticEmployeesORC
 (
     firstName string,
