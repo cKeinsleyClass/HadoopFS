@@ -28,7 +28,7 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
 LOAD DATA INPATH '${hiveconf:csseEmployeeLocation}' OVERWRITE INTO TABLE RoseStaticEmployees PARTITION( dept='csse');
-LOAD DATA INPATH '${hiveconf:eceeEmployeeLocation}' OVERWRITE INTO TABLE RoseStaticEmployees PARTITION( dept='ece');
+LOAD DATA INPATH '${hiveconf:eceEmployeeLocation}' OVERWRITE INTO TABLE RoseStaticEmployees PARTITION( dept='ece');
 LOAD DATA INPATH '${hiveconf:adminEmployeeLocation}' OVERWRITE INTO TABLE RoseStaticEmployees PARTITION( dept='admin');
 
 CREATE TABLE IF NOT EXISTS RoseDynamicEmployees

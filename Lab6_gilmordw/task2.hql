@@ -1,5 +1,5 @@
 CREATE TEMPORARY FUNCTION myUpper as 'edu.rosehulman.gilmordw.Upper' using Jar 'hdfs:///tmp/lab6/jar/HiveFunctions-0.0.1-SNAPSHOT.jar';
-CREATE TEMPORARY FUNCTION myTrim as 'edu.rosehulman.gilmordw.Trim' using Jar 'hdfs:///tmp/lab6/jar/HiveFunctions-0.0.1-SNAPSHOT.jar';
+CREATE TEMPORARY FUNCTION myStrip as 'edu.rosehulman.gilmordw.Strip' using Jar 'hdfs:///tmp/lab6/jar/HiveFunctions-0.0.1-SNAPSHOT.jar';
 
 CREATE DATABASE IF NOT EXISTS ${hiveconf:databaseName};
 USE ${hiveconf:databaseName};
@@ -14,5 +14,5 @@ LOAD DATA INPATH '${hiveconf:inputLocation}' OVERWRITE INTO TABLE ${hiveconf:tab
 
 SELECT word, COUNT(*) 
 FROM ${hiveconf:tableName}
-LATERAL VIEW EXPLODE(SPLIT(myUpper(myTrim(data)), '\\s+')) ${hiveconf:tableName} AS word
+LATERAL VIEW EXPLODE(SPLIT(myUpper(myStrip(data)), '\\s+')) ${hiveconf:tableName} AS word
 GROUP BY word;
