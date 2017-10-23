@@ -56,16 +56,20 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS ORC;
 
 INSERT INTO TABLE RoseStaticEmployeesORC PARTITION(dept = 'csse') 
-SELECT * 
-FROM RoseStaticEmployees;
+SELECT firstName, lastName, speciality, employeeNumber;
+FROM RoseStaticEmployees
+WHERE dept='csse';
+
 
 INSERT INTO TABLE RoseStaticEmployeesORC PARTITION(dept = 'ece') 
-SELECT * 
-FROM RoseStaticEmployees;
+SELECT firstName, lastName, speciality, employeeNumber;
+FROM RoseStaticEmployees
+WHERE dept='ece';
 
 INSERT INTO TABLE RoseStaticEmployeesORC PARTITION(dept = 'admin') 
-SELECT * 
-FROM RoseStaticEmployees;
+SELECT firstName, lastName, speciality, employeeNumber;
+FROM RoseStaticEmployees
+WHERE dept='admin';
 
 SELECT COUNT(*) FROM RoseEmployees;
 SELECT COUNT(*) FROM RoseStaticEmployees;
