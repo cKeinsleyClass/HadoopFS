@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS ${hiveconf:databaseName};
 USE ${hiveconf:databaseName};
 CREATE TABLE IF NOT EXISTS ${hiveconf:tableName}
 (
-    data string
+    line string
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\n'
 STORED AS TEXTFILE; 
