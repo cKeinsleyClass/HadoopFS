@@ -1,0 +1,1 @@
+hive --hiveconf databaseName='lab6laeschjs' --hiveconf pigOutputDir='/tmp/lab5/output/laeschjs/t4' --hiveconf jobDate='2017-10-17' --hiveconf year='2017' --hiveconf month='10' --hiveconf day='17' --hiveconf hour='2' -f task4laeschjs.hql

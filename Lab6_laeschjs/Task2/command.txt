@@ -1,0 +1,2 @@
+hadoop fs -put testFile.txt /tmp/input/laeschjs/lab6
+hive --hiveconf inputLocation='testFile.txt' --hiveconf databaseName='lab6laeschjs' --hiveconf tableName='wordcountTable' -f wordcount.hql
