@@ -7,8 +7,8 @@ homeWithGame = FOREACH home GENERATE '$gameId' as id, (chararray) $2 as homer;
 j = JOIN visiWithGame by id, homeWithGame by id;
 finalGame = FOREACH j GENERATE visiWithGame::id as row_key, homeWithGame::homer as home_team, visiWithGame::visitor as away_team;
 STORE finalGame INTO 'hbase://games$year' USING org.apache.pig.backend.hadoop.hbase.HBaseStorage(
-'team_data: home_team
- team_data: away_team'
+'team_data:home_team
+ team_data:away_team'
 );
 
 
