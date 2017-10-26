@@ -2,13 +2,21 @@ records = LOAD '$input' using PigStorage(',');
 info = FILTER records BY $0 == 'info';
 visi = FILTER info BY $1 == 'visteam';
 home = FILTER info BY $1 == 'hometeam';
+date = FILTER info BY $1 == 'date';
+time = FILTER info BY $1 == 'starttime';
 visiWithGame = FOREACH visi GENERATE '$gameId' as id, (chararray) $2 as visitor;
 homeWithGame = FOREACH home GENERATE '$gameId' as id, (chararray) $2 as homer;
-j = JOIN visiWithGame by id, homeWithGame by id;
-finalGame = FOREACH j GENERATE visiWithGame::id as row_key, homeWithGame::homer as home_team, visiWithGame::visitor as away_team;
+dateWithGame = FOREACH date GENERATE '$gameId' as id, (int) GetDay(ToDate($2, 'yyyy/MM/dd')) as day, (int) GetYear(ToDate($2, 'yyyy/MM/dd')) as year, (int) GetMonth(ToDate($2, 'yyyy/MM/dd')) as month;
+timeWithGame = FOREACH time GENERATE '$gameId' as id, (chararray) $2 as time;
+j = JOIN visiWithGame by id, homeWithGame by id, dateWithGame by id, timeWithGame by id;
+finalGame = FOREACH j GENERATE visiWithGame::id as row_key, homeWithGame::homer as home_team, visiWithGame::visitor as away_team, dateWithGame::month as month, dateWithGame::day as day, dateWithGame::year as year, timeWithGame::time as time;
 STORE finalGame INTO 'hbase://games$year' USING org.apache.pig.backend.hadoop.hbase.HBaseStorage(
 'team_data:home_team
- team_data:away_team'
+ team_data:away_team,
+ date_time:month,
+ date_time:day,
+ date_time:year,
+ date_time:time'
 );
 
 
