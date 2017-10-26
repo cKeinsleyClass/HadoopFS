@@ -21,5 +21,3 @@ for file in files:
 	games = os.listdir(folder + "/temp")
 	for game in games:
 		os.system("pig -D tez.counters.max=1000 -x tez_local -param input='{}' -param gameId='{}' -param year='{}' -f goThroughEachGame.pig".format(folder + "/temp/" + game, game, sys.argv[2]))
-		break
-	break
