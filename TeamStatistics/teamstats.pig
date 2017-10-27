@@ -1,4 +1,4 @@
-records = LOAD '$games' USING PigStorage(',');
+records = LOAD '/user/root/PlayBall/GameLogs/GL$year.TXT' USING PigStorage(',');
 
 minHomeRecords = FOREACH records GENERATE $6, $10, $9, $18, $17;
 minVisitingRecords = FOREACH records GENERATE $3, $9, $10, $18, $17;
