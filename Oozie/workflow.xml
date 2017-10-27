@@ -1,0 +1,60 @@
+<workflow-app name="GetMLBData" xmlns="uri:oozie:workflow:0.4">
+    <start to="downloadShell"/>
+    <action name="downloadShell">
+		<shell xmlns="uri:oozie:shell-action:0.1">
+		    <job-tracker>${jobTracker}</job-tracker>
+		    <name-node>${nameNode}</name-node>
+			<exec>downloadByYear.sh</exec>
+			<argument>${year}</argument>
+			<file>/tmp/downloadScripts/downloadByYear.sh</file>
+		</shell>
+        <ok to="preprocessPig"/>
+        <error to="kill"/>
+    </action>
+	<action name="preprocessPig">
+        <pig>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <script>/tmp/downloadScripts/preprocess.pig</script>
+              <param>team=PlayBall/Teams/TEAM${year}</param>
+              <param>year=${year}</param>
+              <param>roster=PlayBall/Roster/${year}</param>
+        </pig>
+        <ok to="python"/>
+        <error to="kill"/>
+	</action>
+    <action name="python">
+		<shell xmlns="uri:oozie:shell-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>script.py</exec>
+			<argument>PlayBall/PlayByPlay/${year}</argument>
+	    	<file>/tmp/downloadScripts/movePlaysToHbase.py</file>
+        </shell>
+        <ok to="goThroughGames"/>
+        <error to="kill"/>
+    </action>
+	<fork name="fork">
+		<path start="SLNPig" />
+		<path start="CHNPig" />
+		<path start="CINPig" />
+		<path start="MILPig" />
+		<path start="PITPig" />
+	</fork>
+    <action name="SLNPig">
+        <pig>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <script>/tmp/downloadScripts/goThroughEachGame.pig</script>
+              <param>input=PlayBall/PlayByPlay/${year}/${year}SLN</param>
+              <param>year=${year}</param>
+              <param>gameId=</param>
+        </pig>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
