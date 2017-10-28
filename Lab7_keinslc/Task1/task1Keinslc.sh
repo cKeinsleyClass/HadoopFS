@@ -6,9 +6,9 @@ sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employe
 
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --delete-target-dir --target-dir /tmp/sqoopSeqOutput --as-sequencefile
 
-sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2  --split-by eid --delete-target-dir --warehouse-dir /tmp/sqoop/Employees 
+sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2  --split-by eid --delete-target-dir --warehouse-dir /tmp/sqoop 
 
-sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --delete-target-dir --null-string 'This is a NULL String' --fields-terminated-by '\t' --warehouse-dir /tmp/sqoop/Employees
+sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --delete-target-dir --null-string 'This is a NULL String' --fields-terminated-by '\t' --warehouse-dir /tmp/sqoop
 
 hive -e "create database if not exists sqooptest"
 
