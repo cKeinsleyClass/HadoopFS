@@ -16,4 +16,4 @@ sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employe
 
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --null-string 'This is a NULL String' --fields-terminated-by '\t' --hive-import --create-hive-table --hive-table sqooptest.Employees
 
-sqoop import-all-tables --connect jdbc:mysql://$1/sqooptest --username root -m 1 --delete-target-dir --warehouse-dir /tmp/sqoopAll
+sqoop import-all-tables --connect jdbc:mysql://$1/sqooptest --username root -m 1 --warehouse-dir /tmp/sqoopAll
