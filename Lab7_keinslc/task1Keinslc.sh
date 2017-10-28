@@ -4,7 +4,7 @@ sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employe
 
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 1 --delete-target-dir --target-dir /tmp/sqoopMapOutput
 
-sqoop import --conect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2  --delete-target-dir --target-dir /tmp/sqoopSeqOutput --as-sequencefile
+sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2  --delete-target-dir --target-dir /tmp/sqoopSeqOutput --as-sequencefile
 
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --delete-target-dir --warehouse-dir /tmp/sqoop/Employees 
 
