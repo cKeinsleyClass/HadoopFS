@@ -1,3 +1,0 @@
-hadoop fs -mkdir /tmp/laeschjs
-hadoop fs -put Exam2Interceptor-0.0.1-SNAPSHOT.jar /tmp/laeschjs
-flume-ng agent --conf-file laeschjsagentinterceptor.conf --name a1 --classpath /tmp/laeschjs/Exam2Interceptor-0.0.1-SNAPSHOT.jar -Xmx4096m -Xms2048m

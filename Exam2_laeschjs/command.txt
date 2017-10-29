@@ -1,0 +1,12 @@
+hadoop fs -mkdir /tmp/laeschjs
+hadoop fs -put Exam2Interceptor-0.0.1-SNAPSHOT.jar /tmp/laeschjs
+flume-ng agent --conf-file laeschjsagentinterceptor.conf --name a1 --classpath /tmp/laeschjs/Exam2Interceptor-0.0.1-SNAPSHOT.jar -Xmx4096m -Xms2048m
+
+hadoop fs -put laeschjsUDF-0.0.1-SNAPSHOT.jar /tmp/Exams
+pig -param gradeInput='/tmp/exam/input/grades.txt' -param courseInput='/tmp/exam/input/courses.txt' -param pigOutput='/tmp/exam/output' -param username='laeschjs' -f exam.pig
+
+hive --hiveconf databaseName='exam' --hiveconf tempTableName='tempTable' --hiveconf tableName='examData' -f hiveCreate.hql
+
+hive --hiveconf databaseName='exam' --hiveconf tempTableName='tempTable' --hiveconf tableName='examData' --hiveconf pigoutput='/tmp/exam/output/laeschjs' -f hiveInsert.hql
+
+hive -e 'use exam; select cno, count(name) from examData where grade != "D" groupby cno;'
