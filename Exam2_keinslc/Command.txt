@@ -1,3 +1,3 @@
 mkdir /tmp/keinslc
 cp keinslc_Exam2.jar /tmp/keinslc/
-flume-ng agent --conf-file keinslcagentinterceptor.conf --name a1 --classpath /tmp/keinslc/
+flume-ng agent --conf-file keinslcagentinterceptor.conf --name a1 --classpath /tmp/keinslc/keinslc_Exam2.jar
