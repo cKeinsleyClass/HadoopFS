@@ -1,1 +1,1 @@
-CREATE DATABASE sqooptest;
+CREATE DATABASE IF NOT EXISTS sqooptest;
