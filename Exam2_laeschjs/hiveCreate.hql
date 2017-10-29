@@ -10,7 +10,7 @@ grade float
 )
 Partitioned by (username string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS TEXTFILE
+STORED AS TEXTFILE;
 
 Create TABLE ${hiveconf:tableName}
 (
@@ -21,5 +21,5 @@ grade float
 )
 Partitioned by (username string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS orc
+STORED AS orc;
 
