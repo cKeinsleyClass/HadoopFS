@@ -1,0 +1,2 @@
+hadoop fs -put Lab7Flume-0.0.1-SNAPSHOT.jar /tmp/laeschjs
+flume-ng agent --conf-file laeschjsagent.conf --name a1 --classpath /tmp/laeschjs/Lab7Flume-0.0.1-SNAPSHOT.jar -Xmx4096m -Xms2048m

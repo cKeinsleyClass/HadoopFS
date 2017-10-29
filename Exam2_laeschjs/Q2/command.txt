@@ -1,0 +1,2 @@
+hadoop fs -put laeschjsUDF-0.0.1-SNAPSHOT.jar /tmp/Exams
+pig -param gradeInput='/tmp/exam/input/grades.txt' -param courseInput='/tmp/exam/input/courses.txt' -param pigOutput='/tmp/exam/output' -param username='laeschjs' -f exam.pig
