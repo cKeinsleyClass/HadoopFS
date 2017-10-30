@@ -1,4 +1,4 @@
-REGISTER 'hdfs:///tmp/input/keinslc/keinslc_pigUdfs';
+REGISTER 'hdfs:///tmp/Exams/keinslcUDF.jar';
 DEFINE nameConcat edu.rosehulman.keinlsc.NameConcat();
 DEFINE scoreConvert edu.rosehulman.keinslc.ScoreConvert();
 grades = LOAD '$gradeInput' using PigStorage(',') as (fname:chararray, lname:chararray, cnum:chararray, score:float);
