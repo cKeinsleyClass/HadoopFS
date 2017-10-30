@@ -1,4 +1,5 @@
 create database if not exists ${hiveconf:databaseName};
+use ${hiveconf:databaseName};
 
 create table if not exists ${hiveconf:tempTableName}
 (
