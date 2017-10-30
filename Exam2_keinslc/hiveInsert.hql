@@ -1,6 +1,6 @@
 use ${hiveconf:databaseName};
 
-LOAD DATA INPATH '${hiveconf:pigOutput}/${hiveconf:username}/' overwrite INTO table ${hiveconf:tempTableName} Partition(username = '${hiveConf:username}');
+LOAD DATA INPATH '${hiveconf:pigOutput}/${hiveconf:username}/' overwrite INTO table ${hiveconf:tempTableName} Partition(username = '${hiveconf:username}');
 
 set hive.exec.dynamic.partition.mode=nonstrict;
 
