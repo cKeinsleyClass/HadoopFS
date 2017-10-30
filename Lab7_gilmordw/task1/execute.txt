@@ -1,0 +1,1 @@
+./task1gilmordw.sh mysql_location
