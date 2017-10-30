@@ -5,3 +5,9 @@ hadoop fs -put keinslcUDF.jar /tmp/Exams
 pig -param "gradeInput=/tmp/Exams/grades.txt" -param "courseInput=/tmp/Exams/courses.txt" -param "pigOutput=/tmp/out" -param "username=keinslc" exam.pig
 hive -hiveconf databaseName=exam  -hiveconf tempTableName=tempTable -hiveconf tableName=examData -f hiveCreate.hql
 hive -hiveconf databaseName=exam  -hiveconf tempTableName=tempTable -hiveconf tableName=examData -hiveconf pigOutput=/tmp/out -hiveconf username=keinslc -f hiveInsert.hql
+
+Question 4: Hive Query
+select cno, COUNT(*) as cnt from examData where grade != 'D' group by cno having cnt > 1;
+
+Question 5: Sqoop Export
+sqoop export --connect jdbc:mysql://10.128.0.3:3306/exam --username root --table examData --hcatalog-database exam --hcatalog-table examData --hcatalog-partition-keys username --hcatalog-partition-values keinslc
