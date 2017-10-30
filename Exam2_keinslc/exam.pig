@@ -8,5 +8,6 @@ retypedGrades = foreach filteredGrades generate name, cnum, score as (score:char
 gradeConvert = foreach retypedGrades generate name, cnum, scoreConvert(score);
 
 courses = LOAD '$courseInput' using PigStorage(',') as (cnum:chararray, cname:chararray);
-joined = JOIN gradeConvert by cnum, courses by cnum
+joined = JOIN gradeConvert by cnum, courses by cnum;
 out = foreach joined generate name, cnum, cname, score;
+STORE out into '$pigOutput/$username' using PigStorage('\t');
