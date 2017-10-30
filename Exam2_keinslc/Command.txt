@@ -4,4 +4,4 @@ flume-ng agent --conf-file keinslcagentinterceptor.conf --name a1 --classpath /t
 hadoop fs -put keinslcUDF.jar /tmp/Exams
 pig -param "gradeInput=/tmp/Exams/grades.txt" -param "courseInput=/tmp/Exams/courses.txt" -param "pigOutput=/tmp/out" -param "username=keinslc" exam.pig
 hive -hiveconf databaseName=exam  -hiveconf tempTableName=tempTable -hiveconf tableName=examData -f hiveCreate.hql
-hive -hiveconf databaseName=exam  -hiveconf tempTableName=tempTable -hiveconf tableName=examData -hiveConf pigOutput=/tmp/out" -hiveConf "username=keinslc" -f hiveInsert.hql
+hive -hiveconf databaseName=exam  -hiveconf tempTableName=tempTable -hiveconf tableName=examData -hiveconf pigOutput=/tmp/out -hiveconf username=keinslc -f hiveInsert.hql
