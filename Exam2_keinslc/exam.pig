@@ -1,10 +1,12 @@
-REGISTER 'hdfs:///tmp/input/keinslc';
+REGISTER 'hdfs:///tmp/input/keinslc/keinslc_pigUdfs';
 DEFINE nameConcat edu.rosehulman.keinlsc.NameConcat();
-courses = LOAD '$courseInput' using PigStorage(',') as (cnum:chararray, cname:chararray);
+DEFINE scoreConvert edu.rosehulman.keinslc.ScoreConvert();
 grades = LOAD '$gradeInput' using PigStorage(',') as (fname:chararray, lname:chararray, cnum:chararray, score:float);
 gradesConcat = foreach grades generate nameConcat(fname, lname) as (name:chararray), cnum, score;
 filteredGrades = filter gradesConcat by (score <= 90.0);
-gradeConvert = foreach filteredGrades generate name, cnum, scoreConvert(score) as (grade:string)
+retypedGrades = foreach filteredGrades generate name, cnum, score as (score:chararray);
+gradeConvert = foreach retypedGrades generate name, cnum, scoreConvert(score);
 
-joined = JOIN grades by cnum, courses by cnum
-output = foreach joined generate fname, lname, cnum, cname, score;
+courses = LOAD '$courseInput' using PigStorage(',') as (cnum:chararray, cname:chararray);
+joined = JOIN gradeConvert by cnum, courses by cnum
+out = foreach joined generate name, cnum, cname, score;
