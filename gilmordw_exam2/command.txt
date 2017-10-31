@@ -1,0 +1,3 @@
+
+
+pig -param grades='/tmp/Exams/grades.txt' -param courses='/tmp/Exams/courses.txt' -param pigOutput='/tmp/exam2/pig' -param username='gilmordw' -f exam.pig 
