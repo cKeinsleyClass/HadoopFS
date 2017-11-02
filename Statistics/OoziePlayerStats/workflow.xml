@@ -8,8 +8,8 @@
                   <delete path="${nameNode}/tmp/stats/player/${year}/"/>
             </prepare>
             <main-class>edu.rosehulman.laeschjs.PlayerStatsDriver</main-class>
-            <arg>${nameNode}/PlayBall/PlayByPlay/${year}</arg>
-            <arg>${year}</arg>
+            <arg>${nameNode}/user/root/PlayBall/PlayByPlay/${year}</arg>
+            <arg>${nameNode}/tmp/stats/player/${year}</arg>
         </java>
         <ok to="Pig"/>
         <error to="kill"/>
