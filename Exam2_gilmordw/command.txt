@@ -1,0 +1,18 @@
+Question1 Sqoop:
+mkdir /tmp/gilmordw
+cp gilmordwInterceptor.jar /tmp/gilmordw
+flume-ng agent -n a1 -f gilmordwagentinterceptor.conf --classpath /tmp/gilmordw/gilmordwInterceptor.jar
+
+Question2 Pig:
+hadoop fs -put gilmordwUDF.jar /tmp/Exams/
+pig -param grades='/tmp/Exams/grades.txt' -param courses='/tmp/Exams/courses.txt' -param pigOutput='/tmp/exam2/pig' -param username='gilmordw' -f exam.pig 
+
+Question3:
+hive -hiveconf databaseName=exam -hiveconf tempTableName=tempTable -hiveconf tableName=examData -f hiveCreate.hql 
+hive -hiveconf databaseName=exam -hiveconf tempTableName=tempTable -hiveconf tableName=examData -hiveconf pigOutput=/tmp/exam2/pig/gilmordw -f hiveInsert.hql 
+
+Question4:
+SELECT cno, count(*) FROM examData WHERE grade <> "D" GROUP BY cno HAVING count(*) > 1;
+
+Question5:
+sqoop export --connect jdbc:mysql://10.128.0.3:3306/exam --username root -m 1 --table examData --input-fields-terminated-by '\t' --hcatalog-database exam --hcatalog-table examData --hcatalog-partition-keys username --hcatalog-partition-values gilmordw
