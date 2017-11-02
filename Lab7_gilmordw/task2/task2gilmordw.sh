@@ -1,0 +1,2 @@
+sqoop export --connect jdbc:mysql://$1/sqooptest --username root -m 1 --table EmployeesExportData --export-dir /tmp/sqoop/Employees --input-null-string 'This is a Null String' --input-fields-terminated-by '\t'
+sqoop export --connect jdbc:mysql://$1/sqooptest --username root -m 1 --table EmployeesExportData --export-dir /tmp/sqoop/Employees --input-null-string 'This is a Null String' --input-fields-terminated-by '\t' --update-key eid --update-mode allowinsert

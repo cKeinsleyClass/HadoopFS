@@ -6,4 +6,4 @@ sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employe
 hive -f task1hive.hql
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --hive-import --create-hive-table --hive-table sqooptest.Employees --delete-target-dir
 sqoop import --connect jdbc:mysql://$1/sqooptest --username root --table Employees -m 2 --split-by eid --hive-import --create-hive-table --hive-table sqooptest.Employees --delete-target-dir --null-string 'This is a Null String' --fields-terminated-by '\t'
-sqoop import-all-tables --connect jdbc:mysql://$1/sqooptest --username root -m 1 --warehouse-dir /tmp/sqoopAll --delete-target-dir
+sqoop import-all-tables --connect jdbc:mysql://$1/sqooptest --username root -m 1 --warehouse-dir /tmp/sqoopAll
