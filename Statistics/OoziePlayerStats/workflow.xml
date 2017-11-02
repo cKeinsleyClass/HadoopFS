@@ -1,0 +1,31 @@
+<workflow-app name="MapReduce" xmlns="uri:oozie:workflow:0.4">
+    <start to="MapReduce"/>
+    <action name="MapReduce">
+        <java>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                  <delete path="${nameNode}/tmp/stats/player/${year}/"/>
+            </prepare>
+            <main-class>edu.rosehulman.laeschjs.PlayerStatsDriver</main-class>
+            <arg>${nameNode}/PlayBall/PlayByPlay/${year}</arg>
+            <arg>${year}</arg>
+        </java>
+        <ok to="Pig"/>
+        <error to="kill"/>
+    </action>
+    <action name="Pig">
+        <pig>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <script>/tmp/OoziePlayerStats/scripts/playerstats.pig</script>
+              <param>year=${year}</param>
+        </pig>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>

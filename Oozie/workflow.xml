@@ -27,32 +27,55 @@
 		<shell xmlns="uri:oozie:shell-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
-            <exec>script.py</exec>
+            <exec>splitPlaysByGames.py</exec>
 			<argument>PlayBall/PlayByPlay/${year}</argument>
-	    	<file>/tmp/downloadScripts/movePlaysToHbase.py</file>
+	    	<file>/tmp/downloadScripts/splitPlaysByGames.py</file>
         </shell>
         <ok to="goThroughGames"/>
         <error to="kill"/>
     </action>
 	<fork name="fork">
-		<path start="SLNPig" />
-		<path start="CHNPig" />
-		<path start="CINPig" />
-		<path start="MILPig" />
-		<path start="PITPig" />
+		<path start="FirstPython" />
+		<path start="SecondPython" />
+		<path start="ThirdPython" />
 	</fork>
-    <action name="SLNPig">
-        <pig>
+    <action name="FirstPython">
+		<shell xmlns="uri:oozie:shell-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
-            <script>/tmp/downloadScripts/goThroughEachGame.pig</script>
-              <param>input=PlayBall/PlayByPlay/${year}/${year}SLN</param>
-              <param>year=${year}</param>
-              <param>gameId=</param>
-        </pig>
-        <ok to="end"/>
+            <exec>playByPlayByGame.py</exec>
+			<argument>PlayBall/PlayByPlay/${year}/first</argument>
+			<argument>${year}</argument>
+	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+        </shell>
+        <ok to="joining"/>
         <error to="kill"/>
     </action>
+    <action name="SecondPython">
+		<shell xmlns="uri:oozie:shell-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>playByPlayByGame.py</exec>
+			<argument>PlayBall/PlayByPlay/${year}/second</argument>
+			<argument>${year}</argument>
+	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+        </shell>
+        <ok to="joining"/>
+        <error to="kill"/>
+    </action>
+    <action name="ThirdPython">
+		<shell xmlns="uri:oozie:shell-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>playByPlayByGame.py</exec>
+			<argument>PlayBall/PlayByPlay/${year}/third</argument>
+			<argument>${year}</argument>
+	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+        </shell>
+        <ok to="joining"/>
+        <error to="kill"/>
+    </action>
+    <join name="joining" to="end"/>
     <kill name="kill">
         <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
     </kill>
