@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "create "playersStats$1", 'stats'" | hbase shell
+echo "create 'playersStats$1', 'stats'" | hbase shell
 
 yarn jar PlayerStatistics-0.0.1-SNAPSHOT.jar edu.rosehulman.laeschjs.PlayerStatsDriver /user/root/PlayBall/PlayByPlay/$1 /tmp/playerstats/$1
 
