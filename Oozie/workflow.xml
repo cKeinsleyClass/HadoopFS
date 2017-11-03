@@ -6,7 +6,7 @@
 		    <name-node>${nameNode}</name-node>
 			<exec>downloadByYear.sh</exec>
 			<argument>${year}</argument>
-			<file>/tmp/downloadScripts/downloadByYear.sh</file>
+			<file>/tmp/Oozie/downloadScripts/downloadByYear.sh</file>
 		</shell>
         <ok to="preprocessPig"/>
         <error to="kill"/>
@@ -15,7 +15,7 @@
         <pig>
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
-            <script>/tmp/downloadScripts/preprocess.pig</script>
+            <script>/tmp/Oozie/downloadScripts/preprocess.pig</script>
               <param>team=PlayBall/Teams/TEAM${year}</param>
               <param>year=${year}</param>
               <param>roster=PlayBall/Roster/${year}</param>
@@ -29,9 +29,9 @@
             <name-node>${nameNode}</name-node>
             <exec>splitPlaysByGames.py</exec>
 			<argument>PlayBall/PlayByPlay/${year}</argument>
-	    	<file>/tmp/downloadScripts/splitPlaysByGames.py</file>
+	    	<file>/tmp/Oozie/downloadScripts/splitPlaysByGames.py</file>
         </shell>
-        <ok to="goThroughGames"/>
+        <ok to="fork"/>
         <error to="kill"/>
     </action>
 	<fork name="fork">
@@ -46,7 +46,7 @@
             <exec>playByPlayByGame.py</exec>
 			<argument>PlayBall/PlayByPlay/${year}/first</argument>
 			<argument>${year}</argument>
-	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+	    	<file>/tmp/Oozie/downloadScripts/playByPlayByGame.py</file>
         </shell>
         <ok to="joining"/>
         <error to="kill"/>
@@ -58,7 +58,7 @@
             <exec>playByPlayByGame.py</exec>
 			<argument>PlayBall/PlayByPlay/${year}/second</argument>
 			<argument>${year}</argument>
-	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+	    	<file>/tmp/Oozie/downloadScripts/playByPlayByGame.py</file>
         </shell>
         <ok to="joining"/>
         <error to="kill"/>
@@ -70,7 +70,7 @@
             <exec>playByPlayByGame.py</exec>
 			<argument>PlayBall/PlayByPlay/${year}/third</argument>
 			<argument>${year}</argument>
-	    	<file>/tmp/downloadScripts/playByPlayByGame.py</file>
+	    	<file>/tmp/Oozie/downloadScripts/playByPlayByGame.py</file>
         </shell>
         <ok to="joining"/>
         <error to="kill"/>
