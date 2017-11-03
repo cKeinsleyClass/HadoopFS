@@ -19,6 +19,7 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
             <script>/tmp/OoziePlayerStats/scripts/playerstats.pig</script>
+              <param>input=${nameNode}/tmp/stats/player/${year}</param>
               <param>year=${year}</param>
         </pig>
         <ok to="end"/>
