@@ -31,7 +31,7 @@
 			<argument>PlayBall/PlayByPlay/${year}</argument>
 	    	<file>/tmp/Oozie/downloadScripts/splitPlaysByGames.py</file>
         </shell>
-        <ok to="goThroughGames"/>
+        <ok to="fork"/>
         <error to="kill"/>
     </action>
 	<fork name="fork">
