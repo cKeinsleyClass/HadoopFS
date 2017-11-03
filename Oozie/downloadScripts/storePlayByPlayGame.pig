@@ -37,7 +37,7 @@ STORE visitPlaysFinal INTO 'hbase://plays$year' USING org.apache.pig.backend.had
  play_data:event'
 );
 
-homePlays = FILTER plays BY $2 == 0;
+homePlays = FILTER plays BY $2 == 1;
 homePlaysA = FOREACH homePlays GENERATE '$gameId' as game, (int) $1 as inning, (chararray)  homeWithGame.homer as team, (chararray) $3 as playerId, (chararray) $4 as batterCount, (chararray) $5 as pitches, STRSPLIT((chararray) $6, '\\/|\\.', 1000) as splits;
 rankedHomePlays = RANK homePlaysA;
 homePlaysFinal = FOREACH rankedHomePlays GENERATE CONCAT((chararray) $0, game) as rkey, game as game, (chararray) $0 as playNum, inning as inning, team as team, playerId as playerId, batterCount as batterCount, pitches as pitches, (chararray) splits.$0 as event;
