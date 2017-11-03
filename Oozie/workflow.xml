@@ -6,7 +6,7 @@
 		    <name-node>${nameNode}</name-node>
 			<exec>downloadByYear.sh</exec>
 			<argument>${year}</argument>
-			<file>/tmp/Oozie/downloadScripts/downloadByYear.sh</file>
+			<file>/tmp/Oozie/downloadScripts/downloadByYear</file>
 		</shell>
         <ok to="preprocessPig"/>
         <error to="kill"/>
