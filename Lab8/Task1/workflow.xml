@@ -8,7 +8,7 @@
 			   <delete path="${nameNode}/tmp/lab8/output"/>
 			</prepare>
 			<main-class>edu.rosehulman.laeschjs.Friends</main-class>
-			<arg>${nameNode}/tmp/lab8/input</arg>
+			<arg>${nameNode}/tmp/Lab8/input</arg>
 		</java>
 		<ok to="Pig"/>
 		<error to="kill"/>
