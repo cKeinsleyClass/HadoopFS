@@ -1,6 +1,3 @@
-%declare current_date `date +%Y-%m-%d`
-%declare file_out '$dir_out/$current_date'
-
 REGISTER 'hdfs:///tmp/input/keinslc_Lab5.jar';
 
 DEFINE cleanBlogName edu.rosehulman.keinslc.CleanBlogName();
@@ -19,4 +16,4 @@ ratios = foreach grouped generate group, getRatios(fixedNameFlatBlogs) as ratio;
 datedRatios = foreach ratios generate group as blog, ratio, CurrentTime() as (date:dateTime);
 prepedDatedRatios = foreach datedRatios generate blog, FLATTEN(ratio), GetYear(date) as year, GetMonth(date) as month, GetDay(date) as day, GetHour(date) as hour;
 
-STORE prepedDatedRatios INTO '$file_out' USING PigStorage('\t');
+STORE prepedDatedRatios INTO '$dir_out/$year-$month-$day' USING PigStorage('\t');
