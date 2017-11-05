@@ -7,7 +7,7 @@
             <prepare>
                   <delete path="${dir_out}"/>
             </prepare>
-            <script>/tmp/Lab8/task3/logAnalysis.pig</script>
+            <script>/tmp/Lab8/Task3/LogAnalysis.pig</script>
               <param>file_in=${file_in}</param>
               <param>dir_out=${dir_out}</param>
               <param>year=${year}</param>
