@@ -5,7 +5,7 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
               <job-xml>${nameNode}/tmp/Lab8/Task2/hive-site.xml</job-xml>
-            <command>export --connect jdbc:mysql://10.128.0.3:3306/nums --username root -m 1 --table Nums --hcatalog-database oozie --hcatalog-table nums </command>
+            <command>export --connect jdbc:mysql://10.128.0.3:3306/nums --username root -m 1 --table Nums --hcatalog-database oozie --hcatalog-table nums --skip-dist-cache </command>
         </sqoop>
         <ok to="end"/>
         <error to="kill"/>
