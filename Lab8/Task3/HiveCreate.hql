@@ -6,10 +6,10 @@ create Table if not exists ${tableName}
     blog string,
     hitRatio double,
     errorRatio double,
-    year int, 
-    month int, 
-    day int, 
-    hour int
+    year string, 
+    month string, 
+    day string, 
+    hour string
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
 STORED AS TEXTFILE; 

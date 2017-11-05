@@ -8,7 +8,7 @@ create Table if not exists ${orcTableName}
     hitRatio double,
     errorRatio double
 )
-Partitioned by (year INT, month INT, day INT, hour INT)
+Partitioned by (year string, month string, day string, hour string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
 STORED AS orc;
 
