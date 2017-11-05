@@ -14,6 +14,6 @@ fixedNameFlatBlogs = foreach flatBlogs generate blog as blog, type as type, numT
 grouped = group fixedNameFlatBlogs by blog;
 ratios = foreach grouped generate group, getRatios(fixedNameFlatBlogs) as ratio;
 datedRatios = foreach ratios generate group as blog, ratio, CurrentTime() as (date:dateTime);
-prepedDatedRatios = foreach datedRatios generate blog, FLATTEN(ratio), GetYear(date) as year, GetMonth(date) as month, GetDay(date) as day, GetHour(date) as hour;
+prepedDatedRatios = foreach datedRatios generate blog, FLATTEN(ratio), $year as year, $month as month, $day as day, $hour as hour;
 
 STORE prepedDatedRatios INTO '$dir_out/$year-$month-$day' USING PigStorage('\t');
