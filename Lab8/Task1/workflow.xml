@@ -7,7 +7,7 @@
 			<prepare>
 			   <delete path="${nameNode}/tmp/Lab8/output"/>
 			</prepare>
-			<main-class>edu.rosehulman.laeschjs.Friends</main-class>
+			<main-class>edu.rosehulman.keinslc.CommonFriend</main-class>
 			<arg>${nameNode}/tmp/Lab8/input/friends.txt</arg>
 			<arg>${nameNode}/tmp/Lab8/output</arg>
 		</java>
