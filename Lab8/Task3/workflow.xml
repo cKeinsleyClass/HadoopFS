@@ -22,7 +22,7 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
               <job-xml>/tmp/Lab8/Task2/hive-site.xml</job-xml>
-	<jdbc-url>jdbc:hive2://sandbox.hortonworks.com:10000</jdbc-url>
+	<jdbc-url>jdbc:hive2://10.128.0.3:10000</jdbc-url>
 	<password>hive</password>
             <script>/tmp/Lab8/Task3/HiveCreate.hql</script>
               <param>databaseName=${databaseName}</param>
@@ -42,7 +42,7 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
               <job-xml>/tmp/shared/hive-site.xml</job-xml>
-	<jdbc-url>jdbc:hive2://sandbox.hortonworks.com:10000</jdbc-url>
+	<jdbc-url>jdbc:hive2://10.128.0.3:10000</jdbc-url>
 	<password>hive</password>
             <script>/tmp/Lab8/Task3/HiveCreateORC.hql</script>
               <param>databaseName=${databaseName}</param>
