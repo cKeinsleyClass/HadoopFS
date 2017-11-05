@@ -1,0 +1,250 @@
+id,CHN201505150
+version,2
+info,visteam,PIT
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/05/15
+info,number,0
+info,starttime,1:20PM
+info,daynight,day
+info,usedh,false
+info,umphome,gibsg901
+info,ump1b,segac901
+info,ump2b,fairc901
+info,ump3b,joycj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,73
+info,winddir,ltor
+info,windspeed,10
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,301
+info,attendance,33617
+info,wp,jacke001
+info,lp,liz-r001
+info,save,
+start,polag001,"Gregory Polanco",0,1,9
+start,walkn001,"Neil Walker",0,2,4
+start,mccua001,"Andrew McCutchen",0,3,8
+start,marts002,"Starling Marte",0,4,7
+start,kangj001,"Jung Ho Kang",0,5,6
+start,alvap001,"Pedro Alvarez",0,6,3
+start,harrj002,"Josh Harrison",0,7,5
+start,cervf001,"Francisco Cervelli",0,8,2
+start,lockj001,"Jeff Locke",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,casts001,"Starlin Castro",1,4,6
+start,castw002,"Welington Castillo",1,5,2
+start,solej001,"Jorge Soler",1,6,9
+start,szczm001,"Matt Szczur",1,7,7
+start,hendk001,"Kyle Hendricks",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,polag001,12,CBFFS,K
+play,1,0,walkn001,12,BSFX,D7/L
+play,1,0,mccua001,31,BCBBB,W
+play,1,0,marts002,01,FX,6/P/IF
+play,1,0,kangj001,22,CFB*BFS,K
+play,1,1,fowld001,12,CBFX,53/G
+play,1,1,rizza001,22,CBFBX,31/G
+play,1,1,bryak001,32,BFBFFBB,W
+play,1,1,casts001,11,CBB,WP.1-2
+play,1,1,casts001,32,CBB.BSFFFB,W
+play,1,1,castw002,12,B+2SSS,K
+play,2,0,alvap001,01,CX,S8/L
+play,2,0,harrj002,12,BCFX,46(1)/FO/G-
+play,2,0,cervf001,22,F11SFBB1S,K
+play,2,0,lockj001,02,CFFS,K
+play,2,1,solej001,32,CBFBBB,W
+play,2,1,szczm001,12,CFFBX,8/F
+play,2,1,hendk001,22,1FB+1CBC,K
+play,2,1,russa002,22,1FBSBX,46(1)/FO/G
+play,3,0,polag001,32,CBBBSX,43/G+
+play,3,0,walkn001,02,CFX,4/P
+play,3,0,mccua001,01,FX,S7/G
+play,3,0,marts002,02,CFFFFT,K
+play,3,1,fowld001,32,FCBBBX,S8/L-
+play,3,1,rizza001,12,CBC>B,SB2
+play,3,1,rizza001,32,CBC>B.BFX,S3/L+.2-3
+play,3,1,bryak001,32,SFBB*BX,HR/78/L.3-H;1-H
+play,3,1,casts001,11,BCX,S7/L
+play,3,1,castw002,32,CBBB1SS,K
+play,3,1,solej001,22,FBFBC,K
+play,3,1,szczm001,20,BBX,8/F
+play,4,0,kangj001,11,BCX,63/G
+play,4,0,alvap001,11,BCX,HR/9/F
+play,4,0,harrj002,10,BX,9/F
+play,4,0,cervf001,32,CBBCFBC,K
+play,4,1,hendk001,31,BBBCX,D9/F
+play,4,1,russa002,02,FCX,53/G-.2-3
+play,4,1,fowld001,31,FBB*BX,7/F/SF.3-H
+play,4,1,rizza001,20,BBX,HR/89/F
+play,4,1,bryak001,00,,NP
+sub,basta001,"Antonio Bastardo",0,9,1
+play,4,1,bryak001,32,.CBBCBX,9/F9LF
+play,5,0,basta001,00,,NP
+sub,lombs002,"Steve Lombardozzi",0,9,11
+play,5,0,lombs002,01,.CX,3/P3F
+play,5,0,polag001,22,BCCBX,9/F
+play,5,0,walkn001,32,BFBBSFS,K
+play,5,1,casts001,00,,NP
+sub,scahr001,"Rob Scahill",0,9,1
+play,5,1,casts001,22,.SBBSX,E5/G
+play,5,1,castw002,12,FB11F>B,SB2
+play,5,1,castw002,32,FB11F>B.BH,HP
+play,5,1,solej001,32,BBSCFBB,W.2-3;1-2
+play,5,1,szczm001,00,X,S7/L.3-H(UR);2-H;1-2
+play,5,1,hendk001,02,MLC,K
+play,5,1,russa002,00,,NP
+sub,camia001,"Arquimedes Caminero",0,9,1
+play,5,1,russa002,21,.BBFX,3/P/IF
+play,5,1,fowld001,01,CX,5/P5F
+play,6,0,mccua001,01,CX,4/P
+play,6,0,marts002,12,CFBX,S5/G+
+play,6,0,kangj001,10,B>X,7/F
+play,6,0,alvap001,01,FX,S4/G.1-2
+play,6,0,harrj002,02,SFX,S9/L-.2-3;1-2
+play,6,0,cervf001,01,CX,D9/F.3-H;2-H;1-H
+play,6,0,camia001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,camia001,00,,NP
+sub,hartc001,"Corey Hart",0,9,11
+play,6,0,hartc001,22,..*BSCBFX,S7/G.2-H
+play,6,0,polag001,32,BBFFB>B,W.1-2
+play,6,0,walkn001,22,BBCFB,PB.2-3;1-2
+play,6,0,walkn001,32,BBCFB.B,W
+play,6,0,mccua001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,6,0,mccua001,32,.BBSF*B>X,9/F
+play,6,1,rizza001,00,,NP
+sub,hughj001,"Jared Hughes",0,2,1
+play,6,1,rizza001,00,,NP
+sub,rodrs002,"Sean Rodriguez",0,9,4
+play,6,1,rizza001,11,..FBX,43/G
+play,6,1,bryak001,32,BFBSBB,W
+play,6,1,casts001,10,B>X,53/G.1-2
+play,6,1,castw002,00,,NP
+sub,montm001,"Miguel Montero",1,5,11
+play,6,1,montm001,21,.BSBH,HP
+play,6,1,solej001,01,FX,S9/L-.2-H;1-2
+play,6,1,szczm001,02,SSS,K
+play,7,0,marts002,00,,NP
+sub,montm001,"Miguel Montero",1,5,2
+play,7,0,marts002,10,.BX,8/F
+play,7,0,kangj001,22,SBCFBS,K
+play,7,0,alvap001,22,SCBBX,53/G
+play,7,1,rossz001,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,11
+play,7,1,coghc001,22,.BBFCFX,8/F
+play,7,1,russa002,32,CFBBFBFB,W
+play,7,1,fowld001,00,1>X,S9/G.1-3
+play,7,1,rizza001,00,X,S9/G+.3-H;1-3
+play,7,1,bryak001,21,*BFB1X,8/F/SF.3-H
+play,7,1,casts001,11,BCH,HP.1-2
+play,7,1,montm001,22,CBBCX,41/G
+play,8,0,harrj002,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,8,0,harrj002,22,.FFBBFFX,HR/8/F
+play,8,0,cervf001,11,CBX,S9/L-
+play,8,0,rodrs002,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,rodrs002,22,.BBSFFX,4/P
+play,8,0,polag001,31,BBBCB,W.1-2
+play,8,0,hughj001,00,,NP
+sub,mercj002,"Jordy Mercer",0,2,11
+play,8,0,mercj002,32,.CSFB*BBX,65(2)/FO/G.1-2
+play,8,0,mccua001,00,B,PB.2-3;1-2
+play,8,0,mccua001,20,B.BX,HR/78/F.3-H;2-H
+play,8,0,marts002,12,CSBS,K
+play,8,1,solej001,00,,NP
+sub,mercj002,"Jordy Mercer",0,2,6
+play,8,1,solej001,00,,NP
+sub,kangj001,"Jung Ho Kang",0,5,5
+play,8,1,solej001,00,,NP
+sub,harrj002,"Josh Harrison",0,7,4
+play,8,1,solej001,00,,NP
+sub,rodrs002,"Sean Rodriguez",0,9,7
+play,8,1,solej001,00,,NP
+sub,watst001,"Tony Watson",0,4,1
+play,8,1,solej001,01,.....FX,6/L
+play,8,1,szczm001,32,SSBBBT,K
+play,8,1,strop001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,8,1,herrj002,21,.FBBX,3/P3F
+play,9,0,kangj001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,9,0,kangj001,12,.CCBS,K
+play,9,0,alvap001,22,CSBBFFC,K
+play,9,0,harrj002,32,BCSBBX,D7/L
+play,9,0,cervf001,00,B,WP.2-3
+play,9,0,cervf001,10,B.X,S8/L.3-H
+play,9,0,rodrs002,00,X,63/G
+play,9,1,russa002,12,FFFBX,53/G
+play,9,1,fowld001,22,FBBSFS,K
+play,9,1,rizza001,22,FCBFFFBX,3/L
+play,10,0,polag001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,10,0,polag001,30,.BBBB,W
+play,10,0,mercj002,01,11CX,64(1)3/GDP
+play,10,0,mccua001,32,BCBFBB,W
+play,10,0,watst001,00,,NP
+sub,stewc001,"Chris Stewart",0,4,11
+play,10,0,stewc001,00,.X,64(1)/FO/G
+play,10,1,bryak001,00,,NP
+sub,melam001,"Mark Melancon",0,4,1
+play,10,1,bryak001,01,.CX,8/F
+play,10,1,casts001,00,X,S8/G
+play,10,1,montm001,31,CBBBX,S9/G.1-3
+play,10,1,solej001,30,IIII,IW.1-2
+play,10,1,szczm001,20,BBX,9/F/DP.3XH(92)
+play,11,0,kangj001,01,CX,63/G
+play,11,0,alvap001,11,BSX,31/G
+play,11,0,harrj002,00,X,D7/L
+play,11,0,cervf001,12,CCBX,9/F
+play,11,1,russj003,00,,NP
+sub,woodt004,"Travis Wood",1,8,11
+play,11,1,woodt004,00,.X,53/G
+play,11,1,russa002,21,CBBX,S7/G
+play,11,1,fowld001,22,BCBSS,K
+play,11,1,rizza001,02,CFB,WP.1-2
+play,11,1,rizza001,12,CFB.X,43/G
+play,12,0,rodrs002,00,,NP
+sub,jacke001,"Edwin Jackson",1,8,1
+play,12,0,rodrs002,10,.BX,8/F
+play,12,0,polag001,31,BCBBB,W
+play,12,0,mercj002,02,CFF1>B,SB2
+play,12,0,mercj002,12,CFF1>B.X,8/F.2-3
+play,12,0,mccua001,30,IIII,IW
+play,12,0,melam001,00,,NP
+sub,worlv001,"Vance Worley",0,4,11
+play,12,0,worlv001,02,.SF>X,9/F
+play,12,1,bryak001,00,,NP
+sub,liz-r001,"Radhames Liz",0,4,1
+play,12,1,bryak001,02,.SCS,K
+play,12,1,casts001,30,BBBB,W
+play,12,1,montm001,11,FBX,S8/G.1-3
+play,12,1,solej001,30,IIII,IW.1-2
+play,12,1,szczm001,31,*BFBBX,S9/F.3-H;2-3;1-2
+com,"$Gregory Polanco tripped and fell, allowing the ball"
+com,"to fall in safely; Starlin Castro was not tagging up"
+com,"on the play"
+data,er,lockj001,5
+data,er,basta001,0
+data,er,scahr001,1
+data,er,camia001,0
+data,er,hughj001,3
+data,er,watst001,0
+data,er,melam001,0
+data,er,liz-r001,1
+data,er,hendk001,5
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,mottj001,2
+data,er,strop001,2
+data,er,rondh001,1
+data,er,russj003,0
+data,er,jacke001,0

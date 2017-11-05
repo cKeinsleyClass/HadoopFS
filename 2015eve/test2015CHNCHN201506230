@@ -1,0 +1,495 @@
+id,CHN201506230
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/23
+info,number,0
+info,starttime,7:07PM
+info,daynight,night
+info,usedh,false
+info,umphome,emmep901
+info,ump1b,mealj901
+info,ump2b,fleta901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,rtol
+info,windspeed,8
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,36799
+info,wp,mottj001
+info,lp,peraj002
+info,save,
+start,puigy001,"Yasiel Puig",0,1,9
+start,pedej001,"Joc Pederson",0,2,8
+start,kendh001,"Howie Kendrick",0,3,4
+start,gonza003,"Adrian Gonzalez",0,4,3
+start,grany001,"Yasmani Grandal",0,5,2
+start,ethia001,"Andre Ethier",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,rollj001,"Jimmy Rollins",0,8,6
+start,greiz001,"Zack Greinke",0,9,1
+start,coghc001,"Chris Coghlan",1,1,7
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,montm001,"Miguel Montero",1,4,2
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,szczm001,"Matt Szczur",1,7,8
+start,hammj002,"Jason Hammel",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,puigy001,02,SCS,K
+play,1,0,pedej001,12,FSBS,K
+play,1,0,kendh001,01,SX,53/G
+play,1,1,coghc001,21,CBBX,13/G-
+play,1,1,rizza001,31,BBBCX,S9/L+
+play,1,1,bryak001,32,CS*B*BBB,W.1-2
+play,1,1,montm001,11,FBX,9/F.2-3
+play,1,1,casts001,12,CSB>B,SB2
+play,1,1,casts001,22,CSB>B.X,9/F
+play,2,0,gonza003,20,BBX,31/G-
+play,2,0,grany001,01,CX,63/G
+play,2,0,ethia001,12,CBFC,K
+play,2,1,baxtm001,12,BCFX,8/F
+play,2,1,szczm001,02,FSX,4/P
+play,2,1,hammj002,12,CTBX,3/P3F/FINT/MREV
+com,"replay,2,hammj002,CHN,mealj901,CHI11,,Y,M,LAN,N"
+com,"$a fan reached over the wall at the tarp to"
+com,"catch Jaons Hammel's popup; the play was not"
+com,"ruled as fan interference but Dodgers"
+com,"manager Don Mattingly challenged the ruling;"
+com,"the play was overturned by replay to fan"
+com,"interference and Hannel was called out"
+play,3,0,calla001,21,BFBX,D7/L
+play,3,0,rollj001,32,BSBBFFFX,5/P
+play,3,0,greiz001,01,FX,2/P2F
+play,3,0,puigy001,01,CX,8/F
+play,3,1,russa002,22,BBCFT,K
+play,3,1,coghc001,32,BTFBBX,D8/L
+play,3,1,rizza001,00,X,8/L+
+play,3,1,bryak001,22,*BFSBS,K
+play,4,0,pedej001,32,BBBCSX,4/L+
+play,4,0,kendh001,21,BBCX,63/G-
+play,4,0,gonza003,12,BFFX,6/P-
+play,4,1,montm001,10,BX,S9/L
+play,4,1,casts001,22,F>FF*B*BX,8/L
+play,4,1,baxtm001,12,CFFBC,K
+play,4,1,szczm001,22,F*BBFFX,8/F
+play,5,0,grany001,22,BCBCFX,4/P
+play,5,0,ethia001,22,CBBFT,K
+play,5,0,calla001,32,TCBBBFX,43/G
+play,5,1,hammj002,22,FCFBFFBS,K
+play,5,1,russa002,22,BFCBX,6/L
+play,5,1,coghc001,32,CBBFBX,63/G
+play,6,0,rollj001,31,BFBBX,43/G+
+play,6,0,greiz001,12,FCBX,63/G-
+play,6,0,puigy001,01,SX,T9/F
+play,6,0,pedej001,00,X,6/P
+play,6,1,rizza001,31,BCBBB,W
+play,6,1,bryak001,32,*BCC*BFBX,4/P
+play,6,1,montm001,32,F1FB*BB>S,K+SB2
+play,6,1,casts001,12,FCBX,63/G
+play,7,0,kendh001,12,CSBS,K
+play,7,0,gonza003,22,FSBBX,13/G
+play,7,0,grany001,32,BBCBCT,K
+play,7,1,baxtm001,00,,NP
+sub,nicaj001,"Juan Nicasio",0,9,1
+play,7,1,baxtm001,12,.BFSC,K
+play,7,1,szczm001,22,FBBFX,8/F
+play,7,1,hammj002,10,BX,63/G+
+play,8,0,ethia001,32,BBBCFB,W
+play,8,0,calla001,00,1X,13/BG/SH.1-2
+play,8,0,rollj001,01,FX,31/G-.2-3
+play,8,0,nicaj001,00,,NP
+sub,turnj001,"Justin Turner",0,9,11
+play,8,0,turnj001,31,.*BBBCB,W
+play,8,0,puigy001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,puigy001,00,.X,7/F-
+play,8,1,russa002,00,,NP
+sub,libea001,"Adam Liberatore",0,9,1
+play,8,1,russa002,22,.CBSBS,K
+play,8,1,coghc001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,11
+play,8,1,denoc001,11,.CBX,8/F
+play,8,1,rizza001,00,X,6/P
+play,9,0,pedej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,pedej001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,9,0,pedej001,12,..CSBS,K
+play,9,0,kendh001,01,CX,63/G-
+play,9,0,gonza003,00,X,S8/L
+play,9,0,grany001,31,*B*B*BCB,W.1-2
+play,9,0,ethia001,31,BBBCX,46(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,garcy001,"Yimi Garcia",0,9,1
+play,9,1,bryak001,00,.X,4/P
+play,9,1,montm001,32,BSBBSC,K
+play,9,1,casts001,00,X,7/F
+play,10,0,calla001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,10,0,calla001,10,.BX,8/L
+play,10,0,rollj001,02,SFS,K
+play,10,0,garcy001,00,,NP
+sub,guera001,"Alex Guerrero",0,9,11
+play,10,0,guera001,10,.BX,4/P
+play,10,1,baxtm001,00,,NP
+sub,peraj002,"Joel Peralta",0,9,1
+play,10,1,baxtm001,00,.X,S9/L
+play,10,1,szczm001,20,BBX,S5/G.1-2
+play,10,1,mottj001,00,,NP
+sub,fowld001,"Dexter Fowler",1,8,11
+play,10,1,fowld001,32,.BCBFFBB,W.2-3;1-2
+play,10,1,russa002,00,,NP
+sub,woodt004,"Travis Wood",1,8,12
+play,10,1,russa002,00,,NP
+sub,jansk001,"Kenley Jansen",0,9,1
+play,10,1,russa002,22,..SBSBFFFX,32(3)/FO/G.2-3;1-2
+play,10,1,denoc001,12,BCFX,8/L/SF.3-H
+data,er,greiz001,0
+data,er,nicaj001,0
+data,er,libea001,0
+data,er,garcy001,0
+data,er,peraj002,1
+data,er,jansk001,0
+data,er,hammj002,0
+data,er,rondh001,0
+data,er,strop001,0
+data,er,mottj001,0
+id,CHN201506230
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/23
+info,number,0
+info,starttime,7:07PM
+info,daynight,night
+info,usedh,false
+info,umphome,emmep901
+info,ump1b,mealj901
+info,ump2b,fleta901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,rtol
+info,windspeed,8
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,36799
+info,wp,mottj001
+info,lp,peraj002
+info,save,
+start,puigy001,"Yasiel Puig",0,1,9
+start,pedej001,"Joc Pederson",0,2,8
+start,kendh001,"Howie Kendrick",0,3,4
+start,gonza003,"Adrian Gonzalez",0,4,3
+start,grany001,"Yasmani Grandal",0,5,2
+start,ethia001,"Andre Ethier",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,rollj001,"Jimmy Rollins",0,8,6
+start,greiz001,"Zack Greinke",0,9,1
+start,coghc001,"Chris Coghlan",1,1,7
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,montm001,"Miguel Montero",1,4,2
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,szczm001,"Matt Szczur",1,7,8
+start,hammj002,"Jason Hammel",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,puigy001,02,SCS,K
+play,1,0,pedej001,12,FSBS,K
+play,1,0,kendh001,01,SX,53/G
+play,1,1,coghc001,21,CBBX,13/G-
+play,1,1,rizza001,31,BBBCX,S9/L+
+play,1,1,bryak001,32,CS*B*BBB,W.1-2
+play,1,1,montm001,11,FBX,9/F.2-3
+play,1,1,casts001,12,CSB>B,SB2
+play,1,1,casts001,22,CSB>B.X,9/F
+play,2,0,gonza003,20,BBX,31/G-
+play,2,0,grany001,01,CX,63/G
+play,2,0,ethia001,12,CBFC,K
+play,2,1,baxtm001,12,BCFX,8/F
+play,2,1,szczm001,02,FSX,4/P
+play,2,1,hammj002,12,CTBX,3/P3F/FINT/MREV
+com,"replay,2,hammj002,CHN,mealj901,CHI11,,Y,M,LAN,N"
+com,"$a fan reached over the wall at the tarp to"
+com,"catch Jaons Hammel's popup; the play was not"
+com,"ruled as fan interference but Dodgers"
+com,"manager Don Mattingly challenged the ruling;"
+com,"the play was overturned by replay to fan"
+com,"interference and Hannel was called out"
+play,3,0,calla001,21,BFBX,D7/L
+play,3,0,rollj001,32,BSBBFFFX,5/P
+play,3,0,greiz001,01,FX,2/P2F
+play,3,0,puigy001,01,CX,8/F
+play,3,1,russa002,22,BBCFT,K
+play,3,1,coghc001,32,BTFBBX,D8/L
+play,3,1,rizza001,00,X,8/L+
+play,3,1,bryak001,22,*BFSBS,K
+play,4,0,pedej001,32,BBBCSX,4/L+
+play,4,0,kendh001,21,BBCX,63/G-
+play,4,0,gonza003,12,BFFX,6/P-
+play,4,1,montm001,10,BX,S9/L
+play,4,1,casts001,22,F>FF*B*BX,8/L
+play,4,1,baxtm001,12,CFFBC,K
+play,4,1,szczm001,22,F*BBFFX,8/F
+play,5,0,grany001,22,BCBCFX,4/P
+play,5,0,ethia001,22,CBBFT,K
+play,5,0,calla001,32,TCBBBFX,43/G
+play,5,1,hammj002,22,FCFBFFBS,K
+play,5,1,russa002,22,BFCBX,6/L
+play,5,1,coghc001,32,CBBFBX,63/G
+play,6,0,rollj001,31,BFBBX,43/G+
+play,6,0,greiz001,12,FCBX,63/G-
+play,6,0,puigy001,01,SX,T9/F
+play,6,0,pedej001,00,X,6/P
+play,6,1,rizza001,31,BCBBB,W
+play,6,1,bryak001,32,*BCC*BFBX,4/P
+play,6,1,montm001,32,F1FB*BB>S,K+SB2
+play,6,1,casts001,12,FCBX,63/G
+play,7,0,kendh001,12,CSBS,K
+play,7,0,gonza003,22,FSBBX,13/G
+play,7,0,grany001,32,BBCBCT,K
+play,7,1,baxtm001,00,,NP
+sub,nicaj001,"Juan Nicasio",0,9,1
+play,7,1,baxtm001,12,.BFSC,K
+play,7,1,szczm001,22,FBBFX,8/F
+play,7,1,hammj002,10,BX,63/G+
+play,8,0,ethia001,32,BBBCFB,W
+play,8,0,calla001,00,1X,13/BG/SH.1-2
+play,8,0,rollj001,01,FX,31/G-.2-3
+play,8,0,nicaj001,00,,NP
+sub,turnj001,"Justin Turner",0,9,11
+play,8,0,turnj001,31,.*BBBCB,W
+play,8,0,puigy001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,puigy001,00,.X,7/F-
+play,8,1,russa002,00,,NP
+sub,libea001,"Adam Liberatore",0,9,1
+play,8,1,russa002,22,.CBSBS,K
+play,8,1,coghc001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,11
+play,8,1,denoc001,11,.CBX,8/F
+play,8,1,rizza001,00,X,6/P
+play,9,0,pedej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,pedej001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,9,0,pedej001,12,..CSBS,K
+play,9,0,kendh001,01,CX,63/G-
+play,9,0,gonza003,00,X,S8/L
+play,9,0,grany001,31,*B*B*BCB,W.1-2
+play,9,0,ethia001,31,BBBCX,46(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,garcy001,"Yimi Garcia",0,9,1
+play,9,1,bryak001,00,.X,4/P
+play,9,1,montm001,32,BSBBSC,K
+play,9,1,casts001,00,X,7/F
+play,10,0,calla001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,10,0,calla001,10,.BX,8/L
+play,10,0,rollj001,02,SFS,K
+play,10,0,garcy001,00,,NP
+sub,guera001,"Alex Guerrero",0,9,11
+play,10,0,guera001,10,.BX,4/P
+play,10,1,baxtm001,00,,NP
+sub,peraj002,"Joel Peralta",0,9,1
+play,10,1,baxtm001,00,.X,S9/L
+play,10,1,szczm001,20,BBX,S5/G.1-2
+play,10,1,mottj001,00,,NP
+sub,fowld001,"Dexter Fowler",1,8,11
+play,10,1,fowld001,32,.BCBFFBB,W.2-3;1-2
+play,10,1,russa002,00,,NP
+sub,woodt004,"Travis Wood",1,8,12
+play,10,1,russa002,00,,NP
+sub,jansk001,"Kenley Jansen",0,9,1
+play,10,1,russa002,22,..SBSBFFFX,32(3)/FO/G.2-3;1-2
+play,10,1,denoc001,12,BCFX,8/L/SF.3-H
+data,er,greiz001,0
+data,er,nicaj001,0
+data,er,libea001,0
+data,er,garcy001,0
+data,er,peraj002,1
+data,er,jansk001,0
+data,er,hammj002,0
+data,er,rondh001,0
+data,er,strop001,0
+data,er,mottj001,0
+id,CHN201506230
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/23
+info,number,0
+info,starttime,7:07PM
+info,daynight,night
+info,usedh,false
+info,umphome,emmep901
+info,ump1b,mealj901
+info,ump2b,fleta901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,rtol
+info,windspeed,8
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,36799
+info,wp,mottj001
+info,lp,peraj002
+info,save,
+start,puigy001,"Yasiel Puig",0,1,9
+start,pedej001,"Joc Pederson",0,2,8
+start,kendh001,"Howie Kendrick",0,3,4
+start,gonza003,"Adrian Gonzalez",0,4,3
+start,grany001,"Yasmani Grandal",0,5,2
+start,ethia001,"Andre Ethier",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,rollj001,"Jimmy Rollins",0,8,6
+start,greiz001,"Zack Greinke",0,9,1
+start,coghc001,"Chris Coghlan",1,1,7
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,montm001,"Miguel Montero",1,4,2
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,szczm001,"Matt Szczur",1,7,8
+start,hammj002,"Jason Hammel",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,puigy001,02,SCS,K
+play,1,0,pedej001,12,FSBS,K
+play,1,0,kendh001,01,SX,53/G
+play,1,1,coghc001,21,CBBX,13/G-
+play,1,1,rizza001,31,BBBCX,S9/L+
+play,1,1,bryak001,32,CS*B*BBB,W.1-2
+play,1,1,montm001,11,FBX,9/F.2-3
+play,1,1,casts001,12,CSB>B,SB2
+play,1,1,casts001,22,CSB>B.X,9/F
+play,2,0,gonza003,20,BBX,31/G-
+play,2,0,grany001,01,CX,63/G
+play,2,0,ethia001,12,CBFC,K
+play,2,1,baxtm001,12,BCFX,8/F
+play,2,1,szczm001,02,FSX,4/P
+play,2,1,hammj002,12,CTBX,3/P3F/FINT/MREV
+com,"replay,2,hammj002,CHN,mealj901,CHI11,,Y,M,LAN,N"
+com,"$a fan reached over the wall at the tarp to"
+com,"catch Jaons Hammel's popup; the play was not"
+com,"ruled as fan interference but Dodgers"
+com,"manager Don Mattingly challenged the ruling;"
+com,"the play was overturned by replay to fan"
+com,"interference and Hannel was called out"
+play,3,0,calla001,21,BFBX,D7/L
+play,3,0,rollj001,32,BSBBFFFX,5/P
+play,3,0,greiz001,01,FX,2/P2F
+play,3,0,puigy001,01,CX,8/F
+play,3,1,russa002,22,BBCFT,K
+play,3,1,coghc001,32,BTFBBX,D8/L
+play,3,1,rizza001,00,X,8/L+
+play,3,1,bryak001,22,*BFSBS,K
+play,4,0,pedej001,32,BBBCSX,4/L+
+play,4,0,kendh001,21,BBCX,63/G-
+play,4,0,gonza003,12,BFFX,6/P-
+play,4,1,montm001,10,BX,S9/L
+play,4,1,casts001,22,F>FF*B*BX,8/L
+play,4,1,baxtm001,12,CFFBC,K
+play,4,1,szczm001,22,F*BBFFX,8/F
+play,5,0,grany001,22,BCBCFX,4/P
+play,5,0,ethia001,22,CBBFT,K
+play,5,0,calla001,32,TCBBBFX,43/G
+play,5,1,hammj002,22,FCFBFFBS,K
+play,5,1,russa002,22,BFCBX,6/L
+play,5,1,coghc001,32,CBBFBX,63/G
+play,6,0,rollj001,31,BFBBX,43/G+
+play,6,0,greiz001,12,FCBX,63/G-
+play,6,0,puigy001,01,SX,T9/F
+play,6,0,pedej001,00,X,6/P
+play,6,1,rizza001,31,BCBBB,W
+play,6,1,bryak001,32,*BCC*BFBX,4/P
+play,6,1,montm001,32,F1FB*BB>S,K+SB2
+play,6,1,casts001,12,FCBX,63/G
+play,7,0,kendh001,12,CSBS,K
+play,7,0,gonza003,22,FSBBX,13/G
+play,7,0,grany001,32,BBCBCT,K
+play,7,1,baxtm001,00,,NP
+sub,nicaj001,"Juan Nicasio",0,9,1
+play,7,1,baxtm001,12,.BFSC,K
+play,7,1,szczm001,22,FBBFX,8/F
+play,7,1,hammj002,10,BX,63/G+
+play,8,0,ethia001,32,BBBCFB,W
+play,8,0,calla001,00,1X,13/BG/SH.1-2
+play,8,0,rollj001,01,FX,31/G-.2-3
+play,8,0,nicaj001,00,,NP
+sub,turnj001,"Justin Turner",0,9,11
+play,8,0,turnj001,31,.*BBBCB,W
+play,8,0,puigy001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,puigy001,00,.X,7/F-
+play,8,1,russa002,00,,NP
+sub,libea001,"Adam Liberatore",0,9,1
+play,8,1,russa002,22,.CBSBS,K
+play,8,1,coghc001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,11
+play,8,1,denoc001,11,.CBX,8/F
+play,8,1,rizza001,00,X,6/P
+play,9,0,pedej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,pedej001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,9,0,pedej001,12,..CSBS,K
+play,9,0,kendh001,01,CX,63/G-
+play,9,0,gonza003,00,X,S8/L
+play,9,0,grany001,31,*B*B*BCB,W.1-2
+play,9,0,ethia001,31,BBBCX,46(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,garcy001,"Yimi Garcia",0,9,1
+play,9,1,bryak001,00,.X,4/P
+play,9,1,montm001,32,BSBBSC,K
+play,9,1,casts001,00,X,7/F
+play,10,0,calla001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,10,0,calla001,10,.BX,8/L
+play,10,0,rollj001,02,SFS,K
+play,10,0,garcy001,00,,NP
+sub,guera001,"Alex Guerrero",0,9,11
+play,10,0,guera001,10,.BX,4/P
+play,10,1,baxtm001,00,,NP
+sub,peraj002,"Joel Peralta",0,9,1
+play,10,1,baxtm001,00,.X,S9/L
+play,10,1,szczm001,20,BBX,S5/G.1-2
+play,10,1,mottj001,00,,NP
+sub,fowld001,"Dexter Fowler",1,8,11
+play,10,1,fowld001,32,.BCBFFBB,W.2-3;1-2
+play,10,1,russa002,00,,NP
+sub,woodt004,"Travis Wood",1,8,12
+play,10,1,russa002,00,,NP
+sub,jansk001,"Kenley Jansen",0,9,1
+play,10,1,russa002,22,..SBSBFFFX,32(3)/FO/G.2-3;1-2
+play,10,1,denoc001,12,BCFX,8/L/SF.3-H
+data,er,greiz001,0
+data,er,nicaj001,0
+data,er,libea001,0
+data,er,garcy001,0
+data,er,peraj002,1
+data,er,jansk001,0
+data,er,hammj002,0
+data,er,rondh001,0
+data,er,strop001,0
+data,er,mottj001,0

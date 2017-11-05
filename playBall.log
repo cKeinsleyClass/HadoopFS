@@ -1,0 +1,685 @@
+DEBUG 2017-11-03 06:19:10,635 Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:448)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:419)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:496)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1445)
+	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:68)
+	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:82)
+	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:97)
+	at edu.rosehulman.gilmordw.HBaseConnection.<init>(HBaseConnection.java:38)
+	at edu.rosehulman.gilmordw.CommandLine.loop(CommandLine.java:21)
+	at edu.rosehulman.gilmordw.CommandLine.main(CommandLine.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+DEBUG 2017-11-03 06:19:10,810 setsid exited with exit code 0
+DEBUG 2017-11-03 06:19:14,480 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+DEBUG 2017-11-03 06:19:14,491 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+DEBUG 2017-11-03 06:19:14,492 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+DEBUG 2017-11-03 06:19:14,492 field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Renewal failures since startup], valueName=Time)
+DEBUG 2017-11-03 06:19:14,492 field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Renewal failures since last successful login], valueName=Time)
+DEBUG 2017-11-03 06:19:14,493 UgiMetrics, User and group related metrics
+DEBUG 2017-11-03 06:19:33,372 Kerberos krb5 configuration not found, setting default realm to empty
+DEBUG 2017-11-03 06:19:33,377  Creating new Groups object
+DEBUG 2017-11-03 06:19:33,379 Trying to load the custom-built native-hadoop library...
+DEBUG 2017-11-03 06:19:33,379 Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+DEBUG 2017-11-03 06:19:33,379 java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+WARN  2017-11-03 06:19:33,380 Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+DEBUG 2017-11-03 06:19:33,380 Falling back to shell based
+DEBUG 2017-11-03 06:19:33,380 Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+DEBUG 2017-11-03 06:19:33,435 Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+DEBUG 2017-11-03 06:19:33,439 hadoop login
+DEBUG 2017-11-03 06:19:33,439 hadoop login commit
+DEBUG 2017-11-03 06:19:33,442 using local user:UnixPrincipal: root
+DEBUG 2017-11-03 06:19:33,443 Using user: "UnixPrincipal: root" with name root
+DEBUG 2017-11-03 06:19:33,443 User entry: "root"
+DEBUG 2017-11-03 06:19:33,443 Assuming keytab is managed externally since logged in from subject.
+DEBUG 2017-11-03 06:19:33,443 UGI loginUser:root (auth:SIMPLE)
+INFO  2017-11-03 06:19:46,064 Process identifier=hconnection-0x55574295 connecting to ZooKeeper ensemble=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181
+INFO  2017-11-03 06:19:46,075 Client environment:zookeeper.version=3.4.6-205--1, built on 08/26/2017 09:30 GMT
+INFO  2017-11-03 06:19:46,075 Client environment:host.name=hadoop-m1.c.hadoop-play-ball.internal
+INFO  2017-11-03 06:19:46,075 Client environment:java.version=1.8.0_144
+INFO  2017-11-03 06:19:46,075 Client environment:java.vendor=Oracle Corporation
+INFO  2017-11-03 06:19:46,075 Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre
+INFO  2017-11-03 06:19:46,075 Client environment:java.class.path=HbaseMiniLab.jar
+INFO  2017-11-03 06:19:46,075 Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+INFO  2017-11-03 06:19:46,075 Client environment:java.io.tmpdir=/tmp
+INFO  2017-11-03 06:19:46,075 Client environment:java.compiler=<NA>
+INFO  2017-11-03 06:19:46,075 Client environment:os.name=Linux
+INFO  2017-11-03 06:19:46,075 Client environment:os.arch=amd64
+INFO  2017-11-03 06:19:46,075 Client environment:os.version=3.10.0-514.26.2.el7.x86_64
+INFO  2017-11-03 06:19:46,075 Client environment:user.name=root
+INFO  2017-11-03 06:19:46,075 Client environment:user.home=/root
+INFO  2017-11-03 06:19:46,075 Client environment:user.dir=/root/HadoopFS
+INFO  2017-11-03 06:19:46,077 Initiating client connection, connectString=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@38197e82
+DEBUG 2017-11-03 06:19:46,088 zookeeper.disableAutoWatchReset is false
+INFO  2017-11-03 06:19:46,112 Opening socket connection to server hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO  2017-11-03 06:19:46,123 Socket connection established, initiating session, client: /10.128.0.3:49382, server: hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181
+DEBUG 2017-11-03 06:19:46,125 Session establishment request sent on hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181
+INFO  2017-11-03 06:19:46,135 Session establishment complete on server hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181, sessionid = 0x15f7e98764a0051, negotiated timeout = 60000
+DEBUG 2017-11-03 06:19:46,138 hconnection-0x555742950x0, quorum=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181, baseZNode=/hbase-unsecure Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+DEBUG 2017-11-03 06:19:46,139 hconnection-0x55574295-0x15f7e98764a0051 connected
+DEBUG 2017-11-03 06:19:47,002 Reading reply sessionid:0x15f7e98764a0051, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,150323888307,0  request:: '/hbase-unsecure/hbaseid,F  response:: s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 06:19:47,005 Reading reply sessionid:0x15f7e98764a0051, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,150323888307,0  request:: '/hbase-unsecure/hbaseid,F  response:: #ffffffff000146d61737465723a313630303064ffffffe2fffffffe41ffffff89ffffffdeffffffa1ffffffb050425546a2433306664656363362d643039662d346461302d393030332d663539613166613935333435,s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 06:19:53,129 sampler.classes = ; loaded no samplers
+DEBUG 2017-11-03 06:19:53,133 span.receiver.classes = ; loaded no span receivers
+DEBUG 2017-11-03 06:20:01,540 dfs.client.use.legacy.blockreader.local = false
+DEBUG 2017-11-03 06:20:01,541 dfs.client.read.shortcircuit = false
+DEBUG 2017-11-03 06:20:01,541 dfs.client.domain.socket.data.traffic = false
+DEBUG 2017-11-03 06:20:01,541 dfs.domain.socket.path = /var/lib/hadoop-hdfs/dn_socket
+DEBUG 2017-11-03 06:20:01,558 multipleLinearRandomRetry = null
+DEBUG 2017-11-03 06:20:01,576 rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcProtobufRequest, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@21f9764
+DEBUG 2017-11-03 06:20:01,582 getting client out of cache: org.apache.hadoop.ipc.Client@64a74723
+DEBUG 2017-11-03 06:20:02,060 Both short-circuit local reads and UNIX domain socket are disabled.
+DEBUG 2017-11-03 06:20:02,066 DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+DEBUG 2017-11-03 06:20:07,007 Got ping response for sessionid: 0x15f7e98764a0051 after 0ms
+DEBUG 2017-11-03 06:20:09,865 Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@3e1596c3, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null
+DEBUG 2017-11-03 06:20:27,025 Got ping response for sessionid: 0x15f7e98764a0051 after 0ms
+DEBUG 2017-11-03 06:20:37,243 Reading reply sessionid:0x15f7e98764a0051, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,150323888399,0  request:: '/hbase-unsecure/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a31363032301bffffffd07d27ffffffb3ffffffbbffffffcf4d50425546a31a256861646f6f702d77322e632e6861646f6f702d706c61792d62616c6c2e696e7465726e616c10ffffff947d18ffffffa3ffffff92fffffff5fffffff4fffffff72b100183,s{150323855889,150323855889,1509657768374,1509657768374,0,0,0,0,90,0,150323855889} 
+DEBUG 2017-11-03 06:20:37,243 Got ping response for sessionid: 0x15f7e98764a0051 after 1ms
+DEBUG 2017-11-03 06:20:37,259 Reading reply sessionid:0x15f7e98764a0051, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,150323888399,0  request:: '/hbase-unsecure,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} 
+DEBUG 2017-11-03 06:20:37,524 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 06:20:37,552 Connecting to hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:16020
+DEBUG 2017-11-03 06:20:37,631 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 06:20:37,631 Connecting to hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:16020
+DEBUG 2017-11-03 06:20:39,980 stopping client from cache: org.apache.hadoop.ipc.Client@64a74723
+DEBUG 2017-11-03 06:20:39,980 removing client from cache: org.apache.hadoop.ipc.Client@64a74723
+DEBUG 2017-11-03 06:20:39,980 stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@64a74723
+DEBUG 2017-11-03 06:20:39,980 Stopping client
+DEBUG 2017-11-03 06:20:39,981 ShutdownHookManger complete shutdown.
+DEBUG 2017-11-03 06:24:35,621 Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:448)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:419)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:496)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1445)
+	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:68)
+	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:82)
+	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:97)
+	at edu.rosehulman.gilmordw.HBaseConnection.<init>(HBaseConnection.java:39)
+	at edu.rosehulman.gilmordw.CommandLine.loop(CommandLine.java:21)
+	at edu.rosehulman.gilmordw.CommandLine.main(CommandLine.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+DEBUG 2017-11-03 06:24:35,703 setsid exited with exit code 0
+DEBUG 2017-11-03 06:24:39,176 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 06:24:39,188 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 06:24:39,188 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[GetGroups])
+DEBUG 2017-11-03 06:24:39,189 field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since startup])
+DEBUG 2017-11-03 06:24:39,189 field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since last successful login])
+DEBUG 2017-11-03 06:24:39,191 UgiMetrics, User and group related metrics
+DEBUG 2017-11-03 06:24:58,673 Kerberos krb5 configuration not found, setting default realm to empty
+DEBUG 2017-11-03 06:24:58,677  Creating new Groups object
+DEBUG 2017-11-03 06:24:58,679 Trying to load the custom-built native-hadoop library...
+DEBUG 2017-11-03 06:24:58,679 Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+DEBUG 2017-11-03 06:24:58,679 java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+WARN  2017-11-03 06:24:58,679 Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+DEBUG 2017-11-03 06:24:58,680 Falling back to shell based
+DEBUG 2017-11-03 06:24:58,680 Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+DEBUG 2017-11-03 06:24:58,729 Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+DEBUG 2017-11-03 06:24:58,732 hadoop login
+DEBUG 2017-11-03 06:24:58,733 hadoop login commit
+DEBUG 2017-11-03 06:24:58,736 using local user:UnixPrincipal: root
+DEBUG 2017-11-03 06:24:58,736 Using user: "UnixPrincipal: root" with name root
+DEBUG 2017-11-03 06:24:58,736 User entry: "root"
+DEBUG 2017-11-03 06:24:58,736 Assuming keytab is managed externally since logged in from subject.
+DEBUG 2017-11-03 06:24:58,737 UGI loginUser:root (auth:SIMPLE)
+INFO  2017-11-03 06:25:10,949 Process identifier=hconnection-0x65c689e7 connecting to ZooKeeper ensemble=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181
+INFO  2017-11-03 06:25:10,961 Client environment:zookeeper.version=3.4.6-205--1, built on 08/26/2017 09:30 GMT
+INFO  2017-11-03 06:25:10,961 Client environment:host.name=hadoop-m1.c.hadoop-play-ball.internal
+INFO  2017-11-03 06:25:10,961 Client environment:java.version=1.8.0_144
+INFO  2017-11-03 06:25:10,961 Client environment:java.vendor=Oracle Corporation
+INFO  2017-11-03 06:25:10,961 Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre
+INFO  2017-11-03 06:25:10,961 Client environment:java.class.path=HbaseMiniLab.jar
+INFO  2017-11-03 06:25:10,961 Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+INFO  2017-11-03 06:25:10,961 Client environment:java.io.tmpdir=/tmp
+INFO  2017-11-03 06:25:10,961 Client environment:java.compiler=<NA>
+INFO  2017-11-03 06:25:10,961 Client environment:os.name=Linux
+INFO  2017-11-03 06:25:10,961 Client environment:os.arch=amd64
+INFO  2017-11-03 06:25:10,962 Client environment:os.version=3.10.0-514.26.2.el7.x86_64
+INFO  2017-11-03 06:25:10,962 Client environment:user.name=root
+INFO  2017-11-03 06:25:10,962 Client environment:user.home=/root
+INFO  2017-11-03 06:25:10,962 Client environment:user.dir=/root/HadoopFS
+INFO  2017-11-03 06:25:10,963 Initiating client connection, connectString=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@75c589f2
+DEBUG 2017-11-03 06:25:10,970 zookeeper.disableAutoWatchReset is false
+INFO  2017-11-03 06:25:10,992 Opening socket connection to server hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO  2017-11-03 06:25:11,003 Socket connection established, initiating session, client: /10.128.0.3:53058, server: hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181
+DEBUG 2017-11-03 06:25:11,005 Session establishment request sent on hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181
+INFO  2017-11-03 06:25:11,017 Session establishment complete on server hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:2181, sessionid = 0x15f7e98764a0052, negotiated timeout = 60000
+DEBUG 2017-11-03 06:25:11,019 hconnection-0x65c689e70x0, quorum=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181, baseZNode=/hbase-unsecure Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+DEBUG 2017-11-03 06:25:11,021 hconnection-0x65c689e7-0x15f7e98764a0052 connected
+DEBUG 2017-11-03 06:25:11,894 Reading reply sessionid:0x15f7e98764a0052, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,150323888624,0  request:: '/hbase-unsecure/hbaseid,F  response:: s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 06:25:11,898 Reading reply sessionid:0x15f7e98764a0052, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,150323888624,0  request:: '/hbase-unsecure/hbaseid,F  response:: #ffffffff000146d61737465723a313630303064ffffffe2fffffffe41ffffff89ffffffdeffffffa1ffffffb050425546a2433306664656363362d643039662d346461302d393030332d663539613166613935333435,s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 06:25:17,712 sampler.classes = ; loaded no samplers
+DEBUG 2017-11-03 06:25:17,714 span.receiver.classes = ; loaded no span receivers
+DEBUG 2017-11-03 06:25:25,867 dfs.client.use.legacy.blockreader.local = false
+DEBUG 2017-11-03 06:25:25,867 dfs.client.read.shortcircuit = false
+DEBUG 2017-11-03 06:25:25,867 dfs.client.domain.socket.data.traffic = false
+DEBUG 2017-11-03 06:25:25,867 dfs.domain.socket.path = /var/lib/hadoop-hdfs/dn_socket
+DEBUG 2017-11-03 06:25:25,885 multipleLinearRandomRetry = null
+DEBUG 2017-11-03 06:25:25,902 rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcProtobufRequest, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@5ed6a36a
+DEBUG 2017-11-03 06:25:25,907 getting client out of cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 06:25:26,394 Both short-circuit local reads and UNIX domain socket are disabled.
+DEBUG 2017-11-03 06:25:26,400 DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+DEBUG 2017-11-03 06:25:31,913 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:25:34,256 Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@614427b2, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null
+DEBUG 2017-11-03 06:25:46,505 Reading reply sessionid:0x15f7e98764a0052, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,150323888703,0  request:: '/hbase-unsecure/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a31363032301bffffffd07d27ffffffb3ffffffbbffffffcf4d50425546a31a256861646f6f702d77322e632e6861646f6f702d706c61792d62616c6c2e696e7465726e616c10ffffff947d18ffffffa3ffffff92fffffff5fffffff4fffffff72b100183,s{150323855889,150323855889,1509657768374,1509657768374,0,0,0,0,90,0,150323855889} 
+DEBUG 2017-11-03 06:25:46,505 Got ping response for sessionid: 0x15f7e98764a0052 after 1ms
+DEBUG 2017-11-03 06:25:46,521 Reading reply sessionid:0x15f7e98764a0052, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,150323888703,0  request:: '/hbase-unsecure,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} 
+DEBUG 2017-11-03 06:25:46,835 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 06:25:46,864 Connecting to hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:16020
+DEBUG 2017-11-03 06:25:46,944 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 06:25:46,944 Connecting to hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:16020
+DEBUG 2017-11-03 06:26:01,342 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 06:26:01,342 Connecting to hadoop-w3.c.hadoop-play-ball.internal/10.128.0.2:16020
+DEBUG 2017-11-03 06:26:06,540 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:26:26,560 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:26:46,580 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:27:06,599 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:27:26,618 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:27:46,639 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:28:06,659 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:28:26,679 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:28:46,700 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:29:06,720 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:29:26,739 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:29:46,759 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:30:06,779 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:30:26,798 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:30:46,817 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:31:06,838 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:31:26,858 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:31:46,878 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:32:06,898 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:32:26,918 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:32:46,938 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:33:06,954 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:33:26,975 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:33:46,996 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:34:07,017 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:34:27,033 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:34:47,053 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:35:07,072 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:35:27,092 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:35:47,111 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:36:07,130 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:36:27,151 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:36:47,171 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:37:07,191 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:37:27,212 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:37:47,229 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:38:07,249 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:38:27,268 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:38:47,285 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:39:07,302 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:39:27,318 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:39:47,338 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:40:07,358 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:40:27,376 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:40:47,396 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:41:07,415 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:41:27,431 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:41:47,447 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:42:07,466 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:42:27,486 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:42:47,505 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:43:07,525 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:43:27,546 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:43:47,565 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:44:07,583 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:44:27,604 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:44:47,619 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:45:07,638 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:45:27,658 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:45:47,677 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:46:07,696 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:46:27,716 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:46:47,732 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:47:07,752 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:47:27,771 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:47:47,791 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:48:07,810 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:48:27,830 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:48:47,851 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:49:07,869 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:49:27,889 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:49:47,909 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:50:07,928 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:50:27,949 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:50:47,967 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:51:07,988 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:51:28,007 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:51:48,025 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:52:08,045 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:52:28,064 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:52:48,082 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:53:08,103 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:53:28,123 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:53:48,143 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:54:08,161 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:54:28,182 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:54:48,202 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:55:08,219 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:55:28,236 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:55:48,257 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:56:08,278 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:56:28,298 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:56:48,320 Got ping response for sessionid: 0x15f7e98764a0052 after 2ms
+DEBUG 2017-11-03 06:57:08,330 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:57:28,350 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:57:48,368 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:58:08,389 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:58:28,406 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:58:48,425 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:59:08,444 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:59:28,462 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 06:59:48,482 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:00:08,503 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:00:28,519 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:00:48,536 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:01:08,556 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:01:28,575 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:01:48,591 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:02:08,610 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:02:28,630 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:02:48,650 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:03:08,669 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:03:28,689 Got ping response for sessionid: 0x15f7e98764a0052 after 1ms
+DEBUG 2017-11-03 07:03:48,710 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:04:08,729 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:04:28,747 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:04:48,764 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:05:08,781 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:05:28,801 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:05:48,822 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:06:08,841 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:06:28,859 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:06:48,880 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:07:08,900 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:07:28,919 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:07:48,938 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:08:08,957 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:08:28,977 Got ping response for sessionid: 0x15f7e98764a0052 after 0ms
+DEBUG 2017-11-03 07:08:32,208 stopping client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 07:08:32,209 removing client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 07:08:32,209 stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 07:08:32,209 Stopping client
+DEBUG 2017-11-03 07:08:32,209 ShutdownHookManger complete shutdown.
+DEBUG 2017-11-03 14:16:44,743 Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:448)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:419)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:496)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1445)
+	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:68)
+	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:82)
+	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:97)
+	at edu.rosehulman.gilmordw.HBaseConnection.<init>(HBaseConnection.java:39)
+	at edu.rosehulman.gilmordw.CommandLine.loop(CommandLine.java:21)
+	at edu.rosehulman.gilmordw.CommandLine.main(CommandLine.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+DEBUG 2017-11-03 14:16:44,820 setsid exited with exit code 0
+DEBUG 2017-11-03 14:16:48,499 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 14:16:48,510 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 14:16:48,510 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[GetGroups])
+DEBUG 2017-11-03 14:16:48,510 field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since startup])
+DEBUG 2017-11-03 14:16:48,511 field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since last successful login])
+DEBUG 2017-11-03 14:16:48,512 UgiMetrics, User and group related metrics
+DEBUG 2017-11-03 14:17:08,571 Kerberos krb5 configuration not found, setting default realm to empty
+DEBUG 2017-11-03 14:17:08,575  Creating new Groups object
+DEBUG 2017-11-03 14:17:08,577 Trying to load the custom-built native-hadoop library...
+DEBUG 2017-11-03 14:17:08,577 Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+DEBUG 2017-11-03 14:17:08,577 java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+WARN  2017-11-03 14:17:08,577 Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+DEBUG 2017-11-03 14:17:08,578 Falling back to shell based
+DEBUG 2017-11-03 14:17:08,578 Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+DEBUG 2017-11-03 14:17:08,631 Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+DEBUG 2017-11-03 14:17:08,635 hadoop login
+DEBUG 2017-11-03 14:17:08,635 hadoop login commit
+DEBUG 2017-11-03 14:17:08,638 using local user:UnixPrincipal: root
+DEBUG 2017-11-03 14:17:08,638 Using user: "UnixPrincipal: root" with name root
+DEBUG 2017-11-03 14:17:08,639 User entry: "root"
+DEBUG 2017-11-03 14:17:08,639 Assuming keytab is managed externally since logged in from subject.
+DEBUG 2017-11-03 14:17:08,639 UGI loginUser:root (auth:SIMPLE)
+INFO  2017-11-03 14:17:21,249 Process identifier=hconnection-0x65c689e7 connecting to ZooKeeper ensemble=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181
+INFO  2017-11-03 14:17:21,260 Client environment:zookeeper.version=3.4.6-205--1, built on 08/26/2017 09:30 GMT
+INFO  2017-11-03 14:17:21,260 Client environment:host.name=hadoop-m1.c.hadoop-play-ball.internal
+INFO  2017-11-03 14:17:21,261 Client environment:java.version=1.8.0_144
+INFO  2017-11-03 14:17:21,261 Client environment:java.vendor=Oracle Corporation
+INFO  2017-11-03 14:17:21,261 Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre
+INFO  2017-11-03 14:17:21,261 Client environment:java.class.path=HbaseMiniLab.jar
+INFO  2017-11-03 14:17:21,261 Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+INFO  2017-11-03 14:17:21,261 Client environment:java.io.tmpdir=/tmp
+INFO  2017-11-03 14:17:21,261 Client environment:java.compiler=<NA>
+INFO  2017-11-03 14:17:21,261 Client environment:os.name=Linux
+INFO  2017-11-03 14:17:21,261 Client environment:os.arch=amd64
+INFO  2017-11-03 14:17:21,261 Client environment:os.version=3.10.0-514.26.2.el7.x86_64
+INFO  2017-11-03 14:17:21,261 Client environment:user.name=root
+INFO  2017-11-03 14:17:21,261 Client environment:user.home=/root
+INFO  2017-11-03 14:17:21,261 Client environment:user.dir=/root/HadoopFS
+INFO  2017-11-03 14:17:21,262 Initiating client connection, connectString=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@75c589f2
+DEBUG 2017-11-03 14:17:21,269 zookeeper.disableAutoWatchReset is false
+INFO  2017-11-03 14:17:21,300 Opening socket connection to server hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO  2017-11-03 14:17:21,312 Socket connection established, initiating session, client: /10.128.0.3:43488, server: hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181
+DEBUG 2017-11-03 14:17:21,313 Session establishment request sent on hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181
+INFO  2017-11-03 14:17:21,321 Session establishment complete on server hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181, sessionid = 0x25f7e98732e0029, negotiated timeout = 60000
+DEBUG 2017-11-03 14:17:21,324 hconnection-0x65c689e70x0, quorum=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181, baseZNode=/hbase-unsecure Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+DEBUG 2017-11-03 14:17:21,326 hconnection-0x65c689e7-0x25f7e98732e0029 connected
+DEBUG 2017-11-03 14:17:22,219 Reading reply sessionid:0x25f7e98732e0029, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,150323916608,0  request:: '/hbase-unsecure/hbaseid,F  response:: s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 14:17:22,224 Reading reply sessionid:0x25f7e98732e0029, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,150323916608,0  request:: '/hbase-unsecure/hbaseid,F  response:: #ffffffff000146d61737465723a313630303064ffffffe2fffffffe41ffffff89ffffffdeffffffa1ffffffb050425546a2433306664656363362d643039662d346461302d393030332d663539613166613935333435,s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 14:17:28,211 sampler.classes = ; loaded no samplers
+DEBUG 2017-11-03 14:17:28,213 span.receiver.classes = ; loaded no span receivers
+DEBUG 2017-11-03 14:17:36,188 dfs.client.use.legacy.blockreader.local = false
+DEBUG 2017-11-03 14:17:36,188 dfs.client.read.shortcircuit = false
+DEBUG 2017-11-03 14:17:36,188 dfs.client.domain.socket.data.traffic = false
+DEBUG 2017-11-03 14:17:36,188 dfs.domain.socket.path = /var/lib/hadoop-hdfs/dn_socket
+DEBUG 2017-11-03 14:17:36,206 multipleLinearRandomRetry = null
+DEBUG 2017-11-03 14:17:36,224 rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcProtobufRequest, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@5ed6a36a
+DEBUG 2017-11-03 14:17:36,229 getting client out of cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:17:36,753 Both short-circuit local reads and UNIX domain socket are disabled.
+DEBUG 2017-11-03 14:17:36,760 DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+DEBUG 2017-11-03 14:17:42,231 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:17:44,515 Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@614427b2, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null
+DEBUG 2017-11-03 14:18:02,252 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:18:22,256 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:18:42,273 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:18:53,722 Reading reply sessionid:0x25f7e98732e0029, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,150323916732,0  request:: '/hbase-unsecure/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a31363032301bffffffd07d27ffffffb3ffffffbbffffffcf4d50425546a31a256861646f6f702d77322e632e6861646f6f702d706c61792d62616c6c2e696e7465726e616c10ffffff947d18ffffffa3ffffff92fffffff5fffffff4fffffff72b100183,s{150323855889,150323855889,1509657768374,1509657768374,0,0,0,0,90,0,150323855889} 
+DEBUG 2017-11-03 14:18:53,722 Got ping response for sessionid: 0x25f7e98732e0029 after 20ms
+DEBUG 2017-11-03 14:18:53,779 Reading reply sessionid:0x25f7e98732e0029, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,150323916732,0  request:: '/hbase-unsecure,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} 
+DEBUG 2017-11-03 14:18:54,130 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:18:54,169 Connecting to hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:16020
+DEBUG 2017-11-03 14:18:54,294 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:18:54,294 Connecting to hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:16020
+DEBUG 2017-11-03 14:19:13,772 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:19:26,468 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:19:26,469 Connecting to hadoop-w3.c.hadoop-play-ball.internal/10.128.0.2:16020
+DEBUG 2017-11-03 14:19:33,785 Got ping response for sessionid: 0x25f7e98732e0029 after 0ms
+DEBUG 2017-11-03 14:19:53,820 Got ping response for sessionid: 0x25f7e98732e0029 after 14ms
+DEBUG 2017-11-03 14:20:13,828 Got ping response for sessionid: 0x25f7e98732e0029 after 3ms
+DEBUG 2017-11-03 14:20:28,788 stopping client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:20:28,788 removing client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:20:28,788 stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:20:28,789 Stopping client
+DEBUG 2017-11-03 14:20:28,789 ShutdownHookManger complete shutdown.
+DEBUG 2017-11-03 14:30:25,386 Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:448)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:419)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:496)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1445)
+	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:68)
+	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:82)
+	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:97)
+	at edu.rosehulman.gilmordw.HBaseConnection.<init>(HBaseConnection.java:39)
+	at edu.rosehulman.gilmordw.CommandLine.loop(CommandLine.java:21)
+	at edu.rosehulman.gilmordw.CommandLine.main(CommandLine.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+DEBUG 2017-11-03 14:30:25,464 setsid exited with exit code 0
+DEBUG 2017-11-03 14:30:29,060 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 14:30:29,071 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)])
+DEBUG 2017-11-03 14:30:29,071 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[GetGroups])
+DEBUG 2017-11-03 14:30:29,071 field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since startup])
+DEBUG 2017-11-03 14:30:29,072 field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, valueName=Time, value=[Renewal failures since last successful login])
+DEBUG 2017-11-03 14:30:29,073 UgiMetrics, User and group related metrics
+DEBUG 2017-11-03 14:30:48,012 Kerberos krb5 configuration not found, setting default realm to empty
+DEBUG 2017-11-03 14:30:48,016  Creating new Groups object
+DEBUG 2017-11-03 14:30:48,018 Trying to load the custom-built native-hadoop library...
+DEBUG 2017-11-03 14:30:48,019 Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+DEBUG 2017-11-03 14:30:48,019 java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+WARN  2017-11-03 14:30:48,019 Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+DEBUG 2017-11-03 14:30:48,019 Falling back to shell based
+DEBUG 2017-11-03 14:30:48,020 Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+DEBUG 2017-11-03 14:30:48,069 Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+DEBUG 2017-11-03 14:30:48,074 hadoop login
+DEBUG 2017-11-03 14:30:48,074 hadoop login commit
+DEBUG 2017-11-03 14:30:48,077 using local user:UnixPrincipal: root
+DEBUG 2017-11-03 14:30:48,077 Using user: "UnixPrincipal: root" with name root
+DEBUG 2017-11-03 14:30:48,077 User entry: "root"
+DEBUG 2017-11-03 14:30:48,078 Assuming keytab is managed externally since logged in from subject.
+DEBUG 2017-11-03 14:30:48,078 UGI loginUser:root (auth:SIMPLE)
+INFO  2017-11-03 14:31:00,901 Process identifier=hconnection-0x65c689e7 connecting to ZooKeeper ensemble=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181
+INFO  2017-11-03 14:31:00,912 Client environment:zookeeper.version=3.4.6-205--1, built on 08/26/2017 09:30 GMT
+INFO  2017-11-03 14:31:00,912 Client environment:host.name=hadoop-m1.c.hadoop-play-ball.internal
+INFO  2017-11-03 14:31:00,912 Client environment:java.version=1.8.0_144
+INFO  2017-11-03 14:31:00,912 Client environment:java.vendor=Oracle Corporation
+INFO  2017-11-03 14:31:00,912 Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre
+INFO  2017-11-03 14:31:00,912 Client environment:java.class.path=HbaseMiniLab.jar
+INFO  2017-11-03 14:31:00,912 Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+INFO  2017-11-03 14:31:00,912 Client environment:java.io.tmpdir=/tmp
+INFO  2017-11-03 14:31:00,912 Client environment:java.compiler=<NA>
+INFO  2017-11-03 14:31:00,912 Client environment:os.name=Linux
+INFO  2017-11-03 14:31:00,912 Client environment:os.arch=amd64
+INFO  2017-11-03 14:31:00,912 Client environment:os.version=3.10.0-514.26.2.el7.x86_64
+INFO  2017-11-03 14:31:00,912 Client environment:user.name=root
+INFO  2017-11-03 14:31:00,912 Client environment:user.home=/root
+INFO  2017-11-03 14:31:00,912 Client environment:user.dir=/root/HadoopFS
+INFO  2017-11-03 14:31:00,914 Initiating client connection, connectString=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@75c589f2
+DEBUG 2017-11-03 14:31:00,929 zookeeper.disableAutoWatchReset is false
+INFO  2017-11-03 14:31:00,966 Opening socket connection to server hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO  2017-11-03 14:31:00,978 Socket connection established, initiating session, client: /10.128.0.3:52452, server: hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181
+DEBUG 2017-11-03 14:31:00,981 Session establishment request sent on hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181
+INFO  2017-11-03 14:31:00,991 Session establishment complete on server hadoop-w1.c.hadoop-play-ball.internal/10.128.0.4:2181, sessionid = 0x25f7e98732e002a, negotiated timeout = 60000
+DEBUG 2017-11-03 14:31:00,996 hconnection-0x65c689e70x0, quorum=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181, baseZNode=/hbase-unsecure Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+DEBUG 2017-11-03 14:31:00,997 hconnection-0x65c689e7-0x25f7e98732e002a connected
+DEBUG 2017-11-03 14:31:01,871 Reading reply sessionid:0x25f7e98732e002a, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,150323917430,0  request:: '/hbase-unsecure/hbaseid,F  response:: s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 14:31:01,876 Reading reply sessionid:0x25f7e98732e002a, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,150323917430,0  request:: '/hbase-unsecure/hbaseid,F  response:: #ffffffff000146d61737465723a313630303064ffffffe2fffffffe41ffffff89ffffffdeffffffa1ffffffb050425546a2433306664656363362d643039662d346461302d393030332d663539613166613935333435,s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 14:31:07,867 sampler.classes = ; loaded no samplers
+DEBUG 2017-11-03 14:31:08,009 span.receiver.classes = ; loaded no span receivers
+DEBUG 2017-11-03 14:31:15,967 dfs.client.use.legacy.blockreader.local = false
+DEBUG 2017-11-03 14:31:15,967 dfs.client.read.shortcircuit = false
+DEBUG 2017-11-03 14:31:15,967 dfs.client.domain.socket.data.traffic = false
+DEBUG 2017-11-03 14:31:15,967 dfs.domain.socket.path = /var/lib/hadoop-hdfs/dn_socket
+DEBUG 2017-11-03 14:31:15,986 multipleLinearRandomRetry = null
+DEBUG 2017-11-03 14:31:16,007 rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcProtobufRequest, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@5ed6a36a
+DEBUG 2017-11-03 14:31:16,012 getting client out of cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:31:16,524 Both short-circuit local reads and UNIX domain socket are disabled.
+DEBUG 2017-11-03 14:31:16,530 DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+DEBUG 2017-11-03 14:31:21,892 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:31:24,198 Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@614427b2, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null
+DEBUG 2017-11-03 14:31:41,898 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:32:01,905 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:32:06,131 Reading reply sessionid:0x25f7e98732e002a, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,150323917485,0  request:: '/hbase-unsecure/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a31363032301bffffffd07d27ffffffb3ffffffbbffffffcf4d50425546a31a256861646f6f702d77322e632e6861646f6f702d706c61792d62616c6c2e696e7465726e616c10ffffff947d18ffffffa3ffffff92fffffff5fffffff4fffffff72b100183,s{150323855889,150323855889,1509657768374,1509657768374,0,0,0,0,90,0,150323855889} 
+DEBUG 2017-11-03 14:32:06,149 Reading reply sessionid:0x25f7e98732e002a, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,150323917485,0  request:: '/hbase-unsecure,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} 
+DEBUG 2017-11-03 14:32:06,443 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:32:06,473 Connecting to hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:16020
+DEBUG 2017-11-03 14:32:06,545 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:32:06,545 Connecting to hadoop-m1.c.hadoop-play-ball.internal/10.128.0.3:16020
+DEBUG 2017-11-03 14:32:06,655 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 14:32:06,656 Connecting to hadoop-w3.c.hadoop-play-ball.internal/10.128.0.2:16020
+DEBUG 2017-11-03 14:32:26,161 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:32:46,164 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:33:06,172 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:33:26,193 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:33:46,214 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:34:06,234 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:34:26,244 Got ping response for sessionid: 0x25f7e98732e002a after 1ms
+DEBUG 2017-11-03 14:34:46,262 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:35:06,281 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:35:26,300 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:35:46,321 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:36:06,343 Got ping response for sessionid: 0x25f7e98732e002a after 0ms
+DEBUG 2017-11-03 14:36:13,595 stopping client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:36:13,595 removing client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:36:13,595 stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 14:36:13,595 Stopping client
+DEBUG 2017-11-03 14:36:13,596 ShutdownHookManger complete shutdown.
+DEBUG 2017-11-03 15:15:03,557 Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:448)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:419)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:496)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1445)
+	at org.apache.hadoop.hbase.HBaseConfiguration.checkDefaultsVersion(HBaseConfiguration.java:68)
+	at org.apache.hadoop.hbase.HBaseConfiguration.addHbaseResources(HBaseConfiguration.java:82)
+	at org.apache.hadoop.hbase.HBaseConfiguration.create(HBaseConfiguration.java:97)
+	at edu.rosehulman.gilmordw.HBaseConnection.<init>(HBaseConnection.java:39)
+	at edu.rosehulman.gilmordw.CommandLine.loop(CommandLine.java:21)
+	at edu.rosehulman.gilmordw.CommandLine.main(CommandLine.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+DEBUG 2017-11-03 15:15:03,631 setsid exited with exit code 0
+DEBUG 2017-11-03 15:15:07,103 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+DEBUG 2017-11-03 15:15:07,114 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+DEBUG 2017-11-03 15:15:07,114 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+DEBUG 2017-11-03 15:15:07,115 field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Renewal failures since startup], valueName=Time)
+DEBUG 2017-11-03 15:15:07,115 field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Renewal failures since last successful login], valueName=Time)
+DEBUG 2017-11-03 15:15:07,116 UgiMetrics, User and group related metrics
+DEBUG 2017-11-03 15:15:25,867 Kerberos krb5 configuration not found, setting default realm to empty
+DEBUG 2017-11-03 15:15:25,872  Creating new Groups object
+DEBUG 2017-11-03 15:15:25,873 Trying to load the custom-built native-hadoop library...
+DEBUG 2017-11-03 15:15:25,874 Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+DEBUG 2017-11-03 15:15:25,874 java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+WARN  2017-11-03 15:15:25,874 Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+DEBUG 2017-11-03 15:15:25,874 Falling back to shell based
+DEBUG 2017-11-03 15:15:25,875 Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+DEBUG 2017-11-03 15:15:25,926 Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+DEBUG 2017-11-03 15:15:25,930 hadoop login
+DEBUG 2017-11-03 15:15:25,930 hadoop login commit
+DEBUG 2017-11-03 15:15:25,933 using local user:UnixPrincipal: root
+DEBUG 2017-11-03 15:15:25,934 Using user: "UnixPrincipal: root" with name root
+DEBUG 2017-11-03 15:15:25,934 User entry: "root"
+DEBUG 2017-11-03 15:15:25,934 Assuming keytab is managed externally since logged in from subject.
+DEBUG 2017-11-03 15:15:25,934 UGI loginUser:root (auth:SIMPLE)
+INFO  2017-11-03 15:15:38,354 Process identifier=hconnection-0x65c689e7 connecting to ZooKeeper ensemble=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181
+INFO  2017-11-03 15:15:38,366 Client environment:zookeeper.version=3.4.6-205--1, built on 08/26/2017 09:30 GMT
+INFO  2017-11-03 15:15:38,366 Client environment:host.name=hadoop-m1.c.hadoop-play-ball.internal
+INFO  2017-11-03 15:15:38,366 Client environment:java.version=1.8.0_144
+INFO  2017-11-03 15:15:38,366 Client environment:java.vendor=Oracle Corporation
+INFO  2017-11-03 15:15:38,366 Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre
+INFO  2017-11-03 15:15:38,367 Client environment:java.class.path=HbaseMiniLab.jar
+INFO  2017-11-03 15:15:38,367 Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+INFO  2017-11-03 15:15:38,367 Client environment:java.io.tmpdir=/tmp
+INFO  2017-11-03 15:15:38,367 Client environment:java.compiler=<NA>
+INFO  2017-11-03 15:15:38,367 Client environment:os.name=Linux
+INFO  2017-11-03 15:15:38,367 Client environment:os.arch=amd64
+INFO  2017-11-03 15:15:38,367 Client environment:os.version=3.10.0-514.26.2.el7.x86_64
+INFO  2017-11-03 15:15:38,367 Client environment:user.name=root
+INFO  2017-11-03 15:15:38,367 Client environment:user.home=/root
+INFO  2017-11-03 15:15:38,367 Client environment:user.dir=/root/HadoopFS
+INFO  2017-11-03 15:15:38,368 Initiating client connection, connectString=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@75c589f2
+DEBUG 2017-11-03 15:15:38,380 zookeeper.disableAutoWatchReset is false
+INFO  2017-11-03 15:15:38,407 Opening socket connection to server hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO  2017-11-03 15:15:38,417 Socket connection established, initiating session, client: /10.128.0.3:58604, server: hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:2181
+DEBUG 2017-11-03 15:15:38,419 Session establishment request sent on hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:2181
+INFO  2017-11-03 15:15:38,425 Session establishment complete on server hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:2181, sessionid = 0x35f7e9872f3005c, negotiated timeout = 60000
+DEBUG 2017-11-03 15:15:38,428 hconnection-0x65c689e70x0, quorum=hadoop-w2.c.hadoop-play-ball.internal:2181,hadoop-w1.c.hadoop-play-ball.internal:2181,hadoop-m1.c.hadoop-play-ball.internal:2181, baseZNode=/hbase-unsecure Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+DEBUG 2017-11-03 15:15:38,430 hconnection-0x65c689e7-0x35f7e9872f3005c connected
+DEBUG 2017-11-03 15:15:39,269 Reading reply sessionid:0x35f7e9872f3005c, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,150323920093,0  request:: '/hbase-unsecure/hbaseid,F  response:: s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 15:15:39,272 Reading reply sessionid:0x35f7e9872f3005c, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,150323920093,0  request:: '/hbase-unsecure/hbaseid,F  response:: #ffffffff000146d61737465723a313630303064ffffffe2fffffffe41ffffff89ffffffdeffffffa1ffffffb050425546a2433306664656363362d643039662d346461302d393030332d663539613166613935333435,s{4294967814,150323855724,1506462861213,1509657670143,32,0,0,0,67,0,4294967814} 
+DEBUG 2017-11-03 15:15:45,095 sampler.classes = ; loaded no samplers
+DEBUG 2017-11-03 15:15:45,098 span.receiver.classes = ; loaded no span receivers
+DEBUG 2017-11-03 15:15:53,365 dfs.client.use.legacy.blockreader.local = false
+DEBUG 2017-11-03 15:15:53,365 dfs.client.read.shortcircuit = false
+DEBUG 2017-11-03 15:15:53,365 dfs.client.domain.socket.data.traffic = false
+DEBUG 2017-11-03 15:15:53,365 dfs.domain.socket.path = /var/lib/hadoop-hdfs/dn_socket
+DEBUG 2017-11-03 15:15:53,394 multipleLinearRandomRetry = null
+DEBUG 2017-11-03 15:15:53,418 rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcProtobufRequest, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@5ed6a36a
+DEBUG 2017-11-03 15:15:53,426 getting client out of cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 15:15:54,325 Both short-circuit local reads and UNIX domain socket are disabled.
+DEBUG 2017-11-03 15:15:54,336 DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+DEBUG 2017-11-03 15:15:59,305 Got ping response for sessionid: 0x35f7e9872f3005c after 12ms
+DEBUG 2017-11-03 15:16:02,787 Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@614427b2, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null
+DEBUG 2017-11-03 15:16:19,313 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:16:20,865 Reading reply sessionid:0x35f7e9872f3005c, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,150323920126,0  request:: '/hbase-unsecure/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a31363032301bffffffd07d27ffffffb3ffffffbbffffffcf4d50425546a31a256861646f6f702d77322e632e6861646f6f702d706c61792d62616c6c2e696e7465726e616c10ffffff947d18ffffffa3ffffff92fffffff5fffffff4fffffff72b100183,s{150323855889,150323855889,1509657768374,1509657768374,0,0,0,0,90,0,150323855889} 
+DEBUG 2017-11-03 15:16:20,883 Reading reply sessionid:0x35f7e9872f3005c, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,150323920126,0  request:: '/hbase-unsecure,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} 
+DEBUG 2017-11-03 15:16:21,183 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 15:16:21,216 Connecting to hadoop-w2.c.hadoop-play-ball.internal/10.128.0.5:16020
+DEBUG 2017-11-03 15:16:21,276 Use SIMPLE authentication for service ClientService, sasl=false
+DEBUG 2017-11-03 15:16:21,277 Connecting to hadoop-w3.c.hadoop-play-ball.internal/10.128.0.2:16020
+DEBUG 2017-11-03 15:16:40,892 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:17:00,916 Got ping response for sessionid: 0x35f7e9872f3005c after 3ms
+DEBUG 2017-11-03 15:17:20,922 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:17:40,929 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:18:00,950 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:18:20,952 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:18:40,965 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:19:00,993 Got ping response for sessionid: 0x35f7e9872f3005c after 9ms
+DEBUG 2017-11-03 15:19:20,987 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:19:41,003 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:20:01,007 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:20:21,012 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:20:41,029 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:21:01,045 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:21:21,064 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:21:41,071 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:22:01,080 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:22:21,084 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:22:41,088 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:23:01,110 Got ping response for sessionid: 0x35f7e9872f3005c after 7ms
+DEBUG 2017-11-03 15:23:21,112 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:23:41,127 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:24:01,152 Got ping response for sessionid: 0x35f7e9872f3005c after 5ms
+DEBUG 2017-11-03 15:24:21,167 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:24:41,169 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:25:01,191 Got ping response for sessionid: 0x35f7e9872f3005c after 2ms
+DEBUG 2017-11-03 15:25:21,200 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:25:41,205 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:26:01,232 Got ping response for sessionid: 0x35f7e9872f3005c after 7ms
+DEBUG 2017-11-03 15:26:21,235 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:26:41,252 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:27:01,271 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:27:21,281 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:27:41,302 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:28:01,319 Got ping response for sessionid: 0x35f7e9872f3005c after 3ms
+DEBUG 2017-11-03 15:28:21,325 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:28:41,329 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:29:01,346 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:29:21,365 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:29:41,383 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:30:01,413 Got ping response for sessionid: 0x35f7e9872f3005c after 10ms
+DEBUG 2017-11-03 15:30:21,423 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:30:41,424 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:31:01,437 Got ping response for sessionid: 0x35f7e9872f3005c after 11ms
+DEBUG 2017-11-03 15:31:21,435 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:31:41,437 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:32:01,467 Got ping response for sessionid: 0x35f7e9872f3005c after 28ms
+DEBUG 2017-11-03 15:32:21,450 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:32:41,470 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:33:01,501 Got ping response for sessionid: 0x35f7e9872f3005c after 10ms
+DEBUG 2017-11-03 15:33:21,512 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:33:41,527 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:34:01,554 Got ping response for sessionid: 0x35f7e9872f3005c after 10ms
+DEBUG 2017-11-03 15:34:21,558 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:34:41,578 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:35:01,600 Got ping response for sessionid: 0x35f7e9872f3005c after 2ms
+DEBUG 2017-11-03 15:35:21,616 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:35:41,637 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:36:01,669 Got ping response for sessionid: 0x35f7e9872f3005c after 6ms
+DEBUG 2017-11-03 15:36:21,683 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:36:41,686 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:37:01,722 Got ping response for sessionid: 0x35f7e9872f3005c after 23ms
+DEBUG 2017-11-03 15:37:21,713 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:37:41,722 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:38:01,735 Got ping response for sessionid: 0x35f7e9872f3005c after 6ms
+DEBUG 2017-11-03 15:38:21,749 Got ping response for sessionid: 0x35f7e9872f3005c after 1ms
+DEBUG 2017-11-03 15:38:41,769 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:39:01,797 Got ping response for sessionid: 0x35f7e9872f3005c after 7ms
+DEBUG 2017-11-03 15:39:21,809 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:39:41,827 Got ping response for sessionid: 0x35f7e9872f3005c after 0ms
+DEBUG 2017-11-03 15:39:46,781 stopping client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 15:39:46,781 removing client from cache: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 15:39:46,781 stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@45c73e09
+DEBUG 2017-11-03 15:39:46,781 Stopping client
+DEBUG 2017-11-03 15:39:46,782 ShutdownHookManger complete shutdown.

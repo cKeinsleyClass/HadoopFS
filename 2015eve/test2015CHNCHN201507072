@@ -1,0 +1,522 @@
+id,CHN201507072
+version,2
+info,visteam,SLN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/07
+info,number,2
+info,starttime,7:04PM
+info,daynight,night
+info,usedh,false
+info,umphome,herna901
+info,ump1b,hobep901
+info,ump2b,barrt901
+info,ump3b,woodt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,58
+info,winddir,ltor
+info,windspeed,16
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,182
+info,attendance,35703
+info,wp,woodt004
+info,lp,manes001
+info,save,mottj001
+start,phamt001,"Tommy Pham",0,1,7
+start,carpm002,"Matt Carpenter",0,2,4
+start,peraj001,"Jhonny Peralta",0,3,6
+start,heywj001,"Jason Heyward",0,4,9
+start,moliy001,"Yadier Molina",0,5,2
+start,reynm001,"Mark Reynolds",0,6,5
+start,scrux001,"Xavier Scruggs",0,7,3
+start,bourp001,"Peter Bourjos",0,8,8
+start,coont001,"Tim Cooney",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,phamt001,21,CBBX,43/G
+play,1,0,carpm002,32,CBCBBC,K
+play,1,0,peraj001,32,CCBBBX,63/G-
+play,1,1,fowld001,21,BBCX,43/G
+play,1,1,rizza001,11,CBH,HP
+play,1,1,bryak001,00,X,8/F.1-2
+play,1,1,solej001,21,BBFX,7/L
+play,2,0,heywj001,31,BBBCX,S9/G
+play,2,0,moliy001,00,X,8/F
+play,2,0,reynm001,12,BFCF1S,K
+play,2,0,scrux001,12,CBCS,K
+play,2,1,denoc001,32,BCFFBBX,9/F
+play,2,1,casts001,01,CX,8/F
+play,2,1,teagt001,20,BBX,13/G-
+play,3,0,bourp001,32,BCBFFBS,K
+play,3,0,coont001,02,CCX,53/G-
+play,3,0,phamt001,12,FFBC,K
+play,3,1,beeld001,00,X,D7/L
+play,3,1,russa002,21,BFBX,9/F
+play,3,1,fowld001,31,CB*BBX,FC1/G.2X3(165);B-2
+play,3,1,rizza001,32,CBBBSX,8/F
+play,4,0,carpm002,11,CBX,S9/L
+play,4,0,peraj001,32,BSBBSX,54(1)/FO/G-
+play,4,0,heywj001,00,X,S9/G.1-2
+play,4,0,moliy001,30,BBBB,W.2-3;1-2
+play,4,0,reynm001,12,CSBFS,K
+play,4,0,scrux001,11,CBX,5(2)/FO/G.1-2
+play,4,1,bryak001,32,FBBCFBX,53/G
+play,4,1,solej001,12,CBSFS,K
+play,4,1,denoc001,01,CX,43/G
+play,5,0,bourp001,12,LBCX,43/G
+play,5,0,coont001,32,BCBFFBX,31/G
+play,5,0,phamt001,00,X,13/G-
+play,5,1,casts001,32,CFBBFBX,D7/L
+play,5,1,teagt001,10,BX,S9/L.2-H
+play,5,1,beeld001,12,1LFBF1C,K
+play,5,1,russa002,10,BX,7/F
+play,5,1,fowld001,22,F*BBFFC,K
+play,6,0,carpm002,31,CBBBB,W
+play,6,0,peraj001,01,FX,S9/L.1-3
+play,6,0,heywj001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,6,0,heywj001,00,.X,46(1)/FO/G.3-H
+play,6,0,moliy001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,moliy001,12,.11BFSB,WP.1-2
+play,6,0,moliy001,32,.11BFSB.FBFX,53/G+
+play,6,0,reynm001,11,BSB,WP.2-3
+play,6,0,reynm001,32,BSB.CBX,S6/G.3-H
+play,6,0,scrux001,22,CF*B+1BC,K
+play,6,1,rizza001,02,CFX,7/F
+play,6,1,bryak001,31,BCBBB,W
+play,6,1,solej001,00,,NP
+sub,carpm002,"Matt Carpenter",0,2,5
+play,6,1,solej001,00,,NP
+sub,reynm001,"Mark Reynolds",0,6,3
+play,6,1,solej001,00,,NP
+sub,manes001,"Seth Maness",0,7,1
+play,6,1,solej001,00,,NP
+sub,kozmp001,"Pete Kozma",0,9,4
+play,6,1,solej001,11,....B>FX,53/G-.1-2
+play,6,1,denoc001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,11
+play,6,1,coghc001,32,.CBBBFS,K
+play,7,0,bourp001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,7
+play,7,0,bourp001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,7,0,bourp001,12,..SCBT,K
+play,7,0,kozmp001,00,X,S4/L-
+play,7,0,phamt001,32,BCBFB>B,W.1-2
+play,7,0,carpm002,10,BX,7/F
+play,7,0,peraj001,11,FBX,54(1)/FO/G
+play,7,1,casts001,31,BSBBX,63/G-
+play,7,1,teagt001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,7,1,montm001,31,.BBBCB,W
+play,7,1,woodt004,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,22,.1BSBSX,S9/G.1-2
+play,7,1,russa002,12,CCBX,S9/G.2-H;1-3
+com,"ej,manes001,P,hobep901,Fair/foul call"
+com,"$when Addison Russell's grounder down the 1B line"
+com,"was called fair, Seth Maness objected to the ruling"
+com,"and was ejected by 1B umpire Pat Hoberg"
+play,7,1,fowld001,00,,NP
+sub,gricr001,"Randal Grichuk",0,7,7
+play,7,1,fowld001,00,,NP
+sub,siegk001,"Kevin Siegrist",0,1,1
+play,7,1,fowld001,12,...CCBX,E1/TH2/FO/G-.3-H;1-3
+play,7,1,rizza001,12,CBFFX,8/F/SF.3-H(UR)
+play,7,1,bryak001,32,1BSF1BFB>S,K
+play,8,0,heywj001,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,8,0,heywj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,4
+play,8,0,heywj001,00,,NP
+sub,rondh001,"Hector Rondon",1,9,1
+play,8,0,heywj001,31,...CBBBX,6/P
+play,8,0,moliy001,22,BFFBT,K
+play,8,0,reynm001,00,X,13/G-
+play,8,1,solej001,00,,NP
+sub,villc001,"Carlos Villanueva",0,1,1
+play,8,1,solej001,32,.BSSBBX,D9/L
+play,8,1,coghc001,11,CBX,43/G.2-3
+play,8,1,casts001,10,BX,8/F/SF.3-H
+play,8,1,montm001,31,CBBBB,W
+play,8,1,herrj002,01,CX,7/F
+play,9,0,gricr001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,9,0,gricr001,00,.X,S7/G+
+play,9,0,bourp001,12,FFFBX,S8/L-.1-2
+play,9,0,kozmp001,10,BX,9/F
+play,9,0,villc001,00,,NP
+sub,cruzt002,"Tony Cruz",0,1,11
+play,9,0,cruzt002,12,.CBFX,S7/G.2-H;1-2
+play,9,0,carpm002,00,X,5/P5F
+play,9,0,peraj001,00,X,64(1)/FO/G
+data,er,coont001,1
+data,er,manes001,2
+data,er,siegk001,0
+data,er,villc001,1
+data,er,beeld001,2
+data,er,russj003,0
+data,er,grimj002,0
+data,er,woodt004,0
+data,er,rondh001,0
+data,er,mottj001,1
+id,CHN201507072
+version,2
+info,visteam,SLN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/07
+info,number,2
+info,starttime,7:04PM
+info,daynight,night
+info,usedh,false
+info,umphome,herna901
+info,ump1b,hobep901
+info,ump2b,barrt901
+info,ump3b,woodt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,58
+info,winddir,ltor
+info,windspeed,16
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,182
+info,attendance,35703
+info,wp,woodt004
+info,lp,manes001
+info,save,mottj001
+start,phamt001,"Tommy Pham",0,1,7
+start,carpm002,"Matt Carpenter",0,2,4
+start,peraj001,"Jhonny Peralta",0,3,6
+start,heywj001,"Jason Heyward",0,4,9
+start,moliy001,"Yadier Molina",0,5,2
+start,reynm001,"Mark Reynolds",0,6,5
+start,scrux001,"Xavier Scruggs",0,7,3
+start,bourp001,"Peter Bourjos",0,8,8
+start,coont001,"Tim Cooney",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,phamt001,21,CBBX,43/G
+play,1,0,carpm002,32,CBCBBC,K
+play,1,0,peraj001,32,CCBBBX,63/G-
+play,1,1,fowld001,21,BBCX,43/G
+play,1,1,rizza001,11,CBH,HP
+play,1,1,bryak001,00,X,8/F.1-2
+play,1,1,solej001,21,BBFX,7/L
+play,2,0,heywj001,31,BBBCX,S9/G
+play,2,0,moliy001,00,X,8/F
+play,2,0,reynm001,12,BFCF1S,K
+play,2,0,scrux001,12,CBCS,K
+play,2,1,denoc001,32,BCFFBBX,9/F
+play,2,1,casts001,01,CX,8/F
+play,2,1,teagt001,20,BBX,13/G-
+play,3,0,bourp001,32,BCBFFBS,K
+play,3,0,coont001,02,CCX,53/G-
+play,3,0,phamt001,12,FFBC,K
+play,3,1,beeld001,00,X,D7/L
+play,3,1,russa002,21,BFBX,9/F
+play,3,1,fowld001,31,CB*BBX,FC1/G.2X3(165);B-2
+play,3,1,rizza001,32,CBBBSX,8/F
+play,4,0,carpm002,11,CBX,S9/L
+play,4,0,peraj001,32,BSBBSX,54(1)/FO/G-
+play,4,0,heywj001,00,X,S9/G.1-2
+play,4,0,moliy001,30,BBBB,W.2-3;1-2
+play,4,0,reynm001,12,CSBFS,K
+play,4,0,scrux001,11,CBX,5(2)/FO/G.1-2
+play,4,1,bryak001,32,FBBCFBX,53/G
+play,4,1,solej001,12,CBSFS,K
+play,4,1,denoc001,01,CX,43/G
+play,5,0,bourp001,12,LBCX,43/G
+play,5,0,coont001,32,BCBFFBX,31/G
+play,5,0,phamt001,00,X,13/G-
+play,5,1,casts001,32,CFBBFBX,D7/L
+play,5,1,teagt001,10,BX,S9/L.2-H
+play,5,1,beeld001,12,1LFBF1C,K
+play,5,1,russa002,10,BX,7/F
+play,5,1,fowld001,22,F*BBFFC,K
+play,6,0,carpm002,31,CBBBB,W
+play,6,0,peraj001,01,FX,S9/L.1-3
+play,6,0,heywj001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,6,0,heywj001,00,.X,46(1)/FO/G.3-H
+play,6,0,moliy001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,moliy001,12,.11BFSB,WP.1-2
+play,6,0,moliy001,32,.11BFSB.FBFX,53/G+
+play,6,0,reynm001,11,BSB,WP.2-3
+play,6,0,reynm001,32,BSB.CBX,S6/G.3-H
+play,6,0,scrux001,22,CF*B+1BC,K
+play,6,1,rizza001,02,CFX,7/F
+play,6,1,bryak001,31,BCBBB,W
+play,6,1,solej001,00,,NP
+sub,carpm002,"Matt Carpenter",0,2,5
+play,6,1,solej001,00,,NP
+sub,reynm001,"Mark Reynolds",0,6,3
+play,6,1,solej001,00,,NP
+sub,manes001,"Seth Maness",0,7,1
+play,6,1,solej001,00,,NP
+sub,kozmp001,"Pete Kozma",0,9,4
+play,6,1,solej001,11,....B>FX,53/G-.1-2
+play,6,1,denoc001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,11
+play,6,1,coghc001,32,.CBBBFS,K
+play,7,0,bourp001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,7
+play,7,0,bourp001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,7,0,bourp001,12,..SCBT,K
+play,7,0,kozmp001,00,X,S4/L-
+play,7,0,phamt001,32,BCBFB>B,W.1-2
+play,7,0,carpm002,10,BX,7/F
+play,7,0,peraj001,11,FBX,54(1)/FO/G
+play,7,1,casts001,31,BSBBX,63/G-
+play,7,1,teagt001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,7,1,montm001,31,.BBBCB,W
+play,7,1,woodt004,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,22,.1BSBSX,S9/G.1-2
+play,7,1,russa002,12,CCBX,S9/G.2-H;1-3
+com,"ej,manes001,P,hobep901,Fair/foul call"
+com,"$when Addison Russell's grounder down the 1B line"
+com,"was called fair, Seth Maness objected to the ruling"
+com,"and was ejected by 1B umpire Pat Hoberg"
+play,7,1,fowld001,00,,NP
+sub,gricr001,"Randal Grichuk",0,7,7
+play,7,1,fowld001,00,,NP
+sub,siegk001,"Kevin Siegrist",0,1,1
+play,7,1,fowld001,12,...CCBX,E1/TH2/FO/G-.3-H;1-3
+play,7,1,rizza001,12,CBFFX,8/F/SF.3-H(UR)
+play,7,1,bryak001,32,1BSF1BFB>S,K
+play,8,0,heywj001,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,8,0,heywj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,4
+play,8,0,heywj001,00,,NP
+sub,rondh001,"Hector Rondon",1,9,1
+play,8,0,heywj001,31,...CBBBX,6/P
+play,8,0,moliy001,22,BFFBT,K
+play,8,0,reynm001,00,X,13/G-
+play,8,1,solej001,00,,NP
+sub,villc001,"Carlos Villanueva",0,1,1
+play,8,1,solej001,32,.BSSBBX,D9/L
+play,8,1,coghc001,11,CBX,43/G.2-3
+play,8,1,casts001,10,BX,8/F/SF.3-H
+play,8,1,montm001,31,CBBBB,W
+play,8,1,herrj002,01,CX,7/F
+play,9,0,gricr001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,9,0,gricr001,00,.X,S7/G+
+play,9,0,bourp001,12,FFFBX,S8/L-.1-2
+play,9,0,kozmp001,10,BX,9/F
+play,9,0,villc001,00,,NP
+sub,cruzt002,"Tony Cruz",0,1,11
+play,9,0,cruzt002,12,.CBFX,S7/G.2-H;1-2
+play,9,0,carpm002,00,X,5/P5F
+play,9,0,peraj001,00,X,64(1)/FO/G
+data,er,coont001,1
+data,er,manes001,2
+data,er,siegk001,0
+data,er,villc001,1
+data,er,beeld001,2
+data,er,russj003,0
+data,er,grimj002,0
+data,er,woodt004,0
+data,er,rondh001,0
+data,er,mottj001,1
+id,CHN201507072
+version,2
+info,visteam,SLN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/07
+info,number,2
+info,starttime,7:04PM
+info,daynight,night
+info,usedh,false
+info,umphome,herna901
+info,ump1b,hobep901
+info,ump2b,barrt901
+info,ump3b,woodt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,58
+info,winddir,ltor
+info,windspeed,16
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,182
+info,attendance,35703
+info,wp,woodt004
+info,lp,manes001
+info,save,mottj001
+start,phamt001,"Tommy Pham",0,1,7
+start,carpm002,"Matt Carpenter",0,2,4
+start,peraj001,"Jhonny Peralta",0,3,6
+start,heywj001,"Jason Heyward",0,4,9
+start,moliy001,"Yadier Molina",0,5,2
+start,reynm001,"Mark Reynolds",0,6,5
+start,scrux001,"Xavier Scruggs",0,7,3
+start,bourp001,"Peter Bourjos",0,8,8
+start,coont001,"Tim Cooney",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,phamt001,21,CBBX,43/G
+play,1,0,carpm002,32,CBCBBC,K
+play,1,0,peraj001,32,CCBBBX,63/G-
+play,1,1,fowld001,21,BBCX,43/G
+play,1,1,rizza001,11,CBH,HP
+play,1,1,bryak001,00,X,8/F.1-2
+play,1,1,solej001,21,BBFX,7/L
+play,2,0,heywj001,31,BBBCX,S9/G
+play,2,0,moliy001,00,X,8/F
+play,2,0,reynm001,12,BFCF1S,K
+play,2,0,scrux001,12,CBCS,K
+play,2,1,denoc001,32,BCFFBBX,9/F
+play,2,1,casts001,01,CX,8/F
+play,2,1,teagt001,20,BBX,13/G-
+play,3,0,bourp001,32,BCBFFBS,K
+play,3,0,coont001,02,CCX,53/G-
+play,3,0,phamt001,12,FFBC,K
+play,3,1,beeld001,00,X,D7/L
+play,3,1,russa002,21,BFBX,9/F
+play,3,1,fowld001,31,CB*BBX,FC1/G.2X3(165);B-2
+play,3,1,rizza001,32,CBBBSX,8/F
+play,4,0,carpm002,11,CBX,S9/L
+play,4,0,peraj001,32,BSBBSX,54(1)/FO/G-
+play,4,0,heywj001,00,X,S9/G.1-2
+play,4,0,moliy001,30,BBBB,W.2-3;1-2
+play,4,0,reynm001,12,CSBFS,K
+play,4,0,scrux001,11,CBX,5(2)/FO/G.1-2
+play,4,1,bryak001,32,FBBCFBX,53/G
+play,4,1,solej001,12,CBSFS,K
+play,4,1,denoc001,01,CX,43/G
+play,5,0,bourp001,12,LBCX,43/G
+play,5,0,coont001,32,BCBFFBX,31/G
+play,5,0,phamt001,00,X,13/G-
+play,5,1,casts001,32,CFBBFBX,D7/L
+play,5,1,teagt001,10,BX,S9/L.2-H
+play,5,1,beeld001,12,1LFBF1C,K
+play,5,1,russa002,10,BX,7/F
+play,5,1,fowld001,22,F*BBFFC,K
+play,6,0,carpm002,31,CBBBB,W
+play,6,0,peraj001,01,FX,S9/L.1-3
+play,6,0,heywj001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,6,0,heywj001,00,.X,46(1)/FO/G.3-H
+play,6,0,moliy001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,moliy001,12,.11BFSB,WP.1-2
+play,6,0,moliy001,32,.11BFSB.FBFX,53/G+
+play,6,0,reynm001,11,BSB,WP.2-3
+play,6,0,reynm001,32,BSB.CBX,S6/G.3-H
+play,6,0,scrux001,22,CF*B+1BC,K
+play,6,1,rizza001,02,CFX,7/F
+play,6,1,bryak001,31,BCBBB,W
+play,6,1,solej001,00,,NP
+sub,carpm002,"Matt Carpenter",0,2,5
+play,6,1,solej001,00,,NP
+sub,reynm001,"Mark Reynolds",0,6,3
+play,6,1,solej001,00,,NP
+sub,manes001,"Seth Maness",0,7,1
+play,6,1,solej001,00,,NP
+sub,kozmp001,"Pete Kozma",0,9,4
+play,6,1,solej001,11,....B>FX,53/G-.1-2
+play,6,1,denoc001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,11
+play,6,1,coghc001,32,.CBBBFS,K
+play,7,0,bourp001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,7
+play,7,0,bourp001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,7,0,bourp001,12,..SCBT,K
+play,7,0,kozmp001,00,X,S4/L-
+play,7,0,phamt001,32,BCBFB>B,W.1-2
+play,7,0,carpm002,10,BX,7/F
+play,7,0,peraj001,11,FBX,54(1)/FO/G
+play,7,1,casts001,31,BSBBX,63/G-
+play,7,1,teagt001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,7,1,montm001,31,.BBBCB,W
+play,7,1,woodt004,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,22,.1BSBSX,S9/G.1-2
+play,7,1,russa002,12,CCBX,S9/G.2-H;1-3
+com,"ej,manes001,P,hobep901,Fair/foul call"
+com,"$when Addison Russell's grounder down the 1B line"
+com,"was called fair, Seth Maness objected to the ruling"
+com,"and was ejected by 1B umpire Pat Hoberg"
+play,7,1,fowld001,00,,NP
+sub,gricr001,"Randal Grichuk",0,7,7
+play,7,1,fowld001,00,,NP
+sub,siegk001,"Kevin Siegrist",0,1,1
+play,7,1,fowld001,12,...CCBX,E1/TH2/FO/G-.3-H;1-3
+play,7,1,rizza001,12,CBFFX,8/F/SF.3-H(UR)
+play,7,1,bryak001,32,1BSF1BFB>S,K
+play,8,0,heywj001,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,8,0,heywj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,4
+play,8,0,heywj001,00,,NP
+sub,rondh001,"Hector Rondon",1,9,1
+play,8,0,heywj001,31,...CBBBX,6/P
+play,8,0,moliy001,22,BFFBT,K
+play,8,0,reynm001,00,X,13/G-
+play,8,1,solej001,00,,NP
+sub,villc001,"Carlos Villanueva",0,1,1
+play,8,1,solej001,32,.BSSBBX,D9/L
+play,8,1,coghc001,11,CBX,43/G.2-3
+play,8,1,casts001,10,BX,8/F/SF.3-H
+play,8,1,montm001,31,CBBBB,W
+play,8,1,herrj002,01,CX,7/F
+play,9,0,gricr001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,9,0,gricr001,00,.X,S7/G+
+play,9,0,bourp001,12,FFFBX,S8/L-.1-2
+play,9,0,kozmp001,10,BX,9/F
+play,9,0,villc001,00,,NP
+sub,cruzt002,"Tony Cruz",0,1,11
+play,9,0,cruzt002,12,.CBFX,S7/G.2-H;1-2
+play,9,0,carpm002,00,X,5/P5F
+play,9,0,peraj001,00,X,64(1)/FO/G
+data,er,coont001,1
+data,er,manes001,2
+data,er,siegk001,0
+data,er,villc001,1
+data,er,beeld001,2
+data,er,russj003,0
+data,er,grimj002,0
+data,er,woodt004,0
+data,er,rondh001,0
+data,er,mottj001,1

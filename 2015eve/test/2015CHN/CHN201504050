@@ -1,0 +1,168 @@
+id,CHN201504050
+version,2
+info,visteam,SLN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/05
+info,number,0
+info,starttime,7:17PM
+info,daynight,night
+info,usedh,false
+info,umphome,wintm901
+info,ump1b,wegnm901
+info,ump2b,fostm901
+info,ump3b,muchm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,44
+info,winddir,fromcf
+info,windspeed,7
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,184
+info,attendance,35055
+info,wp,waina001
+info,lp,lestj001
+info,save,roset001
+start,carpm002,"Matt Carpenter",0,1,5
+start,heywj001,"Jason Heyward",0,2,9
+start,hollm001,"Matt Holliday",0,3,7
+start,peraj001,"Jhonny Peralta",0,4,6
+start,adamm002,"Matt Adams",0,5,3
+start,moliy001,"Yadier Molina",0,6,2
+start,wongk001,"Kolten Wong",0,7,4
+start,jay-j001,"Jon Jay",0,8,8
+start,waina001,"Adam Wainwright",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,casts001,"Starlin Castro",1,4,6
+start,coghc001,"Chris Coghlan",1,5,7
+start,olt-m001,"Mike Olt",1,6,5
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,lastt001,"Tommy La Stella",1,9,4
+play,1,0,carpm002,22,CSFBBX,43/G
+play,1,0,heywj001,10,BX,D9/L
+play,1,0,hollm001,20,BBX,S9/L.2-H
+play,1,0,peraj001,02,FFS,K
+play,1,0,adamm002,12,BFFFS,K
+play,1,1,fowld001,10,BX,D7/L-
+play,1,1,solej001,12,F*B2SX,43/G.2-3
+play,1,1,rizza001,22,*BSC*BC,K
+play,1,1,casts001,21,*BBFX,13/G
+play,2,0,moliy001,12,BSSS,K
+play,2,0,wongk001,32,SBBBSFB,W
+play,2,0,jay-j001,02,FFX,S9/L.1-3
+play,2,0,waina001,02,LLFFFC,K
+play,2,0,carpm002,00,X,S9/L.3-H;1-3
+play,2,0,heywj001,00,>B,CS2(26)
+play,2,1,coghc001,20,BBX,D7/L
+play,2,1,olt-m001,32,*BFC*BBFS,K
+play,2,1,rossd001,01,FX,8/F.2-3
+play,2,1,lestj001,02,CFC,K
+play,3,0,heywj001,00,X,D76/F-
+play,3,0,hollm001,22,BBFCFFX,13/G.2-3
+play,3,0,peraj001,12,CFBC,K
+play,3,0,adamm002,20,BBX,31/G
+play,3,1,lastt001,32,BBCFBFX,S8/L-
+play,3,1,fowld001,32,CBF*BB1>X,9/F
+play,3,1,solej001,00,>S,SB2
+play,3,1,solej001,32,>S.*BCBFBS,K
+play,3,1,rizza001,32,*BCB*BCT,K
+play,4,0,moliy001,31,BBBSB,W
+play,4,0,wongk001,12,BSSFX,46(1)/FO/G
+play,4,0,jay-j001,01,F>B,SB2.1-3(E2/TH2)
+play,4,0,jay-j001,22,F>B.FFBC,K
+play,4,0,waina001,10,BX,53/G
+play,4,1,casts001,00,X,63/G
+play,4,1,coghc001,10,BX,31/G
+play,4,1,olt-m001,32,CBBBFX,63/G
+play,5,0,carpm002,32,BCBBCX,S9/G
+play,5,0,heywj001,32,BBFBF>X,S7/G.1-3
+play,5,0,hollm001,00,X,S9/L-.3-H;1-2
+play,5,0,peraj001,00,>B,SB3;SB2
+play,5,0,peraj001,10,>B.X,4/P
+play,5,0,adamm002,00,,NP
+sub,cokep001,"Phil Coke",1,8,1
+play,5,0,adamm002,02,.SSS,K
+play,5,0,moliy001,30,IIII,IW
+play,5,0,wongk001,12,MSBS,K
+play,5,1,rossd001,22,LFFBBX,D7/L
+play,5,1,cokep001,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,5,1,montm001,10,.BX,6/L
+play,5,1,lastt001,32,BBBCCX,8/F.2-3
+play,5,1,fowld001,12,CBSS,K
+play,6,0,jay-j001,00,,NP
+sub,mottj001,"Jason Motte",1,7,1
+play,6,0,jay-j001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,6,0,jay-j001,02,..CFFX,8/F
+play,6,0,waina001,02,FFX,3/P3F
+play,6,0,carpm002,22,BBCCFFX,43/G
+play,6,1,solej001,32,BBBCSFX,7/L
+play,6,1,rizza001,21,BBFX,43/G
+play,6,1,casts001,12,CFBX,S8/G
+play,6,1,coghc001,11,F*BX,9/F
+play,7,0,heywj001,00,,NP
+sub,ramin001,"Neil Ramirez",1,7,1
+play,7,0,heywj001,00,.X,3/G
+play,7,0,hollm001,02,CFS,K
+play,7,0,peraj001,12,SBSX,S4/G
+play,7,0,adamm002,10,BX,6/P
+play,7,1,olt-m001,00,,NP
+sub,martc006,"Carlos Martinez",0,9,1
+play,7,1,olt-m001,00,.X,31/G
+play,7,1,ramin001,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,7,11
+play,7,1,alcaa001,32,.BCBFBF*B,W
+play,7,1,montm001,11,FBB,PB.1-2
+play,7,1,montm001,32,FBB.FBS,K
+play,7,1,lastt001,22,BCCBFX,63/G
+play,8,0,moliy001,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,7,4
+play,8,0,moliy001,00,,NP
+sub,strop001,"Pedro Strop",1,9,1
+play,8,0,moliy001,22,..FFFBBFT,K
+play,8,0,wongk001,10,BX,43/G
+play,8,0,jay-j001,00,X,D98/L
+play,8,0,martc006,00,,NP
+sub,reynm001,"Mark Reynolds",0,9,11
+play,8,0,reynm001,32,.BBBCSC,K
+play,8,1,fowld001,00,,NP
+sub,waldj001,"Jordan Walden",0,9,1
+play,8,1,fowld001,22,.BFSBFC,K
+play,8,1,solej001,02,CSX,3/G
+play,8,1,rizza001,32,BBSCBB,W
+play,8,1,casts001,12,BFFS,K
+play,9,0,carpm002,00,,NP
+sub,rondh001,"Hector Rondon",1,9,1
+play,9,0,carpm002,32,.CFBBBX,7/F
+play,9,0,heywj001,11,BCX,6/L-
+play,9,0,hollm001,32,SFBFBBB,W
+play,9,0,peraj001,00,,NP
+sub,bourp001,"Peter Bourjos",0,3,12
+play,9,0,peraj001,00,.>S,SB2.1-3(E2/TH2)
+play,9,0,peraj001,01,.>S.X,8/F
+play,9,1,coghc001,00,,NP
+sub,bourp001,"Peter Bourjos",0,3,8
+play,9,1,coghc001,00,,NP
+sub,jay-j001,"Jon Jay",0,8,7
+play,9,1,coghc001,00,,NP
+sub,roset001,"Trevor Rosenthal",0,9,1
+play,9,1,coghc001,22,...CBCBC,K
+play,9,1,olt-m001,22,BBCFS,K
+play,9,1,alcaa001,32,BBCFBS,K
+data,er,waina001,0
+data,er,martc006,0
+data,er,waldj001,0
+data,er,roset001,0
+data,er,lestj001,3
+data,er,cokep001,0
+data,er,mottj001,0
+data,er,ramin001,0
+data,er,strop001,0
+data,er,rondh001,0

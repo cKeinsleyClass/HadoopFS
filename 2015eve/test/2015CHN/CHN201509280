@@ -1,0 +1,181 @@
+id,CHN201509280
+version,2
+info,visteam,KCA
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/28
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,cuzzp901
+info,ump1b,randt901
+info,ump2b,davig901
+info,ump3b,drakr901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,speaa701
+info,temp,74
+info,winddir,rtol
+info,windspeed,0
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,169
+info,attendance,40552
+info,wp,rodnf001
+info,lp,almom001
+info,save,
+start,zobrb001,"Ben Zobrist",0,1,4
+start,gorda001,"Alex Gordon",0,2,7
+start,cainl001,"Lorenzo Cain",0,3,8
+start,hosme001,"Eric Hosmer",0,4,3
+start,mousm001,"Mike Moustakas",0,5,5
+start,peres002,"Salvador Perez",0,6,2
+start,riosa002,"Alex Rios",0,7,9
+start,escoa003,"Alcides Escobar",0,8,6
+start,venty001,"Yordano Ventura",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,coghc001,"Chris Coghlan",1,2,7
+start,bryak001,"Kris Bryant",1,3,3
+start,lastt001,"Tommy La Stella",1,4,5
+start,casts001,"Starlin Castro",1,5,4
+start,montm001,"Miguel Montero",1,6,2
+start,solej001,"Jorge Soler",1,7,9
+start,russa002,"Addison Russell",1,8,6
+start,hendk001,"Kyle Hendricks",1,9,1
+play,1,0,zobrb001,22,CCBBX,5/P
+play,1,0,gorda001,30,BBBB,W
+play,1,0,cainl001,02,CTX,8/L
+play,1,0,hosme001,12,BCS>B,SB2
+play,1,0,hosme001,32,BCS>B.BFB,W
+play,1,0,mousm001,11,CBX,43/G
+play,1,1,fowld001,22,CBSBX,3/G
+play,1,1,coghc001,00,X,31/G+
+play,1,1,bryak001,32,CBSBBX,8/F+
+play,2,0,peres002,22,BBFSS,K
+play,2,0,riosa002,11,CBX,5/L
+play,2,0,escoa003,12,BCCX,S8/G
+play,2,0,venty001,22,CCFB*BFS,K
+play,2,1,lastt001,21,BFBX,8/F
+play,2,1,casts001,10,BX,43/G
+play,2,1,montm001,12,SBCT,K
+play,3,0,zobrb001,00,X,43/G+
+play,3,0,gorda001,12,CBSS,K
+play,3,0,cainl001,10,BX,7/F
+play,3,1,solej001,21,BBCX,3/G
+play,3,1,russa002,01,FX,63/G
+play,3,1,hendk001,12,FBFS,K
+play,4,0,hosme001,32,CCBBBC,K
+play,4,0,mousm001,11,FBX,D4/G
+play,4,0,peres002,12,CS*BS,K
+play,4,0,riosa002,22,FBCBX,31/G
+play,4,1,fowld001,21,FBBX,4/L
+play,4,1,coghc001,22,BCBCS,K23
+play,4,1,bryak001,22,BFCBS,K
+play,5,0,escoa003,10,BX,1/L
+play,5,0,venty001,22,BCFBC,K
+play,5,0,zobrb001,12,BCCT,K
+play,5,1,lastt001,12,CCBX,31/G
+play,5,1,casts001,00,X,8/L
+play,5,1,montm001,32,BBFBFX,3/G
+play,6,0,gorda001,22,CBBSC,K
+play,6,0,cainl001,21,CBBX,7/F
+play,6,0,hosme001,12,BFSS,K
+play,6,1,solej001,20,BBX,S8/G
+play,6,1,russa002,11,BSX,16(1)/FO/BG
+play,6,1,hendk001,00,,NP
+sub,schwk001,"Kyle Schwarber",1,9,11
+play,6,1,schwk001,22,.C1BF*BF11X,7/F
+play,6,1,fowld001,22,CF*BBC,K
+play,7,0,mousm001,00,,NP
+sub,cahit001,"Trevor Cahill",1,1,1
+play,7,0,mousm001,00,,NP
+sub,coghc001,"Chris Coghlan",1,2,3
+play,7,0,mousm001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,8
+play,7,0,mousm001,00,,NP
+sub,schwk001,"Kyle Schwarber",1,9,7
+play,7,0,mousm001,11,....CBX,S8/L
+play,7,0,peres002,00,X,46(1)3/GDP
+play,7,0,riosa002,12,CCBS,K
+play,7,1,coghc001,32,BBFFBFB,W
+play,7,1,bryak001,22,BCFBX,S5/G-/MREV.1-2
+com,"replay,7,bryak001,CHN,davig901,CHI11,,Y,M,CHN,C"
+com,"$when Kris Bryant was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,7,1,lastt001,11,BCX,46(1)3/GDP.2-3
+play,7,1,casts001,22,BBFFS,K
+play,8,0,escoa003,22,SBCBFS,K
+play,8,0,venty001,00,,NP
+sub,morak001,"Kendrys Morales",0,9,11
+play,8,0,morak001,31,.BBBCX,63/G
+play,8,0,zobrb001,02,FFS,K
+play,8,1,montm001,00,,NP
+sub,herrk001,"Kelvin Herrera",0,9,1
+play,8,1,montm001,11,.FBX,7/F
+play,8,1,solej001,01,FX,6/P
+play,8,1,russa002,21,BBCX,43/G
+play,9,0,gorda001,00,,NP
+sub,jacka001,"Austin Jackson",1,1,8
+play,9,0,gorda001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,9
+play,9,0,gorda001,00,,NP
+sub,richc002,"Clayton Richard",1,7,1
+play,9,0,gorda001,20,...BBX,7/F
+play,9,0,cainl001,00,,NP
+sub,rondh001,"Hector Rondon",1,7,1
+play,9,0,cainl001,01,.SX,S6/G
+play,9,0,hosme001,21,BF1B11,PO1(13)
+play,9,0,hosme001,22,BF1B11.CX,7/F
+play,9,1,schwk001,00,,NP
+sub,hochl001,"Luke Hochevar",0,9,1
+play,9,1,schwk001,12,.CFBT,K
+play,9,1,jacka001,32,FBBBFFX,8/L+
+play,9,1,coghc001,12,CFBFX,3/P3F
+play,10,0,mousm001,00,,NP
+sub,strop001,"Pedro Strop",1,7,1
+play,10,0,mousm001,02,.CSFFX,8/F
+play,10,0,peres002,22,CBSBFS,K
+play,10,0,riosa002,32,BFBSFBB,W
+play,10,0,escoa003,01,SX,54(1)/FO/G
+play,10,1,bryak001,00,,NP
+sub,madsr001,"Ryan Madson",0,9,1
+play,10,1,bryak001,12,.SBSS,K
+play,10,1,lastt001,12,CBSS,K
+play,10,1,casts001,10,BX,S7/G
+play,10,1,montm001,00,,NP
+sub,berrq001,"Quintin Berry",1,5,12
+play,10,1,montm001,12,.111CCB1S,K
+play,11,0,madsr001,00,,NP
+sub,jacka001,"Austin Jackson",1,1,9
+play,11,0,madsr001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,5
+play,11,0,madsr001,00,,NP
+sub,lastt001,"Tommy La Stella",1,4,4
+play,11,0,madsr001,00,,NP
+sub,berrq001,"Quintin Berry",1,5,8
+play,11,0,madsr001,00,,NP
+sub,rodnf001,"Fernando Rodney",1,7,1
+play,11,0,madsr001,00,,NP
+sub,coloc002,"Christian Colon",0,9,11
+play,11,0,coloc002,22,......CBCBS,K
+play,11,0,zobrb001,12,CBFX,53/G
+play,11,0,gorda001,11,BCX,13/G+
+play,11,1,rodnf001,00,,NP
+sub,almom001,"Miguel Almonte",0,9,1
+play,11,1,rodnf001,00,,NP
+sub,denoc001,"Chris Denorfia",1,7,11
+play,11,1,denoc001,00,..X,HR/7/F
+data,er,venty001,0
+data,er,herrk001,0
+data,er,hochl001,0
+data,er,madsr001,0
+data,er,almom001,1
+data,er,hendk001,0
+data,er,cahit001,0
+data,er,richc002,0
+data,er,rondh001,0
+data,er,strop001,0
+data,er,rodnf001,0

@@ -1,0 +1,167 @@
+id,CHN201504170
+version,2
+info,visteam,SDN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/17
+info,number,0
+info,starttime,1:20PM
+info,daynight,day
+info,usedh,false
+info,umphome,holbs901
+info,ump1b,welkb901
+info,ump2b,hoyej901
+info,ump3b,hirsj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,55
+info,winddir,rtol
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,177
+info,attendance,32138
+info,wp,shiej002
+info,lp,schlb001
+info,save,kimbc001
+start,myerw001,"Wil Myers",0,1,8
+start,norrd001,"Derek Norris",0,2,2
+start,kempm001,"Matt Kemp",0,3,9
+start,uptoj001,"Justin Upton",0,4,7
+start,alony001,"Yonder Alonso",0,5,3
+start,middw001,"Will Middlebrooks",0,6,5
+start,gyorj001,"Jedd Gyorko",0,7,4
+start,amara001,"Alexi Amarista",0,8,6
+start,shiej002,"James Shields",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,coghc001,"Chris Coghlan",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,castw002,"Welington Castillo",1,7,2
+start,hammj002,"Jason Hammel",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,myerw001,00,X,S9/F
+play,1,0,norrd001,01,CX,54(1)3/GDP
+play,1,0,kempm001,31,BFBBX,S7/L
+play,1,0,uptoj001,32,BBSFB>X,8/F
+play,1,1,fowld001,21,CBBX,7/L
+play,1,1,solej001,10,BX,3/G
+play,1,1,rizza001,31,BCBBB,W
+play,1,1,bryak001,02,TSS,K
+play,2,0,alony001,22,FBBFC,K
+play,2,0,middw001,12,CBCX,4/L
+play,2,0,gyorj001,10,BX,8/F
+play,2,1,coghc001,01,CX,9/F
+play,2,1,casts001,01,CX,3/P3F
+play,2,1,castw002,02,SCS,K
+play,3,0,amara001,02,CFX,S5/G
+play,3,0,shiej002,00,X,463/G.1-2
+play,3,0,myerw001,12,BSCS,K
+play,3,0,norrd001,12,CCBX,63/G
+play,3,1,hammj002,01,CX,D7/L
+play,3,1,herrj002,32,LLB*BBX,E1/TH/BG/SH.2-H(NR);B-2
+play,3,1,fowld001,22,BSBCX,31/G.2-3
+play,3,1,solej001,32,BFCBBS,K
+play,3,1,rizza001,12,BFFFB,WP.3-H(NR)(UR)
+play,3,1,rizza001,32,BFFFB.BC,K
+play,4,0,kempm001,12,CCFBFFX,9/F
+play,4,0,uptoj001,22,CBBCC,K
+play,4,0,alony001,32,FBCBBFFB,W
+play,4,0,middw001,12,FCB>X,HR/89/F.1-H
+play,4,0,gyorj001,02,FCX,53/G
+play,4,1,bryak001,32,CFFBBBS,K
+play,4,1,coghc001,31,BBBCB,W
+play,4,1,casts001,12,11BSTC,K
+play,4,1,castw002,02,CSC,K
+play,5,0,amara001,11,BFX,53/G
+play,5,0,shiej002,02,CCC,K
+play,5,0,myerw001,00,X,S5/BG
+play,5,0,norrd001,00,11X,5/L
+play,5,1,hammj002,22,CBCBX,7/F
+play,5,1,herrj002,02,CSX,S9/G
+play,5,1,fowld001,21,CB1B1X,S8/L.1-2
+play,5,1,solej001,10,BX,S18/G.2-H;1-3
+play,5,1,rizza001,00,X,D9/G.3-H;1-3
+play,5,1,bryak001,12,SBFS,K
+play,5,1,coghc001,22,*BSBSFFFS,K
+play,6,0,kempm001,12,CCBS,K
+play,6,0,uptoj001,31,BFBBX,9/F
+play,6,0,alony001,01,CX,43/G
+play,6,1,casts001,32,BBCBFX,53/G/MREV
+com,"replay,6,casts001,CHN,hirsj901,CHI11,,N,M,CHN,C"
+com,"$when Starlin Castro was called out at 1B, Cubs"
+com,"Joe Maddon challenged the ruling; the call was"
+com,"upheld by replay"
+play,6,1,castw002,00,X,E6/TH/G.BX2(34)
+play,6,1,hammj002,11,SBX,63/G
+play,7,0,middw001,20,BBX,53/G
+play,7,0,gyorj001,01,CX,S8/G
+play,7,0,amara001,12,FF1B1X,S9/G.1-2
+play,7,0,shiej002,00,,NP
+sub,solay001,"Yangervis Solarte",0,9,11
+play,7,0,solay001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,7,0,solay001,12,..CBTX,9/F
+play,7,0,myerw001,00,,NP
+sub,schlb001,"Brian Schlitter",1,8,1
+play,7,0,myerw001,12,.SCBX,HR/8/F.2-H;1-H
+com,"ej,maddj801,M,holbs901,Balls and strikes"
+com,"Cubs Manager Joe Maddon ejected by HP umpire Sam Holbrook"
+com,"continuing to yell about the ball called on the 0-2 count"
+com,"to Wil Myers"
+play,7,0,norrd001,10,.BX,4/P
+play,7,1,herrj002,00,,NP
+sub,thayd001,"Dale Thayer",0,9,1
+play,7,1,herrj002,22,.BBCCX,63/G
+play,7,1,fowld001,21,BBFX,DGR/78/L/UREV
+com,"replay,7,fowld001,CHN,hirsj901,CHI11,,N,U,,Q"
+com,"$when Dexter Fowler's fly ball lodged in the vines"
+com,"and the play was ruled a double, Cubs acting manager"
+com,"Dave Martinez talked to crew chief John Hirschbeck;"
+com,"after an umpire huddle, Hirschbeck requested a"
+com,"review and the call was upheld by replay"
+play,7,1,solej001,22,*BFCBFT,K
+play,7,1,rizza001,30,IIII,IW
+play,7,1,bryak001,11,BCX,5(2)/FO/G.1-2
+play,8,0,kempm001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,kempm001,10,.BX,53/G
+play,8,0,uptoj001,11,CBX,8/L
+play,8,0,alony001,32,BBBCSF*B,W
+play,8,0,middw001,12,BCS1>C,K
+play,8,1,coghc001,00,,NP
+sub,benoj001,"Joaquin Benoit",0,9,1
+play,8,1,coghc001,12,.BSMS,K
+play,8,1,casts001,00,X,6/L
+play,8,1,castw002,20,BBX,3/P3F
+play,9,0,gyorj001,00,,NP
+sub,rondh001,"Hector Rondon",1,7,1
+play,9,0,gyorj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,9,0,gyorj001,02,..CFX,E4/G
+play,9,0,amara001,10,1B>X,5/LDP.1X1(53)
+play,9,0,benoj001,00,,NP
+sub,venaw001,"Will Venable",0,9,11
+play,9,0,venaw001,32,.CCBBFFBFFFFS,K
+play,9,1,montm001,00,,NP
+sub,kimbc001,"Craig Kimbrel",0,9,1
+play,9,1,montm001,02,.SFX,53/G
+play,9,1,herrj002,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,9,11
+play,9,1,alcaa001,02,.SCS,K
+play,9,1,fowld001,00,X,S8/L
+play,9,1,solej001,10,B>B,SB2
+play,9,1,solej001,31,B>B.BCX,53/G
+data,er,shiej002,3
+data,er,thayd001,0
+data,er,benoj001,0
+data,er,kimbc001,0
+data,er,hammj002,4
+data,er,rossz001,0
+data,er,schlb001,1
+data,er,strop001,0
+data,er,rondh001,0

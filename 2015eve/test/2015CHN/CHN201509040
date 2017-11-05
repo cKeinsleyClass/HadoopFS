@@ -1,0 +1,204 @@
+id,CHN201509040
+version,2
+info,visteam,ARI
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/04
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,hoyej901
+info,ump1b,welkb901
+info,ump2b,hirsj901
+info,ump3b,tumpj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,74
+info,winddir,fromcf
+info,windspeed,7
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,220
+info,attendance,36132
+info,wp,lestj001
+info,lp,godlz001
+info,save,
+start,incie001,"Ender Inciarte",0,1,9
+start,gossp001,"Philip Gosselin",0,2,5
+start,polla001,"A.J. Pollock",0,3,8
+start,castw002,"Welington Castillo",0,4,2
+start,perad001,"David Peralta",0,5,7
+start,tomay001,"Yasmany Tomas",0,6,3
+start,owinc001,"Chris Owings",0,7,4
+start,ahmen001,"Nick Ahmed",0,8,6
+start,godlz001,"Zack Godley",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,jacka001,"Austin Jackson",1,2,9
+start,coghc001,"Chris Coghlan",1,3,7
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,baezj001,"Javier Baez",1,6,4
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,incie001,12,BFFFX,13/G-
+play,1,0,gossp001,12,BFSFFX,9/F-
+play,1,0,polla001,11,FBX,6/L
+play,1,1,fowld001,31,BBCBB,W
+play,1,1,jacka001,12,CSBS,K
+play,1,1,coghc001,22,CBCB1X,S7/F-.1-2
+play,1,1,rizza001,31,BBBCB,W.2-3;1-2
+play,1,1,bryak001,32,BBCBFB,W.3-H;2-3;1-2
+play,1,1,baezj001,32,*BBFFBB,W.3-H;2-3;1-2
+play,1,1,rossd001,01,CX,9/F/SF.3-H
+play,1,1,lestj001,01,SX,43/G
+play,2,0,castw002,22,CCBBC,K
+play,2,0,perad001,01,CX,S6/G
+play,2,0,tomay001,32,BC*BFB*B,W.1-2
+play,2,0,owinc001,02,SCS,K+WP.2-3;1-2
+play,2,0,ahmen001,32,BBCFBB,W
+play,2,0,godlz001,02,MMS,K
+play,2,1,russa002,10,BX,HR/7/F
+play,2,1,fowld001,02,CFC,K
+play,2,1,jacka001,31,CBBBX,13/G
+play,2,1,coghc001,10,BX,43/G
+play,3,0,incie001,22,BFLBX,13/G+
+play,3,0,gossp001,32,CFFBBBFX,3/P3F
+play,3,0,polla001,10,BX,63/G
+play,3,1,rizza001,00,X,8/F
+play,3,1,bryak001,20,BBX,9/F
+play,3,1,baezj001,00,X,S8/G
+play,3,1,rossd001,22,BCSFBX,9/F
+play,4,0,castw002,00,X,D7/L
+play,4,0,perad001,01,CX,8/F
+play,4,0,tomay001,32,BCBC*BFFX,53/G-
+play,4,0,owinc001,32,BBCBFX,D7/L.2-H
+play,4,0,ahmen001,11,C*BX,7/F
+play,4,1,lestj001,30,BBBB,W
+play,4,1,russa002,32,BBCCBFX,HR/78/F.1-H
+play,4,1,fowld001,12,BSCC,K
+play,4,1,jacka001,00,X,8/F
+play,4,1,coghc001,32,BBFBFB,W
+play,4,1,rizza001,00,,NP
+sub,burge002,"Enrique Burgos",0,9,1
+play,4,1,rizza001,22,.1CBBC1F>X,S9/L.1-3
+play,4,1,bryak001,31,BBFBX,54(1)/FO/G
+play,5,0,burge002,00,,NP
+sub,drurb001,"Brandon Drury",0,9,11
+play,5,0,drurb001,10,.BX,S8/L
+play,5,0,incie001,00,X,56(1)/FO/BG
+play,5,0,gossp001,00,>B,SB2
+play,5,0,gossp001,11,>B.C>B,SB3
+play,5,0,gossp001,32,>B.C>B.BSX,D7/G.3-H
+play,5,0,polla001,12,CFBX,9/F
+play,5,0,castw002,12,FF*BX,3/P3F
+play,5,1,baezj001,00,,NP
+sub,schua001,"A.J. Schugel",0,9,1
+play,5,1,baezj001,22,.CBSBX,S9/L-
+play,5,1,rossd001,01,S>B,CS2(24)
+play,5,1,rossd001,11,S>B.X,D9/L
+play,5,1,lestj001,10,BX,E6/G.2-3
+play,5,1,russa002,32,BCBFFBFB,W.1-2
+play,5,1,fowld001,10,BX,7/F
+play,5,1,jacka001,01,CX,S9/G.3-H(UR);2-3;1-2
+play,5,1,coghc001,32,BFBBF*B,W.3-H(UR);2-3;1-2
+play,5,1,rizza001,11,SBX,HR/9/F.3-H(UR);2-H(UR);1-H(UR);B-H(UR)
+play,5,1,bryak001,11,SBX,S5/G-
+play,5,1,baezj001,00,,NP
+sub,bracs001,"Silvino Bracho",0,4,1
+play,5,1,baezj001,00,,NP
+sub,herno002,"Oscar Hernandez",0,9,2
+play,5,1,baezj001,02,..CFX,HR/7/F.1-H(UR);B-H(TUR)
+play,5,1,rossd001,32,CBBBSFFFX,8/F
+play,6,0,perad001,00,,NP
+sub,grimj002,"Justin Grimm",1,5,1
+play,6,0,perad001,00,,NP
+sub,baezj001,"Javier Baez",1,6,5
+play,6,0,perad001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,4
+play,6,0,perad001,22,...BCSBX,63/G
+play,6,0,tomay001,32,BFSBBB,W
+play,6,0,owinc001,01,CX,36(1)/FO/G
+play,6,0,ahmen001,12,BCSFFX,46(1)/FO/G
+play,6,1,herrj002,00,,NP
+sub,incie001,"Ender Inciarte",0,1,8
+play,6,1,herrj002,00,,NP
+sub,lambj001,"Jake Lamb",0,3,3
+play,6,1,herrj002,00,,NP
+sub,tomay001,"Yasmany Tomas",0,6,9
+play,6,1,herrj002,02,...CFS,K
+play,6,1,russa002,22,BBSSFS,K
+play,6,1,fowld001,00,,NP
+sub,berrq001,"Quintin Berry",1,1,11
+play,6,1,berrq001,32,.BSSBBS,K
+play,7,0,herno002,00,,NP
+sub,berrq001,"Quintin Berry",1,1,8
+play,7,0,herno002,00,,NP
+sub,denoc001,"Chris Denorfia",1,2,7
+play,7,0,herno002,00,,NP
+sub,coghc001,"Chris Coghlan",1,3,3
+play,7,0,herno002,00,,NP
+sub,szczm001,"Matt Szczur",1,4,9
+play,7,0,herno002,00,,NP
+sub,huntt002,"Tommy Hunter",1,5,1
+play,7,0,herno002,12,.....SSBFS,K23
+play,7,0,incie001,01,CX,3/G-
+play,7,0,gossp001,01,CX,S9/L-
+play,7,0,lambj001,21,BBFX,HR/9/F.1-H
+play,7,0,bracs001,00,,NP
+sub,saltj001,"Jarrod Saltalamacchia",0,4,11
+play,7,0,saltj001,32,.BBSBFX,S9/L
+play,7,0,perad001,10,BX,53/G
+play,7,1,denoc001,00,,NP
+sub,gossp001,"Philip Gosselin",0,2,7
+play,7,1,denoc001,00,,NP
+sub,lambj001,"Jake Lamb",0,3,5
+play,7,1,denoc001,00,,NP
+sub,saltj001,"Jarrod Saltalamacchia",0,4,3
+play,7,1,denoc001,00,,NP
+sub,hessk001,"Keith Hessler",0,5,1
+play,7,1,denoc001,20,....BBX,8/F
+play,7,1,coghc001,01,CX,4/P
+play,7,1,szczm001,12,BFFX,S9/L
+play,7,1,huntt002,00,,NP
+sub,casts001,"Starlin Castro",1,5,11
+play,7,1,casts001,12,.CFBFFFS,K
+play,8,0,tomay001,00,,NP
+sub,wadat001,"Tsuyoshi Wada",1,5,1
+play,8,0,tomay001,00,.X,43/G/MREV
+com,"replay,8,tomay001,ARI,hirsj901,CHI11,,N,M,ARI,C"
+com,"$when Yasmany Tomas was called out at 1B, D-Backs"
+com,"manager Chip Hale challenged the ruling; the"
+com,"call was upheld by replay"
+play,8,0,owinc001,22,BFFFFBX,E4/G
+play,8,0,ahmen001,00,X,T8/F.1-H(UR)
+play,8,0,herno002,32,BBFCBFX,13/G
+play,8,0,incie001,01,SX,3/G
+play,8,1,baezj001,00,,NP
+sub,stitm001,"Matt Stites",0,5,1
+play,8,1,baezj001,21,.BBCX,2/P2F
+play,8,1,rossd001,02,CCS,K
+play,8,1,herrj002,22,FBFFBS,K
+play,9,0,gossp001,00,,NP
+sub,woodt004,"Travis Wood",1,5,1
+play,9,0,gossp001,32,.BCBFBFB,W
+play,9,0,lambj001,12,BCFX,S8/L.1-2
+play,9,0,saltj001,32,CCB*BBS,K
+play,9,0,stitm001,00,,NP
+sub,andec001,"Chase Anderson",0,5,11
+play,9,0,andec001,32,.BCFF*BBX,4/P3F
+play,9,0,tomay001,32,FSBBFB>S,K
+data,er,godlz001,6
+data,er,burge002,0
+data,er,schua001,0
+data,er,bracs001,1
+data,er,hessk001,0
+data,er,stitm001,0
+data,er,lestj001,2
+data,er,grimj002,0
+data,er,huntt002,2
+data,er,wadat001,0
+data,er,woodt004,0

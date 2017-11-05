@@ -1,0 +1,155 @@
+id,CHN201508200
+version,2
+info,visteam,ATL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/20
+info,number,0
+info,starttime,7:06PM
+info,daynight,night
+info,usedh,false
+info,umphome,eddid901
+info,ump1b,johna901
+info,ump2b,millb901
+info,ump3b,may-b901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,71
+info,winddir,ltor
+info,windspeed,14
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,179
+info,attendance,34633
+info,wp,arrij001
+info,lp,foltm001
+info,save,
+start,markn001,"Nick Markakis",0,1,9
+start,maybc001,"Cameron Maybin",0,2,8
+start,freef001,"Freddie Freeman",0,3,3
+start,piera001,"A.J. Pierzynski",0,4,2
+start,garca004,"Adonis Garcia",0,5,5
+start,petej002,"Jace Peterson",0,6,4
+start,simma001,"Andrelton Simmons",0,7,6
+start,bourm001,"Michael Bourn",0,8,7
+start,foltm001,"Mike Foltynewicz",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,montm001,"Miguel Montero",1,6,2
+start,solej001,"Jorge Soler",1,7,9
+start,arrij001,"Jake Arrieta",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,markn001,01,CX,31/G
+play,1,0,maybc001,21,BBCX,3/G
+play,1,0,freef001,22,SCBBFFX,3/G
+play,1,1,fowld001,01,CX,43/G
+play,1,1,schwk001,10,BX,43/G
+play,1,1,coghc001,22,BCFFBX,63/G
+play,2,0,piera001,32,FBSFBFBX,43/G
+play,2,0,garca004,02,CFFFC,K
+play,2,0,petej002,11,FBX,S9/G+
+play,2,0,simma001,11,BFX,64(1)/FO/G
+play,2,1,rizza001,32,BSBBCB,W
+play,2,1,bryak001,32,C1CF1BB1BX,64(1)/FO/G
+play,2,1,montm001,02,C1SFS,K
+play,2,1,solej001,01,1SX,S7/L.1-2
+play,2,1,arrij001,12,CBFX,63/G
+play,3,0,bourm001,32,BSBFBS,K
+play,3,0,foltm001,02,CCFS,K
+play,3,0,markn001,02,CFX,43/G
+play,3,1,russa002,11,CBX,S7/G
+play,3,1,fowld001,12,1CF1B1FX,S49/L.1-2
+play,3,1,schwk001,22,BBFSX,5/P/IF
+com,"ej,gonzf801,M,eddid901,Balls and strikes"
+com,"Braves Manager Fredi Gonzalez ejected by HP umpire Doug Eddings"
+play,3,1,coghc001,20,BB.X,S9/G+.2-H;1-3
+play,3,1,rizza001,00,1X,HR/9/L.3-H;1-H
+play,3,1,bryak001,22,CSFBFBFS,K
+play,3,1,montm001,22,BBFSFX,1/G-
+play,4,0,maybc001,32,BCBSBX,E5/G
+play,4,0,freef001,12,BFF11X,S6/G-.1-2
+play,4,0,piera001,22,BSSBFX,36(1)1/GDP.2-3
+play,4,0,garca004,22,BFBFC,K
+play,4,1,solej001,10,BX,5/L
+play,4,1,arrij001,22,CSBBC,K
+play,4,1,russa002,10,BX,HR/78/F
+play,4,1,fowld001,22,BCCBS,K
+play,5,0,petej002,22,SBBCX,S9/G
+play,5,0,simma001,00,>C,SB2
+play,5,0,simma001,02,>C.CFX,53/G
+play,5,0,bourm001,02,CTB,WP.2-3
+play,5,0,bourm001,32,CTB.BFFBFB,W
+play,5,0,foltm001,01,M>B,SB2
+play,5,0,foltm001,32,M>B.BCFBFS,K
+play,5,0,markn001,01,CX,63/G
+play,5,1,schwk001,31,BBBCB,W
+play,5,1,coghc001,10,BX,T9/L.1-H
+play,5,1,rizza001,12,SFFBT,K
+play,5,1,bryak001,22,CFBBC,K
+play,5,1,montm001,10,BX,D8/F+.3-H
+play,5,1,solej001,00,,NP
+sub,mckia001,"Andrew McKirahan",0,9,1
+play,5,1,solej001,30,.B*BII,IW
+play,5,1,arrij001,12,BCCS,K
+play,6,0,maybc001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,5,5
+play,6,0,maybc001,12,.CSBC,K
+play,6,0,freef001,22,FBFBS,K
+play,6,0,piera001,02,FCX,S9/G
+play,6,0,garca004,00,X,64(1)/FO/G
+play,6,1,russa002,12,CCBX,9/F
+play,6,1,fowld001,20,BBX,S8/L
+play,6,1,schwk001,22,SFBFBFS,K
+play,6,1,coghc001,12,BFCX,6/L
+play,7,0,petej002,00,,NP
+sub,woodt004,"Travis Wood",1,3,1
+play,7,0,petej002,00,,NP
+sub,casts001,"Starlin Castro",1,8,4
+play,7,0,petej002,11,..SBX,7/F
+play,7,0,simma001,22,CSFBBFX,S8/L
+play,7,0,bourm001,10,BX,46(1)/FO/G
+play,7,0,mckia001,00,,NP
+sub,gomej001,"Jonny Gomes",0,9,11
+play,7,0,gomej001,02,.CFS,K
+play,7,1,rizza001,00,,NP
+sub,detwr001,"Ross Detwiler",0,9,1
+play,7,1,rizza001,12,.CBCX,31/G
+play,7,1,herrj002,12,CBSC,K
+play,7,1,montm001,11,SBX,43/G
+play,8,0,markn001,02,FFX,S9/G
+play,8,0,maybc001,02,CCFS,K
+play,8,0,freef001,01,CX,S8/L.1-2
+play,8,0,piera001,32,CCFBFBBFB,W.2-3;1-2
+play,8,0,garca004,00,,NP
+sub,grimj002,"Justin Grimm",1,3,1
+play,8,0,garca004,12,.CS*BX,9/L/SF.3-H
+play,8,0,petej002,32,CBCB*B>X,7/F
+play,8,1,solej001,00,,NP
+sub,peree003,"Eury Perez",0,1,9
+play,8,1,solej001,00,,NP
+sub,aardd001,"David Aardsma",0,9,1
+play,8,1,solej001,02,..SCS,K
+play,8,1,casts001,12,CFFFBX,8/F
+play,8,1,russa002,01,SX,43/G
+play,9,0,simma001,00,,NP
+sub,huntt002,"Tommy Hunter",1,3,1
+play,9,0,simma001,00,.X,S7/L
+play,9,0,bourm001,00,X,46(1)/FO/G
+play,9,0,aardd001,00,,NP
+sub,swisn001,"Nick Swisher",0,9,11
+play,9,0,swisn001,02,.CFS,K
+play,9,0,peree003,02,C>F*B,DI.1-2
+play,9,0,peree003,12,C>F*B.FS,K
+data,er,foltm001,7
+data,er,mckia001,0
+data,er,detwr001,0
+data,er,aardd001,0
+data,er,arrij001,0
+data,er,woodt004,1
+data,er,grimj002,0
+data,er,huntt002,0

@@ -1,0 +1,630 @@
+id,CHN201504180
+version,2
+info,visteam,SDN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/18
+info,number,0
+info,starttime,1:20PM
+info,daynight,day
+info,usedh,false
+info,umphome,welkb901
+info,ump1b,hoyej901
+info,ump2b,hirsj901
+info,ump3b,holbs901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,43
+info,winddir,fromlf
+info,windspeed,19
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,229
+info,attendance,33958
+info,wp,rossz001
+info,lp,kimbc001
+info,save,
+start,myerw001,"Wil Myers",0,1,8
+start,alony001,"Yonder Alonso",0,2,3
+start,kempm001,"Matt Kemp",0,3,9
+start,uptoj001,"Justin Upton",0,4,7
+start,middw001,"Will Middlebrooks",0,5,5
+start,gyorj001,"Jedd Gyorko",0,6,4
+start,amara001,"Alexi Amarista",0,7,6
+start,nievw001,"Wil Nieves",0,8,2
+start,rosst001,"Tyson Ross",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,coghc001,"Chris Coghlan",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,montm001,"Miguel Montero",1,7,2
+start,hendk001,"Kyle Hendricks",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,myerw001,22,CCBBX,E5/G
+play,1,0,alony001,00,X,S7/G.1X3(75)
+play,1,0,kempm001,02,CF1X,HR/7/L.1-H
+play,1,0,uptoj001,12,CBFX,9/F
+play,1,0,middw001,12,CSBS,K
+play,1,1,fowld001,22,CBSBFS,K
+play,1,1,solej001,02,SFS,K
+play,1,1,rizza001,32,CMBFBFBFFFX,S7/L
+play,1,1,bryak001,12,SSB>B,SB2
+play,1,1,bryak001,32,SSB>B.BB,W
+play,1,1,coghc001,00,X,8/L
+play,2,0,gyorj001,00,X,8/F
+play,2,0,amara001,12,BCFFC,K
+play,2,0,nievw001,02,CFS,K
+play,2,1,casts001,01,CX,S8/L
+play,2,1,montm001,12,CFB1C,K
+play,2,1,hendk001,02,CC1L,K
+play,2,1,herrj002,00,1X,6(1)/FO/G
+play,3,0,rosst001,02,CFS,K
+play,3,0,myerw001,12,CBSX,7/L
+play,3,0,alony001,31,FBBBX,43/G
+play,3,1,fowld001,31,CBBBX,5/L
+play,3,1,solej001,32,BBSSBC,K
+play,3,1,rizza001,21,SBBX,3/G
+play,4,0,kempm001,32,BFBFBFX,63/G
+play,4,0,uptoj001,32,BSBSFBS,K
+play,4,0,middw001,10,BX,63/G
+play,4,1,bryak001,32,FBSBBFB,W
+play,4,1,coghc001,00,>X,43/G.1-2
+play,4,1,casts001,22,BCCBS,K
+play,4,1,montm001,30,IIII,IW
+play,4,1,hendk001,00,X,64(1)/FO/G
+play,5,0,gyorj001,22,CBBCX,8/F
+play,5,0,amara001,22,CBFBC,K
+play,5,0,nievw001,20,BBX,13/G
+play,5,1,herrj002,01,CX,S9/G
+play,5,1,fowld001,10,B1>B,SB2/MREV
+com,"replay,5,fowld001,CHN,hirsj901,CHI11,,N,M,SDN,A"
+com,"$when Jonathan Herrera was called safe at 2B,"
+com,"Padres manager Bud Black challenged the ruling;"
+com,"the call was upheld by replay"
+play,5,1,fowld001,30,B1>B.*BB,W
+play,5,1,solej001,02,SSS,K
+play,5,1,rizza001,21,BCBX,E3/G.2-H;1-3
+play,5,1,bryak001,21,BBCX,S8/F-.3-H;1-3;B-2(TH)
+play,5,1,coghc001,22,BSCBC,K
+play,5,1,casts001,32,SSB*BFBX,13/G
+play,6,0,rosst001,11,CBX,S6/G
+play,6,0,myerw001,01,CX,5/P
+play,6,0,alony001,12,BCFS,K
+play,6,0,kempm001,02,C+1FFFS,K
+play,6,1,montm001,02,CFX,HR/78/F
+play,6,1,hendk001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,6,1,denoc001,12,.SFBS,K
+play,6,1,herrj002,21,BCBX,3/G
+play,6,1,fowld001,31,BBCBB,W
+play,6,1,solej001,00,,NP
+sub,maurb001,"Brandon Maurer",0,9,1
+play,6,1,solej001,00,.1X,6/P
+play,7,0,uptoj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,7,0,uptoj001,11,.BSX,9/F
+play,7,0,middw001,32,FBBFFBS,K
+play,7,0,gyorj001,11,BFX,53/G
+play,7,1,rizza001,21,CBBX,S5/G-
+play,7,1,bryak001,32,C*B*BBFB,W.1-2
+play,7,1,coghc001,10,BX,4(1)3/GDP.2-3
+play,7,1,casts001,30,*BBBX,S7/L.3-H
+play,7,1,montm001,00,,NP
+sub,rearc001,"Chris Rearick",0,9,1
+play,7,1,montm001,11,.1BSX,HR/89/L.1-H
+play,7,1,mottj001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,7,1,szczm001,22,.BBSFS,K
+play,8,0,amara001,00,,NP
+sub,strop001,"Pedro Strop",1,5,1
+play,8,0,amara001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,8,0,amara001,01,..CX,13/G
+play,8,0,nievw001,31,BBBCB,W
+play,8,0,rearc001,00,,NP
+sub,spanc001,"Cory Spangenberg",0,9,11
+play,8,0,spanc001,11,.BCB,WP.1-2
+play,8,0,spanc001,32,.BCB.CBS,K
+play,8,0,myerw001,11,BFX,63/G
+play,8,1,herrj002,00,,NP
+sub,kells001,"Shawn Kelley",0,9,1
+play,8,1,herrj002,12,.CCFBFFFFFS,K
+play,8,1,fowld001,00,X,8/F
+play,8,1,solej001,32,SBBSBX,D7/L
+play,8,1,rizza001,22,SBBCS,K
+play,9,0,alony001,00,,NP
+sub,cokep001,"Phil Coke",1,5,1
+play,9,0,alony001,12,.SFBFX,S8/L
+play,9,0,kempm001,12,FFBX,S6/G.1-2
+play,9,0,uptoj001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,uptoj001,12,.BFSX,S7/L.2-H;1-2
+play,9,0,middw001,10,BX,D9/L.2-H;1-3
+play,9,0,gyorj001,10,BX,53/G.3-H
+play,9,0,amara001,22,BCFBFFS,K
+play,9,0,nievw001,00,,NP
+sub,solay001,"Yangervis Solarte",0,8,11
+play,9,0,solay001,22,.FF*BBFX,S9/L.2-H
+play,9,0,kells001,00,,NP
+sub,norrd001,"Derek Norris",0,9,11
+play,9,0,norrd001,22,.BSBF11FFX,S1/G-.1-2
+play,9,0,myerw001,11,BCX,54(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,thayd001,"Dale Thayer",0,8,1
+play,9,1,bryak001,00,,NP
+sub,norrd001,"Derek Norris",0,9,2
+play,9,1,bryak001,32,..CBBCFFBX,9/F
+play,9,1,rondh001,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,5,11
+play,9,1,alcaa001,22,.BFBSX,9/F9LF
+play,9,1,casts001,32,BCCBFBX,13/G
+play,10,0,alony001,00,,NP
+sub,rossz001,"Zach Rosscup",1,5,1
+play,10,0,alony001,22,.SCBFBFX,7/F
+play,10,0,kempm001,01,FX,9/L
+play,10,0,uptoj001,12,CBFX,D9/L
+play,10,0,middw001,00,,NP
+sub,venaw001,"Will Venable",0,4,12
+play,10,0,middw001,11,.FBX,53/G
+play,10,1,montm001,00,,NP
+sub,venaw001,"Will Venable",0,4,7
+play,10,1,montm001,22,.CBFBX,63/G
+play,10,1,szczm001,12,BMCX,S4/L
+play,10,1,herrj002,10,1B11>C,SB2
+play,10,1,herrj002,11,1B11>C.X,7/L
+play,10,1,fowld001,22,CBSBX,7/F
+play,11,0,gyorj001,22,BCSBS,K23
+play,11,0,amara001,00,X,13/BG
+play,11,0,thayd001,00,,NP
+sub,shiej002,"James Shields",0,8,11
+play,11,0,shiej002,12,.CFBFS,K
+play,11,1,solej001,00,,NP
+sub,kimbc001,"Craig Kimbrel",0,8,1
+play,11,1,solej001,20,.BBX,3/G
+play,11,1,rizza001,32,BSBBTB,W
+play,11,1,bryak001,02,FF>B,SB2
+play,11,1,bryak001,22,FF>B.*BFX,S6/G-/UREV.2-3
+com,"replay,11,bryak001,CHN,hirsj901,CHI11,,N,U,,C"
+com,"$when Kris Bryant was called safe at 1B, crew"
+com,"chief John Hirschbeck requested a review; the"
+com,"call was upheld by replay"
+play,11,1,rossz001,00,,NP
+sub,rossd001,"David Ross",1,5,11
+play,11,1,rossd001,30,.*BBBB,W.1-2
+play,11,1,casts001,00,X,S7/L.3-H;2-3;1-2
+data,er,rosst001,3
+data,er,maurb001,2
+data,er,rearc001,1
+data,er,kells001,0
+data,er,thayd001,0
+data,er,kimbc001,1
+data,er,hendk001,2
+data,er,mottj001,0
+data,er,strop001,0
+data,er,cokep001,2
+data,er,rondh001,2
+data,er,rossz001,0
+id,CHN201504180
+version,2
+info,visteam,SDN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/18
+info,number,0
+info,starttime,1:20PM
+info,daynight,day
+info,usedh,false
+info,umphome,welkb901
+info,ump1b,hoyej901
+info,ump2b,hirsj901
+info,ump3b,holbs901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,43
+info,winddir,fromlf
+info,windspeed,19
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,229
+info,attendance,33958
+info,wp,rossz001
+info,lp,kimbc001
+info,save,
+start,myerw001,"Wil Myers",0,1,8
+start,alony001,"Yonder Alonso",0,2,3
+start,kempm001,"Matt Kemp",0,3,9
+start,uptoj001,"Justin Upton",0,4,7
+start,middw001,"Will Middlebrooks",0,5,5
+start,gyorj001,"Jedd Gyorko",0,6,4
+start,amara001,"Alexi Amarista",0,7,6
+start,nievw001,"Wil Nieves",0,8,2
+start,rosst001,"Tyson Ross",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,coghc001,"Chris Coghlan",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,montm001,"Miguel Montero",1,7,2
+start,hendk001,"Kyle Hendricks",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,myerw001,22,CCBBX,E5/G
+play,1,0,alony001,00,X,S7/G.1X3(75)
+play,1,0,kempm001,02,CF1X,HR/7/L.1-H
+play,1,0,uptoj001,12,CBFX,9/F
+play,1,0,middw001,12,CSBS,K
+play,1,1,fowld001,22,CBSBFS,K
+play,1,1,solej001,02,SFS,K
+play,1,1,rizza001,32,CMBFBFBFFFX,S7/L
+play,1,1,bryak001,12,SSB>B,SB2
+play,1,1,bryak001,32,SSB>B.BB,W
+play,1,1,coghc001,00,X,8/L
+play,2,0,gyorj001,00,X,8/F
+play,2,0,amara001,12,BCFFC,K
+play,2,0,nievw001,02,CFS,K
+play,2,1,casts001,01,CX,S8/L
+play,2,1,montm001,12,CFB1C,K
+play,2,1,hendk001,02,CC1L,K
+play,2,1,herrj002,00,1X,6(1)/FO/G
+play,3,0,rosst001,02,CFS,K
+play,3,0,myerw001,12,CBSX,7/L
+play,3,0,alony001,31,FBBBX,43/G
+play,3,1,fowld001,31,CBBBX,5/L
+play,3,1,solej001,32,BBSSBC,K
+play,3,1,rizza001,21,SBBX,3/G
+play,4,0,kempm001,32,BFBFBFX,63/G
+play,4,0,uptoj001,32,BSBSFBS,K
+play,4,0,middw001,10,BX,63/G
+play,4,1,bryak001,32,FBSBBFB,W
+play,4,1,coghc001,00,>X,43/G.1-2
+play,4,1,casts001,22,BCCBS,K
+play,4,1,montm001,30,IIII,IW
+play,4,1,hendk001,00,X,64(1)/FO/G
+play,5,0,gyorj001,22,CBBCX,8/F
+play,5,0,amara001,22,CBFBC,K
+play,5,0,nievw001,20,BBX,13/G
+play,5,1,herrj002,01,CX,S9/G
+play,5,1,fowld001,10,B1>B,SB2/MREV
+com,"replay,5,fowld001,CHN,hirsj901,CHI11,,N,M,SDN,A"
+com,"$when Jonathan Herrera was called safe at 2B,"
+com,"Padres manager Bud Black challenged the ruling;"
+com,"the call was upheld by replay"
+play,5,1,fowld001,30,B1>B.*BB,W
+play,5,1,solej001,02,SSS,K
+play,5,1,rizza001,21,BCBX,E3/G.2-H;1-3
+play,5,1,bryak001,21,BBCX,S8/F-.3-H;1-3;B-2(TH)
+play,5,1,coghc001,22,BSCBC,K
+play,5,1,casts001,32,SSB*BFBX,13/G
+play,6,0,rosst001,11,CBX,S6/G
+play,6,0,myerw001,01,CX,5/P
+play,6,0,alony001,12,BCFS,K
+play,6,0,kempm001,02,C+1FFFS,K
+play,6,1,montm001,02,CFX,HR/78/F
+play,6,1,hendk001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,6,1,denoc001,12,.SFBS,K
+play,6,1,herrj002,21,BCBX,3/G
+play,6,1,fowld001,31,BBCBB,W
+play,6,1,solej001,00,,NP
+sub,maurb001,"Brandon Maurer",0,9,1
+play,6,1,solej001,00,.1X,6/P
+play,7,0,uptoj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,7,0,uptoj001,11,.BSX,9/F
+play,7,0,middw001,32,FBBFFBS,K
+play,7,0,gyorj001,11,BFX,53/G
+play,7,1,rizza001,21,CBBX,S5/G-
+play,7,1,bryak001,32,C*B*BBFB,W.1-2
+play,7,1,coghc001,10,BX,4(1)3/GDP.2-3
+play,7,1,casts001,30,*BBBX,S7/L.3-H
+play,7,1,montm001,00,,NP
+sub,rearc001,"Chris Rearick",0,9,1
+play,7,1,montm001,11,.1BSX,HR/89/L.1-H
+play,7,1,mottj001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,7,1,szczm001,22,.BBSFS,K
+play,8,0,amara001,00,,NP
+sub,strop001,"Pedro Strop",1,5,1
+play,8,0,amara001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,8,0,amara001,01,..CX,13/G
+play,8,0,nievw001,31,BBBCB,W
+play,8,0,rearc001,00,,NP
+sub,spanc001,"Cory Spangenberg",0,9,11
+play,8,0,spanc001,11,.BCB,WP.1-2
+play,8,0,spanc001,32,.BCB.CBS,K
+play,8,0,myerw001,11,BFX,63/G
+play,8,1,herrj002,00,,NP
+sub,kells001,"Shawn Kelley",0,9,1
+play,8,1,herrj002,12,.CCFBFFFFFS,K
+play,8,1,fowld001,00,X,8/F
+play,8,1,solej001,32,SBBSBX,D7/L
+play,8,1,rizza001,22,SBBCS,K
+play,9,0,alony001,00,,NP
+sub,cokep001,"Phil Coke",1,5,1
+play,9,0,alony001,12,.SFBFX,S8/L
+play,9,0,kempm001,12,FFBX,S6/G.1-2
+play,9,0,uptoj001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,uptoj001,12,.BFSX,S7/L.2-H;1-2
+play,9,0,middw001,10,BX,D9/L.2-H;1-3
+play,9,0,gyorj001,10,BX,53/G.3-H
+play,9,0,amara001,22,BCFBFFS,K
+play,9,0,nievw001,00,,NP
+sub,solay001,"Yangervis Solarte",0,8,11
+play,9,0,solay001,22,.FF*BBFX,S9/L.2-H
+play,9,0,kells001,00,,NP
+sub,norrd001,"Derek Norris",0,9,11
+play,9,0,norrd001,22,.BSBF11FFX,S1/G-.1-2
+play,9,0,myerw001,11,BCX,54(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,thayd001,"Dale Thayer",0,8,1
+play,9,1,bryak001,00,,NP
+sub,norrd001,"Derek Norris",0,9,2
+play,9,1,bryak001,32,..CBBCFFBX,9/F
+play,9,1,rondh001,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,5,11
+play,9,1,alcaa001,22,.BFBSX,9/F9LF
+play,9,1,casts001,32,BCCBFBX,13/G
+play,10,0,alony001,00,,NP
+sub,rossz001,"Zach Rosscup",1,5,1
+play,10,0,alony001,22,.SCBFBFX,7/F
+play,10,0,kempm001,01,FX,9/L
+play,10,0,uptoj001,12,CBFX,D9/L
+play,10,0,middw001,00,,NP
+sub,venaw001,"Will Venable",0,4,12
+play,10,0,middw001,11,.FBX,53/G
+play,10,1,montm001,00,,NP
+sub,venaw001,"Will Venable",0,4,7
+play,10,1,montm001,22,.CBFBX,63/G
+play,10,1,szczm001,12,BMCX,S4/L
+play,10,1,herrj002,10,1B11>C,SB2
+play,10,1,herrj002,11,1B11>C.X,7/L
+play,10,1,fowld001,22,CBSBX,7/F
+play,11,0,gyorj001,22,BCSBS,K23
+play,11,0,amara001,00,X,13/BG
+play,11,0,thayd001,00,,NP
+sub,shiej002,"James Shields",0,8,11
+play,11,0,shiej002,12,.CFBFS,K
+play,11,1,solej001,00,,NP
+sub,kimbc001,"Craig Kimbrel",0,8,1
+play,11,1,solej001,20,.BBX,3/G
+play,11,1,rizza001,32,BSBBTB,W
+play,11,1,bryak001,02,FF>B,SB2
+play,11,1,bryak001,22,FF>B.*BFX,S6/G-/UREV.2-3
+com,"replay,11,bryak001,CHN,hirsj901,CHI11,,N,U,,C"
+com,"$when Kris Bryant was called safe at 1B, crew"
+com,"chief John Hirschbeck requested a review; the"
+com,"call was upheld by replay"
+play,11,1,rossz001,00,,NP
+sub,rossd001,"David Ross",1,5,11
+play,11,1,rossd001,30,.*BBBB,W.1-2
+play,11,1,casts001,00,X,S7/L.3-H;2-3;1-2
+data,er,rosst001,3
+data,er,maurb001,2
+data,er,rearc001,1
+data,er,kells001,0
+data,er,thayd001,0
+data,er,kimbc001,1
+data,er,hendk001,2
+data,er,mottj001,0
+data,er,strop001,0
+data,er,cokep001,2
+data,er,rondh001,2
+data,er,rossz001,0
+id,CHN201504180
+version,2
+info,visteam,SDN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/18
+info,number,0
+info,starttime,1:20PM
+info,daynight,day
+info,usedh,false
+info,umphome,welkb901
+info,ump1b,hoyej901
+info,ump2b,hirsj901
+info,ump3b,holbs901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,43
+info,winddir,fromlf
+info,windspeed,19
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,229
+info,attendance,33958
+info,wp,rossz001
+info,lp,kimbc001
+info,save,
+start,myerw001,"Wil Myers",0,1,8
+start,alony001,"Yonder Alonso",0,2,3
+start,kempm001,"Matt Kemp",0,3,9
+start,uptoj001,"Justin Upton",0,4,7
+start,middw001,"Will Middlebrooks",0,5,5
+start,gyorj001,"Jedd Gyorko",0,6,4
+start,amara001,"Alexi Amarista",0,7,6
+start,nievw001,"Wil Nieves",0,8,2
+start,rosst001,"Tyson Ross",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,coghc001,"Chris Coghlan",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,montm001,"Miguel Montero",1,7,2
+start,hendk001,"Kyle Hendricks",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,myerw001,22,CCBBX,E5/G
+play,1,0,alony001,00,X,S7/G.1X3(75)
+play,1,0,kempm001,02,CF1X,HR/7/L.1-H
+play,1,0,uptoj001,12,CBFX,9/F
+play,1,0,middw001,12,CSBS,K
+play,1,1,fowld001,22,CBSBFS,K
+play,1,1,solej001,02,SFS,K
+play,1,1,rizza001,32,CMBFBFBFFFX,S7/L
+play,1,1,bryak001,12,SSB>B,SB2
+play,1,1,bryak001,32,SSB>B.BB,W
+play,1,1,coghc001,00,X,8/L
+play,2,0,gyorj001,00,X,8/F
+play,2,0,amara001,12,BCFFC,K
+play,2,0,nievw001,02,CFS,K
+play,2,1,casts001,01,CX,S8/L
+play,2,1,montm001,12,CFB1C,K
+play,2,1,hendk001,02,CC1L,K
+play,2,1,herrj002,00,1X,6(1)/FO/G
+play,3,0,rosst001,02,CFS,K
+play,3,0,myerw001,12,CBSX,7/L
+play,3,0,alony001,31,FBBBX,43/G
+play,3,1,fowld001,31,CBBBX,5/L
+play,3,1,solej001,32,BBSSBC,K
+play,3,1,rizza001,21,SBBX,3/G
+play,4,0,kempm001,32,BFBFBFX,63/G
+play,4,0,uptoj001,32,BSBSFBS,K
+play,4,0,middw001,10,BX,63/G
+play,4,1,bryak001,32,FBSBBFB,W
+play,4,1,coghc001,00,>X,43/G.1-2
+play,4,1,casts001,22,BCCBS,K
+play,4,1,montm001,30,IIII,IW
+play,4,1,hendk001,00,X,64(1)/FO/G
+play,5,0,gyorj001,22,CBBCX,8/F
+play,5,0,amara001,22,CBFBC,K
+play,5,0,nievw001,20,BBX,13/G
+play,5,1,herrj002,01,CX,S9/G
+play,5,1,fowld001,10,B1>B,SB2/MREV
+com,"replay,5,fowld001,CHN,hirsj901,CHI11,,N,M,SDN,A"
+com,"$when Jonathan Herrera was called safe at 2B,"
+com,"Padres manager Bud Black challenged the ruling;"
+com,"the call was upheld by replay"
+play,5,1,fowld001,30,B1>B.*BB,W
+play,5,1,solej001,02,SSS,K
+play,5,1,rizza001,21,BCBX,E3/G.2-H;1-3
+play,5,1,bryak001,21,BBCX,S8/F-.3-H;1-3;B-2(TH)
+play,5,1,coghc001,22,BSCBC,K
+play,5,1,casts001,32,SSB*BFBX,13/G
+play,6,0,rosst001,11,CBX,S6/G
+play,6,0,myerw001,01,CX,5/P
+play,6,0,alony001,12,BCFS,K
+play,6,0,kempm001,02,C+1FFFS,K
+play,6,1,montm001,02,CFX,HR/78/F
+play,6,1,hendk001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,6,1,denoc001,12,.SFBS,K
+play,6,1,herrj002,21,BCBX,3/G
+play,6,1,fowld001,31,BBCBB,W
+play,6,1,solej001,00,,NP
+sub,maurb001,"Brandon Maurer",0,9,1
+play,6,1,solej001,00,.1X,6/P
+play,7,0,uptoj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,7,0,uptoj001,11,.BSX,9/F
+play,7,0,middw001,32,FBBFFBS,K
+play,7,0,gyorj001,11,BFX,53/G
+play,7,1,rizza001,21,CBBX,S5/G-
+play,7,1,bryak001,32,C*B*BBFB,W.1-2
+play,7,1,coghc001,10,BX,4(1)3/GDP.2-3
+play,7,1,casts001,30,*BBBX,S7/L.3-H
+play,7,1,montm001,00,,NP
+sub,rearc001,"Chris Rearick",0,9,1
+play,7,1,montm001,11,.1BSX,HR/89/L.1-H
+play,7,1,mottj001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,7,1,szczm001,22,.BBSFS,K
+play,8,0,amara001,00,,NP
+sub,strop001,"Pedro Strop",1,5,1
+play,8,0,amara001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,8,0,amara001,01,..CX,13/G
+play,8,0,nievw001,31,BBBCB,W
+play,8,0,rearc001,00,,NP
+sub,spanc001,"Cory Spangenberg",0,9,11
+play,8,0,spanc001,11,.BCB,WP.1-2
+play,8,0,spanc001,32,.BCB.CBS,K
+play,8,0,myerw001,11,BFX,63/G
+play,8,1,herrj002,00,,NP
+sub,kells001,"Shawn Kelley",0,9,1
+play,8,1,herrj002,12,.CCFBFFFFFS,K
+play,8,1,fowld001,00,X,8/F
+play,8,1,solej001,32,SBBSBX,D7/L
+play,8,1,rizza001,22,SBBCS,K
+play,9,0,alony001,00,,NP
+sub,cokep001,"Phil Coke",1,5,1
+play,9,0,alony001,12,.SFBFX,S8/L
+play,9,0,kempm001,12,FFBX,S6/G.1-2
+play,9,0,uptoj001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,uptoj001,12,.BFSX,S7/L.2-H;1-2
+play,9,0,middw001,10,BX,D9/L.2-H;1-3
+play,9,0,gyorj001,10,BX,53/G.3-H
+play,9,0,amara001,22,BCFBFFS,K
+play,9,0,nievw001,00,,NP
+sub,solay001,"Yangervis Solarte",0,8,11
+play,9,0,solay001,22,.FF*BBFX,S9/L.2-H
+play,9,0,kells001,00,,NP
+sub,norrd001,"Derek Norris",0,9,11
+play,9,0,norrd001,22,.BSBF11FFX,S1/G-.1-2
+play,9,0,myerw001,11,BCX,54(1)/FO/G
+play,9,1,bryak001,00,,NP
+sub,thayd001,"Dale Thayer",0,8,1
+play,9,1,bryak001,00,,NP
+sub,norrd001,"Derek Norris",0,9,2
+play,9,1,bryak001,32,..CBBCFFBX,9/F
+play,9,1,rondh001,00,,NP
+sub,alcaa001,"Arismendy Alcantara",1,5,11
+play,9,1,alcaa001,22,.BFBSX,9/F9LF
+play,9,1,casts001,32,BCCBFBX,13/G
+play,10,0,alony001,00,,NP
+sub,rossz001,"Zach Rosscup",1,5,1
+play,10,0,alony001,22,.SCBFBFX,7/F
+play,10,0,kempm001,01,FX,9/L
+play,10,0,uptoj001,12,CBFX,D9/L
+play,10,0,middw001,00,,NP
+sub,venaw001,"Will Venable",0,4,12
+play,10,0,middw001,11,.FBX,53/G
+play,10,1,montm001,00,,NP
+sub,venaw001,"Will Venable",0,4,7
+play,10,1,montm001,22,.CBFBX,63/G
+play,10,1,szczm001,12,BMCX,S4/L
+play,10,1,herrj002,10,1B11>C,SB2
+play,10,1,herrj002,11,1B11>C.X,7/L
+play,10,1,fowld001,22,CBSBX,7/F
+play,11,0,gyorj001,22,BCSBS,K23
+play,11,0,amara001,00,X,13/BG
+play,11,0,thayd001,00,,NP
+sub,shiej002,"James Shields",0,8,11
+play,11,0,shiej002,12,.CFBFS,K
+play,11,1,solej001,00,,NP
+sub,kimbc001,"Craig Kimbrel",0,8,1
+play,11,1,solej001,20,.BBX,3/G
+play,11,1,rizza001,32,BSBBTB,W
+play,11,1,bryak001,02,FF>B,SB2
+play,11,1,bryak001,22,FF>B.*BFX,S6/G-/UREV.2-3
+com,"replay,11,bryak001,CHN,hirsj901,CHI11,,N,U,,C"
+com,"$when Kris Bryant was called safe at 1B, crew"
+com,"chief John Hirschbeck requested a review; the"
+com,"call was upheld by replay"
+play,11,1,rossz001,00,,NP
+sub,rossd001,"David Ross",1,5,11
+play,11,1,rossd001,30,.*BBBB,W.1-2
+play,11,1,casts001,00,X,S7/L.3-H;2-3;1-2
+data,er,rosst001,3
+data,er,maurb001,2
+data,er,rearc001,1
+data,er,kells001,0
+data,er,thayd001,0
+data,er,kimbc001,1
+data,er,hendk001,2
+data,er,mottj001,0
+data,er,strop001,0
+data,er,cokep001,2
+data,er,rondh001,2
+data,er,rossz001,0

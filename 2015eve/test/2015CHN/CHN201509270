@@ -1,0 +1,158 @@
+id,CHN201509270
+version,2
+info,visteam,PIT
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/27
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,drakr901
+info,ump1b,cuzzp901
+info,ump2b,randt901
+info,ump3b,davig901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,rtol
+info,windspeed,3
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,172
+info,attendance,40617
+info,wp,arrij001
+info,lp,burna001
+info,save,
+start,polag001,"Gregory Polanco",0,1,9
+start,marts002,"Starling Marte",0,2,7
+start,mccua001,"Andrew McCutchen",0,3,8
+start,ramia001,"Aramis Ramirez",0,4,5
+start,walkn001,"Neil Walker",0,5,4
+start,cervf001,"Francisco Cervelli",0,6,2
+start,alvap001,"Pedro Alvarez",0,7,3
+start,mercj002,"Jordy Mercer",0,8,6
+start,burna001,"A.J. Burnett",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,casts001,"Starlin Castro",1,5,4
+start,solej001,"Jorge Soler",1,6,9
+start,montm001,"Miguel Montero",1,7,2
+start,russa002,"Addison Russell",1,8,6
+start,arrij001,"Jake Arrieta",1,9,1
+play,1,0,polag001,22,FBFBS,K
+play,1,0,marts002,12,BFFX,13/G
+play,1,0,mccua001,22,BBCCS,K
+play,1,1,fowld001,31,BBCBB,W
+play,1,1,schwk001,01,F11X,43/G.1-2
+play,1,1,bryak001,00,X,S8/G.2-H
+play,1,1,rizza001,30,B*BBB,W.1-2
+play,1,1,casts001,00,X,S6/G-.2-3;1-2
+play,1,1,solej001,12,FBST,K
+play,1,1,montm001,00,X,43/G
+play,2,0,ramia001,00,X,5/P
+play,2,0,walkn001,32,CBBCBC,K
+play,2,0,cervf001,32,BBSCBS,K
+play,2,1,russa002,31,CBBBX,6/P
+play,2,1,arrij001,10,BX,HR/89/F
+play,2,1,fowld001,32,CSBBFBX,13/G
+play,2,1,schwk001,12,SSBX,43/G+
+play,3,0,alvap001,22,BCFBS,K
+play,3,0,mercj002,02,FCS,K
+play,3,0,burna001,11,CBX,6/L+
+play,3,1,bryak001,22,BSSFBS,K
+play,3,1,rizza001,11,BSX,31/G
+play,3,1,casts001,11,BSX,4/L
+play,4,0,polag001,01,CX,43/G
+play,4,0,marts002,22,CBSBS,K
+play,4,0,mccua001,22,SBBSFX,3/P
+play,4,1,solej001,01,CX,4/L+
+play,4,1,montm001,22,SSBBX,S9/L
+play,4,1,russa002,10,BX,S7/G.1-2
+play,4,1,arrij001,32,BCBBCC,K
+play,4,1,fowld001,12,FBSS,K
+play,5,0,ramia001,22,BBFCC,K
+play,5,0,walkn001,01,FX,6/L
+play,5,0,cervf001,32,BBBCSX,63/G
+play,5,1,schwk001,00,H,HP
+play,5,1,bryak001,21,BF11BX,S8/G+.1-2
+play,5,1,rizza001,31,CBBBX,3/G.2-3;1-2
+play,5,1,casts001,02,FTFFS,K
+play,5,1,solej001,32,C*BSB*BX,8/F
+play,6,0,alvap001,21,BBFX,7/F
+play,6,0,mercj002,01,CX,53/G
+play,6,0,burna001,22,BCSBX,43/G
+play,6,1,montm001,12,CCBX,S9/L
+play,6,1,russa002,11,C*B>S,CS2(24)/MREV
+com,"replay,6,russa002,CHN,davig901,CHI11,,Y,M,PIT,A"
+com,"$when Miguel Montero was called safe at 2B, Pirates"
+com,"manager Clint Hurdle challenged the ruling; the"
+com,"call was overturned by replay"
+play,6,1,russa002,12,C*B>S.FFX,53/G
+play,6,1,arrij001,00,X,8/F
+play,7,0,polag001,01,CX,S7/G
+play,7,0,marts002,12,CFB1>S,K+SB2
+play,7,0,mccua001,00,H,HP
+play,7,0,ramia001,10,BX,64(1)3/GDP
+play,7,1,fowld001,00,,NP
+sub,basta001,"Antonio Bastardo",0,9,1
+play,7,1,fowld001,01,.FX,S9/G
+play,7,1,schwk001,00,,NP
+sub,jacka001,"Austin Jackson",1,2,11
+play,7,1,jacka001,32,.B1SSFF*BBB,W/UREV.1-2
+com,"replay,7,jacka001,PIT,davig901,CHI11,,N,U,,K"
+com,"$when Austin Jackson walked, the Pirates claimed it"
+com,"was ball three; crew chief Gerry Davis requested a"
+com,"review, which upheld the call of ball four"
+play,7,1,bryak001,00,,NP
+sub,hughj001,"Jared Hughes",0,9,1
+play,7,1,bryak001,01,.CX,9/F
+play,7,1,rizza001,00,,NP
+sub,lafrb001,"Bobby LaFromboise",0,9,1
+play,7,1,rizza001,11,.BSX,8/F.2-3;1-2(TH3)
+play,7,1,casts001,00,,NP
+sub,camia001,"Arquimedes Caminero",0,9,1
+play,7,1,casts001,21,.BFBX,D7/L/UREV.3-H;2-H
+com,"replay,7,casts001,CHN,davig901,CHI11,O,Y,U,,H"
+com,"$Starlin Castro's line drive to LF struck the top"
+com,"of the basket and caromed back onto the field; the"
+com,"ball was ruled a home run; crew chief Gerry Davis"
+com,"requested a review, which overturned the call"
+com,"to a ball in play and a double"
+play,7,1,solej001,12,SFFBS,K
+play,8,0,walkn001,00,,NP
+sub,jacka001,"Austin Jackson",1,2,9
+play,8,0,walkn001,00,,NP
+sub,baezj001,"Javier Baez",1,9,4
+play,8,0,walkn001,00,,NP
+sub,woodt004,"Travis Wood",1,6,1
+play,8,0,walkn001,00,,NP
+sub,denoc001,"Chris Denorfia",1,5,7
+play,8,0,walkn001,02,....CCS,K
+play,8,0,cervf001,02,SSS,K
+play,8,0,alvap001,00,,NP
+sub,harrj002,"Josh Harrison",0,7,11
+play,8,0,harrj002,31,.BBFBB,W
+play,8,0,mercj002,32,BB1CBF>X,7/F
+play,8,1,montm001,00,,NP
+sub,blanj001,"Joe Blanton",0,7,1
+play,8,1,montm001,00,,NP
+sub,morsm001,"Michael Morse",0,9,3
+play,8,1,montm001,02,..CSX,63/G-
+play,8,1,russa002,12,CCFBFX,9/L
+play,8,1,baezj001,20,BBX,9/L
+play,9,0,morsm001,22,CBBCX,9/F
+play,9,0,polag001,12,FBFFX,6/L
+play,9,0,marts002,00,X,9/F
+data,er,burna001,2
+data,er,basta001,2
+data,er,hughj001,0
+data,er,lafrb001,0
+data,er,camia001,0
+data,er,blanj001,0
+data,er,arrij001,0
+data,er,woodt004,0

@@ -1,0 +1,138 @@
+id,CHN201504080
+version,2
+info,visteam,SLN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/08
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,wegnm901
+info,ump1b,fostm901
+info,ump2b,muchm901
+info,ump3b,wintm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,46
+info,winddir,fromcf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,143
+info,attendance,26814
+info,wp,arrij001
+info,lp,lynnl001
+info,save,rondh001
+start,carpm002,"Matt Carpenter",0,1,5
+start,heywj001,"Jason Heyward",0,2,9
+start,hollm001,"Matt Holliday",0,3,7
+start,adamm002,"Matt Adams",0,4,3
+start,peraj001,"Jhonny Peralta",0,5,6
+start,jay-j001,"Jon Jay",0,6,8
+start,moliy001,"Yadier Molina",0,7,2
+start,wongk001,"Kolten Wong",0,8,4
+start,lynnl001,"Lance Lynn",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,casts001,"Starlin Castro",1,4,6
+start,coghc001,"Chris Coghlan",1,5,7
+start,montm001,"Miguel Montero",1,6,2
+start,alcaa001,"Arismendy Alcantara",1,7,4
+start,arrij001,"Jake Arrieta",1,8,1
+start,lastt001,"Tommy La Stella",1,9,5
+play,1,0,carpm002,31,CBBBB,W
+play,1,0,heywj001,22,BBF1C1FX,54(1)/FO/G
+play,1,0,hollm001,01,FX,16(1)/FO/G
+play,1,0,adamm002,30,B1BBB,W.1-2
+play,1,0,peraj001,22,CB*BFC,K
+play,1,1,fowld001,11,BSX,7/F
+play,1,1,solej001,32,CBCBBS,K
+play,1,1,rizza001,20,BBX,43/G
+play,2,0,jay-j001,02,CCC,K
+play,2,0,moliy001,12,CFFBX,4/P
+play,2,0,wongk001,01,FX,4/L
+play,2,1,casts001,12,CFBFS,K
+play,2,1,coghc001,11,BCX,7/F
+play,2,1,montm001,02,SFFS,K
+play,3,0,lynnl001,22,CBBFX,S9/F
+play,3,0,carpm002,22,BBFFC,K
+play,3,0,heywj001,11,CBX,36(1)/FO/G
+play,3,0,hollm001,01,CX,S9/G.1-3
+play,3,0,adamm002,12,TBC>S,K
+play,3,1,alcaa001,10,BX,4/P
+play,3,1,arrij001,02,CCC,K
+play,3,1,lastt001,11,BCX,43/G
+play,4,0,peraj001,22,FBBFX,13/G
+play,4,0,jay-j001,32,FCBBBX,8/F
+play,4,0,moliy001,22,CFBBFT,K
+play,4,1,fowld001,22,BBFFC,K
+play,4,1,solej001,21,BBCX,T8/L
+play,4,1,rizza001,31,*B+3BFBB,W
+play,4,1,casts001,22,BSSBFT,K
+play,4,1,coghc001,22,BBSSX,8/L
+play,5,0,wongk001,22,BBFFX,8/F
+play,5,0,lynnl001,22,BBCFX,8/F
+play,5,0,carpm002,01,CX,7/F
+play,5,1,montm001,31,FBBBX,8/F
+play,5,1,alcaa001,31,BBCBX,6/P
+play,5,1,arrij001,12,CBCFS,K
+play,6,0,heywj001,10,BX,43/G
+play,6,0,hollm001,01,FX,3/P3F
+play,6,0,adamm002,32,FBCBBB,W
+play,6,0,peraj001,00,X,D7/L.1-3
+play,6,0,jay-j001,00,X,13/G
+play,6,1,lastt001,02,CCS,K
+play,6,1,fowld001,21,SBBX,8/F
+play,6,1,solej001,02,FCC,K
+play,7,0,moliy001,01,FX,6/L
+play,7,0,wongk001,32,CSBBBS,K
+play,7,0,lynnl001,12,BFSC,K
+play,7,1,rizza001,10,BH,HP
+play,7,1,casts001,10,B1,PO1(E1).1-2
+play,7,1,casts001,11,B1.CX,S7/L.2-H;B-2(TH)
+play,7,1,coghc001,00,,NP
+sub,siegk001,"Kevin Siegrist",0,9,1
+play,7,1,coghc001,01,.CX,13/BG/SH.2-3
+play,7,1,montm001,21,CB*BX,9/SF/F.3-H(UR)
+play,7,1,alcaa001,12,FBFS,K
+play,8,0,carpm002,00,,NP
+sub,cokep001,"Phil Coke",1,5,1
+play,8,0,carpm002,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,8,0,carpm002,22,..CBBCS,K
+play,8,0,heywj001,21,BBFX,S6/G
+com,"originally scored as E6, changed to single on 04-09-2015"
+play,8,0,hollm001,00,,NP
+sub,ramin001,"Neil Ramirez",1,5,1
+play,8,0,hollm001,22,.FB>FB1X,9/F
+play,8,0,adamm002,00,,NP
+sub,strop001,"Pedro Strop",1,5,1
+play,8,0,adamm002,01,.SX,6/L
+play,8,1,szczm001,00,,NP
+sub,belim001,"Matt Belisle",0,9,1
+play,8,1,szczm001,01,.CX,13/BG/MREV
+com,"replay,8,szczm001,CHN,wintm901,CHI11,,N,M,CHN,C"
+com,"$when Matt Szczur was called out at 1B, Cubs manager"
+com,"Joe Maddon challenged the ruling; the call was"
+com,"upheld by replay"
+play,8,1,lastt001,31,BCBBX,9/F
+play,8,1,fowld001,32,CBFBFBS,K
+play,9,0,peraj001,00,,NP
+sub,olt-m001,"Mike Olt",1,5,5
+play,9,0,peraj001,00,,NP
+sub,rondh001,"Hector Rondon",1,9,1
+play,9,0,peraj001,12,..FFBX,7/L
+play,9,0,jay-j001,00,X,43/G
+play,9,0,moliy001,00,X,8/F
+data,er,lynnl001,1
+data,er,siegk001,0
+data,er,belim001,0
+data,er,arrij001,0
+data,er,cokep001,0
+data,er,ramin001,0
+data,er,strop001,0
+data,er,rondh001,0

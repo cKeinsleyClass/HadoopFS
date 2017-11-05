@@ -1,0 +1,495 @@
+id,CHN201508110
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/11
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,coope901
+info,ump1b,gibsh902
+info,ump2b,carlm901
+info,ump3b,morag901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,72
+info,winddir,fromcf
+info,windspeed,4
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,37109
+info,wp,hared001
+info,lp,jungt001
+info,save,russj003
+start,petes002,"Shane Peterson",0,1,9
+start,davik003,"Khris Davis",0,2,7
+start,linda001,"Adam Lind",0,3,3
+start,lucrj001,"Jonathan Lucroy",0,4,2
+start,genns001,"Scooter Gennett",0,5,4
+start,herre001,"Elian Herrera",0,6,5
+start,seguj002,"Jean Segura",0,7,6
+start,schal001,"Logan Schafer",0,8,8
+start,jungt001,"Taylor Jungmann",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,solej001,"Jorge Soler",1,6,9
+start,montm001,"Miguel Montero",1,7,2
+start,hared001,"Dan Haren",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,petes002,01,CX,8/F
+play,1,0,davik003,21,BSBX,3/G-
+play,1,0,linda001,22,BCFBC,K
+play,1,1,fowld001,32,BBCCBX,7/F
+play,1,1,schwk001,21,BBCX,8/F
+play,1,1,coghc001,22,BCBFFS,K
+play,2,0,lucrj001,02,CCX,5/L+
+play,2,0,genns001,01,FX,43/G
+play,2,0,herre001,32,BCBSBX,3/G
+play,2,1,rizza001,32,BFBSBC,K
+play,2,1,bryak001,10,BX,D7/L
+play,2,1,solej001,31,BBBCX,S8/G+.2-H
+play,2,1,montm001,10,B1X,S8/L-.1-3(E8)
+play,2,1,hared001,20,BBX,FC1/BG.3XH(1E2)(UR)(NR);1-2
+play,2,1,russa002,12,*BCFFX,S7/L.2-3;1-2
+play,2,1,fowld001,20,BBX,7/F/SF.3-H(UR)
+play,2,1,schwk001,22,SBS*BX,9/F
+play,3,0,seguj002,21,BCBX,53/G
+play,3,0,schal001,12,CBSC,K
+play,3,0,jungt001,22,BSSBX,S8/G
+play,3,0,petes002,01,TX,S9/L.1-2
+play,3,0,davik003,10,BX,5(2)/FO/G.1-2
+play,3,1,coghc001,32,CSFBBBB,W
+play,3,1,rizza001,11,BS1>B,SB2/MREV
+com,"replay,3,rizza001,CHN,carlm901,CHI11,,Y,M,CHN,A"
+com,"$when Chris Coghlan was called out at 2B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,3,1,rizza001,32,BS1>B.SBX,D8/L.2-H
+play,3,1,bryak001,32,SBSB*BFB,W
+play,3,1,solej001,12,BSSC,K
+play,3,1,montm001,01,CX,8/F.2-3
+play,3,1,hared001,22,BCF1B*B,SB2
+play,3,1,hared001,32,BCF1B*B.FFB,W
+play,3,1,russa002,00,,NP
+sub,thort001,"Tyler Thornburg",0,9,1
+play,3,1,russa002,02,.CSFX,53/G-
+play,4,0,linda001,01,CX,D8/F
+play,4,0,lucrj001,22,BCBFX,5/L+
+play,4,0,genns001,10,BX,53/G-.2-3
+play,4,0,herre001,01,FX,D7/L.3-H
+play,4,0,seguj002,00,X,13/G-
+play,4,1,fowld001,31,BBSBB,W
+play,4,1,schwk001,32,C1B1B1B1S*B,W.1-2
+play,4,1,coghc001,01,CX,S9/L.2-3;1-2
+play,4,1,rizza001,30,B*BBB,W.3-H;2-3;1-2
+play,4,1,bryak001,22,F*BBTS,K
+play,4,1,solej001,22,CCF*BBFH,HP.3-H;2-3;1-2
+play,4,1,montm001,12,CSBS,K
+play,4,1,hared001,32,BCBBF>X,53/G
+play,5,0,schal001,22,CBBFS,K
+play,5,0,thort001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,5,0,rogej002,02,.CFC,K
+play,5,0,petes002,12,CFBC,K
+play,5,1,russa002,00,,NP
+sub,lohsk001,"Kyle Lohse",0,9,1
+play,5,1,russa002,12,.FFBS,K
+play,5,1,fowld001,32,BCBBSB,W
+play,5,1,schwk001,22,CFBBX,E5/FO/G.1-2
+play,5,1,coghc001,00,X,46(1)3/GDP
+play,6,0,davik003,00,,NP
+sub,casts001,"Starlin Castro",1,3,4
+play,6,0,davik003,31,.BFBBB,W
+play,6,0,linda001,02,SFFX,HR/89/F.1-H
+play,6,0,lucrj001,22,TCBFFBS,K
+play,6,0,genns001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,6,0,genns001,00,.X,7/F
+play,6,0,herre001,22,BCBFC,K
+play,6,1,rizza001,21,BBSX,S9/L+
+play,6,1,bryak001,01,SX,64(1)3/GDP
+play,6,1,solej001,22,BSSBC,K
+play,7,0,seguj002,32,CCBBBFX,9/L
+play,7,0,schal001,01,CX,S4/G
+play,7,0,lohsk001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lohsk001,00,,NP
+sub,braur002,"Ryan Braun",0,9,11
+play,7,0,braur002,22,..B1SSB+1X,8/F.1-2
+play,7,0,petes002,22,C*BCBS,K
+play,7,1,montm001,00,,NP
+sub,cottn001,"Neal Cotts",0,9,1
+play,7,1,montm001,02,.FSS,K
+play,7,1,grimj002,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,7,1,denoc001,22,.CCBBFX,4/P-
+play,7,1,russa002,12,FBSH,HP
+play,7,1,fowld001,00,X,53/G
+play,8,0,davik003,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,davik003,32,.SBBBFS,K
+play,8,0,linda001,12,CBSX,43/G
+play,8,0,lucrj001,12,FBSFFS,K
+play,8,1,schwk001,22,BBSCX,43/G-
+play,8,1,casts001,00,,NP
+sub,knebc001,"Corey Knebel",0,9,1
+play,8,1,casts001,22,.BCFBFFX,3/P
+play,8,1,rizza001,22,BCBSFH,HP
+play,8,1,bryak001,11,CBX,8/F
+play,9,0,genns001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,9,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,5,11
+play,9,0,pereh001,12,..BCFX,8/L
+play,9,0,herre001,11,FBX,4/P3F
+play,9,0,seguj002,10,BX,S8/L
+play,9,0,schal001,01,S>S,DI.1-2
+play,9,0,schal001,02,S>S.X,8/L
+data,er,jungt001,2
+data,er,thort001,2
+data,er,lohsk001,0
+data,er,cottn001,0
+data,er,knebc001,0
+data,er,hared001,3
+data,er,woodt004,0
+data,er,grimj002,0
+data,er,strop001,0
+data,er,russj003,0
+id,CHN201508110
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/11
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,coope901
+info,ump1b,gibsh902
+info,ump2b,carlm901
+info,ump3b,morag901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,72
+info,winddir,fromcf
+info,windspeed,4
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,37109
+info,wp,hared001
+info,lp,jungt001
+info,save,russj003
+start,petes002,"Shane Peterson",0,1,9
+start,davik003,"Khris Davis",0,2,7
+start,linda001,"Adam Lind",0,3,3
+start,lucrj001,"Jonathan Lucroy",0,4,2
+start,genns001,"Scooter Gennett",0,5,4
+start,herre001,"Elian Herrera",0,6,5
+start,seguj002,"Jean Segura",0,7,6
+start,schal001,"Logan Schafer",0,8,8
+start,jungt001,"Taylor Jungmann",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,solej001,"Jorge Soler",1,6,9
+start,montm001,"Miguel Montero",1,7,2
+start,hared001,"Dan Haren",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,petes002,01,CX,8/F
+play,1,0,davik003,21,BSBX,3/G-
+play,1,0,linda001,22,BCFBC,K
+play,1,1,fowld001,32,BBCCBX,7/F
+play,1,1,schwk001,21,BBCX,8/F
+play,1,1,coghc001,22,BCBFFS,K
+play,2,0,lucrj001,02,CCX,5/L+
+play,2,0,genns001,01,FX,43/G
+play,2,0,herre001,32,BCBSBX,3/G
+play,2,1,rizza001,32,BFBSBC,K
+play,2,1,bryak001,10,BX,D7/L
+play,2,1,solej001,31,BBBCX,S8/G+.2-H
+play,2,1,montm001,10,B1X,S8/L-.1-3(E8)
+play,2,1,hared001,20,BBX,FC1/BG.3XH(1E2)(UR)(NR);1-2
+play,2,1,russa002,12,*BCFFX,S7/L.2-3;1-2
+play,2,1,fowld001,20,BBX,7/F/SF.3-H(UR)
+play,2,1,schwk001,22,SBS*BX,9/F
+play,3,0,seguj002,21,BCBX,53/G
+play,3,0,schal001,12,CBSC,K
+play,3,0,jungt001,22,BSSBX,S8/G
+play,3,0,petes002,01,TX,S9/L.1-2
+play,3,0,davik003,10,BX,5(2)/FO/G.1-2
+play,3,1,coghc001,32,CSFBBBB,W
+play,3,1,rizza001,11,BS1>B,SB2/MREV
+com,"replay,3,rizza001,CHN,carlm901,CHI11,,Y,M,CHN,A"
+com,"$when Chris Coghlan was called out at 2B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,3,1,rizza001,32,BS1>B.SBX,D8/L.2-H
+play,3,1,bryak001,32,SBSB*BFB,W
+play,3,1,solej001,12,BSSC,K
+play,3,1,montm001,01,CX,8/F.2-3
+play,3,1,hared001,22,BCF1B*B,SB2
+play,3,1,hared001,32,BCF1B*B.FFB,W
+play,3,1,russa002,00,,NP
+sub,thort001,"Tyler Thornburg",0,9,1
+play,3,1,russa002,02,.CSFX,53/G-
+play,4,0,linda001,01,CX,D8/F
+play,4,0,lucrj001,22,BCBFX,5/L+
+play,4,0,genns001,10,BX,53/G-.2-3
+play,4,0,herre001,01,FX,D7/L.3-H
+play,4,0,seguj002,00,X,13/G-
+play,4,1,fowld001,31,BBSBB,W
+play,4,1,schwk001,32,C1B1B1B1S*B,W.1-2
+play,4,1,coghc001,01,CX,S9/L.2-3;1-2
+play,4,1,rizza001,30,B*BBB,W.3-H;2-3;1-2
+play,4,1,bryak001,22,F*BBTS,K
+play,4,1,solej001,22,CCF*BBFH,HP.3-H;2-3;1-2
+play,4,1,montm001,12,CSBS,K
+play,4,1,hared001,32,BCBBF>X,53/G
+play,5,0,schal001,22,CBBFS,K
+play,5,0,thort001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,5,0,rogej002,02,.CFC,K
+play,5,0,petes002,12,CFBC,K
+play,5,1,russa002,00,,NP
+sub,lohsk001,"Kyle Lohse",0,9,1
+play,5,1,russa002,12,.FFBS,K
+play,5,1,fowld001,32,BCBBSB,W
+play,5,1,schwk001,22,CFBBX,E5/FO/G.1-2
+play,5,1,coghc001,00,X,46(1)3/GDP
+play,6,0,davik003,00,,NP
+sub,casts001,"Starlin Castro",1,3,4
+play,6,0,davik003,31,.BFBBB,W
+play,6,0,linda001,02,SFFX,HR/89/F.1-H
+play,6,0,lucrj001,22,TCBFFBS,K
+play,6,0,genns001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,6,0,genns001,00,.X,7/F
+play,6,0,herre001,22,BCBFC,K
+play,6,1,rizza001,21,BBSX,S9/L+
+play,6,1,bryak001,01,SX,64(1)3/GDP
+play,6,1,solej001,22,BSSBC,K
+play,7,0,seguj002,32,CCBBBFX,9/L
+play,7,0,schal001,01,CX,S4/G
+play,7,0,lohsk001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lohsk001,00,,NP
+sub,braur002,"Ryan Braun",0,9,11
+play,7,0,braur002,22,..B1SSB+1X,8/F.1-2
+play,7,0,petes002,22,C*BCBS,K
+play,7,1,montm001,00,,NP
+sub,cottn001,"Neal Cotts",0,9,1
+play,7,1,montm001,02,.FSS,K
+play,7,1,grimj002,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,7,1,denoc001,22,.CCBBFX,4/P-
+play,7,1,russa002,12,FBSH,HP
+play,7,1,fowld001,00,X,53/G
+play,8,0,davik003,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,davik003,32,.SBBBFS,K
+play,8,0,linda001,12,CBSX,43/G
+play,8,0,lucrj001,12,FBSFFS,K
+play,8,1,schwk001,22,BBSCX,43/G-
+play,8,1,casts001,00,,NP
+sub,knebc001,"Corey Knebel",0,9,1
+play,8,1,casts001,22,.BCFBFFX,3/P
+play,8,1,rizza001,22,BCBSFH,HP
+play,8,1,bryak001,11,CBX,8/F
+play,9,0,genns001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,9,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,5,11
+play,9,0,pereh001,12,..BCFX,8/L
+play,9,0,herre001,11,FBX,4/P3F
+play,9,0,seguj002,10,BX,S8/L
+play,9,0,schal001,01,S>S,DI.1-2
+play,9,0,schal001,02,S>S.X,8/L
+data,er,jungt001,2
+data,er,thort001,2
+data,er,lohsk001,0
+data,er,cottn001,0
+data,er,knebc001,0
+data,er,hared001,3
+data,er,woodt004,0
+data,er,grimj002,0
+data,er,strop001,0
+data,er,russj003,0
+id,CHN201508110
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/11
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,coope901
+info,ump1b,gibsh902
+info,ump2b,carlm901
+info,ump3b,morag901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,72
+info,winddir,fromcf
+info,windspeed,4
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,190
+info,attendance,37109
+info,wp,hared001
+info,lp,jungt001
+info,save,russj003
+start,petes002,"Shane Peterson",0,1,9
+start,davik003,"Khris Davis",0,2,7
+start,linda001,"Adam Lind",0,3,3
+start,lucrj001,"Jonathan Lucroy",0,4,2
+start,genns001,"Scooter Gennett",0,5,4
+start,herre001,"Elian Herrera",0,6,5
+start,seguj002,"Jean Segura",0,7,6
+start,schal001,"Logan Schafer",0,8,8
+start,jungt001,"Taylor Jungmann",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,solej001,"Jorge Soler",1,6,9
+start,montm001,"Miguel Montero",1,7,2
+start,hared001,"Dan Haren",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,petes002,01,CX,8/F
+play,1,0,davik003,21,BSBX,3/G-
+play,1,0,linda001,22,BCFBC,K
+play,1,1,fowld001,32,BBCCBX,7/F
+play,1,1,schwk001,21,BBCX,8/F
+play,1,1,coghc001,22,BCBFFS,K
+play,2,0,lucrj001,02,CCX,5/L+
+play,2,0,genns001,01,FX,43/G
+play,2,0,herre001,32,BCBSBX,3/G
+play,2,1,rizza001,32,BFBSBC,K
+play,2,1,bryak001,10,BX,D7/L
+play,2,1,solej001,31,BBBCX,S8/G+.2-H
+play,2,1,montm001,10,B1X,S8/L-.1-3(E8)
+play,2,1,hared001,20,BBX,FC1/BG.3XH(1E2)(UR)(NR);1-2
+play,2,1,russa002,12,*BCFFX,S7/L.2-3;1-2
+play,2,1,fowld001,20,BBX,7/F/SF.3-H(UR)
+play,2,1,schwk001,22,SBS*BX,9/F
+play,3,0,seguj002,21,BCBX,53/G
+play,3,0,schal001,12,CBSC,K
+play,3,0,jungt001,22,BSSBX,S8/G
+play,3,0,petes002,01,TX,S9/L.1-2
+play,3,0,davik003,10,BX,5(2)/FO/G.1-2
+play,3,1,coghc001,32,CSFBBBB,W
+play,3,1,rizza001,11,BS1>B,SB2/MREV
+com,"replay,3,rizza001,CHN,carlm901,CHI11,,Y,M,CHN,A"
+com,"$when Chris Coghlan was called out at 2B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,3,1,rizza001,32,BS1>B.SBX,D8/L.2-H
+play,3,1,bryak001,32,SBSB*BFB,W
+play,3,1,solej001,12,BSSC,K
+play,3,1,montm001,01,CX,8/F.2-3
+play,3,1,hared001,22,BCF1B*B,SB2
+play,3,1,hared001,32,BCF1B*B.FFB,W
+play,3,1,russa002,00,,NP
+sub,thort001,"Tyler Thornburg",0,9,1
+play,3,1,russa002,02,.CSFX,53/G-
+play,4,0,linda001,01,CX,D8/F
+play,4,0,lucrj001,22,BCBFX,5/L+
+play,4,0,genns001,10,BX,53/G-.2-3
+play,4,0,herre001,01,FX,D7/L.3-H
+play,4,0,seguj002,00,X,13/G-
+play,4,1,fowld001,31,BBSBB,W
+play,4,1,schwk001,32,C1B1B1B1S*B,W.1-2
+play,4,1,coghc001,01,CX,S9/L.2-3;1-2
+play,4,1,rizza001,30,B*BBB,W.3-H;2-3;1-2
+play,4,1,bryak001,22,F*BBTS,K
+play,4,1,solej001,22,CCF*BBFH,HP.3-H;2-3;1-2
+play,4,1,montm001,12,CSBS,K
+play,4,1,hared001,32,BCBBF>X,53/G
+play,5,0,schal001,22,CBBFS,K
+play,5,0,thort001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,5,0,rogej002,02,.CFC,K
+play,5,0,petes002,12,CFBC,K
+play,5,1,russa002,00,,NP
+sub,lohsk001,"Kyle Lohse",0,9,1
+play,5,1,russa002,12,.FFBS,K
+play,5,1,fowld001,32,BCBBSB,W
+play,5,1,schwk001,22,CFBBX,E5/FO/G.1-2
+play,5,1,coghc001,00,X,46(1)3/GDP
+play,6,0,davik003,00,,NP
+sub,casts001,"Starlin Castro",1,3,4
+play,6,0,davik003,31,.BFBBB,W
+play,6,0,linda001,02,SFFX,HR/89/F.1-H
+play,6,0,lucrj001,22,TCBFFBS,K
+play,6,0,genns001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,6,0,genns001,00,.X,7/F
+play,6,0,herre001,22,BCBFC,K
+play,6,1,rizza001,21,BBSX,S9/L+
+play,6,1,bryak001,01,SX,64(1)3/GDP
+play,6,1,solej001,22,BSSBC,K
+play,7,0,seguj002,32,CCBBBFX,9/L
+play,7,0,schal001,01,CX,S4/G
+play,7,0,lohsk001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lohsk001,00,,NP
+sub,braur002,"Ryan Braun",0,9,11
+play,7,0,braur002,22,..B1SSB+1X,8/F.1-2
+play,7,0,petes002,22,C*BCBS,K
+play,7,1,montm001,00,,NP
+sub,cottn001,"Neal Cotts",0,9,1
+play,7,1,montm001,02,.FSS,K
+play,7,1,grimj002,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,7,1,denoc001,22,.CCBBFX,4/P-
+play,7,1,russa002,12,FBSH,HP
+play,7,1,fowld001,00,X,53/G
+play,8,0,davik003,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,davik003,32,.SBBBFS,K
+play,8,0,linda001,12,CBSX,43/G
+play,8,0,lucrj001,12,FBSFFS,K
+play,8,1,schwk001,22,BBSCX,43/G-
+play,8,1,casts001,00,,NP
+sub,knebc001,"Corey Knebel",0,9,1
+play,8,1,casts001,22,.BCFBFFX,3/P
+play,8,1,rizza001,22,BCBSFH,HP
+play,8,1,bryak001,11,CBX,8/F
+play,9,0,genns001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,9,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,5,11
+play,9,0,pereh001,12,..BCFX,8/L
+play,9,0,herre001,11,FBX,4/P3F
+play,9,0,seguj002,10,BX,S8/L
+play,9,0,schal001,01,S>S,DI.1-2
+play,9,0,schal001,02,S>S.X,8/L
+data,er,jungt001,2
+data,er,thort001,2
+data,er,lohsk001,0
+data,er,cottn001,0
+data,er,knebc001,0
+data,er,hared001,3
+data,er,woodt004,0
+data,er,grimj002,0
+data,er,strop001,0
+data,er,russj003,0

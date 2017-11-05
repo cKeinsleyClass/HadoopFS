@@ -1,0 +1,498 @@
+id,CHN201507280
+version,2
+info,visteam,COL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/28
+info,number,0
+info,starttime,7:06PM
+info,daynight,night
+info,usedh,false
+info,umphome,morag901
+info,ump1b,gibsh902
+info,ump2b,gormb901
+info,ump3b,carlm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,84
+info,winddir,fromrf
+info,windspeed,3
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,191
+info,attendance,36747
+info,wp,flany001
+info,lp,beeld001
+info,save,
+start,blacc001,"Charlie Blackmon",0,1,8
+start,lemad001,"DJ LeMahieu",0,2,4
+start,gonzc001,"Carlos Gonzalez",0,3,9
+start,arenn001,"Nolan Arenado",0,4,5
+start,dickc002,"Corey Dickerson",0,5,7
+start,paulb001,"Ben Paulsen",0,6,3
+start,hundn001,"Nick Hundley",0,7,2
+start,descd001,"Daniel Descalso",0,8,6
+start,flany001,"Yohan Flande",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,2
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,denoc001,"Chris Denorfia",1,6,7
+start,casts001,"Starlin Castro",1,7,6
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,blacc001,22,CSBBX,D7/L
+play,1,0,lemad001,01,CX,D9/L.2-H
+play,1,0,gonzc001,30,BBBB,W
+play,1,0,arenn001,00,X,D7/L.2-H;1-H
+play,1,0,dickc002,11,CBX,S7/G.2-3
+play,1,0,paulb001,10,BX,3/G.1-2
+play,1,0,hundn001,11,CBX,53/G.3-H
+play,1,0,descd001,31,CBBII,IW
+play,1,0,flany001,12,CBCS,K
+play,1,1,fowld001,02,CCS,K
+play,1,1,schwk001,31,BBBCB,W
+play,1,1,bryak001,31,SBBBB,W.1-2
+play,1,1,rizza001,12,BCCC,K
+play,1,1,solej001,12,CSBX,S9/L.2-H;1-3
+play,1,1,denoc001,11,C*BX,63/G
+play,2,0,blacc001,10,BX,6/P
+play,2,0,lemad001,32,BCFBBB,W
+play,2,0,gonzc001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,2,0,gonzc001,11,.BCX,46(1)/FO/G
+play,2,0,arenn001,12,FC1BB,PB.1-2
+play,2,0,arenn001,22,FC1BB.S,K
+play,2,1,casts001,22,BCCBX,53/G
+play,2,1,woodt004,31,BBBCB,W
+play,2,1,russa002,11,BSX,64(1)3/GDP
+play,3,0,dickc002,02,CFS,K
+play,3,0,paulb001,01,FX,8/L
+play,3,0,hundn001,01,SX,6/P
+play,3,1,fowld001,21,FBBX,S7/L
+play,3,1,schwk001,11,C*BN,BK.1-2
+play,3,1,schwk001,22,C*BN.SFBS,K
+play,3,1,bryak001,10,B2X,8/F.2-3
+play,3,1,rizza001,32,BFBFBFX,3/G
+play,4,0,descd001,02,CFX,13/G
+play,4,0,flany001,02,SFS,K
+play,4,0,blacc001,32,CCBFFBBC,K
+play,4,1,solej001,22,SFBBFX,D7/L
+play,4,1,denoc001,11,CBX,63/G.2-3
+play,4,1,casts001,32,BBBCFC,K
+play,4,1,woodt004,01,CX,43/G
+play,5,0,lemad001,10,BX,T8/L
+play,5,0,gonzc001,22,FSBBFT,K
+play,5,0,arenn001,30,IIII,IW
+play,5,0,dickc002,11,FBX,31/G.3-H;1-2
+play,5,0,paulb001,12,CFBFS,K
+play,5,1,russa002,31,BBBCX,63/G
+play,5,1,fowld001,10,BX,D8/L
+play,5,1,schwk001,00,X,3/P
+play,5,1,bryak001,22,BFFFBX,43/G
+play,6,0,hundn001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,hundn001,00,.X,S7/G
+play,6,0,descd001,11,B1SB,WP.1-2
+play,6,0,descd001,21,B1SB.X,5/P
+play,6,0,flany001,00,,NP
+sub,stubd001,"Drew Stubbs",0,9,11
+play,6,0,stubd001,22,.CBBSC,K
+play,6,0,blacc001,11,CBX,31/G
+play,6,1,rizza001,00,,NP
+sub,germg001,"Gonzalez Germen",0,9,1
+play,6,1,rizza001,31,.CBBBB,W
+play,6,1,solej001,11,BC1X,46(1)/FO/G
+play,6,1,denoc001,11,BSX,6(1)3/GDP
+play,7,0,lemad001,22,CBBSS,K
+play,7,0,gonzc001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,7,0,gonzc001,12,.SFBS,K
+play,7,0,arenn001,01,CX,63/G
+play,7,1,casts001,01,CX,13/G
+play,7,1,russj003,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,11
+play,7,1,coghc001,31,.CBBBX,HR/89/F
+play,7,1,russa002,32,SBFBFFFFBFX,S9/G
+play,7,1,fowld001,10,*BX,S9/L.1-2
+play,7,1,schwk001,00,,NP
+sub,logab001,"Boone Logan",0,9,1
+play,7,1,schwk001,12,.SBCX,5(2)/FO/G.1-2
+play,7,1,bryak001,11,BFX,6/L
+play,8,0,dickc002,00,,NP
+sub,sorir001,"Rafael Soriano",1,7,1
+play,8,0,dickc002,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,4
+play,8,0,dickc002,00,,NP
+sub,russa002,"Addison Russell",1,9,6
+play,8,0,dickc002,02,...CFX,D9/L
+play,8,0,paulb001,00,X,S8/L.2-H
+play,8,0,hundn001,32,B>FCBB>X,7/L
+play,8,0,descd001,21,B*B>FX,D7/L.1-H;B-3(TH)
+play,8,0,logab001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,11
+play,8,0,barnb002,22,.*BFBCFX,5/P
+play,8,0,blacc001,02,CFX,5/L-
+play,8,1,rizza001,00,,NP
+sub,millj006,"Justin Miller",0,5,1
+play,8,1,rizza001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,7
+play,8,1,rizza001,12,..BFFX,4/P
+play,8,1,solej001,02,FFX,3/L
+play,8,1,denoc001,12,BSSS,K
+play,9,0,lemad001,00,,NP
+sub,mottj001,"Jason Motte",1,7,1
+play,9,0,lemad001,22,.CBBFX,S9/L
+play,9,0,gonzc001,01,FX,4/P
+play,9,0,arenn001,32,CBBCB>X,53/G.1-2
+play,9,0,millj006,02,CSS,K
+play,9,1,mottj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,7,11
+play,9,1,herrj002,12,.CBFS,K
+play,9,1,coghc001,00,X,7/L
+play,9,1,russa002,12,CBSS,K
+data,er,flany001,1
+data,er,germg001,1
+data,er,logab001,0
+data,er,millj006,0
+data,er,beeld001,4
+data,er,woodt004,1
+data,er,grimj002,0
+data,er,russj003,0
+data,er,sorir001,2
+data,er,mottj001,0
+id,CHN201507280
+version,2
+info,visteam,COL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/28
+info,number,0
+info,starttime,7:06PM
+info,daynight,night
+info,usedh,false
+info,umphome,morag901
+info,ump1b,gibsh902
+info,ump2b,gormb901
+info,ump3b,carlm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,84
+info,winddir,fromrf
+info,windspeed,3
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,191
+info,attendance,36747
+info,wp,flany001
+info,lp,beeld001
+info,save,
+start,blacc001,"Charlie Blackmon",0,1,8
+start,lemad001,"DJ LeMahieu",0,2,4
+start,gonzc001,"Carlos Gonzalez",0,3,9
+start,arenn001,"Nolan Arenado",0,4,5
+start,dickc002,"Corey Dickerson",0,5,7
+start,paulb001,"Ben Paulsen",0,6,3
+start,hundn001,"Nick Hundley",0,7,2
+start,descd001,"Daniel Descalso",0,8,6
+start,flany001,"Yohan Flande",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,2
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,denoc001,"Chris Denorfia",1,6,7
+start,casts001,"Starlin Castro",1,7,6
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,blacc001,22,CSBBX,D7/L
+play,1,0,lemad001,01,CX,D9/L.2-H
+play,1,0,gonzc001,30,BBBB,W
+play,1,0,arenn001,00,X,D7/L.2-H;1-H
+play,1,0,dickc002,11,CBX,S7/G.2-3
+play,1,0,paulb001,10,BX,3/G.1-2
+play,1,0,hundn001,11,CBX,53/G.3-H
+play,1,0,descd001,31,CBBII,IW
+play,1,0,flany001,12,CBCS,K
+play,1,1,fowld001,02,CCS,K
+play,1,1,schwk001,31,BBBCB,W
+play,1,1,bryak001,31,SBBBB,W.1-2
+play,1,1,rizza001,12,BCCC,K
+play,1,1,solej001,12,CSBX,S9/L.2-H;1-3
+play,1,1,denoc001,11,C*BX,63/G
+play,2,0,blacc001,10,BX,6/P
+play,2,0,lemad001,32,BCFBBB,W
+play,2,0,gonzc001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,2,0,gonzc001,11,.BCX,46(1)/FO/G
+play,2,0,arenn001,12,FC1BB,PB.1-2
+play,2,0,arenn001,22,FC1BB.S,K
+play,2,1,casts001,22,BCCBX,53/G
+play,2,1,woodt004,31,BBBCB,W
+play,2,1,russa002,11,BSX,64(1)3/GDP
+play,3,0,dickc002,02,CFS,K
+play,3,0,paulb001,01,FX,8/L
+play,3,0,hundn001,01,SX,6/P
+play,3,1,fowld001,21,FBBX,S7/L
+play,3,1,schwk001,11,C*BN,BK.1-2
+play,3,1,schwk001,22,C*BN.SFBS,K
+play,3,1,bryak001,10,B2X,8/F.2-3
+play,3,1,rizza001,32,BFBFBFX,3/G
+play,4,0,descd001,02,CFX,13/G
+play,4,0,flany001,02,SFS,K
+play,4,0,blacc001,32,CCBFFBBC,K
+play,4,1,solej001,22,SFBBFX,D7/L
+play,4,1,denoc001,11,CBX,63/G.2-3
+play,4,1,casts001,32,BBBCFC,K
+play,4,1,woodt004,01,CX,43/G
+play,5,0,lemad001,10,BX,T8/L
+play,5,0,gonzc001,22,FSBBFT,K
+play,5,0,arenn001,30,IIII,IW
+play,5,0,dickc002,11,FBX,31/G.3-H;1-2
+play,5,0,paulb001,12,CFBFS,K
+play,5,1,russa002,31,BBBCX,63/G
+play,5,1,fowld001,10,BX,D8/L
+play,5,1,schwk001,00,X,3/P
+play,5,1,bryak001,22,BFFFBX,43/G
+play,6,0,hundn001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,hundn001,00,.X,S7/G
+play,6,0,descd001,11,B1SB,WP.1-2
+play,6,0,descd001,21,B1SB.X,5/P
+play,6,0,flany001,00,,NP
+sub,stubd001,"Drew Stubbs",0,9,11
+play,6,0,stubd001,22,.CBBSC,K
+play,6,0,blacc001,11,CBX,31/G
+play,6,1,rizza001,00,,NP
+sub,germg001,"Gonzalez Germen",0,9,1
+play,6,1,rizza001,31,.CBBBB,W
+play,6,1,solej001,11,BC1X,46(1)/FO/G
+play,6,1,denoc001,11,BSX,6(1)3/GDP
+play,7,0,lemad001,22,CBBSS,K
+play,7,0,gonzc001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,7,0,gonzc001,12,.SFBS,K
+play,7,0,arenn001,01,CX,63/G
+play,7,1,casts001,01,CX,13/G
+play,7,1,russj003,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,11
+play,7,1,coghc001,31,.CBBBX,HR/89/F
+play,7,1,russa002,32,SBFBFFFFBFX,S9/G
+play,7,1,fowld001,10,*BX,S9/L.1-2
+play,7,1,schwk001,00,,NP
+sub,logab001,"Boone Logan",0,9,1
+play,7,1,schwk001,12,.SBCX,5(2)/FO/G.1-2
+play,7,1,bryak001,11,BFX,6/L
+play,8,0,dickc002,00,,NP
+sub,sorir001,"Rafael Soriano",1,7,1
+play,8,0,dickc002,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,4
+play,8,0,dickc002,00,,NP
+sub,russa002,"Addison Russell",1,9,6
+play,8,0,dickc002,02,...CFX,D9/L
+play,8,0,paulb001,00,X,S8/L.2-H
+play,8,0,hundn001,32,B>FCBB>X,7/L
+play,8,0,descd001,21,B*B>FX,D7/L.1-H;B-3(TH)
+play,8,0,logab001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,11
+play,8,0,barnb002,22,.*BFBCFX,5/P
+play,8,0,blacc001,02,CFX,5/L-
+play,8,1,rizza001,00,,NP
+sub,millj006,"Justin Miller",0,5,1
+play,8,1,rizza001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,7
+play,8,1,rizza001,12,..BFFX,4/P
+play,8,1,solej001,02,FFX,3/L
+play,8,1,denoc001,12,BSSS,K
+play,9,0,lemad001,00,,NP
+sub,mottj001,"Jason Motte",1,7,1
+play,9,0,lemad001,22,.CBBFX,S9/L
+play,9,0,gonzc001,01,FX,4/P
+play,9,0,arenn001,32,CBBCB>X,53/G.1-2
+play,9,0,millj006,02,CSS,K
+play,9,1,mottj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,7,11
+play,9,1,herrj002,12,.CBFS,K
+play,9,1,coghc001,00,X,7/L
+play,9,1,russa002,12,CBSS,K
+data,er,flany001,1
+data,er,germg001,1
+data,er,logab001,0
+data,er,millj006,0
+data,er,beeld001,4
+data,er,woodt004,1
+data,er,grimj002,0
+data,er,russj003,0
+data,er,sorir001,2
+data,er,mottj001,0
+id,CHN201507280
+version,2
+info,visteam,COL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/28
+info,number,0
+info,starttime,7:06PM
+info,daynight,night
+info,usedh,false
+info,umphome,morag901
+info,ump1b,gibsh902
+info,ump2b,gormb901
+info,ump3b,carlm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,84
+info,winddir,fromrf
+info,windspeed,3
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,191
+info,attendance,36747
+info,wp,flany001
+info,lp,beeld001
+info,save,
+start,blacc001,"Charlie Blackmon",0,1,8
+start,lemad001,"DJ LeMahieu",0,2,4
+start,gonzc001,"Carlos Gonzalez",0,3,9
+start,arenn001,"Nolan Arenado",0,4,5
+start,dickc002,"Corey Dickerson",0,5,7
+start,paulb001,"Ben Paulsen",0,6,3
+start,hundn001,"Nick Hundley",0,7,2
+start,descd001,"Daniel Descalso",0,8,6
+start,flany001,"Yohan Flande",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,2
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,denoc001,"Chris Denorfia",1,6,7
+start,casts001,"Starlin Castro",1,7,6
+start,beeld001,"Dallas Beeler",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,blacc001,22,CSBBX,D7/L
+play,1,0,lemad001,01,CX,D9/L.2-H
+play,1,0,gonzc001,30,BBBB,W
+play,1,0,arenn001,00,X,D7/L.2-H;1-H
+play,1,0,dickc002,11,CBX,S7/G.2-3
+play,1,0,paulb001,10,BX,3/G.1-2
+play,1,0,hundn001,11,CBX,53/G.3-H
+play,1,0,descd001,31,CBBII,IW
+play,1,0,flany001,12,CBCS,K
+play,1,1,fowld001,02,CCS,K
+play,1,1,schwk001,31,BBBCB,W
+play,1,1,bryak001,31,SBBBB,W.1-2
+play,1,1,rizza001,12,BCCC,K
+play,1,1,solej001,12,CSBX,S9/L.2-H;1-3
+play,1,1,denoc001,11,C*BX,63/G
+play,2,0,blacc001,10,BX,6/P
+play,2,0,lemad001,32,BCFBBB,W
+play,2,0,gonzc001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,2,0,gonzc001,11,.BCX,46(1)/FO/G
+play,2,0,arenn001,12,FC1BB,PB.1-2
+play,2,0,arenn001,22,FC1BB.S,K
+play,2,1,casts001,22,BCCBX,53/G
+play,2,1,woodt004,31,BBBCB,W
+play,2,1,russa002,11,BSX,64(1)3/GDP
+play,3,0,dickc002,02,CFS,K
+play,3,0,paulb001,01,FX,8/L
+play,3,0,hundn001,01,SX,6/P
+play,3,1,fowld001,21,FBBX,S7/L
+play,3,1,schwk001,11,C*BN,BK.1-2
+play,3,1,schwk001,22,C*BN.SFBS,K
+play,3,1,bryak001,10,B2X,8/F.2-3
+play,3,1,rizza001,32,BFBFBFX,3/G
+play,4,0,descd001,02,CFX,13/G
+play,4,0,flany001,02,SFS,K
+play,4,0,blacc001,32,CCBFFBBC,K
+play,4,1,solej001,22,SFBBFX,D7/L
+play,4,1,denoc001,11,CBX,63/G.2-3
+play,4,1,casts001,32,BBBCFC,K
+play,4,1,woodt004,01,CX,43/G
+play,5,0,lemad001,10,BX,T8/L
+play,5,0,gonzc001,22,FSBBFT,K
+play,5,0,arenn001,30,IIII,IW
+play,5,0,dickc002,11,FBX,31/G.3-H;1-2
+play,5,0,paulb001,12,CFBFS,K
+play,5,1,russa002,31,BBBCX,63/G
+play,5,1,fowld001,10,BX,D8/L
+play,5,1,schwk001,00,X,3/P
+play,5,1,bryak001,22,BFFFBX,43/G
+play,6,0,hundn001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,hundn001,00,.X,S7/G
+play,6,0,descd001,11,B1SB,WP.1-2
+play,6,0,descd001,21,B1SB.X,5/P
+play,6,0,flany001,00,,NP
+sub,stubd001,"Drew Stubbs",0,9,11
+play,6,0,stubd001,22,.CBBSC,K
+play,6,0,blacc001,11,CBX,31/G
+play,6,1,rizza001,00,,NP
+sub,germg001,"Gonzalez Germen",0,9,1
+play,6,1,rizza001,31,.CBBBB,W
+play,6,1,solej001,11,BC1X,46(1)/FO/G
+play,6,1,denoc001,11,BSX,6(1)3/GDP
+play,7,0,lemad001,22,CBBSS,K
+play,7,0,gonzc001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,7,0,gonzc001,12,.SFBS,K
+play,7,0,arenn001,01,CX,63/G
+play,7,1,casts001,01,CX,13/G
+play,7,1,russj003,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,11
+play,7,1,coghc001,31,.CBBBX,HR/89/F
+play,7,1,russa002,32,SBFBFFFFBFX,S9/G
+play,7,1,fowld001,10,*BX,S9/L.1-2
+play,7,1,schwk001,00,,NP
+sub,logab001,"Boone Logan",0,9,1
+play,7,1,schwk001,12,.SBCX,5(2)/FO/G.1-2
+play,7,1,bryak001,11,BFX,6/L
+play,8,0,dickc002,00,,NP
+sub,sorir001,"Rafael Soriano",1,7,1
+play,8,0,dickc002,00,,NP
+sub,coghc001,"Chris Coghlan",1,8,4
+play,8,0,dickc002,00,,NP
+sub,russa002,"Addison Russell",1,9,6
+play,8,0,dickc002,02,...CFX,D9/L
+play,8,0,paulb001,00,X,S8/L.2-H
+play,8,0,hundn001,32,B>FCBB>X,7/L
+play,8,0,descd001,21,B*B>FX,D7/L.1-H;B-3(TH)
+play,8,0,logab001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,11
+play,8,0,barnb002,22,.*BFBCFX,5/P
+play,8,0,blacc001,02,CFX,5/L-
+play,8,1,rizza001,00,,NP
+sub,millj006,"Justin Miller",0,5,1
+play,8,1,rizza001,00,,NP
+sub,barnb002,"Brandon Barnes",0,9,7
+play,8,1,rizza001,12,..BFFX,4/P
+play,8,1,solej001,02,FFX,3/L
+play,8,1,denoc001,12,BSSS,K
+play,9,0,lemad001,00,,NP
+sub,mottj001,"Jason Motte",1,7,1
+play,9,0,lemad001,22,.CBBFX,S9/L
+play,9,0,gonzc001,01,FX,4/P
+play,9,0,arenn001,32,CBBCB>X,53/G.1-2
+play,9,0,millj006,02,CSS,K
+play,9,1,mottj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,7,11
+play,9,1,herrj002,12,.CBFS,K
+play,9,1,coghc001,00,X,7/L
+play,9,1,russa002,12,CBSS,K
+data,er,flany001,1
+data,er,germg001,1
+data,er,logab001,0
+data,er,millj006,0
+data,er,beeld001,4
+data,er,woodt004,1
+data,er,grimj002,0
+data,er,russj003,0
+data,er,sorir001,2
+data,er,mottj001,0
