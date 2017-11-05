@@ -1,0 +1,73 @@
+<workflow-app name="PigHiveBeeline" xmlns="uri:oozie:workflow:0.4">
+    <start to="PigAction"/>
+    <action name="PigAction">
+        <pig>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                  <delete path="${PigOutputPath}"/>
+            </prepare>
+            <script>/tmp/Lab8/task3/logAnalysis.pig</script>
+              <param>file_in=${PigInputPath}</param>
+              <param>dir_out=${PigOutputPath}</param>
+              <param>year=${year}</param>
+              <param>month=${month}</param>
+              <param>day=${day}</param>
+        </pig>
+        <ok to="HiveCreate"/>
+        <error to="kill"/>
+    </action>
+    <action name="HiveCreate">
+        <hive2 xmlns="uri:oozie:hive2-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+              <job-xml>/tmp/Lab8/Task2/hive-site.xml</job-xml>
+	<jdbc-url>jdbc:hive2://sandbox.hortonworks.com:10000</jdbc-url>
+	<password>hive</password>
+            <script>/tmp/Lab8/Task3/HiveCreate.hql</script>
+              <param>databaseName=${databaseName}</param>
+              <param>tableName=${tableName}</param>
+              <param>orcTableName=${orcTableName}</param>
+              <param>year=${year}</param>
+              <param>month=${month}</param>
+              <param>day=${day}</param>
+              <param>hour=${hour}</param>
+              <param>pigOutputDir=${dir_out}</param>
+        </hive2>
+        <ok to="HiveLoad"/>
+        <error to="kill"/>
+    </action>
+    <action name="HiveLoad">
+        <hive2 xmlns="uri:oozie:hive2-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+              <job-xml>/tmp/shared/hive-site.xml</job-xml>
+	<jdbc-url>jdbc:hive2://sandbox.hortonworks.com:10000</jdbc-url>
+	<password>hive</password>
+            <script>/tmp/Lab8/Task3/HiveCreateORC.hql</script>
+              <param>databaseName=${databaseName}</param>
+              <param>tableName=${tableName}</param>
+              <param>orcTableName=${orcTableName}</param>
+              <param>year=${year}</param>
+              <param>month=${month}</param>
+              <param>day=${day}</param>
+              <param>hour=${hour}</param>
+        </hive2>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <action name="Export">
+        <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+              <job-xml>${nameNode}/tmp/Lab8/Task2/hive-site.xml</job-xml>
+            <command>export --connect jdbc:mysql://10.128.0.3:3306/sqooptest --username root -m 1 --table logData --hcatalog-database ${databaseName} --hcatalog-table ${orcTableName} --skip-dist-cache </command>
+        </sqoop>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
