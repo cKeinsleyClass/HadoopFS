@@ -1,4 +1,4 @@
-<workflow-app name="PigHiveBeeline" xmlns="uri:oozie:workflow:0.4">
+<workflow-app name="CompleteWorkflow" xmlns="uri:oozie:workflow:0.4">
     <start to="PigAction"/>
     <action name="PigAction">
         <pig>
@@ -8,8 +8,8 @@
                   <delete path="${dir_out}"/>
             </prepare>
             <script>/tmp/Lab8/task3/logAnalysis.pig</script>
-              <param>file_in=${PigInputPath}</param>
-              <param>dir_out=${PigOutputPath}</param>
+              <param>file_in=${file_in}</param>
+              <param>dir_out=${dir_out}</param>
               <param>year=${year}</param>
               <param>month=${month}</param>
               <param>day=${day}</param>
@@ -53,10 +53,10 @@
               <param>day=${day}</param>
               <param>hour=${hour}</param>
         </hive2>
-        <ok to="end"/>
+        <ok to="SqoopExport"/>
         <error to="kill"/>
     </action>
-    <action name="Export">
+    <action name="SqoopExport">
         <sqoop xmlns="uri:oozie:sqoop-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
