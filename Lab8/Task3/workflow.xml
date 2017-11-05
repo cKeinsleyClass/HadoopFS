@@ -5,7 +5,7 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
             <prepare>
-                  <delete path="${PigOutputPath}"/>
+                  <delete path="${dir_out}"/>
             </prepare>
             <script>/tmp/Lab8/task3/logAnalysis.pig</script>
               <param>file_in=${PigInputPath}</param>
