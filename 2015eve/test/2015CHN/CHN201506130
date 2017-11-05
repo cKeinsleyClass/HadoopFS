@@ -1,0 +1,163 @@
+id,CHN201506130
+version,2
+info,visteam,CIN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/13
+info,number,0
+info,starttime,6:15PM
+info,daynight,night
+info,usedh,false
+info,umphome,belld901
+info,ump1b,basnt901
+info,ump2b,kulpr901
+info,ump3b,carav901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,59
+info,winddir,fromlf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,159
+info,attendance,40693
+info,wp,mottj001
+info,lp,cingt001
+info,save,
+start,schus001,"Skip Schumaker",0,1,7
+start,suare001,"Eugenio Suarez",0,2,6
+start,vottj001,"Joey Votto",0,3,3
+start,frazt001,"Todd Frazier",0,4,5
+start,brucj001,"Jay Bruce",0,5,9
+start,negrk001,"Kristopher Negron",0,6,4
+start,barnt001,"Tucker Barnhart",0,7,2
+start,leakm001,"Mike Leake",0,8,1
+start,hamib001,"Billy Hamilton",0,9,8
+start,fowld001,"Dexter Fowler",1,1,8
+start,coghc001,"Chris Coghlan",1,2,7
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,montm001,"Miguel Montero",1,5,2
+start,casts001,"Starlin Castro",1,6,6
+start,baxtm001,"Mike Baxter",1,7,9
+start,hendk001,"Kyle Hendricks",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,schus001,00,X,43/G
+play,1,0,suare001,11,CBX,53/G+
+play,1,0,vottj001,22,BCBSC,K
+play,1,1,fowld001,22,BBSCX,3/G-
+play,1,1,coghc001,00,X,43/G
+play,1,1,rizza001,32,BCBFBFX,53/G
+play,2,0,frazt001,12,FCBX,53/G
+play,2,0,brucj001,00,X,7/F
+play,2,0,negrk001,01,CX,S8/L
+play,2,0,barnt001,02,FCC,K
+play,2,1,bryak001,00,X,S7/L
+play,2,1,montm001,00,X,HR/8/F.1-H
+play,2,1,casts001,00,X,8/F
+play,2,1,baxtm001,32,BCBBFX,S7/L-
+play,2,1,hendk001,02,F1LX,14/BG/SH.1-2
+play,2,1,russa002,21,CBBX,9/L
+play,3,0,leakm001,02,CCS,K
+play,3,0,hamib001,12,FBLC,K
+play,3,0,schus001,01,CX,53/G
+play,3,1,fowld001,21,BCBX,6/L
+play,3,1,coghc001,12,CBSH,HP
+play,3,1,rizza001,01,SX,6(1)3/GDP
+play,4,0,suare001,12,BCCS,K
+play,4,0,vottj001,21,BSBX,HR/78/F
+play,4,0,frazt001,02,CFX,D7/G
+play,4,0,brucj001,32,SCBBBS,K
+play,4,0,negrk001,32,B*BCBCX,S6/G.2XH(635253)
+play,4,1,bryak001,01,CX,D7/L+
+play,4,1,montm001,00,X,S4/G+.2-3
+play,4,1,casts001,10,BX,FC6/G/MREV.3-H;1-2
+com,"replay,4,casts001,CHN,kulpr901,CHI11,,Y,M,CHN,A"
+com,"$when Kris Bryant was called out at HP, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,4,1,baxtm001,10,BX,46(1)3/GDP.2-3
+play,4,1,hendk001,21,BBFX,63/G
+play,5,0,barnt001,00,X,7/F
+play,5,0,leakm001,02,FFS,K
+play,5,0,hamib001,01,CX,8/L
+play,5,1,russa002,12,BCFC,K
+play,5,1,fowld001,32,BFSBBX,3/G-
+play,5,1,coghc001,00,X,31/G/MREV
+com,"replay,5,coghc001,CHN,kulpr901,CHI11,,Y,M,CIN,C"
+com,"$when Chris Coghlan was called safe at 1B, Reds"
+com,"manager Bryan Price challenged the ruling; the"
+com,"call was overturned by replay"
+play,6,0,schus001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,6,0,schus001,01,.FX,S7/G
+play,6,0,suare001,22,BCBF1X,HR/8/F.1-H
+play,6,0,vottj001,32,CTBBFBFX,S9/L
+play,6,0,frazt001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,6,0,frazt001,22,.CB*BCS,K
+play,6,0,brucj001,10,B1,PO1(E1).1-2
+play,6,0,brucj001,30,B1.BBB,W
+play,6,0,negrk001,11,CBX,8/F
+play,6,0,barnt001,12,BSSS,K
+play,6,1,rizza001,00,,NP
+sub,parrm001,"Manny Parra",0,8,1
+play,6,1,rizza001,21,.BBCX,8/L
+play,6,1,bryak001,22,FBSBC,K
+play,6,1,montm001,32,BFFBFFFBX,9/F
+play,7,0,parrm001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,7,0,parrm001,00,,NP
+sub,philb001,"Brandon Phillips",0,8,11
+play,7,0,philb001,20,..BBX,8/L
+play,7,0,hamib001,32,FBCBBX,53/G+
+play,7,0,schus001,12,BFFX,63/G+
+play,7,1,casts001,00,,NP
+sub,mattr001,"Ryan Mattheus",0,8,1
+play,7,1,casts001,12,.CBSX,53/G
+play,7,1,baxtm001,01,CX,S8/G+
+play,7,1,woodt004,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,7,1,denoc001,01,.CX,54(1)3/GDP
+play,8,0,suare001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,8,0,suare001,12,.FBFX,9/F
+play,8,0,vottj001,32,BCBCBC,K
+play,8,0,frazt001,22,CBBFFH,HP
+play,8,0,brucj001,31,B1B+1*BCX,8/L
+play,8,1,russa002,11,TBX,D7/L
+play,8,1,fowld001,01,M+2,PO2(26)
+play,8,1,fowld001,11,M+2.BX,D7/L-
+play,8,1,coghc001,12,CBSX,S4/G/MREV.2-3
+com,"replay,8,coghc001,CHN,kulpr901,CHI11,,Y,M,CHN,C"
+com,"$when Chris Coghlan was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,8,1,rizza001,11,BFX,46(1)3/GDP
+play,9,0,negrk001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,9,0,negrk001,10,.BX,8/L
+play,9,0,barnt001,02,CCT,K
+play,9,0,mattr001,00,,NP
+sub,domic001,"Chris Dominguez",0,8,11
+play,9,0,domic001,01,.FX,S7/G
+play,9,0,hamib001,32,FB1BFB>F>X,S8/L.1-3
+play,9,0,schus001,11,B>F>C,SB2
+play,9,0,schus001,12,B>F>C.X,43/G-
+play,9,1,bryak001,00,,NP
+sub,cingt001,"Tony Cingrani",0,8,1
+play,9,1,bryak001,20,.BBX,D8/L
+play,9,1,montm001,00,H,HP
+play,9,1,casts001,10,BX,S8/L.2-H;1-2
+data,er,leakm001,3
+data,er,parrm001,0
+data,er,mattr001,0
+data,er,cingt001,1
+data,er,hendk001,1
+data,er,russj003,2
+data,er,grimj002,0
+data,er,woodt004,0
+data,er,strop001,0
+data,er,mottj001,0

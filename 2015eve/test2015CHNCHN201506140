@@ -1,0 +1,567 @@
+id,CHN201506140
+version,2
+info,visteam,CIN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/14
+info,number,0
+info,starttime,7:09PM
+info,daynight,night
+info,usedh,false
+info,umphome,basnt901
+info,ump1b,kulpr901
+info,ump2b,carav901
+info,ump3b,belld901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,seipb701
+info,temp,70
+info,winddir,fromrf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,234
+info,attendance,33201
+info,wp,schlb001
+info,lp,badeb001
+info,save,
+start,philb001,"Brandon Phillips",0,1,4
+start,vottj001,"Joey Votto",0,2,3
+start,frazt001,"Todd Frazier",0,3,5
+start,brucj001,"Jay Bruce",0,4,9
+start,penab002,"Brayan Pena",0,5,2
+start,suare001,"Eugenio Suarez",0,6,6
+start,negrk001,"Kristopher Negron",0,7,7
+start,desca001,"Anthony DeSclafani",0,8,1
+start,hamib001,"Billy Hamilton",0,9,8
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,philb001,11,BFX,63/G
+play,1,0,vottj001,01,CX,3/G
+play,1,0,frazt001,32,BBFFBFFX,8/F
+play,1,1,fowld001,12,CFBFFX,9/L
+play,1,1,rizza001,01,CX,7/L
+play,1,1,bryak001,32,CBBBCFFX,D9/F-
+play,1,1,coghc001,32,FBBBCFFB,W
+play,1,1,casts001,02,CCX,S56/G.2-3;1-2
+play,1,1,baxtm001,22,FCBBC,K
+play,2,0,brucj001,00,X,63/G
+play,2,0,penab002,01,CX,13/G
+play,2,0,suare001,22,CBCBS,K
+play,2,1,rossd001,22,BSFBX,4/P
+play,2,1,lestj001,01,CX,63/G
+play,2,1,russa002,32,BBFSBX,53/G
+play,3,0,negrk001,22,CTBBX,7/F
+play,3,0,desca001,22,CBCBFS,K
+play,3,0,hamib001,11,CBX,S7/G
+play,3,0,philb001,00,>C,SB2
+play,3,0,philb001,01,>C.*B,SB3
+play,3,0,philb001,12,>C.*B.FX,53/G-
+play,3,1,fowld001,12,BFTFX,9/F
+play,3,1,rizza001,12,CBFX,7/F
+play,3,1,bryak001,00,X,63/G
+play,4,0,vottj001,12,CBSFX,8/L
+play,4,0,frazt001,11,FBX,2/P2F
+play,4,0,brucj001,12,CSBS,K
+play,4,1,coghc001,11,BCX,3/G
+play,4,1,casts001,20,BBX,S9/L-
+play,4,1,baxtm001,12,1CSBS,K
+play,4,1,rossd001,02,SFS,K
+play,5,0,penab002,01,CX,3/P
+play,5,0,suare001,01,FX,9/F
+play,5,0,negrk001,32,CBBSBX,DGR/78/L+
+play,5,0,desca001,12,BSC+2C,K
+play,5,1,lestj001,22,CSBBX,63/G
+play,5,1,russa002,20,BBX,S5/G
+play,5,1,fowld001,12,1C1BSX,7/F
+play,5,1,rizza001,11,CBX,9/L+
+play,6,0,hamib001,22,BCSBX,D7/G
+play,6,0,philb001,11,C*B>C,SB3
+play,6,0,philb001,12,C*B>C.FFX,S8/L-.3-H
+play,6,0,vottj001,21,BBFX,D7/L+/MREV.1XH(762)
+com,"replay,6,vottj001,CIN,kulpr901,CHI11,,Y,M,CHN,A"
+com,"$when Brandon Phillips was called safe at HP, Cubs"
+com,"manager Joe Maddon challenged the ruling; the call"
+com,"was overturned by replay"
+play,6,0,frazt001,11,BFX,8/F.2-3
+play,6,0,brucj001,00,X,9/L
+play,6,1,bryak001,02,CFS,K
+play,6,1,coghc001,12,BFFX,D9/L/MREV
+com,"replay,6,coghc001,CHN,kulpr901,CHI11,,Y,M,CHN,O"
+com,"$when Chris Coghlan's line drive to RF was ruled"
+com,"foul, Cubs manager Joe Maddon challenged the"
+com,"ruling; the call was overturned by replay and"
+com,"Coghlan was awarded two bases"
+play,6,1,casts001,02,FTX,7/F
+play,6,1,baxtm001,22,CFBBT,K
+play,7,0,penab002,31,CBBBX,8/L
+play,7,0,suare001,32,CSBBBX,9/F
+play,7,0,negrk001,00,X,13/G
+play,7,1,rossd001,22,BFFFBX,D7/G
+play,7,1,lestj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,00,.X,13/BG/SH.2-3
+play,7,1,russa002,32,BBSTFBB,W
+play,7,1,fowld001,00,,NP
+sub,mattr001,"Ryan Mattheus",0,8,1
+play,7,1,fowld001,22,.C1FBFB1X,9/L/SF.3-H
+play,7,1,rizza001,00,,NP
+sub,parrm001,"Manny Parra",0,8,1
+play,7,1,rizza001,32,.BCTFB1111B>S,K/MREV
+com,"replay,7,rizza001,CHN,kulpr901,CHI11,,Y,M,CIN,I"
+com,"$when Anthony Rizzo was ruled to have been hit by a"
+com,"pitch, Reds manager Bryan Price challenged the ruling;"
+com,"the call was overturned by replay to a ball"
+play,8,0,parrm001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,parrm001,00,,NP
+sub,schus001,"Skip Schumaker",0,8,11
+play,8,0,schus001,11,..BFX,9/L
+play,8,0,hamib001,32,BBCBCX,8/L
+play,8,0,philb001,22,CFBBX,9/F
+play,8,1,bryak001,00,,NP
+sub,hoovj002,"J.J. Hoover",0,8,1
+play,8,1,bryak001,02,.CFS,K
+play,8,1,coghc001,12,BFCX,31/G
+play,8,1,casts001,00,X,53/G
+play,9,0,vottj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,9,0,vottj001,32,.BBBCFX,S9/G
+play,9,0,frazt001,02,CFX,D8/L+.1-3
+play,9,0,brucj001,30,IIII,IW
+play,9,0,penab002,11,CBX,8/F-
+play,9,0,suare001,12,FCBC,K
+play,9,0,negrk001,12,BFSX,8/F
+play,9,1,baxtm001,12,LFBC,K
+play,9,1,rossd001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,9,1,montm001,12,.BCFS,K
+play,9,1,mottj001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,9,1,denoc001,32,.BCBTBX,53/G
+play,10,0,hoovj002,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,10,0,hoovj002,00,,NP
+sub,jacke001,"Edwin Jackson",1,8,1
+play,10,0,hoovj002,00,,NP
+sub,boesb001,"Brennan Boesch",0,8,11
+play,10,0,boesb001,00,...X,8/F
+play,10,0,hamib001,32,BBCCBB,W
+play,10,0,philb001,02,C1F>B,SB2
+play,10,0,philb001,12,C1F>B.S,K
+play,10,0,vottj001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,10,0,vottj001,11,.FB>C,SB3
+play,10,0,vottj001,22,.FB>C.*BX,7/L
+play,10,1,russa002,00,,NP
+sub,badeb001,"Burke Badenhop",0,8,1
+play,10,1,russa002,12,.CBCFX,9/F
+play,10,1,fowld001,32,BBFCBX,7/F
+play,10,1,rizza001,12,FCBS,K
+play,11,0,frazt001,22,CFBFBC,K
+play,11,0,brucj001,31,BBSB*B,W
+play,11,0,penab002,32,CBFB*BB,W.1-2
+play,11,0,suare001,00,,NP
+sub,schlb001,"Brian Schlitter",1,8,1
+play,11,0,suare001,10,.BX,36(1)/FO/G.2-3
+play,11,0,negrk001,11,FBX,64(1)/FO/G
+play,11,1,bryak001,01,CX,63/G
+play,11,1,coghc001,01,CX,D7/L
+play,11,1,casts001,11,CBX,S7/L+.2-H
+data,er,desca001,1
+data,er,mattr001,0
+data,er,parrm001,0
+data,er,hoovj002,0
+data,er,badeb001,1
+data,er,lestj001,1
+data,er,rondh001,0
+data,er,mottj001,0
+data,er,jacke001,0
+data,er,rossz001,0
+data,er,schlb001,0
+id,CHN201506140
+version,2
+info,visteam,CIN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/14
+info,number,0
+info,starttime,7:09PM
+info,daynight,night
+info,usedh,false
+info,umphome,basnt901
+info,ump1b,kulpr901
+info,ump2b,carav901
+info,ump3b,belld901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,seipb701
+info,temp,70
+info,winddir,fromrf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,234
+info,attendance,33201
+info,wp,schlb001
+info,lp,badeb001
+info,save,
+start,philb001,"Brandon Phillips",0,1,4
+start,vottj001,"Joey Votto",0,2,3
+start,frazt001,"Todd Frazier",0,3,5
+start,brucj001,"Jay Bruce",0,4,9
+start,penab002,"Brayan Pena",0,5,2
+start,suare001,"Eugenio Suarez",0,6,6
+start,negrk001,"Kristopher Negron",0,7,7
+start,desca001,"Anthony DeSclafani",0,8,1
+start,hamib001,"Billy Hamilton",0,9,8
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,philb001,11,BFX,63/G
+play,1,0,vottj001,01,CX,3/G
+play,1,0,frazt001,32,BBFFBFFX,8/F
+play,1,1,fowld001,12,CFBFFX,9/L
+play,1,1,rizza001,01,CX,7/L
+play,1,1,bryak001,32,CBBBCFFX,D9/F-
+play,1,1,coghc001,32,FBBBCFFB,W
+play,1,1,casts001,02,CCX,S56/G.2-3;1-2
+play,1,1,baxtm001,22,FCBBC,K
+play,2,0,brucj001,00,X,63/G
+play,2,0,penab002,01,CX,13/G
+play,2,0,suare001,22,CBCBS,K
+play,2,1,rossd001,22,BSFBX,4/P
+play,2,1,lestj001,01,CX,63/G
+play,2,1,russa002,32,BBFSBX,53/G
+play,3,0,negrk001,22,CTBBX,7/F
+play,3,0,desca001,22,CBCBFS,K
+play,3,0,hamib001,11,CBX,S7/G
+play,3,0,philb001,00,>C,SB2
+play,3,0,philb001,01,>C.*B,SB3
+play,3,0,philb001,12,>C.*B.FX,53/G-
+play,3,1,fowld001,12,BFTFX,9/F
+play,3,1,rizza001,12,CBFX,7/F
+play,3,1,bryak001,00,X,63/G
+play,4,0,vottj001,12,CBSFX,8/L
+play,4,0,frazt001,11,FBX,2/P2F
+play,4,0,brucj001,12,CSBS,K
+play,4,1,coghc001,11,BCX,3/G
+play,4,1,casts001,20,BBX,S9/L-
+play,4,1,baxtm001,12,1CSBS,K
+play,4,1,rossd001,02,SFS,K
+play,5,0,penab002,01,CX,3/P
+play,5,0,suare001,01,FX,9/F
+play,5,0,negrk001,32,CBBSBX,DGR/78/L+
+play,5,0,desca001,12,BSC+2C,K
+play,5,1,lestj001,22,CSBBX,63/G
+play,5,1,russa002,20,BBX,S5/G
+play,5,1,fowld001,12,1C1BSX,7/F
+play,5,1,rizza001,11,CBX,9/L+
+play,6,0,hamib001,22,BCSBX,D7/G
+play,6,0,philb001,11,C*B>C,SB3
+play,6,0,philb001,12,C*B>C.FFX,S8/L-.3-H
+play,6,0,vottj001,21,BBFX,D7/L+/MREV.1XH(762)
+com,"replay,6,vottj001,CIN,kulpr901,CHI11,,Y,M,CHN,A"
+com,"$when Brandon Phillips was called safe at HP, Cubs"
+com,"manager Joe Maddon challenged the ruling; the call"
+com,"was overturned by replay"
+play,6,0,frazt001,11,BFX,8/F.2-3
+play,6,0,brucj001,00,X,9/L
+play,6,1,bryak001,02,CFS,K
+play,6,1,coghc001,12,BFFX,D9/L/MREV
+com,"replay,6,coghc001,CHN,kulpr901,CHI11,,Y,M,CHN,O"
+com,"$when Chris Coghlan's line drive to RF was ruled"
+com,"foul, Cubs manager Joe Maddon challenged the"
+com,"ruling; the call was overturned by replay and"
+com,"Coghlan was awarded two bases"
+play,6,1,casts001,02,FTX,7/F
+play,6,1,baxtm001,22,CFBBT,K
+play,7,0,penab002,31,CBBBX,8/L
+play,7,0,suare001,32,CSBBBX,9/F
+play,7,0,negrk001,00,X,13/G
+play,7,1,rossd001,22,BFFFBX,D7/G
+play,7,1,lestj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,00,.X,13/BG/SH.2-3
+play,7,1,russa002,32,BBSTFBB,W
+play,7,1,fowld001,00,,NP
+sub,mattr001,"Ryan Mattheus",0,8,1
+play,7,1,fowld001,22,.C1FBFB1X,9/L/SF.3-H
+play,7,1,rizza001,00,,NP
+sub,parrm001,"Manny Parra",0,8,1
+play,7,1,rizza001,32,.BCTFB1111B>S,K/MREV
+com,"replay,7,rizza001,CHN,kulpr901,CHI11,,Y,M,CIN,I"
+com,"$when Anthony Rizzo was ruled to have been hit by a"
+com,"pitch, Reds manager Bryan Price challenged the ruling;"
+com,"the call was overturned by replay to a ball"
+play,8,0,parrm001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,parrm001,00,,NP
+sub,schus001,"Skip Schumaker",0,8,11
+play,8,0,schus001,11,..BFX,9/L
+play,8,0,hamib001,32,BBCBCX,8/L
+play,8,0,philb001,22,CFBBX,9/F
+play,8,1,bryak001,00,,NP
+sub,hoovj002,"J.J. Hoover",0,8,1
+play,8,1,bryak001,02,.CFS,K
+play,8,1,coghc001,12,BFCX,31/G
+play,8,1,casts001,00,X,53/G
+play,9,0,vottj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,9,0,vottj001,32,.BBBCFX,S9/G
+play,9,0,frazt001,02,CFX,D8/L+.1-3
+play,9,0,brucj001,30,IIII,IW
+play,9,0,penab002,11,CBX,8/F-
+play,9,0,suare001,12,FCBC,K
+play,9,0,negrk001,12,BFSX,8/F
+play,9,1,baxtm001,12,LFBC,K
+play,9,1,rossd001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,9,1,montm001,12,.BCFS,K
+play,9,1,mottj001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,9,1,denoc001,32,.BCBTBX,53/G
+play,10,0,hoovj002,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,10,0,hoovj002,00,,NP
+sub,jacke001,"Edwin Jackson",1,8,1
+play,10,0,hoovj002,00,,NP
+sub,boesb001,"Brennan Boesch",0,8,11
+play,10,0,boesb001,00,...X,8/F
+play,10,0,hamib001,32,BBCCBB,W
+play,10,0,philb001,02,C1F>B,SB2
+play,10,0,philb001,12,C1F>B.S,K
+play,10,0,vottj001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,10,0,vottj001,11,.FB>C,SB3
+play,10,0,vottj001,22,.FB>C.*BX,7/L
+play,10,1,russa002,00,,NP
+sub,badeb001,"Burke Badenhop",0,8,1
+play,10,1,russa002,12,.CBCFX,9/F
+play,10,1,fowld001,32,BBFCBX,7/F
+play,10,1,rizza001,12,FCBS,K
+play,11,0,frazt001,22,CFBFBC,K
+play,11,0,brucj001,31,BBSB*B,W
+play,11,0,penab002,32,CBFB*BB,W.1-2
+play,11,0,suare001,00,,NP
+sub,schlb001,"Brian Schlitter",1,8,1
+play,11,0,suare001,10,.BX,36(1)/FO/G.2-3
+play,11,0,negrk001,11,FBX,64(1)/FO/G
+play,11,1,bryak001,01,CX,63/G
+play,11,1,coghc001,01,CX,D7/L
+play,11,1,casts001,11,CBX,S7/L+.2-H
+data,er,desca001,1
+data,er,mattr001,0
+data,er,parrm001,0
+data,er,hoovj002,0
+data,er,badeb001,1
+data,er,lestj001,1
+data,er,rondh001,0
+data,er,mottj001,0
+data,er,jacke001,0
+data,er,rossz001,0
+data,er,schlb001,0
+id,CHN201506140
+version,2
+info,visteam,CIN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/14
+info,number,0
+info,starttime,7:09PM
+info,daynight,night
+info,usedh,false
+info,umphome,basnt901
+info,ump1b,kulpr901
+info,ump2b,carav901
+info,ump3b,belld901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,seipb701
+info,temp,70
+info,winddir,fromrf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,234
+info,attendance,33201
+info,wp,schlb001
+info,lp,badeb001
+info,save,
+start,philb001,"Brandon Phillips",0,1,4
+start,vottj001,"Joey Votto",0,2,3
+start,frazt001,"Todd Frazier",0,3,5
+start,brucj001,"Jay Bruce",0,4,9
+start,penab002,"Brayan Pena",0,5,2
+start,suare001,"Eugenio Suarez",0,6,6
+start,negrk001,"Kristopher Negron",0,7,7
+start,desca001,"Anthony DeSclafani",0,8,1
+start,hamib001,"Billy Hamilton",0,9,8
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,casts001,"Starlin Castro",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,philb001,11,BFX,63/G
+play,1,0,vottj001,01,CX,3/G
+play,1,0,frazt001,32,BBFFBFFX,8/F
+play,1,1,fowld001,12,CFBFFX,9/L
+play,1,1,rizza001,01,CX,7/L
+play,1,1,bryak001,32,CBBBCFFX,D9/F-
+play,1,1,coghc001,32,FBBBCFFB,W
+play,1,1,casts001,02,CCX,S56/G.2-3;1-2
+play,1,1,baxtm001,22,FCBBC,K
+play,2,0,brucj001,00,X,63/G
+play,2,0,penab002,01,CX,13/G
+play,2,0,suare001,22,CBCBS,K
+play,2,1,rossd001,22,BSFBX,4/P
+play,2,1,lestj001,01,CX,63/G
+play,2,1,russa002,32,BBFSBX,53/G
+play,3,0,negrk001,22,CTBBX,7/F
+play,3,0,desca001,22,CBCBFS,K
+play,3,0,hamib001,11,CBX,S7/G
+play,3,0,philb001,00,>C,SB2
+play,3,0,philb001,01,>C.*B,SB3
+play,3,0,philb001,12,>C.*B.FX,53/G-
+play,3,1,fowld001,12,BFTFX,9/F
+play,3,1,rizza001,12,CBFX,7/F
+play,3,1,bryak001,00,X,63/G
+play,4,0,vottj001,12,CBSFX,8/L
+play,4,0,frazt001,11,FBX,2/P2F
+play,4,0,brucj001,12,CSBS,K
+play,4,1,coghc001,11,BCX,3/G
+play,4,1,casts001,20,BBX,S9/L-
+play,4,1,baxtm001,12,1CSBS,K
+play,4,1,rossd001,02,SFS,K
+play,5,0,penab002,01,CX,3/P
+play,5,0,suare001,01,FX,9/F
+play,5,0,negrk001,32,CBBSBX,DGR/78/L+
+play,5,0,desca001,12,BSC+2C,K
+play,5,1,lestj001,22,CSBBX,63/G
+play,5,1,russa002,20,BBX,S5/G
+play,5,1,fowld001,12,1C1BSX,7/F
+play,5,1,rizza001,11,CBX,9/L+
+play,6,0,hamib001,22,BCSBX,D7/G
+play,6,0,philb001,11,C*B>C,SB3
+play,6,0,philb001,12,C*B>C.FFX,S8/L-.3-H
+play,6,0,vottj001,21,BBFX,D7/L+/MREV.1XH(762)
+com,"replay,6,vottj001,CIN,kulpr901,CHI11,,Y,M,CHN,A"
+com,"$when Brandon Phillips was called safe at HP, Cubs"
+com,"manager Joe Maddon challenged the ruling; the call"
+com,"was overturned by replay"
+play,6,0,frazt001,11,BFX,8/F.2-3
+play,6,0,brucj001,00,X,9/L
+play,6,1,bryak001,02,CFS,K
+play,6,1,coghc001,12,BFFX,D9/L/MREV
+com,"replay,6,coghc001,CHN,kulpr901,CHI11,,Y,M,CHN,O"
+com,"$when Chris Coghlan's line drive to RF was ruled"
+com,"foul, Cubs manager Joe Maddon challenged the"
+com,"ruling; the call was overturned by replay and"
+com,"Coghlan was awarded two bases"
+play,6,1,casts001,02,FTX,7/F
+play,6,1,baxtm001,22,CFBBT,K
+play,7,0,penab002,31,CBBBX,8/L
+play,7,0,suare001,32,CSBBBX,9/F
+play,7,0,negrk001,00,X,13/G
+play,7,1,rossd001,22,BFFFBX,D7/G
+play,7,1,lestj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,00,.X,13/BG/SH.2-3
+play,7,1,russa002,32,BBSTFBB,W
+play,7,1,fowld001,00,,NP
+sub,mattr001,"Ryan Mattheus",0,8,1
+play,7,1,fowld001,22,.C1FBFB1X,9/L/SF.3-H
+play,7,1,rizza001,00,,NP
+sub,parrm001,"Manny Parra",0,8,1
+play,7,1,rizza001,32,.BCTFB1111B>S,K/MREV
+com,"replay,7,rizza001,CHN,kulpr901,CHI11,,Y,M,CIN,I"
+com,"$when Anthony Rizzo was ruled to have been hit by a"
+com,"pitch, Reds manager Bryan Price challenged the ruling;"
+com,"the call was overturned by replay to a ball"
+play,8,0,parrm001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,parrm001,00,,NP
+sub,schus001,"Skip Schumaker",0,8,11
+play,8,0,schus001,11,..BFX,9/L
+play,8,0,hamib001,32,BBCBCX,8/L
+play,8,0,philb001,22,CFBBX,9/F
+play,8,1,bryak001,00,,NP
+sub,hoovj002,"J.J. Hoover",0,8,1
+play,8,1,bryak001,02,.CFS,K
+play,8,1,coghc001,12,BFCX,31/G
+play,8,1,casts001,00,X,53/G
+play,9,0,vottj001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,9,0,vottj001,32,.BBBCFX,S9/G
+play,9,0,frazt001,02,CFX,D8/L+.1-3
+play,9,0,brucj001,30,IIII,IW
+play,9,0,penab002,11,CBX,8/F-
+play,9,0,suare001,12,FCBC,K
+play,9,0,negrk001,12,BFSX,8/F
+play,9,1,baxtm001,12,LFBC,K
+play,9,1,rossd001,00,,NP
+sub,montm001,"Miguel Montero",1,7,11
+play,9,1,montm001,12,.BCFS,K
+play,9,1,mottj001,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,11
+play,9,1,denoc001,32,.BCBTBX,53/G
+play,10,0,hoovj002,00,,NP
+sub,montm001,"Miguel Montero",1,7,2
+play,10,0,hoovj002,00,,NP
+sub,jacke001,"Edwin Jackson",1,8,1
+play,10,0,hoovj002,00,,NP
+sub,boesb001,"Brennan Boesch",0,8,11
+play,10,0,boesb001,00,...X,8/F
+play,10,0,hamib001,32,BBCCBB,W
+play,10,0,philb001,02,C1F>B,SB2
+play,10,0,philb001,12,C1F>B.S,K
+play,10,0,vottj001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,10,0,vottj001,11,.FB>C,SB3
+play,10,0,vottj001,22,.FB>C.*BX,7/L
+play,10,1,russa002,00,,NP
+sub,badeb001,"Burke Badenhop",0,8,1
+play,10,1,russa002,12,.CBCFX,9/F
+play,10,1,fowld001,32,BBFCBX,7/F
+play,10,1,rizza001,12,FCBS,K
+play,11,0,frazt001,22,CFBFBC,K
+play,11,0,brucj001,31,BBSB*B,W
+play,11,0,penab002,32,CBFB*BB,W.1-2
+play,11,0,suare001,00,,NP
+sub,schlb001,"Brian Schlitter",1,8,1
+play,11,0,suare001,10,.BX,36(1)/FO/G.2-3
+play,11,0,negrk001,11,FBX,64(1)/FO/G
+play,11,1,bryak001,01,CX,63/G
+play,11,1,coghc001,01,CX,D7/L
+play,11,1,casts001,11,CBX,S7/L+.2-H
+data,er,desca001,1
+data,er,mattr001,0
+data,er,parrm001,0
+data,er,hoovj002,0
+data,er,badeb001,1
+data,er,lestj001,1
+data,er,rondh001,0
+data,er,mottj001,0
+data,er,jacke001,0
+data,er,rossz001,0
+data,er,schlb001,0

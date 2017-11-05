@@ -1,0 +1,480 @@
+id,CHN201505110
+version,2
+info,visteam,NYN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/05/11
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,mealj901
+info,ump2b,emmep901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,65
+info,winddir,ltor
+info,windspeed,17
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,176
+info,attendance,32980
+info,wp,lestj001
+info,lp,degrj001
+info,save,rondh001
+start,lagaj001,"Juan Lagares",0,1,8
+start,maybj001,"John Mayberry",0,2,9
+start,murpd006,"Daniel Murphy",0,3,5
+start,cuddm001,"Michael Cuddyer",0,4,7
+start,dudal001,"Lucas Duda",0,5,3
+start,florw001,"Wilmer Flores",0,6,6
+start,plawk001,"Kevin Plawecki",0,7,2
+start,herrd002,"Dilson Herrera",0,8,4
+start,degrj001,"Jacob deGrom",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,bryak001,"Kris Bryant",1,2,5
+start,rizza001,"Anthony Rizzo",1,3,3
+start,solej001,"Jorge Soler",1,4,9
+start,casts001,"Starlin Castro",1,5,6
+start,coghc001,"Chris Coghlan",1,6,7
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,lagaj001,12,CSBS,K23
+play,1,0,maybj001,02,CFX,43/G
+play,1,0,murpd006,21,SBBX,63/G
+play,1,1,fowld001,22,CBFBH,HP
+play,1,1,bryak001,21,BBF1X,HR/78/F.1-H
+play,1,1,rizza001,00,X,HR/89/L
+play,1,1,solej001,31,CBBBB,W
+play,1,1,casts001,12,CSBX,64(1)/FO/G
+play,1,1,coghc001,02,FCX,5/L.1-2(E5/TH)
+play,1,1,rossd001,30,IIII,IW
+play,1,1,lestj001,11,FBX,31/G
+play,2,0,cuddm001,12,CBFS,K
+play,2,0,dudal001,22,FBCFBS,K
+play,2,0,florw001,32,CCBBBFB,W
+play,2,0,plawk001,21,BCBX,3/P
+play,2,1,russa002,32,CBSBFBFFX,8/F
+play,2,1,fowld001,31,BFBBB,W
+play,2,1,bryak001,12,>FSB1>B,CS2(24)
+play,2,1,bryak001,32,>FSB1>B.BS,K
+play,3,0,herrd002,22,FBSBS,K
+play,3,0,degrj001,01,CX,63/G
+play,3,0,lagaj001,32,CFBBBFB,W
+play,3,0,maybj001,00,X,7/F
+play,3,1,rizza001,12,BCFX,3/G
+play,3,1,solej001,12,BSCX,9/F
+play,3,1,casts001,20,BBX,63/G
+play,4,0,murpd006,11,BCX,31/G
+play,4,0,cuddm001,31,CBBBB,W
+play,4,0,dudal001,22,BCBCX,S9/G.1-2
+play,4,0,florw001,10,BX,4(1)/FO/G.2-3
+play,4,0,plawk001,11,BCX,S8/G.3-H;1-2
+play,4,0,herrd002,21,BBFX,8/F
+play,4,1,coghc001,01,CX,S8/L
+play,4,1,rossd001,00,X,13/BG/SH/MREV.1-2
+com,"replay,4,rossd001,CHN,mealj901,CHI11,,Y,M,NYN,C"
+com,"$when David Ross was called safe at 1B, Mets"
+com,"manager Terry Collins challenged the ruling;"
+com,"the call was overturned by replay"
+play,4,1,lestj001,02,2FSS,K
+play,4,1,russa002,00,X,S9/L-.2-H
+play,4,1,fowld001,21,FBBX,S7/L.1-2
+play,4,1,bryak001,32,C2BBSFB>F>B,W.2-3;1-2
+play,4,1,rizza001,22,BBCCFX,13/G+
+play,5,0,degrj001,02,CFX,S5/G
+play,5,0,lagaj001,20,BBX,64(1)/FO/G
+play,5,0,maybj001,01,C>B,SB2
+play,5,0,maybj001,32,C>B.BSBFFS,K
+play,5,0,murpd006,22,CB*BFX,4/L
+play,5,1,solej001,22,BBCFS,K
+play,5,1,casts001,12,BCFS,K
+play,5,1,coghc001,02,CFT,K
+play,6,0,cuddm001,02,CCX,63/G-
+play,6,0,dudal001,11,FBX,HR/8/L+
+play,6,0,florw001,21,BBCX,HR/7/F
+play,6,0,plawk001,01,CX,8/F
+play,6,0,herrd002,31,BCBBB,W
+play,6,0,degrj001,00,,NP
+sub,tejar001,"Ruben Tejada",0,9,11
+play,6,0,tejar001,12,.CSBB,WP.1-2
+play,6,0,tejar001,22,.CSBB.C,K
+play,6,1,rossd001,00,,NP
+sub,roblh001,"Hansel Robles",0,9,1
+play,6,1,rossd001,12,.CBSS,K
+play,6,1,lestj001,00,,NP
+sub,castw002,"Welington Castillo",1,8,11
+play,6,1,castw002,02,.CFX,8/L
+play,6,1,russa002,22,CCFBBS,K
+play,7,0,lagaj001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lagaj001,32,.CBBFFFFFFBFS,K
+play,7,0,maybj001,01,CX,63/G
+play,7,0,murpd006,21,BCBX,43/G
+play,7,1,fowld001,02,FSX,8/F
+play,7,1,bryak001,31,SBBBB,W
+play,7,1,rizza001,00,,NP
+sub,gilms001,"Sean Gilmartin",0,9,1
+play,7,1,rizza001,22,.BS1CBX,8/F
+play,7,1,solej001,00,,NP
+sub,carlb001,"Buddy Carlyle",0,9,1
+play,7,1,solej001,32,.B1BCC>FB>B,W.1-2
+play,7,1,casts001,02,FFX,31/G
+play,8,0,cuddm001,32,CBCBFBFX,S8/L
+play,8,0,dudal001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,8,0,dudal001,22,.CBBF1FX,3/L/DP.1X1(3)
+play,8,0,florw001,01,CX,8/F
+play,8,1,coghc001,00,,NP
+sub,goede001,"Erik Goeddel",0,9,1
+play,8,1,coghc001,00,.X,S9/L
+play,8,1,rossd001,22,FS*B1B>S,K+SB2
+play,8,1,rossz001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,8,1,szczm001,10,.BX,63/G
+play,8,1,russa002,12,CFBX,63/G
+play,9,0,plawk001,00,,NP
+sub,rondh001,"Hector Rondon",1,6,1
+play,9,0,plawk001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,9,0,plawk001,00,,NP
+sub,granc001,"Curtis Granderson",0,7,11
+play,9,0,granc001,32,...CBBCBB,W
+play,9,0,herrd002,11,CB1X,6/L+
+play,9,0,goede001,00,,NP
+sub,monej001,"Johnny Monell",0,9,11
+play,9,0,monej001,11,.1FBX,46(1)3/GDP
+data,er,degrj001,4
+data,er,roblh001,0
+data,er,gilms001,0
+data,er,carlb001,0
+data,er,goede001,0
+data,er,lestj001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,rondh001,0
+id,CHN201505110
+version,2
+info,visteam,NYN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/05/11
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,mealj901
+info,ump2b,emmep901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,65
+info,winddir,ltor
+info,windspeed,17
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,176
+info,attendance,32980
+info,wp,lestj001
+info,lp,degrj001
+info,save,rondh001
+start,lagaj001,"Juan Lagares",0,1,8
+start,maybj001,"John Mayberry",0,2,9
+start,murpd006,"Daniel Murphy",0,3,5
+start,cuddm001,"Michael Cuddyer",0,4,7
+start,dudal001,"Lucas Duda",0,5,3
+start,florw001,"Wilmer Flores",0,6,6
+start,plawk001,"Kevin Plawecki",0,7,2
+start,herrd002,"Dilson Herrera",0,8,4
+start,degrj001,"Jacob deGrom",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,bryak001,"Kris Bryant",1,2,5
+start,rizza001,"Anthony Rizzo",1,3,3
+start,solej001,"Jorge Soler",1,4,9
+start,casts001,"Starlin Castro",1,5,6
+start,coghc001,"Chris Coghlan",1,6,7
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,lagaj001,12,CSBS,K23
+play,1,0,maybj001,02,CFX,43/G
+play,1,0,murpd006,21,SBBX,63/G
+play,1,1,fowld001,22,CBFBH,HP
+play,1,1,bryak001,21,BBF1X,HR/78/F.1-H
+play,1,1,rizza001,00,X,HR/89/L
+play,1,1,solej001,31,CBBBB,W
+play,1,1,casts001,12,CSBX,64(1)/FO/G
+play,1,1,coghc001,02,FCX,5/L.1-2(E5/TH)
+play,1,1,rossd001,30,IIII,IW
+play,1,1,lestj001,11,FBX,31/G
+play,2,0,cuddm001,12,CBFS,K
+play,2,0,dudal001,22,FBCFBS,K
+play,2,0,florw001,32,CCBBBFB,W
+play,2,0,plawk001,21,BCBX,3/P
+play,2,1,russa002,32,CBSBFBFFX,8/F
+play,2,1,fowld001,31,BFBBB,W
+play,2,1,bryak001,12,>FSB1>B,CS2(24)
+play,2,1,bryak001,32,>FSB1>B.BS,K
+play,3,0,herrd002,22,FBSBS,K
+play,3,0,degrj001,01,CX,63/G
+play,3,0,lagaj001,32,CFBBBFB,W
+play,3,0,maybj001,00,X,7/F
+play,3,1,rizza001,12,BCFX,3/G
+play,3,1,solej001,12,BSCX,9/F
+play,3,1,casts001,20,BBX,63/G
+play,4,0,murpd006,11,BCX,31/G
+play,4,0,cuddm001,31,CBBBB,W
+play,4,0,dudal001,22,BCBCX,S9/G.1-2
+play,4,0,florw001,10,BX,4(1)/FO/G.2-3
+play,4,0,plawk001,11,BCX,S8/G.3-H;1-2
+play,4,0,herrd002,21,BBFX,8/F
+play,4,1,coghc001,01,CX,S8/L
+play,4,1,rossd001,00,X,13/BG/SH/MREV.1-2
+com,"replay,4,rossd001,CHN,mealj901,CHI11,,Y,M,NYN,C"
+com,"$when David Ross was called safe at 1B, Mets"
+com,"manager Terry Collins challenged the ruling;"
+com,"the call was overturned by replay"
+play,4,1,lestj001,02,2FSS,K
+play,4,1,russa002,00,X,S9/L-.2-H
+play,4,1,fowld001,21,FBBX,S7/L.1-2
+play,4,1,bryak001,32,C2BBSFB>F>B,W.2-3;1-2
+play,4,1,rizza001,22,BBCCFX,13/G+
+play,5,0,degrj001,02,CFX,S5/G
+play,5,0,lagaj001,20,BBX,64(1)/FO/G
+play,5,0,maybj001,01,C>B,SB2
+play,5,0,maybj001,32,C>B.BSBFFS,K
+play,5,0,murpd006,22,CB*BFX,4/L
+play,5,1,solej001,22,BBCFS,K
+play,5,1,casts001,12,BCFS,K
+play,5,1,coghc001,02,CFT,K
+play,6,0,cuddm001,02,CCX,63/G-
+play,6,0,dudal001,11,FBX,HR/8/L+
+play,6,0,florw001,21,BBCX,HR/7/F
+play,6,0,plawk001,01,CX,8/F
+play,6,0,herrd002,31,BCBBB,W
+play,6,0,degrj001,00,,NP
+sub,tejar001,"Ruben Tejada",0,9,11
+play,6,0,tejar001,12,.CSBB,WP.1-2
+play,6,0,tejar001,22,.CSBB.C,K
+play,6,1,rossd001,00,,NP
+sub,roblh001,"Hansel Robles",0,9,1
+play,6,1,rossd001,12,.CBSS,K
+play,6,1,lestj001,00,,NP
+sub,castw002,"Welington Castillo",1,8,11
+play,6,1,castw002,02,.CFX,8/L
+play,6,1,russa002,22,CCFBBS,K
+play,7,0,lagaj001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lagaj001,32,.CBBFFFFFFBFS,K
+play,7,0,maybj001,01,CX,63/G
+play,7,0,murpd006,21,BCBX,43/G
+play,7,1,fowld001,02,FSX,8/F
+play,7,1,bryak001,31,SBBBB,W
+play,7,1,rizza001,00,,NP
+sub,gilms001,"Sean Gilmartin",0,9,1
+play,7,1,rizza001,22,.BS1CBX,8/F
+play,7,1,solej001,00,,NP
+sub,carlb001,"Buddy Carlyle",0,9,1
+play,7,1,solej001,32,.B1BCC>FB>B,W.1-2
+play,7,1,casts001,02,FFX,31/G
+play,8,0,cuddm001,32,CBCBFBFX,S8/L
+play,8,0,dudal001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,8,0,dudal001,22,.CBBF1FX,3/L/DP.1X1(3)
+play,8,0,florw001,01,CX,8/F
+play,8,1,coghc001,00,,NP
+sub,goede001,"Erik Goeddel",0,9,1
+play,8,1,coghc001,00,.X,S9/L
+play,8,1,rossd001,22,FS*B1B>S,K+SB2
+play,8,1,rossz001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,8,1,szczm001,10,.BX,63/G
+play,8,1,russa002,12,CFBX,63/G
+play,9,0,plawk001,00,,NP
+sub,rondh001,"Hector Rondon",1,6,1
+play,9,0,plawk001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,9,0,plawk001,00,,NP
+sub,granc001,"Curtis Granderson",0,7,11
+play,9,0,granc001,32,...CBBCBB,W
+play,9,0,herrd002,11,CB1X,6/L+
+play,9,0,goede001,00,,NP
+sub,monej001,"Johnny Monell",0,9,11
+play,9,0,monej001,11,.1FBX,46(1)3/GDP
+data,er,degrj001,4
+data,er,roblh001,0
+data,er,gilms001,0
+data,er,carlb001,0
+data,er,goede001,0
+data,er,lestj001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,rondh001,0
+id,CHN201505110
+version,2
+info,visteam,NYN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/05/11
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,mealj901
+info,ump2b,emmep901
+info,ump3b,bakej902
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,65
+info,winddir,ltor
+info,windspeed,17
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,176
+info,attendance,32980
+info,wp,lestj001
+info,lp,degrj001
+info,save,rondh001
+start,lagaj001,"Juan Lagares",0,1,8
+start,maybj001,"John Mayberry",0,2,9
+start,murpd006,"Daniel Murphy",0,3,5
+start,cuddm001,"Michael Cuddyer",0,4,7
+start,dudal001,"Lucas Duda",0,5,3
+start,florw001,"Wilmer Flores",0,6,6
+start,plawk001,"Kevin Plawecki",0,7,2
+start,herrd002,"Dilson Herrera",0,8,4
+start,degrj001,"Jacob deGrom",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,bryak001,"Kris Bryant",1,2,5
+start,rizza001,"Anthony Rizzo",1,3,3
+start,solej001,"Jorge Soler",1,4,9
+start,casts001,"Starlin Castro",1,5,6
+start,coghc001,"Chris Coghlan",1,6,7
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,lagaj001,12,CSBS,K23
+play,1,0,maybj001,02,CFX,43/G
+play,1,0,murpd006,21,SBBX,63/G
+play,1,1,fowld001,22,CBFBH,HP
+play,1,1,bryak001,21,BBF1X,HR/78/F.1-H
+play,1,1,rizza001,00,X,HR/89/L
+play,1,1,solej001,31,CBBBB,W
+play,1,1,casts001,12,CSBX,64(1)/FO/G
+play,1,1,coghc001,02,FCX,5/L.1-2(E5/TH)
+play,1,1,rossd001,30,IIII,IW
+play,1,1,lestj001,11,FBX,31/G
+play,2,0,cuddm001,12,CBFS,K
+play,2,0,dudal001,22,FBCFBS,K
+play,2,0,florw001,32,CCBBBFB,W
+play,2,0,plawk001,21,BCBX,3/P
+play,2,1,russa002,32,CBSBFBFFX,8/F
+play,2,1,fowld001,31,BFBBB,W
+play,2,1,bryak001,12,>FSB1>B,CS2(24)
+play,2,1,bryak001,32,>FSB1>B.BS,K
+play,3,0,herrd002,22,FBSBS,K
+play,3,0,degrj001,01,CX,63/G
+play,3,0,lagaj001,32,CFBBBFB,W
+play,3,0,maybj001,00,X,7/F
+play,3,1,rizza001,12,BCFX,3/G
+play,3,1,solej001,12,BSCX,9/F
+play,3,1,casts001,20,BBX,63/G
+play,4,0,murpd006,11,BCX,31/G
+play,4,0,cuddm001,31,CBBBB,W
+play,4,0,dudal001,22,BCBCX,S9/G.1-2
+play,4,0,florw001,10,BX,4(1)/FO/G.2-3
+play,4,0,plawk001,11,BCX,S8/G.3-H;1-2
+play,4,0,herrd002,21,BBFX,8/F
+play,4,1,coghc001,01,CX,S8/L
+play,4,1,rossd001,00,X,13/BG/SH/MREV.1-2
+com,"replay,4,rossd001,CHN,mealj901,CHI11,,Y,M,NYN,C"
+com,"$when David Ross was called safe at 1B, Mets"
+com,"manager Terry Collins challenged the ruling;"
+com,"the call was overturned by replay"
+play,4,1,lestj001,02,2FSS,K
+play,4,1,russa002,00,X,S9/L-.2-H
+play,4,1,fowld001,21,FBBX,S7/L.1-2
+play,4,1,bryak001,32,C2BBSFB>F>B,W.2-3;1-2
+play,4,1,rizza001,22,BBCCFX,13/G+
+play,5,0,degrj001,02,CFX,S5/G
+play,5,0,lagaj001,20,BBX,64(1)/FO/G
+play,5,0,maybj001,01,C>B,SB2
+play,5,0,maybj001,32,C>B.BSBFFS,K
+play,5,0,murpd006,22,CB*BFX,4/L
+play,5,1,solej001,22,BBCFS,K
+play,5,1,casts001,12,BCFS,K
+play,5,1,coghc001,02,CFT,K
+play,6,0,cuddm001,02,CCX,63/G-
+play,6,0,dudal001,11,FBX,HR/8/L+
+play,6,0,florw001,21,BBCX,HR/7/F
+play,6,0,plawk001,01,CX,8/F
+play,6,0,herrd002,31,BCBBB,W
+play,6,0,degrj001,00,,NP
+sub,tejar001,"Ruben Tejada",0,9,11
+play,6,0,tejar001,12,.CSBB,WP.1-2
+play,6,0,tejar001,22,.CSBB.C,K
+play,6,1,rossd001,00,,NP
+sub,roblh001,"Hansel Robles",0,9,1
+play,6,1,rossd001,12,.CBSS,K
+play,6,1,lestj001,00,,NP
+sub,castw002,"Welington Castillo",1,8,11
+play,6,1,castw002,02,.CFX,8/L
+play,6,1,russa002,22,CCFBBS,K
+play,7,0,lagaj001,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,7,0,lagaj001,32,.CBBFFFFFFBFS,K
+play,7,0,maybj001,01,CX,63/G
+play,7,0,murpd006,21,BCBX,43/G
+play,7,1,fowld001,02,FSX,8/F
+play,7,1,bryak001,31,SBBBB,W
+play,7,1,rizza001,00,,NP
+sub,gilms001,"Sean Gilmartin",0,9,1
+play,7,1,rizza001,22,.BS1CBX,8/F
+play,7,1,solej001,00,,NP
+sub,carlb001,"Buddy Carlyle",0,9,1
+play,7,1,solej001,32,.B1BCC>FB>B,W.1-2
+play,7,1,casts001,02,FFX,31/G
+play,8,0,cuddm001,32,CBCBFBFX,S8/L
+play,8,0,dudal001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,8,0,dudal001,22,.CBBF1FX,3/L/DP.1X1(3)
+play,8,0,florw001,01,CX,8/F
+play,8,1,coghc001,00,,NP
+sub,goede001,"Erik Goeddel",0,9,1
+play,8,1,coghc001,00,.X,S9/L
+play,8,1,rossd001,22,FS*B1B>S,K+SB2
+play,8,1,rossz001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,11
+play,8,1,szczm001,10,.BX,63/G
+play,8,1,russa002,12,CFBX,63/G
+play,9,0,plawk001,00,,NP
+sub,rondh001,"Hector Rondon",1,6,1
+play,9,0,plawk001,00,,NP
+sub,szczm001,"Matt Szczur",1,8,7
+play,9,0,plawk001,00,,NP
+sub,granc001,"Curtis Granderson",0,7,11
+play,9,0,granc001,32,...CBBCBB,W
+play,9,0,herrd002,11,CB1X,6/L+
+play,9,0,goede001,00,,NP
+sub,monej001,"Johnny Monell",0,9,11
+play,9,0,monej001,11,.1FBX,46(1)3/GDP
+data,er,degrj001,4
+data,er,roblh001,0
+data,er,gilms001,0
+data,er,carlb001,0
+data,er,goede001,0
+data,er,lestj001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,rondh001,0

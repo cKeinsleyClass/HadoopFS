@@ -1,0 +1,543 @@
+id,CHN201509230
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/23
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,nauep901
+info,ump1b,demud901
+info,ump2b,estam901
+info,ump3b,basnt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,speaa701
+info,temp,67
+info,winddir,fromcf
+info,windspeed,11
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,158
+info,attendance,37559
+info,wp,daviz001
+info,lp,hendk001
+info,save,rodrf003
+start,genns001,"Scooter Gennett",0,1,4
+start,schal001,"Logan Schafer",0,2,8
+start,linda001,"Adam Lind",0,3,3
+start,davik003,"Khris Davis",0,4,7
+start,santd002,"Domingo Santana",0,5,9
+start,seguj002,"Jean Segura",0,6,6
+start,sardl001,"Luis Sardinas",0,7,5
+start,maldm001,"Martin Maldonado",0,8,2
+start,daviz001,"Zach Davies",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,montm001,"Miguel Montero",1,6,2
+start,baezj001,"Javier Baez",1,7,4
+start,russa002,"Addison Russell",1,8,6
+start,hendk001,"Kyle Hendricks",1,9,1
+play,1,0,genns001,01,CX,13/G-
+play,1,0,schal001,12,BSCFFS,K23
+play,1,0,linda001,01,CX,63/G
+play,1,1,fowld001,22,SBBFFX,43/G
+play,1,1,schwk001,11,BFX,13/G
+play,1,1,bryak001,22,BCCBFFX,143/G
+play,2,0,davik003,12,CFBX,63/G
+play,2,0,santd002,22,CBBCFS,K
+play,2,0,seguj002,00,X,63/G
+play,2,1,rizza001,21,BFBX,3/G
+play,2,1,solej001,10,BX,S8/G
+play,2,1,montm001,12,CCBS,K
+play,2,1,baezj001,22,C*B1TBX,S6/G/MREV.1-2
+com,"replay,2,baezj001,CHN,demud901,CHI11,,Y,M,CHN,C"
+com,"$when Javier Baez was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,2,1,russa002,11,CBX,7/L-
+play,3,0,sardl001,32,BCBBCX,7/L-
+play,3,0,maldm001,11,CBX,53/G
+play,3,0,daviz001,12,CCBS,K
+play,3,1,hendk001,12,BFCX,6/L
+play,3,1,fowld001,22,CFBBX,43/G
+play,3,1,schwk001,11,CBX,63/G
+play,4,0,genns001,22,BFBFFX,63/G
+play,4,0,schal001,11,BFX,6/L
+play,4,0,linda001,02,CSFS,K
+play,4,1,bryak001,32,CSBBBX,3/P3F
+play,4,1,rizza001,12,CCFFFFBS,K
+play,4,1,solej001,22,CBSBS,K
+play,5,0,davik003,12,CFFBS,K
+play,5,0,santd002,22,BCBFS,K
+play,5,0,seguj002,11,CBX,S6/G
+play,5,0,sardl001,11,11F11B*B,SB2
+play,5,0,sardl001,21,11F11B*B.X,S7/G.2-H;B-2(TH)
+play,5,0,maldm001,00,X,9/L-
+play,5,1,montm001,32,CFBBBB,W
+play,5,1,baezj001,02,CSX,4/P
+play,5,1,russa002,11,SBX,53/G-.1-2
+play,5,1,hendk001,00,X,43/G
+play,6,0,daviz001,02,SCS,K
+play,6,0,genns001,02,SFT,K
+play,6,0,schal001,10,BX,9/L
+play,6,1,fowld001,11,BFX,9/F
+play,6,1,schwk001,22,SBCFBC,K
+play,6,1,bryak001,11,BSX,63/G
+play,7,0,linda001,21,BBFX,D7/F
+play,7,0,davik003,00,X,S9/L.2-H
+play,7,0,santd002,00,,NP
+sub,grimj002,"Justin Grimm",1,9,1
+play,7,0,santd002,32,.BB>F*BF*B,W.1-2
+play,7,0,seguj002,12,*BFFS,K
+play,7,0,sardl001,30,*BBB+2B,W.2-3;1-2
+play,7,0,maldm001,02,CSX,7/L/SF.3-H;2-3
+play,7,0,daviz001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,7,0,rogej002,30,.B*BBB,W.1-2
+play,7,0,genns001,00,,NP
+sub,rossz001,"Zach Rosscup",1,9,1
+play,7,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,11
+play,7,0,pereh001,12,..CBSFFX,5(2)/FO/G.1-2
+play,7,1,rizza001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,5
+play,7,1,rizza001,00,,NP
+sub,sardl001,"Luis Sardinas",0,7,4
+play,7,1,rizza001,00,,NP
+sub,smitw002,"Will Smith",0,9,1
+play,7,1,rizza001,22,...CCFBFFBFFX,43/G
+play,7,1,solej001,00,X,HR/78/L
+play,7,1,montm001,00,,NP
+sub,casts001,"Starlin Castro",1,6,11
+play,7,1,casts001,12,.BFSX,8/F
+play,7,1,baezj001,22,BBCFFS,K
+play,8,0,schal001,00,,NP
+sub,schwk001,"Kyle Schwarber",1,2,2
+play,8,0,schal001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,7
+play,8,0,schal001,00,,NP
+sub,casts001,"Starlin Castro",1,6,4
+play,8,0,schal001,00,,NP
+sub,baezj001,"Javier Baez",1,7,5
+play,8,0,schal001,00,....X,7/F
+play,8,0,linda001,32,BBCFBX,6/P
+play,8,0,davik003,00,,NP
+sub,ramin001,"Neil Ramirez",1,9,1
+play,8,0,davik003,10,.BX,8/F
+play,8,1,russa002,00,,NP
+sub,jeffj001,"Jeremy Jeffress",0,4,1
+play,8,1,russa002,00,,NP
+sub,petes002,"Shane Peterson",0,9,7
+play,8,1,russa002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,11
+play,8,1,lastt001,32,...BBFBFX,S7/L
+play,8,1,ramin001,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,11
+play,8,1,coghc001,01,.CX,46(1)3/GDP
+play,8,1,fowld001,21,CBBX,63/G
+play,9,0,santd002,00,,NP
+sub,cahit001,"Trevor Cahill",1,1,1
+play,9,0,santd002,00,,NP
+sub,bryak001,"Kris Bryant",1,3,8
+play,9,0,santd002,00,,NP
+sub,baezj001,"Javier Baez",1,7,6
+play,9,0,santd002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,5
+play,9,0,santd002,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,7
+play,9,0,santd002,31,.....CBBBB,W
+play,9,0,seguj002,01,C>X,13/G-.1-2
+play,9,0,sardl001,00,,NP
+sub,rondh001,"Hector Rondon",1,1,1
+play,9,0,sardl001,10,.BX,13/G.2-3
+play,9,0,maldm001,00,X,S7/G+.3-H
+play,9,0,petes002,00,X,S8/G.1-3
+play,9,0,pereh001,12,BCF>S,K
+play,9,1,schwk001,00,,NP
+sub,rodrf003,"Francisco Rodriguez",0,4,1
+play,9,1,schwk001,02,.FLFS,K23
+play,9,1,bryak001,10,BX,53/G+/MREV
+com,"replay,9,bryak001,CHN,demud901,CHI11,,N,M,CHN,C"
+com,"$when Kris Bryant was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,9,1,rizza001,20,BBX,5/P5F
+data,er,daviz001,0
+data,er,smitw002,1
+data,er,jeffj001,0
+data,er,rodrf003,0
+data,er,hendk001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,ramin001,0
+data,er,cahit001,1
+data,er,rondh001,0
+id,CHN201509230
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/23
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,nauep901
+info,ump1b,demud901
+info,ump2b,estam901
+info,ump3b,basnt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,speaa701
+info,temp,67
+info,winddir,fromcf
+info,windspeed,11
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,158
+info,attendance,37559
+info,wp,daviz001
+info,lp,hendk001
+info,save,rodrf003
+start,genns001,"Scooter Gennett",0,1,4
+start,schal001,"Logan Schafer",0,2,8
+start,linda001,"Adam Lind",0,3,3
+start,davik003,"Khris Davis",0,4,7
+start,santd002,"Domingo Santana",0,5,9
+start,seguj002,"Jean Segura",0,6,6
+start,sardl001,"Luis Sardinas",0,7,5
+start,maldm001,"Martin Maldonado",0,8,2
+start,daviz001,"Zach Davies",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,montm001,"Miguel Montero",1,6,2
+start,baezj001,"Javier Baez",1,7,4
+start,russa002,"Addison Russell",1,8,6
+start,hendk001,"Kyle Hendricks",1,9,1
+play,1,0,genns001,01,CX,13/G-
+play,1,0,schal001,12,BSCFFS,K23
+play,1,0,linda001,01,CX,63/G
+play,1,1,fowld001,22,SBBFFX,43/G
+play,1,1,schwk001,11,BFX,13/G
+play,1,1,bryak001,22,BCCBFFX,143/G
+play,2,0,davik003,12,CFBX,63/G
+play,2,0,santd002,22,CBBCFS,K
+play,2,0,seguj002,00,X,63/G
+play,2,1,rizza001,21,BFBX,3/G
+play,2,1,solej001,10,BX,S8/G
+play,2,1,montm001,12,CCBS,K
+play,2,1,baezj001,22,C*B1TBX,S6/G/MREV.1-2
+com,"replay,2,baezj001,CHN,demud901,CHI11,,Y,M,CHN,C"
+com,"$when Javier Baez was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,2,1,russa002,11,CBX,7/L-
+play,3,0,sardl001,32,BCBBCX,7/L-
+play,3,0,maldm001,11,CBX,53/G
+play,3,0,daviz001,12,CCBS,K
+play,3,1,hendk001,12,BFCX,6/L
+play,3,1,fowld001,22,CFBBX,43/G
+play,3,1,schwk001,11,CBX,63/G
+play,4,0,genns001,22,BFBFFX,63/G
+play,4,0,schal001,11,BFX,6/L
+play,4,0,linda001,02,CSFS,K
+play,4,1,bryak001,32,CSBBBX,3/P3F
+play,4,1,rizza001,12,CCFFFFBS,K
+play,4,1,solej001,22,CBSBS,K
+play,5,0,davik003,12,CFFBS,K
+play,5,0,santd002,22,BCBFS,K
+play,5,0,seguj002,11,CBX,S6/G
+play,5,0,sardl001,11,11F11B*B,SB2
+play,5,0,sardl001,21,11F11B*B.X,S7/G.2-H;B-2(TH)
+play,5,0,maldm001,00,X,9/L-
+play,5,1,montm001,32,CFBBBB,W
+play,5,1,baezj001,02,CSX,4/P
+play,5,1,russa002,11,SBX,53/G-.1-2
+play,5,1,hendk001,00,X,43/G
+play,6,0,daviz001,02,SCS,K
+play,6,0,genns001,02,SFT,K
+play,6,0,schal001,10,BX,9/L
+play,6,1,fowld001,11,BFX,9/F
+play,6,1,schwk001,22,SBCFBC,K
+play,6,1,bryak001,11,BSX,63/G
+play,7,0,linda001,21,BBFX,D7/F
+play,7,0,davik003,00,X,S9/L.2-H
+play,7,0,santd002,00,,NP
+sub,grimj002,"Justin Grimm",1,9,1
+play,7,0,santd002,32,.BB>F*BF*B,W.1-2
+play,7,0,seguj002,12,*BFFS,K
+play,7,0,sardl001,30,*BBB+2B,W.2-3;1-2
+play,7,0,maldm001,02,CSX,7/L/SF.3-H;2-3
+play,7,0,daviz001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,7,0,rogej002,30,.B*BBB,W.1-2
+play,7,0,genns001,00,,NP
+sub,rossz001,"Zach Rosscup",1,9,1
+play,7,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,11
+play,7,0,pereh001,12,..CBSFFX,5(2)/FO/G.1-2
+play,7,1,rizza001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,5
+play,7,1,rizza001,00,,NP
+sub,sardl001,"Luis Sardinas",0,7,4
+play,7,1,rizza001,00,,NP
+sub,smitw002,"Will Smith",0,9,1
+play,7,1,rizza001,22,...CCFBFFBFFX,43/G
+play,7,1,solej001,00,X,HR/78/L
+play,7,1,montm001,00,,NP
+sub,casts001,"Starlin Castro",1,6,11
+play,7,1,casts001,12,.BFSX,8/F
+play,7,1,baezj001,22,BBCFFS,K
+play,8,0,schal001,00,,NP
+sub,schwk001,"Kyle Schwarber",1,2,2
+play,8,0,schal001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,7
+play,8,0,schal001,00,,NP
+sub,casts001,"Starlin Castro",1,6,4
+play,8,0,schal001,00,,NP
+sub,baezj001,"Javier Baez",1,7,5
+play,8,0,schal001,00,....X,7/F
+play,8,0,linda001,32,BBCFBX,6/P
+play,8,0,davik003,00,,NP
+sub,ramin001,"Neil Ramirez",1,9,1
+play,8,0,davik003,10,.BX,8/F
+play,8,1,russa002,00,,NP
+sub,jeffj001,"Jeremy Jeffress",0,4,1
+play,8,1,russa002,00,,NP
+sub,petes002,"Shane Peterson",0,9,7
+play,8,1,russa002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,11
+play,8,1,lastt001,32,...BBFBFX,S7/L
+play,8,1,ramin001,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,11
+play,8,1,coghc001,01,.CX,46(1)3/GDP
+play,8,1,fowld001,21,CBBX,63/G
+play,9,0,santd002,00,,NP
+sub,cahit001,"Trevor Cahill",1,1,1
+play,9,0,santd002,00,,NP
+sub,bryak001,"Kris Bryant",1,3,8
+play,9,0,santd002,00,,NP
+sub,baezj001,"Javier Baez",1,7,6
+play,9,0,santd002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,5
+play,9,0,santd002,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,7
+play,9,0,santd002,31,.....CBBBB,W
+play,9,0,seguj002,01,C>X,13/G-.1-2
+play,9,0,sardl001,00,,NP
+sub,rondh001,"Hector Rondon",1,1,1
+play,9,0,sardl001,10,.BX,13/G.2-3
+play,9,0,maldm001,00,X,S7/G+.3-H
+play,9,0,petes002,00,X,S8/G.1-3
+play,9,0,pereh001,12,BCF>S,K
+play,9,1,schwk001,00,,NP
+sub,rodrf003,"Francisco Rodriguez",0,4,1
+play,9,1,schwk001,02,.FLFS,K23
+play,9,1,bryak001,10,BX,53/G+/MREV
+com,"replay,9,bryak001,CHN,demud901,CHI11,,N,M,CHN,C"
+com,"$when Kris Bryant was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,9,1,rizza001,20,BBX,5/P5F
+data,er,daviz001,0
+data,er,smitw002,1
+data,er,jeffj001,0
+data,er,rodrf003,0
+data,er,hendk001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,ramin001,0
+data,er,cahit001,1
+data,er,rondh001,0
+id,CHN201509230
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/09/23
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,nauep901
+info,ump1b,demud901
+info,ump2b,estam901
+info,ump3b,basnt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,speaa701
+info,temp,67
+info,winddir,fromcf
+info,windspeed,11
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,158
+info,attendance,37559
+info,wp,daviz001
+info,lp,hendk001
+info,save,rodrf003
+start,genns001,"Scooter Gennett",0,1,4
+start,schal001,"Logan Schafer",0,2,8
+start,linda001,"Adam Lind",0,3,3
+start,davik003,"Khris Davis",0,4,7
+start,santd002,"Domingo Santana",0,5,9
+start,seguj002,"Jean Segura",0,6,6
+start,sardl001,"Luis Sardinas",0,7,5
+start,maldm001,"Martin Maldonado",0,8,2
+start,daviz001,"Zach Davies",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,montm001,"Miguel Montero",1,6,2
+start,baezj001,"Javier Baez",1,7,4
+start,russa002,"Addison Russell",1,8,6
+start,hendk001,"Kyle Hendricks",1,9,1
+play,1,0,genns001,01,CX,13/G-
+play,1,0,schal001,12,BSCFFS,K23
+play,1,0,linda001,01,CX,63/G
+play,1,1,fowld001,22,SBBFFX,43/G
+play,1,1,schwk001,11,BFX,13/G
+play,1,1,bryak001,22,BCCBFFX,143/G
+play,2,0,davik003,12,CFBX,63/G
+play,2,0,santd002,22,CBBCFS,K
+play,2,0,seguj002,00,X,63/G
+play,2,1,rizza001,21,BFBX,3/G
+play,2,1,solej001,10,BX,S8/G
+play,2,1,montm001,12,CCBS,K
+play,2,1,baezj001,22,C*B1TBX,S6/G/MREV.1-2
+com,"replay,2,baezj001,CHN,demud901,CHI11,,Y,M,CHN,C"
+com,"$when Javier Baez was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,2,1,russa002,11,CBX,7/L-
+play,3,0,sardl001,32,BCBBCX,7/L-
+play,3,0,maldm001,11,CBX,53/G
+play,3,0,daviz001,12,CCBS,K
+play,3,1,hendk001,12,BFCX,6/L
+play,3,1,fowld001,22,CFBBX,43/G
+play,3,1,schwk001,11,CBX,63/G
+play,4,0,genns001,22,BFBFFX,63/G
+play,4,0,schal001,11,BFX,6/L
+play,4,0,linda001,02,CSFS,K
+play,4,1,bryak001,32,CSBBBX,3/P3F
+play,4,1,rizza001,12,CCFFFFBS,K
+play,4,1,solej001,22,CBSBS,K
+play,5,0,davik003,12,CFFBS,K
+play,5,0,santd002,22,BCBFS,K
+play,5,0,seguj002,11,CBX,S6/G
+play,5,0,sardl001,11,11F11B*B,SB2
+play,5,0,sardl001,21,11F11B*B.X,S7/G.2-H;B-2(TH)
+play,5,0,maldm001,00,X,9/L-
+play,5,1,montm001,32,CFBBBB,W
+play,5,1,baezj001,02,CSX,4/P
+play,5,1,russa002,11,SBX,53/G-.1-2
+play,5,1,hendk001,00,X,43/G
+play,6,0,daviz001,02,SCS,K
+play,6,0,genns001,02,SFT,K
+play,6,0,schal001,10,BX,9/L
+play,6,1,fowld001,11,BFX,9/F
+play,6,1,schwk001,22,SBCFBC,K
+play,6,1,bryak001,11,BSX,63/G
+play,7,0,linda001,21,BBFX,D7/F
+play,7,0,davik003,00,X,S9/L.2-H
+play,7,0,santd002,00,,NP
+sub,grimj002,"Justin Grimm",1,9,1
+play,7,0,santd002,32,.BB>F*BF*B,W.1-2
+play,7,0,seguj002,12,*BFFS,K
+play,7,0,sardl001,30,*BBB+2B,W.2-3;1-2
+play,7,0,maldm001,02,CSX,7/L/SF.3-H;2-3
+play,7,0,daviz001,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,7,0,rogej002,30,.B*BBB,W.1-2
+play,7,0,genns001,00,,NP
+sub,rossz001,"Zach Rosscup",1,9,1
+play,7,0,genns001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,11
+play,7,0,pereh001,12,..CBSFFX,5(2)/FO/G.1-2
+play,7,1,rizza001,00,,NP
+sub,pereh001,"Hernan Perez",0,1,5
+play,7,1,rizza001,00,,NP
+sub,sardl001,"Luis Sardinas",0,7,4
+play,7,1,rizza001,00,,NP
+sub,smitw002,"Will Smith",0,9,1
+play,7,1,rizza001,22,...CCFBFFBFFX,43/G
+play,7,1,solej001,00,X,HR/78/L
+play,7,1,montm001,00,,NP
+sub,casts001,"Starlin Castro",1,6,11
+play,7,1,casts001,12,.BFSX,8/F
+play,7,1,baezj001,22,BBCFFS,K
+play,8,0,schal001,00,,NP
+sub,schwk001,"Kyle Schwarber",1,2,2
+play,8,0,schal001,00,,NP
+sub,bryak001,"Kris Bryant",1,3,7
+play,8,0,schal001,00,,NP
+sub,casts001,"Starlin Castro",1,6,4
+play,8,0,schal001,00,,NP
+sub,baezj001,"Javier Baez",1,7,5
+play,8,0,schal001,00,....X,7/F
+play,8,0,linda001,32,BBCFBX,6/P
+play,8,0,davik003,00,,NP
+sub,ramin001,"Neil Ramirez",1,9,1
+play,8,0,davik003,10,.BX,8/F
+play,8,1,russa002,00,,NP
+sub,jeffj001,"Jeremy Jeffress",0,4,1
+play,8,1,russa002,00,,NP
+sub,petes002,"Shane Peterson",0,9,7
+play,8,1,russa002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,11
+play,8,1,lastt001,32,...BBFBFX,S7/L
+play,8,1,ramin001,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,11
+play,8,1,coghc001,01,.CX,46(1)3/GDP
+play,8,1,fowld001,21,CBBX,63/G
+play,9,0,santd002,00,,NP
+sub,cahit001,"Trevor Cahill",1,1,1
+play,9,0,santd002,00,,NP
+sub,bryak001,"Kris Bryant",1,3,8
+play,9,0,santd002,00,,NP
+sub,baezj001,"Javier Baez",1,7,6
+play,9,0,santd002,00,,NP
+sub,lastt001,"Tommy La Stella",1,8,5
+play,9,0,santd002,00,,NP
+sub,coghc001,"Chris Coghlan",1,9,7
+play,9,0,santd002,31,.....CBBBB,W
+play,9,0,seguj002,01,C>X,13/G-.1-2
+play,9,0,sardl001,00,,NP
+sub,rondh001,"Hector Rondon",1,1,1
+play,9,0,sardl001,10,.BX,13/G.2-3
+play,9,0,maldm001,00,X,S7/G+.3-H
+play,9,0,petes002,00,X,S8/G.1-3
+play,9,0,pereh001,12,BCF>S,K
+play,9,1,schwk001,00,,NP
+sub,rodrf003,"Francisco Rodriguez",0,4,1
+play,9,1,schwk001,02,.FLFS,K23
+play,9,1,bryak001,10,BX,53/G+/MREV
+com,"replay,9,bryak001,CHN,demud901,CHI11,,N,M,CHN,C"
+com,"$when Kris Bryant was called out at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,9,1,rizza001,20,BBX,5/P5F
+data,er,daviz001,0
+data,er,smitw002,1
+data,er,jeffj001,0
+data,er,rodrf003,0
+data,er,hendk001,3
+data,er,grimj002,0
+data,er,rossz001,0
+data,er,ramin001,0
+data,er,cahit001,1
+data,er,rondh001,0

@@ -1,0 +1,169 @@
+id,CHN201505160
+version,2
+info,visteam,PIT
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/05/16
+info,number,0
+info,starttime,3:05PM
+info,daynight,day
+info,usedh,false
+info,umphome,segac901
+info,ump1b,fairc901
+info,ump2b,joycj901
+info,ump3b,pattm903
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,79
+info,winddir,torf
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,185
+info,attendance,38883
+info,wp,lestj001
+info,lp,coleg001
+info,save,woodt004
+start,harrj002,"Josh Harrison",0,1,5
+start,walkn001,"Neil Walker",0,2,4
+start,mccua001,"Andrew McCutchen",0,3,8
+start,marts002,"Starling Marte",0,4,7
+start,kangj001,"Jung Ho Kang",0,5,6
+start,hartc001,"Corey Hart",0,6,3
+start,rodrs002,"Sean Rodriguez",0,7,9
+start,stewc001,"Chris Stewart",0,8,2
+start,coleg001,"Gerrit Cole",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,bryak001,"Kris Bryant",1,2,5
+start,rizza001,"Anthony Rizzo",1,3,3
+start,casts001,"Starlin Castro",1,4,6
+start,coghc001,"Chris Coghlan",1,5,7
+start,solej001,"Jorge Soler",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,harrj002,12,CSFBX,4/P
+play,1,0,walkn001,12,CCBS,K
+play,1,0,mccua001,11,CBX,7/F
+play,1,1,fowld001,21,BTBX,7/F
+play,1,1,bryak001,01,CX,S9/L
+play,1,1,rizza001,00,X,S9/L.1-3
+play,1,1,casts001,10,B>X,8/F/SF.3-H
+play,1,1,coghc001,30,BBB>C,SB2
+play,1,1,coghc001,32,BBB>C.FX,43/G
+play,2,0,marts002,01,CX,8/F
+play,2,0,kangj001,21,CBBX,S7/G
+play,2,0,hartc001,00,X,54(1)3/GDP
+play,2,1,solej001,00,X,S9/G
+play,2,1,rossd001,10,B1X,53/G-.1-2
+play,2,1,lestj001,12,CLBFFT,K
+play,2,1,russa002,32,BC*BCFFFBFC,K
+play,3,0,rodrs002,00,X,HR/78/F
+play,3,0,stewc001,32,CBBFBB,W
+play,3,0,coleg001,10,BX,34/BG/SH.1-2
+play,3,0,harrj002,11,SBX,6/L
+play,3,0,walkn001,22,CCFBBX,13/G
+play,3,1,fowld001,20,BBX,S8/L
+play,3,1,bryak001,22,CCFB11*B>B,CS2(24)/MREV
+com,"replay,3,bryak001,CHN,joycj901,CHI11,,N,M,CHN,A"
+com,"$when Dexter Fowler was called out at 2B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,3,1,bryak001,32,CCFB11*B>B.FB,W
+play,3,1,rizza001,02,SCX,S9/L.1-3
+play,3,1,casts001,10,BX,54(1)/FO/G.3-H
+play,3,1,coghc001,01,C>S,SB2.1-3(E2/TH)
+play,3,1,coghc001,22,C>S.*BFBC,K
+play,4,0,mccua001,00,X,53/G
+play,4,0,marts002,12,CCBX,S5/G-
+play,4,0,kangj001,00,>B,SB2
+play,4,0,kangj001,22,>B.BTCFX,S9/L-.2-3
+play,4,0,hartc001,12,C>F*B*B,SB2
+play,4,0,hartc001,22,C>F*B*B.S,K
+play,4,0,rodrs002,32,BBS*BCC,K
+play,4,1,solej001,12,CCBC,K
+play,4,1,rossd001,22,SCBFBC,K
+play,4,1,lestj001,12,FCBC,K
+play,5,0,stewc001,12,CCBX,63/G
+play,5,0,coleg001,21,BBSX,S9/G
+play,5,0,harrj002,00,X,S9/G.1-2
+play,5,0,walkn001,00,X,4/L-
+play,5,0,mccua001,11,*BSX,63/G
+play,5,1,russa002,12,FCFBX,E3/G+
+play,5,1,fowld001,21,CB1BX,16(1)3/GDP
+play,5,1,bryak001,12,SBSX,S8/G
+play,5,1,rizza001,12,BSCX,1/G
+play,6,0,marts002,22,SFBBX,D7/L+
+play,6,0,kangj001,22,CCBBX,53/G
+play,6,0,hartc001,12,SB>FS,K
+play,6,0,rodrs002,02,FSS,K
+play,6,1,casts001,00,,NP
+sub,polag001,"Gregory Polanco",0,6,9
+play,6,1,casts001,00,,NP
+sub,rodrs002,"Sean Rodriguez",0,7,3
+play,6,1,casts001,32,..BBBCCX,8/F
+play,6,1,coghc001,02,FFS,K
+play,6,1,solej001,32,BBFCBX,S8/L
+play,6,1,rossd001,22,*BSF*BS,K
+play,7,0,stewc001,22,CFBBFFFX,53/G
+play,7,0,coleg001,00,,NP
+sub,mercj002,"Jordy Mercer",0,9,11
+play,7,0,mercj002,22,.BBCSS,K
+play,7,0,harrj002,10,BX,S4/G
+play,7,0,walkn001,01,C>X,S4/G-.1-2
+play,7,0,mccua001,02,SFB,WP.2-3
+play,7,0,mccua001,12,SFB.C,K
+play,7,1,lestj001,00,,NP
+sub,camia001,"Arquimedes Caminero",0,9,1
+play,7,1,lestj001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,02,..CCFS,K
+play,7,1,russa002,31,FBBBB,W
+play,7,1,fowld001,22,1BF1FB>B,SB2.1-3(E2/TH)
+play,7,1,fowld001,32,1BF1FB>B.B,W
+play,7,1,bryak001,10,BB,WP.3-H(NR);1-2
+play,7,1,bryak001,21,BB.CN,BK.2-3
+play,7,1,bryak001,31,BB.CN.B*B,W
+play,7,1,rizza001,01,FX,7/F/SF.3-H
+play,7,1,casts001,20,BBX,2/P2F
+play,8,0,marts002,00,,NP
+sub,schlb001,"Brian Schlitter",1,8,1
+play,8,0,marts002,01,.CX,S9/L
+play,8,0,kangj001,11,BCX,D7/L+.1-3
+play,8,0,polag001,00,,NP
+sub,cokep001,"Phil Coke",1,8,1
+play,8,0,polag001,01,.CX,13/G
+play,8,0,rodrs002,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,8,0,rodrs002,00,,NP
+sub,alvap001,"Pedro Alvarez",0,7,11
+play,8,0,alvap001,32,..CBFBBT,K
+play,8,0,stewc001,12,CCBX,9/L
+play,8,1,coghc001,00,,NP
+sub,alvap001,"Pedro Alvarez",0,7,3
+play,8,1,coghc001,00,,NP
+sub,basta001,"Antonio Bastardo",0,9,1
+play,8,1,coghc001,00,..X,8/F
+play,8,1,solej001,12,CFBH,HP
+play,8,1,rossd001,02,CSX,S8/L.1-2
+play,8,1,mottj001,00,,NP
+sub,castw002,"Welington Castillo",1,8,11
+play,8,1,castw002,12,.BFCC,K
+play,8,1,russa002,22,BBCSS,K
+play,9,0,basta001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,9,0,basta001,00,,NP
+sub,cervf001,"Francisco Cervelli",0,9,11
+play,9,0,cervf001,10,..BX,9/F
+play,9,0,harrj002,32,BFBBFX,6/P
+play,9,0,walkn001,01,CX,8/L
+data,er,coleg001,2
+data,er,camia001,2
+data,er,basta001,0
+data,er,lestj001,1
+data,er,schlb001,0
+data,er,cokep001,0
+data,er,mottj001,0
+data,er,woodt004,0

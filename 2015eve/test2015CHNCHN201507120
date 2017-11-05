@@ -1,0 +1,372 @@
+id,CHN201507120
+version,2
+info,visteam,CHA
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/12
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,everm901
+info,ump1b,hallt901
+info,ump2b,belld901
+info,ump3b,marqa901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,74
+info,winddir,fromrf
+info,windspeed,10
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,138
+info,attendance,41688
+info,wp,arrij001
+info,lp,quinj001
+info,save,
+start,eatoa002,"Adam Eaton",0,1,8
+start,salat001,"Tyler Saladino",0,2,5
+start,cabrm002,"Melky Cabrera",0,3,7
+start,garca003,"Avisail Garcia",0,4,9
+start,laroa001,"Adam LaRoche",0,5,3
+start,ramia003,"Alexei Ramirez",0,6,6
+start,flowt001,"Tyler Flowers",0,7,2
+start,sancc001,"Carlos Sanchez",0,8,4
+start,quinj001,"Jose Quintana",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,arrij001,"Jake Arrieta",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,eatoa002,02,FSS,K23
+play,1,0,salat001,12,CCBT,K
+play,1,0,cabrm002,12,CBFS,K
+play,1,1,fowld001,00,X,S8/L
+play,1,1,rizza001,02,S1CX,7/L
+play,1,1,bryak001,00,1X,T7/G.1-H
+play,1,1,solej001,00,X,S7/L.3-H
+play,1,1,denoc001,32,BCS1BB>X,46(1)3/GDP
+play,2,0,garca003,10,BX,8/F
+play,2,0,laroa001,12,BFCX,6/P
+play,2,0,ramia003,02,CFS,K
+play,2,1,casts001,00,X,53/G
+play,2,1,teagt001,32,CBFFBBFFFX,9/F
+play,2,1,arrij001,22,BFCBS,K
+play,3,0,flowt001,22,BCBSS,K
+play,3,0,sancc001,32,BCBFBFX,53/G
+play,3,0,quinj001,02,CCS,K
+play,3,1,russa002,12,CCBS,K
+play,3,1,fowld001,12,SFBX,S6/G
+play,3,1,rizza001,22,BBSSF1H,HP.1-2
+play,3,1,bryak001,22,CFBBS,K
+play,3,1,solej001,22,CBF*BS,K
+play,4,0,eatoa002,32,BBBCCX,63/G
+play,4,0,salat001,10,BX,S9/G
+play,4,0,cabrm002,12,B1C1F1X,7/L
+play,4,0,garca003,00,X,43/G
+play,4,1,denoc001,01,CX,7/F
+play,4,1,casts001,02,CCS,K
+play,4,1,teagt001,00,X,4/L
+play,5,0,laroa001,00,X,53/G
+play,5,0,ramia003,10,BX,4/L
+play,5,0,flowt001,02,CCFX,53/G
+play,5,1,arrij001,02,SSX,HR/7/L
+play,5,1,russa002,32,CSBBFBX,8/F
+play,5,1,fowld001,12,CBFS,K
+play,5,1,rizza001,00,X,7/F
+play,6,0,sancc001,21,BBCX,D7/L
+play,6,0,quinj001,12,MSBX,13/G-.2-3
+play,6,0,eatoa002,21,BBCX,13/BG/SH.3-H
+play,6,0,salat001,00,X,43/G
+play,6,1,bryak001,12,FBSS,K
+play,6,1,solej001,22,CBSBC,K
+play,6,1,denoc001,22,CBFBS,K
+play,7,0,cabrm002,12,BFFX,7/F
+play,7,0,garca003,32,BBCFBX,63/G
+play,7,0,laroa001,01,CX,31/G
+play,7,1,casts001,02,CFX,2/G-
+play,7,1,teagt001,10,BX,S9/G
+play,7,1,arrij001,01,LX,34/BG/SH.1-2
+play,7,1,russa002,01,CX,63/G
+play,8,0,ramia003,02,CFX,31/G
+play,8,0,flowt001,00,,NP
+sub,gillc001,"Conor Gillaspie",0,7,11
+play,8,0,gillc001,10,.BX,7/F
+play,8,0,sancc001,31,BBFBX,4/P
+play,8,1,fowld001,00,,NP
+sub,sotog001,"Geovany Soto",0,7,2
+play,8,1,fowld001,01,.CX,S8/L
+play,8,1,rizza001,02,CF1X,S8/L/MREV.1X3(85)
+com,"replay,8,rizza001,CHN,hallt901,CHI11,,N,M,CHN,A"
+com,"$when Dexter Fowler was called out at 3B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,8,1,bryak001,00,,NP
+sub,putnz001,"Zach Putnam",0,9,1
+play,8,1,bryak001,00,.H,HP.1-2
+play,8,1,solej001,02,CSC,K
+play,8,1,denoc001,01,CX,8/F
+play,9,0,putnz001,00,,NP
+sub,bonie001,"Emilio Bonifacio",0,9,11
+play,9,0,bonie001,32,.BSBSBS,K
+play,9,0,eatoa002,12,FFFFFBC,K
+play,9,0,salat001,00,,NP
+sub,shucj001,"J.B. Shuck",0,2,11
+play,9,0,shucj001,02,.CFS,K
+data,er,quinj001,3
+data,er,putnz001,0
+data,er,arrij001,1
+id,CHN201507120
+version,2
+info,visteam,CHA
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/12
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,everm901
+info,ump1b,hallt901
+info,ump2b,belld901
+info,ump3b,marqa901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,74
+info,winddir,fromrf
+info,windspeed,10
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,138
+info,attendance,41688
+info,wp,arrij001
+info,lp,quinj001
+info,save,
+start,eatoa002,"Adam Eaton",0,1,8
+start,salat001,"Tyler Saladino",0,2,5
+start,cabrm002,"Melky Cabrera",0,3,7
+start,garca003,"Avisail Garcia",0,4,9
+start,laroa001,"Adam LaRoche",0,5,3
+start,ramia003,"Alexei Ramirez",0,6,6
+start,flowt001,"Tyler Flowers",0,7,2
+start,sancc001,"Carlos Sanchez",0,8,4
+start,quinj001,"Jose Quintana",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,arrij001,"Jake Arrieta",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,eatoa002,02,FSS,K23
+play,1,0,salat001,12,CCBT,K
+play,1,0,cabrm002,12,CBFS,K
+play,1,1,fowld001,00,X,S8/L
+play,1,1,rizza001,02,S1CX,7/L
+play,1,1,bryak001,00,1X,T7/G.1-H
+play,1,1,solej001,00,X,S7/L.3-H
+play,1,1,denoc001,32,BCS1BB>X,46(1)3/GDP
+play,2,0,garca003,10,BX,8/F
+play,2,0,laroa001,12,BFCX,6/P
+play,2,0,ramia003,02,CFS,K
+play,2,1,casts001,00,X,53/G
+play,2,1,teagt001,32,CBFFBBFFFX,9/F
+play,2,1,arrij001,22,BFCBS,K
+play,3,0,flowt001,22,BCBSS,K
+play,3,0,sancc001,32,BCBFBFX,53/G
+play,3,0,quinj001,02,CCS,K
+play,3,1,russa002,12,CCBS,K
+play,3,1,fowld001,12,SFBX,S6/G
+play,3,1,rizza001,22,BBSSF1H,HP.1-2
+play,3,1,bryak001,22,CFBBS,K
+play,3,1,solej001,22,CBF*BS,K
+play,4,0,eatoa002,32,BBBCCX,63/G
+play,4,0,salat001,10,BX,S9/G
+play,4,0,cabrm002,12,B1C1F1X,7/L
+play,4,0,garca003,00,X,43/G
+play,4,1,denoc001,01,CX,7/F
+play,4,1,casts001,02,CCS,K
+play,4,1,teagt001,00,X,4/L
+play,5,0,laroa001,00,X,53/G
+play,5,0,ramia003,10,BX,4/L
+play,5,0,flowt001,02,CCFX,53/G
+play,5,1,arrij001,02,SSX,HR/7/L
+play,5,1,russa002,32,CSBBFBX,8/F
+play,5,1,fowld001,12,CBFS,K
+play,5,1,rizza001,00,X,7/F
+play,6,0,sancc001,21,BBCX,D7/L
+play,6,0,quinj001,12,MSBX,13/G-.2-3
+play,6,0,eatoa002,21,BBCX,13/BG/SH.3-H
+play,6,0,salat001,00,X,43/G
+play,6,1,bryak001,12,FBSS,K
+play,6,1,solej001,22,CBSBC,K
+play,6,1,denoc001,22,CBFBS,K
+play,7,0,cabrm002,12,BFFX,7/F
+play,7,0,garca003,32,BBCFBX,63/G
+play,7,0,laroa001,01,CX,31/G
+play,7,1,casts001,02,CFX,2/G-
+play,7,1,teagt001,10,BX,S9/G
+play,7,1,arrij001,01,LX,34/BG/SH.1-2
+play,7,1,russa002,01,CX,63/G
+play,8,0,ramia003,02,CFX,31/G
+play,8,0,flowt001,00,,NP
+sub,gillc001,"Conor Gillaspie",0,7,11
+play,8,0,gillc001,10,.BX,7/F
+play,8,0,sancc001,31,BBFBX,4/P
+play,8,1,fowld001,00,,NP
+sub,sotog001,"Geovany Soto",0,7,2
+play,8,1,fowld001,01,.CX,S8/L
+play,8,1,rizza001,02,CF1X,S8/L/MREV.1X3(85)
+com,"replay,8,rizza001,CHN,hallt901,CHI11,,N,M,CHN,A"
+com,"$when Dexter Fowler was called out at 3B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,8,1,bryak001,00,,NP
+sub,putnz001,"Zach Putnam",0,9,1
+play,8,1,bryak001,00,.H,HP.1-2
+play,8,1,solej001,02,CSC,K
+play,8,1,denoc001,01,CX,8/F
+play,9,0,putnz001,00,,NP
+sub,bonie001,"Emilio Bonifacio",0,9,11
+play,9,0,bonie001,32,.BSBSBS,K
+play,9,0,eatoa002,12,FFFFFBC,K
+play,9,0,salat001,00,,NP
+sub,shucj001,"J.B. Shuck",0,2,11
+play,9,0,shucj001,02,.CFS,K
+data,er,quinj001,3
+data,er,putnz001,0
+data,er,arrij001,1
+id,CHN201507120
+version,2
+info,visteam,CHA
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/12
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,everm901
+info,ump1b,hallt901
+info,ump2b,belld901
+info,ump3b,marqa901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,74
+info,winddir,fromrf
+info,windspeed,10
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,138
+info,attendance,41688
+info,wp,arrij001
+info,lp,quinj001
+info,save,
+start,eatoa002,"Adam Eaton",0,1,8
+start,salat001,"Tyler Saladino",0,2,5
+start,cabrm002,"Melky Cabrera",0,3,7
+start,garca003,"Avisail Garcia",0,4,9
+start,laroa001,"Adam LaRoche",0,5,3
+start,ramia003,"Alexei Ramirez",0,6,6
+start,flowt001,"Tyler Flowers",0,7,2
+start,sancc001,"Carlos Sanchez",0,8,4
+start,quinj001,"Jose Quintana",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,arrij001,"Jake Arrieta",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,eatoa002,02,FSS,K23
+play,1,0,salat001,12,CCBT,K
+play,1,0,cabrm002,12,CBFS,K
+play,1,1,fowld001,00,X,S8/L
+play,1,1,rizza001,02,S1CX,7/L
+play,1,1,bryak001,00,1X,T7/G.1-H
+play,1,1,solej001,00,X,S7/L.3-H
+play,1,1,denoc001,32,BCS1BB>X,46(1)3/GDP
+play,2,0,garca003,10,BX,8/F
+play,2,0,laroa001,12,BFCX,6/P
+play,2,0,ramia003,02,CFS,K
+play,2,1,casts001,00,X,53/G
+play,2,1,teagt001,32,CBFFBBFFFX,9/F
+play,2,1,arrij001,22,BFCBS,K
+play,3,0,flowt001,22,BCBSS,K
+play,3,0,sancc001,32,BCBFBFX,53/G
+play,3,0,quinj001,02,CCS,K
+play,3,1,russa002,12,CCBS,K
+play,3,1,fowld001,12,SFBX,S6/G
+play,3,1,rizza001,22,BBSSF1H,HP.1-2
+play,3,1,bryak001,22,CFBBS,K
+play,3,1,solej001,22,CBF*BS,K
+play,4,0,eatoa002,32,BBBCCX,63/G
+play,4,0,salat001,10,BX,S9/G
+play,4,0,cabrm002,12,B1C1F1X,7/L
+play,4,0,garca003,00,X,43/G
+play,4,1,denoc001,01,CX,7/F
+play,4,1,casts001,02,CCS,K
+play,4,1,teagt001,00,X,4/L
+play,5,0,laroa001,00,X,53/G
+play,5,0,ramia003,10,BX,4/L
+play,5,0,flowt001,02,CCFX,53/G
+play,5,1,arrij001,02,SSX,HR/7/L
+play,5,1,russa002,32,CSBBFBX,8/F
+play,5,1,fowld001,12,CBFS,K
+play,5,1,rizza001,00,X,7/F
+play,6,0,sancc001,21,BBCX,D7/L
+play,6,0,quinj001,12,MSBX,13/G-.2-3
+play,6,0,eatoa002,21,BBCX,13/BG/SH.3-H
+play,6,0,salat001,00,X,43/G
+play,6,1,bryak001,12,FBSS,K
+play,6,1,solej001,22,CBSBC,K
+play,6,1,denoc001,22,CBFBS,K
+play,7,0,cabrm002,12,BFFX,7/F
+play,7,0,garca003,32,BBCFBX,63/G
+play,7,0,laroa001,01,CX,31/G
+play,7,1,casts001,02,CFX,2/G-
+play,7,1,teagt001,10,BX,S9/G
+play,7,1,arrij001,01,LX,34/BG/SH.1-2
+play,7,1,russa002,01,CX,63/G
+play,8,0,ramia003,02,CFX,31/G
+play,8,0,flowt001,00,,NP
+sub,gillc001,"Conor Gillaspie",0,7,11
+play,8,0,gillc001,10,.BX,7/F
+play,8,0,sancc001,31,BBFBX,4/P
+play,8,1,fowld001,00,,NP
+sub,sotog001,"Geovany Soto",0,7,2
+play,8,1,fowld001,01,.CX,S8/L
+play,8,1,rizza001,02,CF1X,S8/L/MREV.1X3(85)
+com,"replay,8,rizza001,CHN,hallt901,CHI11,,N,M,CHN,A"
+com,"$when Dexter Fowler was called out at 3B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was upheld by replay"
+play,8,1,bryak001,00,,NP
+sub,putnz001,"Zach Putnam",0,9,1
+play,8,1,bryak001,00,.H,HP.1-2
+play,8,1,solej001,02,CSC,K
+play,8,1,denoc001,01,CX,8/F
+play,9,0,putnz001,00,,NP
+sub,bonie001,"Emilio Bonifacio",0,9,11
+play,9,0,bonie001,32,.BSBSBS,K
+play,9,0,eatoa002,12,FFFFFBC,K
+play,9,0,salat001,00,,NP
+sub,shucj001,"J.B. Shuck",0,2,11
+play,9,0,shucj001,02,.CFS,K
+data,er,quinj001,3
+data,er,putnz001,0
+data,er,arrij001,1

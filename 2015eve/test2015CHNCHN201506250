@@ -1,0 +1,570 @@
+id,CHN201506250
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/25
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,bakej902
+info,ump2b,emmep901
+info,ump3b,mealj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,73
+info,winddir,rtol
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,177
+info,attendance,41498
+info,wp,friac001
+info,lp,lestj001
+info,save,
+start,herne001,"Enrique Hernandez",0,1,8
+start,rollj001,"Jimmy Rollins",0,2,6
+start,turnj001,"Justin Turner",0,3,3
+start,vanss001,"Scott Van Slyke",0,4,9
+start,kendh001,"Howie Kendrick",0,5,4
+start,guera001,"Alex Guerrero",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,ellia001,"A.J. Ellis",0,8,2
+start,friac001,"Carlos Frias",0,9,1
+start,denoc001,"Chris Denorfia",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,russa002,"Addison Russell",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,herne001,02,FCS,K
+play,1,0,rollj001,00,X,S5/BG
+play,1,0,turnj001,31,BCBBB,W.1-2
+play,1,0,vanss001,31,BBBC>B,W.2-3;1-2
+play,1,0,kendh001,10,BX,D9/L+.3-H;2-H;1-3
+play,1,0,guera001,02,CFS,K
+play,1,0,calla001,22,BFBFC,K
+play,1,1,denoc001,32,BCBSBX,53/G
+play,1,1,rizza001,00,X,D7/F
+play,1,1,bryak001,12,FBSS,K
+play,1,1,coghc001,32,BBSBCB,W
+play,1,1,russa002,10,B>X,8/F
+play,2,0,ellia001,32,CBBFBFB,W
+com,"$Jon Lester and HP Umpire Andy Fletcher exchanged"
+com,"words in a heated discussion; Fletcher walked"
+com,"half way to the mound before catcher David Ross"
+com,"stopped him"
+play,2,0,friac001,01,LX,36(1)/FO/BG
+play,2,0,herne001,12,BCFX,T8/L.1-H
+play,2,0,rollj001,10,PX,S8/L-.3-H
+play,2,0,turnj001,11,BCX,8/L
+play,2,0,vanss001,31,BBBCB,W.1-2
+play,2,0,kendh001,01,C>B,CS3(25)
+play,2,1,baxtm001,30,BBBB,W
+play,2,1,rossd001,12,CFFBS,K
+play,2,1,lestj001,11,BC>X,6(1)3/GDP
+play,3,0,kendh001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,3,0,kendh001,00,,NP
+sub,szczm001,"Matt Szczur",1,3,8
+play,3,0,kendh001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,3,0,kendh001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,5
+play,3,0,kendh001,12,....FFBFFX,63/G
+play,3,0,guera001,12,CBSX,3/G-
+play,3,0,calla001,22,FBBSC,K
+play,3,1,herrj002,01,CX,S7/G
+play,3,1,denoc001,02,1LFX,54(1)3/GDP
+play,3,1,rizza001,01,CX,S9/L-
+play,3,1,szczm001,22,CS>F1B*BX,64(1)/FO/G
+play,4,0,ellia001,00,X,9/F
+play,4,0,friac001,22,MSBBS,K
+play,4,0,herne001,22,BCSBX,53/G
+play,4,1,coghc001,32,CCBBFFFFBB,W
+play,4,1,russa002,02,FFFS,K
+play,4,1,baxtm001,10,BX,4/L
+play,4,1,rossd001,11,BSX,S7/L.1-2
+play,4,1,lestj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,4,1,montm001,00,.X,S7/L-.2XH(72);1-2
+play,5,0,rollj001,00,,NP
+sub,jacke001,"Edwin Jackson",1,7,1
+play,5,0,rollj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,5,0,rollj001,11,..CBX,4/L
+play,5,0,turnj001,02,CFX,63/G
+play,5,0,vanss001,02,FSC,K
+play,5,1,herrj002,11,CBX,63/G-
+play,5,1,denoc001,12,FBCX,S3/L-
+play,5,1,rizza001,10,BX,D8/F.1-3
+play,5,1,szczm001,12,BFFC,K
+play,5,1,coghc001,32,CCBB*BS,K
+play,6,0,kendh001,20,BBX,9/F
+play,6,0,guera001,32,BCFBBX,S7/L
+play,6,0,calla001,22,B11CBFFT,K
+play,6,0,ellia001,31,11BCB1BB,W.1-2
+play,6,0,friac001,00,,NP
+sub,gonza003,"Adrian Gonzalez",0,9,11
+play,6,0,gonza003,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,8
+play,6,0,gonza003,00,,NP
+sub,russj003,"James Russell",1,3,1
+play,6,0,gonza003,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,7
+play,6,0,gonza003,00,,NP
+sub,russa002,"Addison Russell",1,5,4
+play,6,0,gonza003,00,,NP
+sub,casts001,"Starlin Castro",1,7,6
+play,6,0,gonza003,01,......CX,31/G
+play,6,1,russa002,00,,NP
+sub,herne001,"Enrique Hernandez",0,1,7
+play,6,1,russa002,00,,NP
+sub,pedej001,"Joc Pederson",0,9,8
+play,6,1,russa002,00,,NP
+sub,peraj002,"Joel Peralta",0,6,1
+play,6,1,russa002,11,...FBX,2/P2F
+play,6,1,baxtm001,12,FBSX,9/F
+play,6,1,casts001,00,X,9/F
+play,7,0,herne001,00,,NP
+sub,mediy001,"Yoervis Medina",1,3,1
+play,7,0,herne001,01,.CX,63/G
+play,7,0,rollj001,31,BFBBX,7/F
+play,7,0,turnj001,21,BBFX,T7/F/UREV
+com,"replay,7,turnj001,LAN,mealj901,CHI11,,Y,U,,H"
+com,"$Justin Turner's fly to LF struck the yellow stripe"
+com,"on the top of the basket; the ball was ruled a home"
+com,"run; crew chief Jerry Meals requested a review,"
+com,"which overturned the homer to a ball in play"
+play,7,0,vanss001,00,X,8/F
+play,7,1,montm001,00,,NP
+sub,howej003,"J.P. Howell",0,4,1
+play,7,1,montm001,00,,NP
+sub,ethia001,"Andre Ethier",0,6,9
+play,7,1,montm001,00,..X,43/G
+play,7,1,herrj002,11,CBX,53/G
+play,7,1,denoc001,22,FBBCFX,D8/F
+play,7,1,rizza001,02,CFX,8/F
+play,8,0,kendh001,22,BCFBFFS,K
+play,8,0,ethia001,12,BSSS,K23
+play,8,0,calla001,21,BBFX,31/G
+play,8,1,mediy001,00,,NP
+sub,garcy001,"Yimi Garcia",0,4,1
+play,8,1,mediy001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,11
+play,8,1,fowld001,22,..BBSTFFS,K
+play,8,1,coghc001,21,CBBX,5/P
+play,8,1,russa002,12,BSFS,K
+play,9,0,ellia001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,ellia001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,8
+play,9,0,ellia001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,9,0,ellia001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,ellia001,11,....CBX,53/G
+play,9,0,pedej001,32,BCBBC*B,W
+play,9,0,herne001,01,FX,8/F/DP.1X1(863)
+play,9,1,baxtm001,00,,NP
+sub,jansk001,"Kenley Jansen",0,4,1
+play,9,1,baxtm001,22,.CBFBFX,5/P
+play,9,1,casts001,32,BBCBCX,2/P2F
+play,9,1,montm001,12,SFBS,K
+data,er,friac001,0
+data,er,peraj002,0
+data,er,howej003,0
+data,er,garcy001,0
+data,er,jansk001,0
+data,er,lestj001,4
+data,er,jacke001,0
+data,er,russj003,0
+data,er,mediy001,0
+data,er,rondh001,0
+id,CHN201506250
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/25
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,bakej902
+info,ump2b,emmep901
+info,ump3b,mealj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,73
+info,winddir,rtol
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,177
+info,attendance,41498
+info,wp,friac001
+info,lp,lestj001
+info,save,
+start,herne001,"Enrique Hernandez",0,1,8
+start,rollj001,"Jimmy Rollins",0,2,6
+start,turnj001,"Justin Turner",0,3,3
+start,vanss001,"Scott Van Slyke",0,4,9
+start,kendh001,"Howie Kendrick",0,5,4
+start,guera001,"Alex Guerrero",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,ellia001,"A.J. Ellis",0,8,2
+start,friac001,"Carlos Frias",0,9,1
+start,denoc001,"Chris Denorfia",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,russa002,"Addison Russell",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,herne001,02,FCS,K
+play,1,0,rollj001,00,X,S5/BG
+play,1,0,turnj001,31,BCBBB,W.1-2
+play,1,0,vanss001,31,BBBC>B,W.2-3;1-2
+play,1,0,kendh001,10,BX,D9/L+.3-H;2-H;1-3
+play,1,0,guera001,02,CFS,K
+play,1,0,calla001,22,BFBFC,K
+play,1,1,denoc001,32,BCBSBX,53/G
+play,1,1,rizza001,00,X,D7/F
+play,1,1,bryak001,12,FBSS,K
+play,1,1,coghc001,32,BBSBCB,W
+play,1,1,russa002,10,B>X,8/F
+play,2,0,ellia001,32,CBBFBFB,W
+com,"$Jon Lester and HP Umpire Andy Fletcher exchanged"
+com,"words in a heated discussion; Fletcher walked"
+com,"half way to the mound before catcher David Ross"
+com,"stopped him"
+play,2,0,friac001,01,LX,36(1)/FO/BG
+play,2,0,herne001,12,BCFX,T8/L.1-H
+play,2,0,rollj001,10,PX,S8/L-.3-H
+play,2,0,turnj001,11,BCX,8/L
+play,2,0,vanss001,31,BBBCB,W.1-2
+play,2,0,kendh001,01,C>B,CS3(25)
+play,2,1,baxtm001,30,BBBB,W
+play,2,1,rossd001,12,CFFBS,K
+play,2,1,lestj001,11,BC>X,6(1)3/GDP
+play,3,0,kendh001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,3,0,kendh001,00,,NP
+sub,szczm001,"Matt Szczur",1,3,8
+play,3,0,kendh001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,3,0,kendh001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,5
+play,3,0,kendh001,12,....FFBFFX,63/G
+play,3,0,guera001,12,CBSX,3/G-
+play,3,0,calla001,22,FBBSC,K
+play,3,1,herrj002,01,CX,S7/G
+play,3,1,denoc001,02,1LFX,54(1)3/GDP
+play,3,1,rizza001,01,CX,S9/L-
+play,3,1,szczm001,22,CS>F1B*BX,64(1)/FO/G
+play,4,0,ellia001,00,X,9/F
+play,4,0,friac001,22,MSBBS,K
+play,4,0,herne001,22,BCSBX,53/G
+play,4,1,coghc001,32,CCBBFFFFBB,W
+play,4,1,russa002,02,FFFS,K
+play,4,1,baxtm001,10,BX,4/L
+play,4,1,rossd001,11,BSX,S7/L.1-2
+play,4,1,lestj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,4,1,montm001,00,.X,S7/L-.2XH(72);1-2
+play,5,0,rollj001,00,,NP
+sub,jacke001,"Edwin Jackson",1,7,1
+play,5,0,rollj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,5,0,rollj001,11,..CBX,4/L
+play,5,0,turnj001,02,CFX,63/G
+play,5,0,vanss001,02,FSC,K
+play,5,1,herrj002,11,CBX,63/G-
+play,5,1,denoc001,12,FBCX,S3/L-
+play,5,1,rizza001,10,BX,D8/F.1-3
+play,5,1,szczm001,12,BFFC,K
+play,5,1,coghc001,32,CCBB*BS,K
+play,6,0,kendh001,20,BBX,9/F
+play,6,0,guera001,32,BCFBBX,S7/L
+play,6,0,calla001,22,B11CBFFT,K
+play,6,0,ellia001,31,11BCB1BB,W.1-2
+play,6,0,friac001,00,,NP
+sub,gonza003,"Adrian Gonzalez",0,9,11
+play,6,0,gonza003,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,8
+play,6,0,gonza003,00,,NP
+sub,russj003,"James Russell",1,3,1
+play,6,0,gonza003,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,7
+play,6,0,gonza003,00,,NP
+sub,russa002,"Addison Russell",1,5,4
+play,6,0,gonza003,00,,NP
+sub,casts001,"Starlin Castro",1,7,6
+play,6,0,gonza003,01,......CX,31/G
+play,6,1,russa002,00,,NP
+sub,herne001,"Enrique Hernandez",0,1,7
+play,6,1,russa002,00,,NP
+sub,pedej001,"Joc Pederson",0,9,8
+play,6,1,russa002,00,,NP
+sub,peraj002,"Joel Peralta",0,6,1
+play,6,1,russa002,11,...FBX,2/P2F
+play,6,1,baxtm001,12,FBSX,9/F
+play,6,1,casts001,00,X,9/F
+play,7,0,herne001,00,,NP
+sub,mediy001,"Yoervis Medina",1,3,1
+play,7,0,herne001,01,.CX,63/G
+play,7,0,rollj001,31,BFBBX,7/F
+play,7,0,turnj001,21,BBFX,T7/F/UREV
+com,"replay,7,turnj001,LAN,mealj901,CHI11,,Y,U,,H"
+com,"$Justin Turner's fly to LF struck the yellow stripe"
+com,"on the top of the basket; the ball was ruled a home"
+com,"run; crew chief Jerry Meals requested a review,"
+com,"which overturned the homer to a ball in play"
+play,7,0,vanss001,00,X,8/F
+play,7,1,montm001,00,,NP
+sub,howej003,"J.P. Howell",0,4,1
+play,7,1,montm001,00,,NP
+sub,ethia001,"Andre Ethier",0,6,9
+play,7,1,montm001,00,..X,43/G
+play,7,1,herrj002,11,CBX,53/G
+play,7,1,denoc001,22,FBBCFX,D8/F
+play,7,1,rizza001,02,CFX,8/F
+play,8,0,kendh001,22,BCFBFFS,K
+play,8,0,ethia001,12,BSSS,K23
+play,8,0,calla001,21,BBFX,31/G
+play,8,1,mediy001,00,,NP
+sub,garcy001,"Yimi Garcia",0,4,1
+play,8,1,mediy001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,11
+play,8,1,fowld001,22,..BBSTFFS,K
+play,8,1,coghc001,21,CBBX,5/P
+play,8,1,russa002,12,BSFS,K
+play,9,0,ellia001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,ellia001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,8
+play,9,0,ellia001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,9,0,ellia001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,ellia001,11,....CBX,53/G
+play,9,0,pedej001,32,BCBBC*B,W
+play,9,0,herne001,01,FX,8/F/DP.1X1(863)
+play,9,1,baxtm001,00,,NP
+sub,jansk001,"Kenley Jansen",0,4,1
+play,9,1,baxtm001,22,.CBFBFX,5/P
+play,9,1,casts001,32,BBCBCX,2/P2F
+play,9,1,montm001,12,SFBS,K
+data,er,friac001,0
+data,er,peraj002,0
+data,er,howej003,0
+data,er,garcy001,0
+data,er,jansk001,0
+data,er,lestj001,4
+data,er,jacke001,0
+data,er,russj003,0
+data,er,mediy001,0
+data,er,rondh001,0
+id,CHN201506250
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/25
+info,number,0
+info,starttime,1:22PM
+info,daynight,day
+info,usedh,false
+info,umphome,fleta901
+info,ump1b,bakej902
+info,ump2b,emmep901
+info,ump3b,mealj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,73
+info,winddir,rtol
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,177
+info,attendance,41498
+info,wp,friac001
+info,lp,lestj001
+info,save,
+start,herne001,"Enrique Hernandez",0,1,8
+start,rollj001,"Jimmy Rollins",0,2,6
+start,turnj001,"Justin Turner",0,3,3
+start,vanss001,"Scott Van Slyke",0,4,9
+start,kendh001,"Howie Kendrick",0,5,4
+start,guera001,"Alex Guerrero",0,6,7
+start,calla001,"Alberto Callaspo",0,7,5
+start,ellia001,"A.J. Ellis",0,8,2
+start,friac001,"Carlos Frias",0,9,1
+start,denoc001,"Chris Denorfia",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,coghc001,"Chris Coghlan",1,4,7
+start,russa002,"Addison Russell",1,5,6
+start,baxtm001,"Mike Baxter",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,4
+play,1,0,herne001,02,FCS,K
+play,1,0,rollj001,00,X,S5/BG
+play,1,0,turnj001,31,BCBBB,W.1-2
+play,1,0,vanss001,31,BBBC>B,W.2-3;1-2
+play,1,0,kendh001,10,BX,D9/L+.3-H;2-H;1-3
+play,1,0,guera001,02,CFS,K
+play,1,0,calla001,22,BFBFC,K
+play,1,1,denoc001,32,BCBSBX,53/G
+play,1,1,rizza001,00,X,D7/F
+play,1,1,bryak001,12,FBSS,K
+play,1,1,coghc001,32,BBSBCB,W
+play,1,1,russa002,10,B>X,8/F
+play,2,0,ellia001,32,CBBFBFB,W
+com,"$Jon Lester and HP Umpire Andy Fletcher exchanged"
+com,"words in a heated discussion; Fletcher walked"
+com,"half way to the mound before catcher David Ross"
+com,"stopped him"
+play,2,0,friac001,01,LX,36(1)/FO/BG
+play,2,0,herne001,12,BCFX,T8/L.1-H
+play,2,0,rollj001,10,PX,S8/L-.3-H
+play,2,0,turnj001,11,BCX,8/L
+play,2,0,vanss001,31,BBBCB,W.1-2
+play,2,0,kendh001,01,C>B,CS3(25)
+play,2,1,baxtm001,30,BBBB,W
+play,2,1,rossd001,12,CFFBS,K
+play,2,1,lestj001,11,BC>X,6(1)3/GDP
+play,3,0,kendh001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,3,0,kendh001,00,,NP
+sub,szczm001,"Matt Szczur",1,3,8
+play,3,0,kendh001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,3,0,kendh001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,5
+play,3,0,kendh001,12,....FFBFFX,63/G
+play,3,0,guera001,12,CBSX,3/G-
+play,3,0,calla001,22,FBBSC,K
+play,3,1,herrj002,01,CX,S7/G
+play,3,1,denoc001,02,1LFX,54(1)3/GDP
+play,3,1,rizza001,01,CX,S9/L-
+play,3,1,szczm001,22,CS>F1B*BX,64(1)/FO/G
+play,4,0,ellia001,00,X,9/F
+play,4,0,friac001,22,MSBBS,K
+play,4,0,herne001,22,BCSBX,53/G
+play,4,1,coghc001,32,CCBBFFFFBB,W
+play,4,1,russa002,02,FFFS,K
+play,4,1,baxtm001,10,BX,4/L
+play,4,1,rossd001,11,BSX,S7/L.1-2
+play,4,1,lestj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,4,1,montm001,00,.X,S7/L-.2XH(72);1-2
+play,5,0,rollj001,00,,NP
+sub,jacke001,"Edwin Jackson",1,7,1
+play,5,0,rollj001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,5,0,rollj001,11,..CBX,4/L
+play,5,0,turnj001,02,CFX,63/G
+play,5,0,vanss001,02,FSC,K
+play,5,1,herrj002,11,CBX,63/G-
+play,5,1,denoc001,12,FBCX,S3/L-
+play,5,1,rizza001,10,BX,D8/F.1-3
+play,5,1,szczm001,12,BFFC,K
+play,5,1,coghc001,32,CCBB*BS,K
+play,6,0,kendh001,20,BBX,9/F
+play,6,0,guera001,32,BCFBBX,S7/L
+play,6,0,calla001,22,B11CBFFT,K
+play,6,0,ellia001,31,11BCB1BB,W.1-2
+play,6,0,friac001,00,,NP
+sub,gonza003,"Adrian Gonzalez",0,9,11
+play,6,0,gonza003,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,8
+play,6,0,gonza003,00,,NP
+sub,russj003,"James Russell",1,3,1
+play,6,0,gonza003,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,7
+play,6,0,gonza003,00,,NP
+sub,russa002,"Addison Russell",1,5,4
+play,6,0,gonza003,00,,NP
+sub,casts001,"Starlin Castro",1,7,6
+play,6,0,gonza003,01,......CX,31/G
+play,6,1,russa002,00,,NP
+sub,herne001,"Enrique Hernandez",0,1,7
+play,6,1,russa002,00,,NP
+sub,pedej001,"Joc Pederson",0,9,8
+play,6,1,russa002,00,,NP
+sub,peraj002,"Joel Peralta",0,6,1
+play,6,1,russa002,11,...FBX,2/P2F
+play,6,1,baxtm001,12,FBSX,9/F
+play,6,1,casts001,00,X,9/F
+play,7,0,herne001,00,,NP
+sub,mediy001,"Yoervis Medina",1,3,1
+play,7,0,herne001,01,.CX,63/G
+play,7,0,rollj001,31,BFBBX,7/F
+play,7,0,turnj001,21,BBFX,T7/F/UREV
+com,"replay,7,turnj001,LAN,mealj901,CHI11,,Y,U,,H"
+com,"$Justin Turner's fly to LF struck the yellow stripe"
+com,"on the top of the basket; the ball was ruled a home"
+com,"run; crew chief Jerry Meals requested a review,"
+com,"which overturned the homer to a ball in play"
+play,7,0,vanss001,00,X,8/F
+play,7,1,montm001,00,,NP
+sub,howej003,"J.P. Howell",0,4,1
+play,7,1,montm001,00,,NP
+sub,ethia001,"Andre Ethier",0,6,9
+play,7,1,montm001,00,..X,43/G
+play,7,1,herrj002,11,CBX,53/G
+play,7,1,denoc001,22,FBBCFX,D8/F
+play,7,1,rizza001,02,CFX,8/F
+play,8,0,kendh001,22,BCFBFFS,K
+play,8,0,ethia001,12,BSSS,K23
+play,8,0,calla001,21,BBFX,31/G
+play,8,1,mediy001,00,,NP
+sub,garcy001,"Yimi Garcia",0,4,1
+play,8,1,mediy001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,11
+play,8,1,fowld001,22,..BBSTFFS,K
+play,8,1,coghc001,21,CBBX,5/P
+play,8,1,russa002,12,BSFS,K
+play,9,0,ellia001,00,,NP
+sub,denoc001,"Chris Denorfia",1,1,7
+play,9,0,ellia001,00,,NP
+sub,fowld001,"Dexter Fowler",1,3,8
+play,9,0,ellia001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,9,0,ellia001,00,,NP
+sub,rondh001,"Hector Rondon",1,5,1
+play,9,0,ellia001,11,....CBX,53/G
+play,9,0,pedej001,32,BCBBC*B,W
+play,9,0,herne001,01,FX,8/F/DP.1X1(863)
+play,9,1,baxtm001,00,,NP
+sub,jansk001,"Kenley Jansen",0,4,1
+play,9,1,baxtm001,22,.CBFBFX,5/P
+play,9,1,casts001,32,BBCBCX,2/P2F
+play,9,1,montm001,12,SFBS,K
+data,er,friac001,0
+data,er,peraj002,0
+data,er,howej003,0
+data,er,garcy001,0
+data,er,jansk001,0
+data,er,lestj001,4
+data,er,jacke001,0
+data,er,russj003,0
+data,er,mediy001,0
+data,er,rondh001,0

@@ -1,0 +1,152 @@
+id,CHN201504140
+version,2
+info,visteam,CIN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/14
+info,number,0
+info,starttime,7:04PM
+info,daynight,night
+info,usedh,false
+info,umphome,emmep901
+info,ump1b,fleta901
+info,ump2b,bakej902
+info,ump3b,mealj901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,51
+info,winddir,fromcf
+info,windspeed,2
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,165
+info,attendance,27525
+info,wp,desca001
+info,lp,arrij001
+info,save,chapa001
+start,hamib001,"Billy Hamilton",0,1,8
+start,vottj001,"Joey Votto",0,2,3
+start,frazt001,"Todd Frazier",0,3,5
+start,philb001,"Brandon Phillips",0,4,4
+start,brucj001,"Jay Bruce",0,5,9
+start,byrdm001,"Marlon Byrd",0,6,7
+start,penab002,"Brayan Pena",0,7,2
+start,cozaz001,"Zack Cozart",0,8,6
+start,desca001,"Anthony DeSclafani",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,solej001,"Jorge Soler",1,3,9
+start,coghc001,"Chris Coghlan",1,4,7
+start,casts001,"Starlin Castro",1,5,6
+start,montm001,"Miguel Montero",1,6,2
+start,alcaa001,"Arismendy Alcantara",1,7,4
+start,arrij001,"Jake Arrieta",1,8,1
+start,herrj002,"Jonathan Herrera",1,9,5
+play,1,0,hamib001,02,CSC,K
+play,1,0,vottj001,21,BBFX,7/F
+play,1,0,frazt001,10,BX,6/P
+play,1,1,fowld001,22,FCBBX,5/P5F
+play,1,1,rizza001,01,FX,7/F
+play,1,1,solej001,12,CFBFS,K
+play,2,0,philb001,00,X,53/G-
+play,2,0,brucj001,32,CBBFBFFFS,K
+play,2,0,byrdm001,12,TFBFX,8/F
+play,2,1,coghc001,00,X,31/G
+play,2,1,casts001,31,BCBBB,W
+play,2,1,montm001,32,C1B>FB1B>F1>F>X,46(1)3/GDP
+play,3,0,penab002,32,BCBBFX,13/G
+play,3,0,cozaz001,22,BBCFX,43/G
+play,3,0,desca001,12,CSBFFC,K
+play,3,1,alcaa001,00,X,43/G
+play,3,1,arrij001,02,CFS,K
+play,3,1,herrj002,10,BX,43/G
+play,4,0,hamib001,10,BX,S7/L
+play,4,0,vottj001,00,>C,SB2
+play,4,0,vottj001,32,>C.BBSFBX,S9/G.2-H
+play,4,0,frazt001,01,FX,64(1)/FO/G
+play,4,0,philb001,01,CX,S7/L.1-2
+play,4,0,brucj001,01,CX,S7/L.2-H;1-3;BX2(763435/TH)
+play,4,0,byrdm001,00,X,S7/G.3-H
+play,4,0,penab002,31,CB*BBB,W.1-2
+play,4,0,cozaz001,12,BCFX,8/F
+play,4,1,fowld001,32,FBFBBX,43/G
+play,4,1,rizza001,32,BBSBCX,5/P
+play,4,1,solej001,12,CBCX,S7/L
+play,4,1,coghc001,11,CBX,8/F
+play,5,0,desca001,11,BCX,13/G
+play,5,0,hamib001,21,BFBX,5/P2F
+play,5,0,vottj001,32,BFFBBX,D9/L
+play,5,0,frazt001,22,CBBCFFX,9/F
+play,5,1,casts001,00,,NP
+sub,schus001,"Skip Schumaker",0,4,4
+play,5,1,casts001,22,.BCBFX,13/G
+play,5,1,montm001,31,CBBBB,W
+play,5,1,alcaa001,22,BSBCS,K
+play,5,1,arrij001,02,FSS,K
+play,6,0,schus001,01,CX,43/G
+play,6,0,brucj001,00,X,8/F
+play,6,0,byrdm001,22,CFBBS,K
+play,6,1,herrj002,22,CBBCFX,63/G
+play,6,1,fowld001,21,CBBX,S4/G
+play,6,1,rizza001,10,B1X,8/F
+play,6,1,solej001,22,BCF>FB>B,SB2
+play,6,1,solej001,32,BCF>FB>B.S,K
+play,7,0,penab002,32,BFBBFFX,53/G
+play,7,0,cozaz001,02,CSX,D8/L
+play,7,0,desca001,22,CBSBFC,K
+play,7,0,hamib001,00,,NP
+sub,rossz001,"Zach Rosscup",1,8,1
+play,7,0,hamib001,02,.CCS,K
+play,7,1,coghc001,01,CX,9/F
+play,7,1,casts001,11,CBX,53/G
+play,7,1,montm001,12,CFBX,8/F
+play,8,0,vottj001,32,BCSBBB,W
+play,8,0,frazt001,00,X,9/F
+play,8,0,schus001,32,1BSB+1BCX,13/G.1-2
+play,8,0,brucj001,22,*BBCFT,K
+play,8,1,alcaa001,00,,NP
+sub,gregk001,"Kevin Gregg",0,9,1
+play,8,1,alcaa001,00,,NP
+sub,szczm001,"Matt Szczur",1,7,11
+play,8,1,szczm001,32,..BBSBFFB,W
+play,8,1,rossz001,00,,NP
+sub,castw002,"Welington Castillo",1,8,11
+play,8,1,castw002,00,.X,HR/78/F.1-H
+play,8,1,herrj002,00,,NP
+sub,olt-m001,"Mike Olt",1,9,11
+play,8,1,olt-m001,10,.BX,8/F
+play,8,1,fowld001,32,SBBFBFC,K
+play,8,1,rizza001,00,,NP
+sub,cingt001,"Tony Cingrani",0,9,1
+play,8,1,rizza001,11,.BSX,S9/G
+play,8,1,solej001,30,BB*BB,W.1-2
+play,8,1,coghc001,12,BCCS,K
+play,9,0,byrdm001,00,,NP
+sub,coghc001,"Chris Coghlan",1,4,4
+play,9,0,byrdm001,00,,NP
+sub,szczm001,"Matt Szczur",1,7,7
+play,9,0,byrdm001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,9,0,byrdm001,00,,NP
+sub,olt-m001,"Mike Olt",1,9,5
+play,9,0,byrdm001,02,....SCS,K
+play,9,0,penab002,10,BX,31/G
+play,9,0,cozaz001,22,BCCBX,53/G
+play,9,1,casts001,00,,NP
+sub,chapa001,"Aroldis Chapman",0,9,1
+play,9,1,casts001,22,.BCFBX,S7/G
+play,9,1,montm001,00,1X,7/F
+play,9,1,szczm001,32,BSBFBFB,W.1-2
+play,9,1,strop001,00,,NP
+sub,rossd001,"David Ross",1,8,11
+play,9,1,rossd001,12,.BCFC,K
+play,9,1,olt-m001,12,CCBS,K
+data,er,desca001,0
+data,er,gregk001,2
+data,er,cingt001,0
+data,er,chapa001,0
+data,er,arrij001,3
+data,er,rossz001,0
+data,er,strop001,0

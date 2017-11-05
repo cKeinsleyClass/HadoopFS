@@ -1,0 +1,156 @@
+id,CHN201506220
+version,2
+info,visteam,LAN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/06/22
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,bakej902
+info,ump1b,emmep901
+info,ump2b,mealj901
+info,ump3b,fleta901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,82
+info,winddir,tolf
+info,windspeed,14
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,160
+info,attendance,35147
+info,wp,woodt004
+info,lp,kersc001
+info,save,mottj001
+start,puigy001,"Yasiel Puig",0,1,9
+start,pedej001,"Joc Pederson",0,2,8
+start,turnj001,"Justin Turner",0,3,5
+start,gonza003,"Adrian Gonzalez",0,4,3
+start,kendh001,"Howie Kendrick",0,5,4
+start,vanss001,"Scott Van Slyke",0,6,7
+start,herne001,"Enrique Hernandez",0,7,6
+start,ellia001,"A.J. Ellis",0,8,2
+start,kersc001,"Clayton Kershaw",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,casts001,"Starlin Castro",1,4,6
+start,denoc001,"Chris Denorfia",1,5,9
+start,szczm001,"Matt Szczur",1,6,7
+start,rossd001,"David Ross",1,7,2
+start,wadat001,"Tsuyoshi Wada",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,puigy001,12,SBSFX,8/F
+play,1,0,pedej001,12,SBFC,K
+play,1,0,turnj001,00,X,63/G
+play,1,1,fowld001,12,FCBS,K
+play,1,1,rizza001,12,BFCFX,S9/L-
+play,1,1,bryak001,32,BFS1BBFFS,K
+play,1,1,casts001,10,BX,8/L
+play,2,0,gonza003,12,CBCX,43/G
+play,2,0,kendh001,01,CX,3/G
+play,2,0,vanss001,11,CBX,2/P2F
+play,2,1,denoc001,32,CBBBSF*B,W
+play,2,1,szczm001,00,X,54(1)/FO/G-
+play,2,1,rossd001,32,F1B*BF1BC,K
+play,2,1,wadat001,12,SBS1C,K
+play,3,0,herne001,10,BX,HR/78/L
+play,3,0,ellia001,31,BCBBX,S7/G+
+play,3,0,kersc001,00,,NP
+sub,woodt004,"Travis Wood",1,8,1
+play,3,0,kersc001,00,.X,16(1)4/BG/GDP
+play,3,0,puigy001,32,BBFBS*B,W
+play,3,0,pedej001,32,SBF>FB11B>F>B,W.1-2
+play,3,0,turnj001,12,CFFB+2,POCS3(24)
+play,3,1,russa002,22,FBSFBS,K
+play,3,1,fowld001,20,BBX,S9/L
+play,3,1,rizza001,01,CX,8/F
+play,3,1,bryak001,12,1FFBX,HR/89/F.1-H
+play,3,1,casts001,00,X,4/P
+play,4,0,turnj001,02,FCC,K
+play,4,0,gonza003,11,BCX,5/L-
+play,4,0,kendh001,01,CX,63/G
+play,4,1,denoc001,22,FBCBX,43/G
+play,4,1,szczm001,22,BFBFX,63/G
+play,4,1,rossd001,11,CBX,6/P
+play,5,0,vanss001,32,BSBFBFFS,K
+play,5,0,herne001,31,BBCB*B,W
+play,5,0,ellia001,32,BTFBFB>S,K+CS2(26)/DP
+play,5,1,woodt004,12,SSFBS,K
+play,5,1,russa002,20,BBX,63/G
+play,5,1,fowld001,00,,NP
+sub,coghc001,"Chris Coghlan",1,1,11
+play,5,1,coghc001,22,.SBSBC,K
+play,6,0,kersc001,00,,NP
+sub,coghc001,"Chris Coghlan",1,1,7
+play,6,0,kersc001,00,,NP
+sub,szczm001,"Matt Szczur",1,6,8
+play,6,0,kersc001,02,..FFFS,K
+play,6,0,puigy001,10,BX,S8/L
+play,6,0,pedej001,00,,NP
+sub,russj003,"James Russell",1,8,1
+play,6,0,pedej001,32,.111BCFBBX,46(1)3/GDP
+play,6,1,rizza001,00,X,1/P
+play,6,1,bryak001,31,BBFBB,W
+com,"$While Bryant was batting, there was a partial failure of"
+com,"the lights in left field; after a delay the umpires decided"
+com,"to continue the game which caused Cubs manager to protest"
+com,"the game; the lights came back to full strength in a few"
+com,"minutes"
+play,6,1,casts001,12,SBSX,64(1)/FO/G-
+play,6,1,denoc001,00,X,53/G
+play,7,0,turnj001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,7,0,turnj001,21,.BBCX,9/F
+play,7,0,gonza003,32,BBSSBB,W
+play,7,0,kendh001,02,FSFS,K
+play,7,0,vanss001,00,,NP
+sub,ethia001,"Andre Ethier",0,6,11
+play,7,0,ethia001,22,.SB*BSS,K
+play,7,1,szczm001,00,,NP
+sub,ethia001,"Andre Ethier",0,6,7
+play,7,1,szczm001,11,.FBX,HR/78/F
+play,7,1,rossd001,22,CBSBS,K
+play,7,1,strop001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,7,1,herrj002,12,.SSFBS,K
+play,7,1,russa002,01,FX,3/P
+play,8,0,herne001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,herne001,22,.BCBFFX,53/G
+play,8,0,ellia001,00,,NP
+sub,grany001,"Yasmani Grandal",0,8,11
+play,8,0,grany001,22,.CFBBS,K
+play,8,0,kersc001,00,,NP
+sub,guera001,"Alex Guerrero",0,9,11
+play,8,0,guera001,01,.FX,6/L-
+play,8,1,coghc001,00,,NP
+sub,grany001,"Yasmani Grandal",0,8,2
+play,8,1,coghc001,00,,NP
+sub,libea001,"Adam Liberatore",0,9,1
+play,8,1,coghc001,02,..CFFS,K
+play,8,1,rizza001,11,BCX,8/F
+play,8,1,bryak001,21,FBBX,HR/78/F
+play,8,1,casts001,00,,NP
+sub,garcy001,"Yimi Garcia",0,9,1
+play,8,1,casts001,12,.BSFX,8/F
+play,9,0,puigy001,00,,NP
+sub,mottj001,"Jason Motte",1,8,1
+play,9,0,puigy001,12,.CFBX,63/G-
+play,9,0,pedej001,00,X,HR/8/L+
+play,9,0,turnj001,22,FFBBX,9/L
+play,9,0,gonza003,01,FX,S8/L
+play,9,0,kendh001,01,FX,43/G
+data,er,kersc001,3
+data,er,libea001,1
+data,er,garcy001,0
+data,er,wadat001,1
+data,er,woodt004,0
+data,er,russj003,0
+data,er,strop001,0
+data,er,rondh001,0
+data,er,mottj001,1

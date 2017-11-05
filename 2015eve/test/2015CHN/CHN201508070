@@ -1,0 +1,160 @@
+id,CHN201508070
+version,2
+info,visteam,SFN
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/07
+info,number,0
+info,starttime,3:04PM
+info,daynight,day
+info,usedh,false
+info,umphome,schrp901
+info,ump1b,culbf901
+info,ump2b,reynj901
+info,ump3b,gonzm901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,76
+info,winddir,rtol
+info,windspeed,12
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,193
+info,attendance,41311
+info,wp,lestj001
+info,lp,voger001
+info,save,rondh001
+start,pagaa001,"Angel Pagan",0,1,8
+start,tomlk001,"Kelby Tomlinson",0,2,4
+start,duffm002,"Matt Duffy",0,3,5
+start,poseb001,"Buster Posey",0,4,2
+start,pench001,"Hunter Pence",0,5,9
+start,crawb001,"Brandon Crawford",0,6,6
+start,beltb001,"Brandon Belt",0,7,3
+start,maxwj002,"Justin Maxwell",0,8,7
+start,voger001,"Ryan Vogelsong",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,solej001,"Jorge Soler",1,6,9
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,pagaa001,21,BBCX,53/G
+play,1,0,tomlk001,22,BCBFC,K
+play,1,0,duffm002,01,CX,13/G
+play,1,1,fowld001,32,BFCBBFFC,K
+play,1,1,schwk001,01,CX,D8/L+
+play,1,1,coghc001,10,BX,S48/G.2-H
+play,1,1,rizza001,12,CBFFX,7/L
+play,1,1,bryak001,31,C*B1BBX,64(1)/FO/G
+play,2,0,poseb001,10,BX,D8/F
+play,2,0,pench001,11,BTX,7/L
+play,2,0,crawb001,00,X,S9/G.2-H
+play,2,0,beltb001,21,BF*B>B,CS2(26)
+play,2,0,beltb001,31,BF*B>B.X,43/G
+play,2,1,solej001,00,X,S4/G
+play,2,1,rossd001,32,CBBBF1C,K
+play,2,1,lestj001,02,LSC,K
+play,2,1,russa002,12,CC1*BX,5/L+
+play,3,0,maxwj002,01,CX,53/L+
+play,3,0,voger001,21,BBCX,3/G
+play,3,0,pagaa001,32,BCBCFBFX,7/L
+play,3,1,fowld001,22,CBBFFX,8/F
+play,3,1,schwk001,02,CCC,K
+play,3,1,coghc001,10,BX,S8/L
+play,3,1,rizza001,32,BBBFS>S,K
+play,4,0,tomlk001,00,X,53/G+
+play,4,0,duffm002,21,BCBX,D7/G
+play,4,0,poseb001,22,CC*BBX,43/G.2-3
+play,4,0,pench001,11,CBX,53/G-
+play,4,1,bryak001,10,BX,3/P
+play,4,1,solej001,32,CBBBFFB,W
+play,4,1,rossd001,22,1FBSBX,9/F
+play,4,1,lestj001,02,CCFS,K
+play,5,0,crawb001,12,FBSS,K
+play,5,0,beltb001,31,BFBBX,8/L+
+play,5,0,maxwj002,22,BCSBX,8/F
+play,5,1,russa002,12,CFBX,S7/L
+play,5,1,fowld001,32,BFBFBFX,D9/L+.1-3
+play,5,1,schwk001,00,,NP
+sub,affej001,"Jeremy Affeldt",0,9,1
+play,5,1,schwk001,12,.BCSX,S4/G+.3-H;2-H
+play,5,1,coghc001,00,,SB2
+play,5,1,coghc001,12,.2L*BFX,3/G.2-3
+play,5,1,rizza001,01,SX,3/G
+play,5,1,bryak001,30,BBBB,W
+play,5,1,solej001,00,,NP
+sub,petiy001,"Yusmeiro Petit",0,8,1
+play,5,1,solej001,00,,NP
+sub,aokin001,"Nori Aoki",0,9,7
+play,5,1,solej001,12,..3CC*B>B,SB2
+play,5,1,solej001,22,..3CC*B>B.FX,D7/L+.3-H;2-H
+play,5,1,rossd001,00,X,S8/L.2-H
+play,5,1,lestj001,02,SCFS,K
+play,6,0,aokin001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,3,4
+play,6,0,aokin001,00,.X,S6/G
+play,6,0,pagaa001,21,CBBX,64(1)3/GDP
+play,6,0,tomlk001,12,CSBC,K
+play,6,1,russa002,01,FX,8/F
+play,6,1,fowld001,11,CBX,S9/L
+play,6,1,schwk001,11,BF1>S,SB2
+play,6,1,schwk001,12,BF1>S.FX,43/G.2-3
+play,6,1,herrj002,22,BCBFS,K
+play,7,0,duffm002,32,CBFBBB,W
+play,7,0,poseb001,00,X,S9/F-.1-2
+play,7,0,pench001,11,*BSX,S8/G.2-H;1-2
+play,7,0,crawb001,02,SSX,16(1)3/GDP/MREV.2-3
+com,"replay,7,crawb001,SFN,culbf901,CHI11,,N,M,SFN,C"
+com,"$when Hunter Pence was called safe at 2B, Giants"
+com,"manager Bruce Bochy challenged the ruling; the"
+com,"call was upheld by replay"
+play,7,0,beltb001,32,BCF*BBFB,W
+play,7,0,petiy001,00,,NP
+sub,adrie001,"Ehire Adrianza",0,8,11
+play,7,0,adrie001,32,.CBFF*BB>F>X,3/P-
+play,7,1,rizza001,00,,NP
+sub,osicj001,"Josh Osich",0,8,1
+play,7,1,rizza001,22,.CBBFC,K
+play,7,1,bryak001,01,SX,D7/L
+play,7,1,solej001,12,BCSX,8/F-
+play,7,1,rossd001,02,SSB,WP.2-3
+play,7,1,rossd001,12,SSB.S,K
+play,8,0,aokin001,00,,NP
+sub,huntt002,"Tommy Hunter",1,8,1
+play,8,0,aokin001,20,.BBX,HR/9/F
+play,8,0,pagaa001,31,BBBCX,S7/L-
+play,8,0,tomlk001,02,CFFX,41/G/MREV.1-2
+com,"replay,8,tomlk001,SFN,culbf901,CHI11,,Y,M,CHN,C"
+com,"$when Kelby Tomlinson was called safe at 1B, Cubs"
+com,"manager Joe Maddon challenged the ruling; the"
+com,"call was overturned by replay"
+play,8,0,duffm002,00,,NP
+sub,rondh001,"Hector Rondon",1,6,1
+play,8,0,duffm002,00,,NP
+sub,denoc001,"Chris Denorfia",1,8,9
+play,8,0,duffm002,12,..BFFS,K
+play,8,0,poseb001,10,BX,63/G
+play,8,1,denoc001,12,CBSFX,63/G
+play,8,1,russa002,22,BBFSC,K
+play,8,1,fowld001,11,BCX,HR/7/L
+play,8,1,schwk001,02,CSS,K
+play,9,0,pench001,31,BBBCB,W
+play,9,0,crawb001,22,BBCSX,9/F
+play,9,0,beltb001,01,L>B,DI.1-2
+play,9,0,beltb001,22,L>B.FBFS,K
+play,9,0,osicj001,00,,NP
+sub,blang001,"Gregor Blanco",0,8,11
+play,9,0,blang001,11,.CBX,9/F
+data,er,voger001,3
+data,er,affej001,2
+data,er,petiy001,1
+data,er,osicj001,1
+data,er,lestj001,2
+data,er,huntt002,1
+data,er,rondh001,0

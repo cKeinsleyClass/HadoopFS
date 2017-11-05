@@ -1,0 +1,579 @@
+id,CHN201508190
+version,2
+info,visteam,DET
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/19
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,randt901
+info,ump1b,basnt901
+info,ump2b,cuzzp901
+info,ump3b,davig901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,tocf
+info,windspeed,15
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,228
+info,attendance,40310
+info,wp,felin001
+info,lp,lestj001
+info,save,
+start,davir003,"Rajai Davis",0,1,7
+start,kinsi001,"Ian Kinsler",0,2,4
+start,cabrm001,"Miguel Cabrera",0,3,3
+start,martj006,"J.D. Martinez",0,4,9
+start,castn001,"Nick Castellanos",0,5,5
+start,mccaj001,"James McCann",0,6,2
+start,iglej001,"Jose Iglesias",0,7,6
+start,gosea001,"Anthony Gose",0,8,8
+start,norrd002,"Daniel Norris",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,casts001,"Starlin Castro",1,6,4
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,davir003,02,CSC,K
+play,1,0,kinsi001,10,BX,D7/L+
+play,1,0,cabrm001,32,*BBCSBX,8/L
+play,1,0,martj006,12,BCCS,K
+play,1,1,fowld001,12,CSBS,K
+play,1,1,schwk001,22,CBSBFS,K
+play,1,1,bryak001,12,BFFFX,S8/L+
+play,1,1,rizza001,30,BBBX,5/P
+play,2,0,castn001,10,BX,HR/89/L
+play,2,0,mccaj001,01,FX,S9/L-
+play,2,0,iglej001,22,CBFBFC,K
+play,2,0,gosea001,00,X,36(1)/FO/BG
+play,2,0,norrd002,11,BCX,HR/8/L.1-H
+play,2,0,davir003,12,CFBS,K23
+play,2,1,solej001,01,CX,53/G
+play,2,1,casts001,22,BBCSFX,9/L
+play,2,1,rossd001,02,CCS,K
+play,3,0,kinsi001,21,CBBX,S9/L
+play,3,0,cabrm001,31,BBCBB,W.1-2
+play,3,0,martj006,32,FBBFB>B,W.2-3;1-2
+play,3,0,castn001,00,X,HR/78/L.3-H;2-H;1-H
+play,3,0,mccaj001,10,BX,63/G
+play,3,0,iglej001,11,CBX,S6/G
+play,3,0,gosea001,00,>B,SB2
+play,3,0,gosea001,20,>B.BX,6/P
+play,3,0,norrd002,31,BBSBB,W
+play,3,0,davir003,00,,NP
+sub,richc002,"Clayton Richard",1,8,1
+play,3,0,davir003,12,.*BFSFX,S6/G.2-3;1-2
+play,3,0,kinsi001,01,CX,8/F
+play,3,1,richc002,00,X,43/G-
+play,3,1,russa002,22,CSBBFS,K
+play,3,1,fowld001,21,BFBX,HR/9/L
+play,3,1,schwk001,32,BCCBBF*B,W
+play,3,1,bryak001,01,CX,HR/7/F.1-H
+play,3,1,rizza001,22,CBBSX,E4/G-
+play,3,1,solej001,12,CBCS,K
+play,4,0,cabrm001,32,BCBBFFX,63/G
+play,4,0,martj006,22,FBBFX,43/G
+play,4,0,castn001,01,CX,D9/L
+play,4,0,mccaj001,12,BFFS,K
+play,4,1,casts001,12,BCFX,13/G
+play,4,1,rossd001,12,SBSS,K
+play,4,1,richc002,12,CBSFX,53/G-
+play,5,0,iglej001,02,CCX,63/G
+play,5,0,gosea001,32,BBFFBS,K
+play,5,0,norrd002,02,SSS,K
+play,5,1,russa002,21,CBBX,63/G
+play,5,1,fowld001,11,FBX,S7/L
+play,5,1,schwk001,00,,NP
+sub,gorzt001,"Tom Gorzelanny",0,9,1
+play,5,1,schwk001,31,S1B.BB1B,W.1-2
+play,5,1,bryak001,32,CBS*BB*B,W.2-3;1-2
+play,5,1,rizza001,22,CBS*BFX,4/P/IF
+play,5,1,solej001,00,,NP
+sub,albua001,"Al Alburquerque",0,9,1
+play,5,1,solej001,22,.FBBSFX,4/P
+play,6,0,davir003,20,BBX,HR/89/F
+play,6,0,kinsi001,02,CFS,K
+play,6,0,cabrm001,10,BX,S9/L
+play,6,0,martj006,00,X,S8/G+.1-2
+play,6,0,castn001,00,X,9/L+
+play,6,0,mccaj001,20,BBX,9/L+
+play,6,1,casts001,21,BCBX,D7/L
+play,6,1,rossd001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,11
+play,6,1,coghc001,02,.CCX,T9/L+.2-H
+play,6,1,richc002,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,6,1,montm001,31,.BBSBB,W
+play,6,1,russa002,22,CBSBX,64(1)3/GDP.3-H(NR)
+play,6,1,fowld001,11,SBX,8/L+
+play,7,0,iglej001,00,,NP
+sub,casts001,"Starlin Castro",1,6,6
+play,7,0,iglej001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,4
+play,7,0,iglej001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,7,0,iglej001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,7,0,iglej001,11,....BCX,S9/L-
+play,7,0,gosea001,22,1FB1BFX,S7/L.1-2
+play,7,0,albua001,00,,NP
+sub,collt002,"Tyler Collins",0,9,11
+play,7,0,collt002,00,.X,13/BG/SH.2-3;1-2
+play,7,0,davir003,21,CB*BH,HP
+play,7,0,kinsi001,00,X,8/F/SF.3-H
+play,7,0,cabrm001,00,X,S8/L+.2-H;1-2
+play,7,0,martj006,22,BCFBS,K
+play,7,1,schwk001,00,,NP
+sub,verhd001,"Drew VerHagen",0,1,1
+play,7,1,schwk001,00,,NP
+sub,collt002,"Tyler Collins",0,9,7
+play,7,1,schwk001,00,..X,HR/8/F
+play,7,1,bryak001,12,CFFBX,S9/G
+play,7,1,rizza001,32,FBS*BBX,E4/FO/G.1-2
+play,7,1,solej001,21,BBCX,64(1)3/GDP.2-3
+play,7,1,casts001,01,CX,63/G
+play,8,0,castn001,00,,NP
+sub,russj003,"James Russell",1,6,1
+play,8,0,castn001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,6
+play,8,0,castn001,20,..BBX,D7/L+
+play,8,0,mccaj001,00,,NP
+sub,romia001,"Andrew Romine",0,5,12
+play,8,0,mccaj001,22,.BCSFFBS,K
+play,8,0,iglej001,00,>B,SB3
+play,8,0,iglej001,22,>B.BFFS,K
+play,8,0,gosea001,11,BFX,T9/L+.3-H
+play,8,0,collt002,01,SX,D7/L-.3-H
+play,8,0,verhd001,00,,NP
+sub,martv001,"Victor Martinez",0,1,11
+play,8,0,martv001,32,.BS*BBF>FFFX,D7/L+.2-H
+play,8,0,kinsi001,01,CX,9/L
+play,8,1,coghc001,00,,NP
+sub,boydm001,"Matt Boyd",0,1,1
+play,8,1,coghc001,00,,NP
+sub,romia001,"Andrew Romine",0,5,5
+play,8,1,coghc001,32,..CSBFBFFBX,43/G-
+play,8,1,montm001,11,SBX,8/F
+play,8,1,herrj002,22,FCBFBX,D7/F
+play,8,1,fowld001,00,,NP
+sub,felin001,"Neftali Feliz",0,1,1
+play,8,1,fowld001,01,.CX,D8/F.2-H
+play,8,1,schwk001,22,BSBTX,31/G
+play,9,0,cabrm001,00,X,D7/L+
+play,9,0,martj006,31,BBBCX,HR/7/F.2-H
+play,9,0,romia001,22,SFFBBX,13/G-
+play,9,0,mccaj001,01,FX,8/L+
+play,9,0,iglej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,6,1
+play,9,0,iglej001,01,.CX,43/G
+play,9,1,bryak001,01,FX,T9/F
+play,9,1,rizza001,10,BX,5/P
+play,9,1,solej001,00,X,8/F/SF.3-H
+play,9,1,denoc001,22,BCBFT,K
+data,er,norrd002,3
+data,er,gorzt001,0
+data,er,albua001,2
+data,er,verhd001,1
+data,er,boydm001,1
+data,er,felin001,1
+data,er,lestj001,7
+data,er,richc002,1
+data,er,mottj001,2
+data,er,russj003,5
+data,er,denoc001,0
+id,CHN201508190
+version,2
+info,visteam,DET
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/19
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,randt901
+info,ump1b,basnt901
+info,ump2b,cuzzp901
+info,ump3b,davig901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,tocf
+info,windspeed,15
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,228
+info,attendance,40310
+info,wp,felin001
+info,lp,lestj001
+info,save,
+start,davir003,"Rajai Davis",0,1,7
+start,kinsi001,"Ian Kinsler",0,2,4
+start,cabrm001,"Miguel Cabrera",0,3,3
+start,martj006,"J.D. Martinez",0,4,9
+start,castn001,"Nick Castellanos",0,5,5
+start,mccaj001,"James McCann",0,6,2
+start,iglej001,"Jose Iglesias",0,7,6
+start,gosea001,"Anthony Gose",0,8,8
+start,norrd002,"Daniel Norris",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,casts001,"Starlin Castro",1,6,4
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,davir003,02,CSC,K
+play,1,0,kinsi001,10,BX,D7/L+
+play,1,0,cabrm001,32,*BBCSBX,8/L
+play,1,0,martj006,12,BCCS,K
+play,1,1,fowld001,12,CSBS,K
+play,1,1,schwk001,22,CBSBFS,K
+play,1,1,bryak001,12,BFFFX,S8/L+
+play,1,1,rizza001,30,BBBX,5/P
+play,2,0,castn001,10,BX,HR/89/L
+play,2,0,mccaj001,01,FX,S9/L-
+play,2,0,iglej001,22,CBFBFC,K
+play,2,0,gosea001,00,X,36(1)/FO/BG
+play,2,0,norrd002,11,BCX,HR/8/L.1-H
+play,2,0,davir003,12,CFBS,K23
+play,2,1,solej001,01,CX,53/G
+play,2,1,casts001,22,BBCSFX,9/L
+play,2,1,rossd001,02,CCS,K
+play,3,0,kinsi001,21,CBBX,S9/L
+play,3,0,cabrm001,31,BBCBB,W.1-2
+play,3,0,martj006,32,FBBFB>B,W.2-3;1-2
+play,3,0,castn001,00,X,HR/78/L.3-H;2-H;1-H
+play,3,0,mccaj001,10,BX,63/G
+play,3,0,iglej001,11,CBX,S6/G
+play,3,0,gosea001,00,>B,SB2
+play,3,0,gosea001,20,>B.BX,6/P
+play,3,0,norrd002,31,BBSBB,W
+play,3,0,davir003,00,,NP
+sub,richc002,"Clayton Richard",1,8,1
+play,3,0,davir003,12,.*BFSFX,S6/G.2-3;1-2
+play,3,0,kinsi001,01,CX,8/F
+play,3,1,richc002,00,X,43/G-
+play,3,1,russa002,22,CSBBFS,K
+play,3,1,fowld001,21,BFBX,HR/9/L
+play,3,1,schwk001,32,BCCBBF*B,W
+play,3,1,bryak001,01,CX,HR/7/F.1-H
+play,3,1,rizza001,22,CBBSX,E4/G-
+play,3,1,solej001,12,CBCS,K
+play,4,0,cabrm001,32,BCBBFFX,63/G
+play,4,0,martj006,22,FBBFX,43/G
+play,4,0,castn001,01,CX,D9/L
+play,4,0,mccaj001,12,BFFS,K
+play,4,1,casts001,12,BCFX,13/G
+play,4,1,rossd001,12,SBSS,K
+play,4,1,richc002,12,CBSFX,53/G-
+play,5,0,iglej001,02,CCX,63/G
+play,5,0,gosea001,32,BBFFBS,K
+play,5,0,norrd002,02,SSS,K
+play,5,1,russa002,21,CBBX,63/G
+play,5,1,fowld001,11,FBX,S7/L
+play,5,1,schwk001,00,,NP
+sub,gorzt001,"Tom Gorzelanny",0,9,1
+play,5,1,schwk001,31,S1B.BB1B,W.1-2
+play,5,1,bryak001,32,CBS*BB*B,W.2-3;1-2
+play,5,1,rizza001,22,CBS*BFX,4/P/IF
+play,5,1,solej001,00,,NP
+sub,albua001,"Al Alburquerque",0,9,1
+play,5,1,solej001,22,.FBBSFX,4/P
+play,6,0,davir003,20,BBX,HR/89/F
+play,6,0,kinsi001,02,CFS,K
+play,6,0,cabrm001,10,BX,S9/L
+play,6,0,martj006,00,X,S8/G+.1-2
+play,6,0,castn001,00,X,9/L+
+play,6,0,mccaj001,20,BBX,9/L+
+play,6,1,casts001,21,BCBX,D7/L
+play,6,1,rossd001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,11
+play,6,1,coghc001,02,.CCX,T9/L+.2-H
+play,6,1,richc002,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,6,1,montm001,31,.BBSBB,W
+play,6,1,russa002,22,CBSBX,64(1)3/GDP.3-H(NR)
+play,6,1,fowld001,11,SBX,8/L+
+play,7,0,iglej001,00,,NP
+sub,casts001,"Starlin Castro",1,6,6
+play,7,0,iglej001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,4
+play,7,0,iglej001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,7,0,iglej001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,7,0,iglej001,11,....BCX,S9/L-
+play,7,0,gosea001,22,1FB1BFX,S7/L.1-2
+play,7,0,albua001,00,,NP
+sub,collt002,"Tyler Collins",0,9,11
+play,7,0,collt002,00,.X,13/BG/SH.2-3;1-2
+play,7,0,davir003,21,CB*BH,HP
+play,7,0,kinsi001,00,X,8/F/SF.3-H
+play,7,0,cabrm001,00,X,S8/L+.2-H;1-2
+play,7,0,martj006,22,BCFBS,K
+play,7,1,schwk001,00,,NP
+sub,verhd001,"Drew VerHagen",0,1,1
+play,7,1,schwk001,00,,NP
+sub,collt002,"Tyler Collins",0,9,7
+play,7,1,schwk001,00,..X,HR/8/F
+play,7,1,bryak001,12,CFFBX,S9/G
+play,7,1,rizza001,32,FBS*BBX,E4/FO/G.1-2
+play,7,1,solej001,21,BBCX,64(1)3/GDP.2-3
+play,7,1,casts001,01,CX,63/G
+play,8,0,castn001,00,,NP
+sub,russj003,"James Russell",1,6,1
+play,8,0,castn001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,6
+play,8,0,castn001,20,..BBX,D7/L+
+play,8,0,mccaj001,00,,NP
+sub,romia001,"Andrew Romine",0,5,12
+play,8,0,mccaj001,22,.BCSFFBS,K
+play,8,0,iglej001,00,>B,SB3
+play,8,0,iglej001,22,>B.BFFS,K
+play,8,0,gosea001,11,BFX,T9/L+.3-H
+play,8,0,collt002,01,SX,D7/L-.3-H
+play,8,0,verhd001,00,,NP
+sub,martv001,"Victor Martinez",0,1,11
+play,8,0,martv001,32,.BS*BBF>FFFX,D7/L+.2-H
+play,8,0,kinsi001,01,CX,9/L
+play,8,1,coghc001,00,,NP
+sub,boydm001,"Matt Boyd",0,1,1
+play,8,1,coghc001,00,,NP
+sub,romia001,"Andrew Romine",0,5,5
+play,8,1,coghc001,32,..CSBFBFFBX,43/G-
+play,8,1,montm001,11,SBX,8/F
+play,8,1,herrj002,22,FCBFBX,D7/F
+play,8,1,fowld001,00,,NP
+sub,felin001,"Neftali Feliz",0,1,1
+play,8,1,fowld001,01,.CX,D8/F.2-H
+play,8,1,schwk001,22,BSBTX,31/G
+play,9,0,cabrm001,00,X,D7/L+
+play,9,0,martj006,31,BBBCX,HR/7/F.2-H
+play,9,0,romia001,22,SFFBBX,13/G-
+play,9,0,mccaj001,01,FX,8/L+
+play,9,0,iglej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,6,1
+play,9,0,iglej001,01,.CX,43/G
+play,9,1,bryak001,01,FX,T9/F
+play,9,1,rizza001,10,BX,5/P
+play,9,1,solej001,00,X,8/F/SF.3-H
+play,9,1,denoc001,22,BCBFT,K
+data,er,norrd002,3
+data,er,gorzt001,0
+data,er,albua001,2
+data,er,verhd001,1
+data,er,boydm001,1
+data,er,felin001,1
+data,er,lestj001,7
+data,er,richc002,1
+data,er,mottj001,2
+data,er,russj003,5
+data,er,denoc001,0
+id,CHN201508190
+version,2
+info,visteam,DET
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/19
+info,number,0
+info,starttime,7:08PM
+info,daynight,night
+info,usedh,false
+info,umphome,randt901
+info,ump1b,basnt901
+info,ump2b,cuzzp901
+info,ump3b,davig901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,68
+info,winddir,tocf
+info,windspeed,15
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,228
+info,attendance,40310
+info,wp,felin001
+info,lp,lestj001
+info,save,
+start,davir003,"Rajai Davis",0,1,7
+start,kinsi001,"Ian Kinsler",0,2,4
+start,cabrm001,"Miguel Cabrera",0,3,3
+start,martj006,"J.D. Martinez",0,4,9
+start,castn001,"Nick Castellanos",0,5,5
+start,mccaj001,"James McCann",0,6,2
+start,iglej001,"Jose Iglesias",0,7,6
+start,gosea001,"Anthony Gose",0,8,8
+start,norrd002,"Daniel Norris",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,bryak001,"Kris Bryant",1,3,5
+start,rizza001,"Anthony Rizzo",1,4,3
+start,solej001,"Jorge Soler",1,5,9
+start,casts001,"Starlin Castro",1,6,4
+start,rossd001,"David Ross",1,7,2
+start,lestj001,"Jon Lester",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,davir003,02,CSC,K
+play,1,0,kinsi001,10,BX,D7/L+
+play,1,0,cabrm001,32,*BBCSBX,8/L
+play,1,0,martj006,12,BCCS,K
+play,1,1,fowld001,12,CSBS,K
+play,1,1,schwk001,22,CBSBFS,K
+play,1,1,bryak001,12,BFFFX,S8/L+
+play,1,1,rizza001,30,BBBX,5/P
+play,2,0,castn001,10,BX,HR/89/L
+play,2,0,mccaj001,01,FX,S9/L-
+play,2,0,iglej001,22,CBFBFC,K
+play,2,0,gosea001,00,X,36(1)/FO/BG
+play,2,0,norrd002,11,BCX,HR/8/L.1-H
+play,2,0,davir003,12,CFBS,K23
+play,2,1,solej001,01,CX,53/G
+play,2,1,casts001,22,BBCSFX,9/L
+play,2,1,rossd001,02,CCS,K
+play,3,0,kinsi001,21,CBBX,S9/L
+play,3,0,cabrm001,31,BBCBB,W.1-2
+play,3,0,martj006,32,FBBFB>B,W.2-3;1-2
+play,3,0,castn001,00,X,HR/78/L.3-H;2-H;1-H
+play,3,0,mccaj001,10,BX,63/G
+play,3,0,iglej001,11,CBX,S6/G
+play,3,0,gosea001,00,>B,SB2
+play,3,0,gosea001,20,>B.BX,6/P
+play,3,0,norrd002,31,BBSBB,W
+play,3,0,davir003,00,,NP
+sub,richc002,"Clayton Richard",1,8,1
+play,3,0,davir003,12,.*BFSFX,S6/G.2-3;1-2
+play,3,0,kinsi001,01,CX,8/F
+play,3,1,richc002,00,X,43/G-
+play,3,1,russa002,22,CSBBFS,K
+play,3,1,fowld001,21,BFBX,HR/9/L
+play,3,1,schwk001,32,BCCBBF*B,W
+play,3,1,bryak001,01,CX,HR/7/F.1-H
+play,3,1,rizza001,22,CBBSX,E4/G-
+play,3,1,solej001,12,CBCS,K
+play,4,0,cabrm001,32,BCBBFFX,63/G
+play,4,0,martj006,22,FBBFX,43/G
+play,4,0,castn001,01,CX,D9/L
+play,4,0,mccaj001,12,BFFS,K
+play,4,1,casts001,12,BCFX,13/G
+play,4,1,rossd001,12,SBSS,K
+play,4,1,richc002,12,CBSFX,53/G-
+play,5,0,iglej001,02,CCX,63/G
+play,5,0,gosea001,32,BBFFBS,K
+play,5,0,norrd002,02,SSS,K
+play,5,1,russa002,21,CBBX,63/G
+play,5,1,fowld001,11,FBX,S7/L
+play,5,1,schwk001,00,,NP
+sub,gorzt001,"Tom Gorzelanny",0,9,1
+play,5,1,schwk001,31,S1B.BB1B,W.1-2
+play,5,1,bryak001,32,CBS*BB*B,W.2-3;1-2
+play,5,1,rizza001,22,CBS*BFX,4/P/IF
+play,5,1,solej001,00,,NP
+sub,albua001,"Al Alburquerque",0,9,1
+play,5,1,solej001,22,.FBBSFX,4/P
+play,6,0,davir003,20,BBX,HR/89/F
+play,6,0,kinsi001,02,CFS,K
+play,6,0,cabrm001,10,BX,S9/L
+play,6,0,martj006,00,X,S8/G+.1-2
+play,6,0,castn001,00,X,9/L+
+play,6,0,mccaj001,20,BBX,9/L+
+play,6,1,casts001,21,BCBX,D7/L
+play,6,1,rossd001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,11
+play,6,1,coghc001,02,.CCX,T9/L+.2-H
+play,6,1,richc002,00,,NP
+sub,montm001,"Miguel Montero",1,8,11
+play,6,1,montm001,31,.BBSBB,W
+play,6,1,russa002,22,CBSBX,64(1)3/GDP.3-H(NR)
+play,6,1,fowld001,11,SBX,8/L+
+play,7,0,iglej001,00,,NP
+sub,casts001,"Starlin Castro",1,6,6
+play,7,0,iglej001,00,,NP
+sub,coghc001,"Chris Coghlan",1,7,4
+play,7,0,iglej001,00,,NP
+sub,montm001,"Miguel Montero",1,8,2
+play,7,0,iglej001,00,,NP
+sub,mottj001,"Jason Motte",1,9,1
+play,7,0,iglej001,11,....BCX,S9/L-
+play,7,0,gosea001,22,1FB1BFX,S7/L.1-2
+play,7,0,albua001,00,,NP
+sub,collt002,"Tyler Collins",0,9,11
+play,7,0,collt002,00,.X,13/BG/SH.2-3;1-2
+play,7,0,davir003,21,CB*BH,HP
+play,7,0,kinsi001,00,X,8/F/SF.3-H
+play,7,0,cabrm001,00,X,S8/L+.2-H;1-2
+play,7,0,martj006,22,BCFBS,K
+play,7,1,schwk001,00,,NP
+sub,verhd001,"Drew VerHagen",0,1,1
+play,7,1,schwk001,00,,NP
+sub,collt002,"Tyler Collins",0,9,7
+play,7,1,schwk001,00,..X,HR/8/F
+play,7,1,bryak001,12,CFFBX,S9/G
+play,7,1,rizza001,32,FBS*BBX,E4/FO/G.1-2
+play,7,1,solej001,21,BBCX,64(1)3/GDP.2-3
+play,7,1,casts001,01,CX,63/G
+play,8,0,castn001,00,,NP
+sub,russj003,"James Russell",1,6,1
+play,8,0,castn001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,9,6
+play,8,0,castn001,20,..BBX,D7/L+
+play,8,0,mccaj001,00,,NP
+sub,romia001,"Andrew Romine",0,5,12
+play,8,0,mccaj001,22,.BCSFFBS,K
+play,8,0,iglej001,00,>B,SB3
+play,8,0,iglej001,22,>B.BFFS,K
+play,8,0,gosea001,11,BFX,T9/L+.3-H
+play,8,0,collt002,01,SX,D7/L-.3-H
+play,8,0,verhd001,00,,NP
+sub,martv001,"Victor Martinez",0,1,11
+play,8,0,martv001,32,.BS*BBF>FFFX,D7/L+.2-H
+play,8,0,kinsi001,01,CX,9/L
+play,8,1,coghc001,00,,NP
+sub,boydm001,"Matt Boyd",0,1,1
+play,8,1,coghc001,00,,NP
+sub,romia001,"Andrew Romine",0,5,5
+play,8,1,coghc001,32,..CSBFBFFBX,43/G-
+play,8,1,montm001,11,SBX,8/F
+play,8,1,herrj002,22,FCBFBX,D7/F
+play,8,1,fowld001,00,,NP
+sub,felin001,"Neftali Feliz",0,1,1
+play,8,1,fowld001,01,.CX,D8/F.2-H
+play,8,1,schwk001,22,BSBTX,31/G
+play,9,0,cabrm001,00,X,D7/L+
+play,9,0,martj006,31,BBBCX,HR/7/F.2-H
+play,9,0,romia001,22,SFFBBX,13/G-
+play,9,0,mccaj001,01,FX,8/L+
+play,9,0,iglej001,00,,NP
+sub,denoc001,"Chris Denorfia",1,6,1
+play,9,0,iglej001,01,.CX,43/G
+play,9,1,bryak001,01,FX,T9/F
+play,9,1,rizza001,10,BX,5/P
+play,9,1,solej001,00,X,8/F/SF.3-H
+play,9,1,denoc001,22,BCBFT,K
+data,er,norrd002,3
+data,er,gorzt001,0
+data,er,albua001,2
+data,er,verhd001,1
+data,er,boydm001,1
+data,er,felin001,1
+data,er,lestj001,7
+data,er,richc002,1
+data,er,mottj001,2
+data,er,russj003,5
+data,er,denoc001,0

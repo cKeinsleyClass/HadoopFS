@@ -1,0 +1,169 @@
+id,CHN201508120
+version,2
+info,visteam,MIL
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/08/12
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,gibsh902
+info,ump1b,carlm901
+info,ump2b,morag901
+info,ump3b,coope901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,roseb701
+info,temp,71
+info,winddir,fromrf
+info,windspeed,6
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,175
+info,attendance,36438
+info,wp,huntt002
+info,lp,blazm001
+info,save,
+start,petes002,"Shane Peterson",0,1,8
+start,lucrj001,"Jonathan Lucroy",0,2,2
+start,braur002,"Ryan Braun",0,3,9
+start,linda001,"Adam Lind",0,4,3
+start,davik003,"Khris Davis",0,5,7
+start,genns001,"Scooter Gennett",0,6,4
+start,seguj002,"Jean Segura",0,7,6
+start,pereh001,"Hernan Perez",0,8,5
+start,garzm001,"Matt Garza",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,schwk001,"Kyle Schwarber",1,2,7
+start,coghc001,"Chris Coghlan",1,3,4
+start,rizza001,"Anthony Rizzo",1,4,3
+start,bryak001,"Kris Bryant",1,5,5
+start,solej001,"Jorge Soler",1,6,9
+start,montm001,"Miguel Montero",1,7,2
+start,hammj002,"Jason Hammel",1,8,1
+start,russa002,"Addison Russell",1,9,6
+play,1,0,petes002,12,FBFC,K
+play,1,0,lucrj001,12,BTSS,K
+play,1,0,braur002,00,X,HR/7/F
+play,1,0,linda001,32,BBBCFB,W
+play,1,0,davik003,12,BCSX,53/G-
+play,1,1,fowld001,22,CCBBX,9/F
+play,1,1,schwk001,12,SBCS,K
+play,1,1,coghc001,02,CFX,7/F
+play,2,0,genns001,02,FSX,D7/F
+play,2,0,seguj002,00,X,13/BG/DP/SH.2XH(35)
+play,2,0,pereh001,00,X,3/P3F
+play,2,1,rizza001,02,SFX,5/P
+play,2,1,bryak001,00,X,HR/9/L
+play,2,1,solej001,12,BCCX,9/L
+play,2,1,montm001,32,BSBSBFFX,13/G
+play,3,0,garzm001,02,SSX,13/G
+play,3,0,petes002,10,BX,43/G
+play,3,0,lucrj001,10,BX,4/L
+play,3,1,hammj002,02,SSX,63/G-
+play,3,1,russa002,11,BCX,63/G+
+play,3,1,fowld001,32,CBBFBB,W
+play,3,1,schwk001,12,F*BC>S,K
+play,4,0,braur002,02,CCX,S5/G
+play,4,0,linda001,01,11C1X,8/L+
+play,4,0,davik003,12,1CB1CX,6/P
+play,4,0,genns001,32,CF*BB*B>C,K
+play,4,1,coghc001,21,FBBX,7/F
+play,4,1,rizza001,01,SX,5/P5F
+play,4,1,bryak001,12,CSBS,K
+play,5,0,seguj002,11,CBX,3/L+
+play,5,0,pereh001,02,CFS,K
+play,5,0,garzm001,01,FX,63/G-
+play,5,1,solej001,22,BBFCX,53/G+
+play,5,1,montm001,30,BBBB,W
+play,5,1,hammj002,12,L*BSX,14/BG/SH.1-2
+play,5,1,russa002,02,CFX,S8/G+.2-H
+play,5,1,fowld001,21,BBFX,S9/L.1-3
+play,5,1,schwk001,00,X,43/G
+play,6,0,petes002,22,BBFCT,K
+play,6,0,lucrj001,11,BSX,S9/L-
+play,6,0,braur002,11,*BTX,3/P3F.1-2
+com,"$Anthony Rizzo jumped onto the tarp and then"
+com,"stepped onto the brick wall to catch the ball;"
+com,"he landed on his feet in the seating area and"
+com,"threw the ball back onto the field; 1B"
+com,"umpire Mark Carlson ruled no catch but the"
+com,"umpires huddled and changed the ruling to"
+com,"a catch since he was not in the seats when"
+com,"he caught the ball; Jonathan Lucroy was"
+com,"awarded 2B because Rizzo fell into an"
+com,"out-of-bounds area"
+play,6,0,linda001,00,,NP
+sub,richc002,"Clayton Richard",1,8,1
+play,6,0,linda001,01,.CX,8/F+
+play,6,1,coghc001,02,FFX,7/L
+play,6,1,rizza001,32,BCBBCX,3/P3F
+play,6,1,bryak001,11,SBX,53/G+
+play,7,0,davik003,12,CBCC,K
+play,7,0,genns001,00,X,1/G-
+play,7,0,seguj002,00,X,43/G
+play,7,1,solej001,12,CBCS,K
+play,7,1,montm001,12,TBFX,9/F
+play,7,1,richc002,00,,NP
+sub,casts001,"Starlin Castro",1,8,11
+play,7,1,casts001,00,.X,8/F
+play,8,0,pereh001,00,,NP
+sub,strop001,"Pedro Strop",1,3,1
+play,8,0,pereh001,00,,NP
+sub,casts001,"Starlin Castro",1,8,4
+play,8,0,pereh001,00,,NP
+sub,herre001,"Elian Herrera",0,8,11
+play,8,0,herre001,22,...TSBBS,K
+play,8,0,garzm001,00,,NP
+sub,schal001,"Logan Schafer",0,9,11
+play,8,0,schal001,22,.BSBCFS,K
+play,8,0,petes002,20,BBX,S7/L
+play,8,0,lucrj001,00,B,WP.1-2
+play,8,0,lucrj001,12,B.CFX,63/G-
+play,8,1,russa002,00,,NP
+sub,herre001,"Elian Herrera",0,8,5
+play,8,1,russa002,00,,NP
+sub,jeffj001,"Jeremy Jeffress",0,9,1
+play,8,1,russa002,12,..CBFFS,K
+play,8,1,fowld001,20,BBX,4E1/G
+play,8,1,schwk001,00,,NP
+sub,smitw002,"Will Smith",0,9,1
+play,8,1,schwk001,12,.11C1BFS,K
+play,8,1,strop001,00,,NP
+sub,denoc001,"Chris Denorfia",1,3,11
+play,8,1,denoc001,12,.1CF1*BS,K
+play,9,0,braur002,00,,NP
+sub,rondh001,"Hector Rondon",1,2,1
+play,9,0,braur002,00,,NP
+sub,denoc001,"Chris Denorfia",1,3,7
+play,9,0,braur002,11,..BCX,S9/L-
+play,9,0,linda001,01,FX,E6/TH/FO/G.1-2
+play,9,0,davik003,10,*BS,WP.2-3;1-2
+play,9,0,davik003,12,*BS.FFS,K
+play,9,0,genns001,12,FS*BS,K
+play,9,0,seguj002,22,BS*BSB,WP.3-H(NR)(UR);2-3
+play,9,0,seguj002,32,BS*BSB.S,K
+play,9,1,rizza001,32,SBBBFB,W
+play,9,1,bryak001,22,FCBBC,K
+play,9,1,solej001,02,CC>X,6/P/DP.1X1(63)
+play,10,0,herre001,00,,NP
+sub,huntt002,"Tommy Hunter",1,2,1
+play,10,0,herre001,02,.CFS,K
+play,10,0,smitw002,00,,NP
+sub,rogej002,"Jason Rogers",0,9,11
+play,10,0,rogej002,11,.BFX,7/L+
+play,10,0,petes002,00,X,7/L+
+play,10,1,montm001,00,,NP
+sub,blazm001,"Michael Blazek",0,9,1
+play,10,1,montm001,01,.CX,HR/78/L
+data,er,garzm001,2
+data,er,jeffj001,0
+data,er,smitw002,0
+data,er,blazm001,1
+data,er,hammj002,1
+data,er,richc002,0
+data,er,strop001,0
+data,er,rondh001,0
+data,er,huntt002,0

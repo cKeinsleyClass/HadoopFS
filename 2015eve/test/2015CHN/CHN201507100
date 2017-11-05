@@ -1,0 +1,149 @@
+id,CHN201507100
+version,2
+info,visteam,CHA
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/07/10
+info,number,0
+info,starttime,3:05PM
+info,daynight,day
+info,usedh,false
+info,umphome,belld901
+info,ump1b,marqa901
+info,ump2b,everm901
+info,ump3b,hallt901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,74
+info,winddir,fromrf
+info,windspeed,9
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,sunny
+info,timeofgame,160
+info,attendance,41580
+info,wp,petrj001
+info,lp,rondh001
+info,save,robed002
+start,eatoa002,"Adam Eaton",0,1,8
+start,salat001,"Tyler Saladino",0,2,5
+start,abrej003,"Jose Abreu",0,3,3
+start,cabrm002,"Melky Cabrera",0,4,7
+start,garca003,"Avisail Garcia",0,5,9
+start,ramia003,"Alexei Ramirez",0,6,6
+start,flowt001,"Tyler Flowers",0,7,2
+start,sancc001,"Carlos Sanchez",0,8,4
+start,rodoc001,"Carlos Rodon",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,rizza001,"Anthony Rizzo",1,2,3
+start,bryak001,"Kris Bryant",1,3,5
+start,solej001,"Jorge Soler",1,4,9
+start,denoc001,"Chris Denorfia",1,5,7
+start,casts001,"Starlin Castro",1,6,6
+start,teagt001,"Taylor Teagarden",1,7,2
+start,hendk001,"Kyle Hendricks",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,eatoa002,22,CBBST,K
+play,1,0,salat001,12,BFFX,63/G
+play,1,0,abrej003,12,BCFFX,63/G-
+play,1,1,fowld001,02,CFC,K
+play,1,1,rizza001,31,BBCBB,W
+play,1,1,bryak001,01,1CX,46(1)3/GDP
+play,2,0,cabrm002,12,CBFC,K
+play,2,0,garca003,00,X,4/L-
+play,2,0,ramia003,12,BCLX,1/P-
+play,2,1,solej001,02,FFS,K
+play,2,1,denoc001,32,CBCBBB,W
+play,2,1,casts001,32,B1BFB1C>X,64(1)3/GDP
+play,3,0,flowt001,12,CCBS,K
+play,3,0,sancc001,01,CX,S7/L-
+play,3,0,rodoc001,00,X,54/BG/SH.1-2
+play,3,0,eatoa002,12,BCSX,6/P
+play,3,1,teagt001,22,CBSBFX,4/P
+play,3,1,hendk001,01,SX,S9/L
+play,3,1,russa002,22,BCBFB,PB.1-2
+play,3,1,russa002,32,BCBFB.B,W
+play,3,1,fowld001,20,BBX,9/L/DP/MREV.2X2(926)
+com,"replay,3,fowld001,CHN,hallt901,CHI11,,N,M,CHN,D"
+com,"$when Avisail Garcia was ruled to have caught"
+com,"the sinking line drive, Cubs manager Joe Maddon"
+com,"challenged the call; the ruling was upheld"
+com,"by replay"
+play,4,0,salat001,12,CCBFX,63/G-
+play,4,0,abrej003,12,CBCFFX,S5/G
+play,4,0,cabrm002,11,*BSX,S7/L.1-2
+play,4,0,garca003,10,BX,7/F-
+play,4,0,ramia003,00,X,13/G-
+play,4,1,rizza001,32,BBCBCB,W
+play,4,1,bryak001,12,BCF1X,64(1)/FO/G
+play,4,1,solej001,10,BX,S16/L+.1-2
+play,4,1,denoc001,32,CBBFB>S,K+CS3(25)/DP
+play,5,0,flowt001,12,CCBX,63/G
+play,5,0,sancc001,11,BCX,S7/L-
+play,5,0,rodoc001,01,1C1X,54/BG/SH.1-2
+play,5,0,eatoa002,32,BCBBSFS,K
+play,5,1,casts001,32,FBBBCFC,K
+play,5,1,teagt001,22,FCBBFFX,53/G
+play,5,1,hendk001,22,BFSBC,K
+play,6,0,salat001,22,FBBFX,31/G
+play,6,0,abrej003,00,H,HP
+play,6,0,cabrm002,00,X,3(B)6(1)/GDP
+play,6,1,russa002,32,CSBBBB,W
+play,6,1,fowld001,32,BF1111FBBFFC,K
+play,6,1,rizza001,00,1X,8/L
+play,6,1,bryak001,31,CB1BBB,W.1-2
+play,6,1,solej001,12,*BSFFX,5/L
+play,7,0,garca003,11,BSX,4/L+
+play,7,0,ramia003,11,CBX,8/F
+play,7,0,flowt001,12,SBSX,S4/G
+play,7,0,sancc001,32,1BS1*BSB>X,4/L
+play,7,1,denoc001,00,,NP
+sub,petrj001,"Jake Petricka",0,9,1
+play,7,1,denoc001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,11
+play,7,1,coghc001,02,..CFX,S9/L+
+play,7,1,casts001,00,1>X,6(1)3/GDP
+play,7,1,teagt001,22,BSFFBFS,K
+play,8,0,petrj001,00,,NP
+sub,coghc001,"Chris Coghlan",1,5,7
+play,8,0,petrj001,00,,NP
+sub,rondh001,"Hector Rondon",1,8,1
+play,8,0,petrj001,00,,NP
+sub,bonie001,"Emilio Bonifacio",0,9,11
+play,8,0,bonie001,11,...BCH,HP
+play,8,0,eatoa002,10,B11>B,SB2
+play,8,0,eatoa002,21,B11>B.CX,53/BG/SH.2-3
+play,8,0,salat001,00,,NP
+sub,shucj001,"J.B. Shuck",0,2,11
+play,8,0,shucj001,22,.*BSPFX,7/L/SF.3-H
+play,8,0,abrej003,01,CX,31/G-
+play,8,1,rondh001,00,,NP
+sub,beckg001,"Gordon Beckham",0,2,5
+play,8,1,rondh001,00,,NP
+sub,dukez001,"Zach Duke",0,3,1
+play,8,1,rondh001,00,,NP
+sub,laroa001,"Adam LaRoche",0,9,3
+play,8,1,rondh001,00,,NP
+sub,herrj002,"Jonathan Herrera",1,8,11
+play,8,1,herrj002,22,....BBCLS,K
+play,8,1,russa002,32,CBBCBFB,W
+play,8,1,fowld001,32,1FCB1*BBC,K
+play,8,1,rizza001,22,BCFBFFS,K
+play,9,0,cabrm002,00,,NP
+sub,grimj002,"Justin Grimm",1,8,1
+play,9,0,cabrm002,12,.SCBFS,K
+play,9,0,garca003,10,BX,43/G+
+play,9,0,ramia003,10,BX,43/G
+play,9,1,bryak001,00,,NP
+sub,robed002,"David Robertson",0,3,1
+play,9,1,bryak001,22,.SBCBS,K
+play,9,1,solej001,12,SSBS,K
+play,9,1,coghc001,20,BBX,4/L+
+data,er,rodoc001,0
+data,er,petrj001,0
+data,er,dukez001,0
+data,er,robed002,0
+data,er,hendk001,0
+data,er,rondh001,1
+data,er,grimj002,0

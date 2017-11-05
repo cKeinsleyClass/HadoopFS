@@ -1,0 +1,123 @@
+id,CHN201504270
+version,2
+info,visteam,PIT
+info,hometeam,CHN
+info,site,CHI11
+info,date,2015/04/27
+info,number,0
+info,starttime,7:05PM
+info,daynight,night
+info,usedh,false
+info,umphome,barrl901
+info,ump1b,iassd901
+info,ump2b,scotd901
+info,ump3b,buckc901
+info,howscored,park
+info,pitches,pitches
+info,oscorer,frisd701
+info,temp,43
+info,winddir,ltor
+info,windspeed,10
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,cloudy
+info,timeofgame,140
+info,attendance,29159
+info,wp,hammj002
+info,lp,worlv001
+info,save,
+start,harrj002,"Josh Harrison",0,1,5
+start,lamba001,"Andrew Lambo",0,2,9
+start,mccua001,"Andrew McCutchen",0,3,8
+start,walkn001,"Neil Walker",0,4,4
+start,marts002,"Starling Marte",0,5,7
+start,alvap001,"Pedro Alvarez",0,6,3
+start,cervf001,"Francisco Cervelli",0,7,2
+start,mercj002,"Jordy Mercer",0,8,6
+start,worlv001,"Vance Worley",0,9,1
+start,fowld001,"Dexter Fowler",1,1,8
+start,solej001,"Jorge Soler",1,2,9
+start,rizza001,"Anthony Rizzo",1,3,3
+start,bryak001,"Kris Bryant",1,4,5
+start,montm001,"Miguel Montero",1,5,2
+start,casts001,"Starlin Castro",1,6,6
+start,coghc001,"Chris Coghlan",1,7,7
+start,hammj002,"Jason Hammel",1,8,1
+start,russa002,"Addison Russell",1,9,4
+play,1,0,harrj002,02,CFX,9/F
+play,1,0,lamba001,22,BFBSX,31/G
+play,1,0,mccua001,21,CBBX,53/G
+play,1,1,fowld001,02,CCX,43/G
+play,1,1,solej001,21,BBCX,D7/L
+play,1,1,rizza001,12,BCCS,K
+play,1,1,bryak001,32,BB*BCSX,63/G
+play,2,0,walkn001,32,BCFFBBX,9/L
+play,2,0,marts002,02,LFS,K
+play,2,0,alvap001,12,CCBS,K
+play,2,1,montm001,20,BBX,S9/L
+play,2,1,casts001,22,*BCBCX,64(1)3/GDP
+play,2,1,coghc001,20,BBX,7/F
+play,3,0,cervf001,12,MCBC,K
+play,3,0,mercj002,22,BCBCX,63/G
+play,3,0,worlv001,11,BCX,S6/G
+play,3,0,harrj002,12,CBCS,K23
+play,3,1,hammj002,02,CSFFFX,4/P
+play,3,1,russa002,01,FX,53/G
+play,3,1,fowld001,32,FBSBBFB,W
+play,3,1,solej001,22,1B1BCF>X,S9/G.1-3
+play,3,1,rizza001,20,BBX,D8/L.3-H;1-3
+play,3,1,bryak001,22,BFBSFX,S8/L.3-H;2-H
+play,3,1,montm001,22,BFCF1BS,K
+play,4,0,lamba001,22,CBCBC,K
+play,4,0,mccua001,02,CFT,K
+play,4,0,walkn001,20,BBX,S9/L
+play,4,0,marts002,32,*BCBFFB>F>X,43/G
+play,4,1,casts001,00,X,63/G
+play,4,1,coghc001,01,CX,7/F
+play,4,1,hammj002,11,FBX,63/G
+play,5,0,alvap001,22,FBCFBX,8/L
+play,5,0,cervf001,00,X,S9/G
+play,5,0,mercj002,00,X,E4/FO/G.1-2
+play,5,0,worlv001,00,X,34/BG/SH.2-3;1-2
+play,5,0,harrj002,02,CFS,K
+play,5,1,russa002,12,CSBX,S5/G-
+play,5,1,fowld001,21,LB1B>X,S7/F.1-2
+play,5,1,solej001,00,X,54(1)3/GDP.2-3
+play,5,1,rizza001,21,B*BCX,S8/G.3-H
+play,5,1,bryak001,12,1BFFX,S8/L.1-2
+play,5,1,montm001,20,*BBX,7/F
+play,6,0,lamba001,20,BBX,3/G
+play,6,0,mccua001,21,BCBX,53/G
+play,6,0,walkn001,11,CBX,8/F
+play,6,1,casts001,22,BSBST,K
+play,6,1,coghc001,10,BX,8/F
+play,6,1,hammj002,00,X,63/G
+play,7,0,marts002,20,BBX,63/G
+play,7,0,alvap001,22,BCBFX,8/F
+play,7,0,cervf001,12,CBCX,63/G
+play,7,1,russa002,00,,NP
+sub,scahr001,"Rob Scahill",0,7,1
+play,7,1,russa002,00,,NP
+sub,stewc001,"Chris Stewart",0,9,2
+play,7,1,russa002,22,..SBFBT,K
+play,7,1,fowld001,31,BBBCX,S7/L
+play,7,1,solej001,00,1>C,SB2
+play,7,1,solej001,02,1>C.FFS,K
+play,7,1,rizza001,30,BBBB,W
+play,7,1,bryak001,00,X,54(1)/FO/G
+play,8,0,mercj002,21,BSBX,7/F
+play,8,0,stewc001,21,BBCX,S7/L
+play,8,0,harrj002,00,X,4/P
+play,8,0,lamba001,02,CSX,6/P
+play,8,1,montm001,02,FFX,63/G
+play,8,1,casts001,02,FFX,S7/G
+play,8,1,coghc001,01,F>X,5/L/DP.1X1(53)
+play,9,0,mccua001,00,,NP
+sub,strop001,"Pedro Strop",1,8,1
+play,9,0,mccua001,11,.CBX,7/F
+play,9,0,walkn001,22,CBBSX,63/G
+play,9,0,marts002,22,BFFBS,K
+data,er,worlv001,4
+data,er,scahr001,0
+data,er,hammj002,0
+data,er,strop001,0
