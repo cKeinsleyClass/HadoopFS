@@ -20,7 +20,7 @@
         </property>
         <property>
           <name>hour</name>
-          <value>${coord:formatTime(coord:nominalTime(),&#39;hh&#39;)}</value>
+          <value>${coord:formatTime(coord:nominalTime(),&#39;HH&#39;)}</value>
         </property>
       </configuration>
    </workflow>
