@@ -1,5 +1,5 @@
 <workflow-app name="CompleteWorkflow" xmlns="uri:oozie:workflow:0.4">
-    <start to="PigAction"/>
+    <start to="HiveCreate"/>
     <action name="PigAction">
         <pig>
             <job-tracker>${jobTracker}</job-tracker>
