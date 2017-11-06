@@ -13,6 +13,7 @@
               <param>year=${year}</param>
               <param>month=${month}</param>
               <param>day=${day}</param>
+              <param>hour=${hour}</param>
         </pig>
         <ok to="HiveCreate"/>
         <error to="kill"/>
