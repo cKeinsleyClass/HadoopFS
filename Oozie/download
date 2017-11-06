@@ -1,0 +1,13 @@
+#!/bin/bash
+
+./downloadScripts/downloadByYear $1
+
+pig -param roster="PlayBall/Roster/$1" -param team="PlayBall/Teams/TEAM$1" -param year="$1" -f downloadScripts/preprocess.pig
+
+python splitPlaysByGames.py playByPlayDL
+
+python playByPlayByGame.py playByPlayDL/first $1
+python playByPlayByGame.py playByPlayDL/second $1
+python playByPlayByGame.py playByPlayDL/third $1
+
+rm -rf playByPlayDL

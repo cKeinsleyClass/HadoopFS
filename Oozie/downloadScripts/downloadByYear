@@ -3,6 +3,8 @@
 playByPlay="http://www.retrosheet.org/events/"
 playByPlay+="$1"
 playByPlay+="eve.zip"
+mkdir playByPlayDL
+cd playByPlayDL
 wget $playByPlay
 playByPlay="$1eve.zip"
 unzip $playByPlay
@@ -15,7 +17,6 @@ unzipped="*$1.ROS"
 hadoop fs -put $unzipped PlayBall/Roster/$1
 unzipped="TEAM$1"
 hadoop fs -put $unzipped PlayBall/Teams
-rm -f $1*
 rm -f *$1.ROS
 rm -f TEAM$1
 
